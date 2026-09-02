@@ -2,6 +2,7 @@ import { getAssetPath } from '@/lib/asset-path';
 import React from 'react';
 import Link from 'next/link';
 import HeroSection from '../../components/HeroSection';
+import JourneyCTA from '../../components/JourneyCTA';
 
 export const metadata = {
     title: "Visa Services | Tourist, Business, Study & Work Visas | Vision Visa",
@@ -820,62 +821,14 @@ export default function SERVICES_Page() {
     </div>
 </section>
 
-<section>
-    <div className="container">
+        <JourneyCTA
+          eyebrow="READY TO APPLY?"
+          title="Know Which Visa You"
+          titleHighlight="Need?"
+          description="Tell us your destination and reason for travel. We’ll help you understand the visa requirements and what to do next."
+          primaryBtnText="Start Your Application"
+        />
 
-        <div
-            className="reveal"
-            style={{
-                "textAlign": "center",
-                "maxWidth": "850px",
-                "margin": "0 auto"
-            }}
-        >
-
-            <span className="eyebrow">
-                READY TO APPLY?
-            </span>
-
-            <h2 className="mb-24">
-                Know which visa you need?
-            </h2>
-
-            <p className="body-large mb-48">
-                Tell us your destination and reason for travel. We’ll help
-                you understand the visa requirements and what to do next.
-            </p>
-
-            <div
-                style={{
-                    "display": "flex",
-                    "justifyContent": "center",
-                    "gap": "16px",
-                    "flexWrap": "wrap"
-                }}
-            >
-
-                <Link
-                    href="/contact"
-                    className="btn btn-primary magnetic"
-                >
-                    Start Your Application
-                </Link>
-
-                <Link
-                    href="/contact"
-                    className="btn btn-secondary magnetic"
-                >
-                    Talk to Our Team
-                </Link>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-        {/*  Footer  */}
         {/*  Footer  */}
     </main>
   );

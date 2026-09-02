@@ -4,43 +4,20 @@ import { getAssetPath } from '@/lib/asset-path';
 import React, { useState, useEffect, useRef } from 'react';
 import countriesData from '../lib/countries-list.json';
 
-const NATIONALITIES = [
-    { name: 'Indian', code: 'in' },
-    { name: 'American', code: 'us' },
-    { name: 'British', code: 'gb' },
-    { name: 'Canadian', code: 'ca' },
-    { name: 'Australian', code: 'au' },
-    { name: 'Emirati', code: 'ae' },
-    { name: 'French', code: 'fr' },
-    { name: 'German', code: 'de' },
-    { name: 'Japanese', code: 'jp' },
-    { name: 'Singaporean', code: 'sg' },
-    { name: 'Saudi', code: 'sa' },
-    { name: 'Chinese', code: 'cn' },
-    { name: 'Brazilian', code: 'br' },
-    { name: 'Russian', code: 'ru' },
-    { name: 'South African', code: 'za' }
-];
-
 export default function HeroSearchForm() {
     const [query, setQuery] = useState('');
     const [selectedSlug, setSelectedSlug] = useState('');
-    const [selectedVisa, setSelectedVisa] = useState('');
-    const [nationality, setNationality] = useState('Indian');
     const [isDestOpen, setIsDestOpen] = useState(false);
-    const [isNatOpen, setIsNatOpen] = useState(false);
     const [errorMsg, setErrorMsg] = useState('');
     const [highlightedIndex, setHighlightedIndex] = useState(-1);
 
     const formRef = useRef(null);
 
-    // Filter countries based on query and visa type
+    // Filter countries based on destination query
     const trimmedQuery = query.trim().toLowerCase();
     
     let matches = countriesData.filter(c => {
-        const matchesName = !trimmedQuery || c.name.toLowerCase().includes(trimmedQuery) || c.slug.toLowerCase().includes(trimmedQuery);
-        const matchesVisa = !selectedVisa || (c.visaType && c.visaType.toLowerCase().includes(selectedVisa.toLowerCase()));
-        return matchesName && matchesVisa;
+        return !trimmedQuery || c.name.toLowerCase().includes(trimmedQuery) || c.slug.toLowerCase().includes(trimmedQuery);
     });
 
     // Priority sorting: startsWith comes first
@@ -54,47 +31,16 @@ export default function HeroSearchForm() {
         });
     }
 
-    // Filter nationalities
-    const trimmedNat = nationality.trim().toLowerCase();
-    const natMatches = NATIONALITIES.filter(n => !trimmedNat || n.name.toLowerCase().includes(trimmedNat));
-
-    // Handle outside clicks to close dropdowns
+    // Handle outside clicks to close dropdown
     useEffect(() => {
         function handleClickOutside(e) {
             if (formRef.current && !formRef.current.contains(e.target)) {
                 setIsDestOpen(false);
-                setIsNatOpen(false);
             }
         }
         document.addEventListener('mousedown', handleClickOutside);
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
-
-    // Filter cards on homepage when visa type changes
-    useEffect(() => {
-        if (typeof document === 'undefined') return;
-        const cards = document.querySelectorAll('.destination-grid .card');
-        if (!cards.length) return;
-
-        const selVisa = selectedVisa.toLowerCase().trim();
-        cards.forEach(card => {
-            if (!selVisa) {
-                card.style.display = '';
-                return;
-            }
-            const href = card.getAttribute('href') || '';
-            const match = href.match(/\/country\/([a-z0-9-]+)/i);
-            if (match && match[1]) {
-                const slug = match[1];
-                const countryObj = countriesData.find(c => c.slug === slug);
-                if (countryObj && countryObj.visaType && countryObj.visaType.toLowerCase().includes(selVisa)) {
-                    card.style.display = '';
-                } else {
-                    card.style.display = 'none';
-                }
-            }
-        });
-    }, [selectedVisa]);
 
     const handleSelectCountry = (country) => {
         setQuery(country.name);
@@ -175,7 +121,7 @@ export default function HeroSearchForm() {
             {/* Destination */}
             <div className="search-item search-item-relative">
                 <label htmlFor="destSearchInput" className="search-label">
-                    Destination
+                    DESTINATION
                 </label>
                 <input
                     type="text"
@@ -214,73 +160,6 @@ export default function HeroSearchForm() {
                                         <span className="search-country-name">
                                             {highlightMatch(c.name, trimmedQuery)}
                                         </span>
-                                    </div>
-                                </div>
-                            ))
-                        )}
-                    </div>
-                )}
-            </div>
-
-            <div className="search-divider"></div>
-
-            {/* Visa Type */}
-            <div className="search-item">
-                <label htmlFor="visaTypeSelect" className="search-label">
-                    Visa Type
-                </label>
-                <select
-                    id="visaTypeSelect"
-                    className="search-input custom-select"
-                    value={selectedVisa}
-                    onChange={(e) => setSelectedVisa(e.target.value)}
-                >
-                    <option value="">All Visa Types</option>
-                    <option value="Tourist Visa">Tourist Visa</option>
-                    <option value="Visitor Visa">Visitor Visa</option>
-                    <option value="Business Visa">Business Visa</option>
-                    <option value="Study Visa">Study Visa</option>
-                    <option value="Work Visa">Work Visa</option>
-                    <option value="Family Visa">Family Visa</option>
-                </select>
-            </div>
-
-            <div className="search-divider"></div>
-
-            {/* Nationality */}
-            <div className="search-item search-item-relative">
-                <label htmlFor="natSearchInput" className="search-label">
-                    Nationality
-                </label>
-                <input
-                    type="text"
-                    id="natSearchInput"
-                    className="search-input"
-                    placeholder="Enter your nationality"
-                    value={nationality}
-                    onChange={(e) => setNationality(e.target.value)}
-                    onFocus={() => setIsNatOpen(true)}
-                    autoComplete="off"
-                    aria-label="Search your nationality"
-                />
-
-                {isNatOpen && (
-                    <div id="natDropdown" className="search-dropdown show">
-                        {natMatches.length === 0 ? (
-                            <div className="search-dropdown-empty">No nationality found.</div>
-                        ) : (
-                            natMatches.map((n) => (
-                                <div
-                                    key={n.code}
-                                    className="search-dropdown-item"
-                                    onClick={() => {
-                                        setNationality(n.name);
-                                        setIsNatOpen(false);
-                                    }}
-                                >
-                                    <div className="search-item-left">
-                                        <img src={`https://flagcdn.com/w40/${n.code}.png`} alt={n.name} className="search-flag" />
-                                        <span className="search-country-name">{n.name}</span>
                                     </div>
                                 </div>
                             ))

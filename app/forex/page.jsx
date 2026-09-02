@@ -2,6 +2,7 @@ import { getAssetPath } from '@/lib/asset-path';
 import React from 'react';
 import Link from 'next/link';
 import HeroSection from '../../components/HeroSection';
+import JourneyCTA from '../../components/JourneyCTA';
 
 export const metadata = {
     title: "Forex Services | Foreign Currency & Forex Card | Vision Visa",
@@ -915,7 +916,14 @@ export default function FOREX_Page() {
     </div>
 </section>
 
-    {/*  Footer  */}
+        <JourneyCTA
+          eyebrow="INTERNATIONAL MONEY & FOREX"
+          title="Ready to Arrange Foreign"
+          titleHighlight="Currency?"
+          description="Get competitive exchange rates, secure multi-currency forex cards, and smooth international transfers."
+          primaryBtnText="Enquire About Forex"
+        />
+
         {/*  Footer  */}
     </main>
   );

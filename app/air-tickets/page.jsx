@@ -2,6 +2,7 @@ import { getAssetPath } from '@/lib/asset-path';
 import React from 'react';
 import Link from 'next/link';
 import HeroSection from '../../components/HeroSection';
+import JourneyCTA from '../../components/JourneyCTA';
 
 export const metadata = {
     title: "Air Tickets | Domestic & International Flight Booking | Vision Visa",
@@ -85,40 +86,36 @@ export default function AIR_TICKETS_Page() {
         {/*  Navigation  */}
     
 
-<section style={{ "paddingTop": "120px", "paddingBottom": "80px", "textAlign": "center" }}>
+<section
+    className="hero-img-banner"
+    style={{
+        backgroundImage: `url(${getAssetPath('/images/airtickets-hero.png')})`
+    }}
+>
     <div className="container">
-        <div className="reveal" style={{ "maxWidth": "900px", "margin": "0 auto" }}>
+        <div className="hero-img-banner-content reveal">
+            <span className="eyebrow">
+                FLIGHT BOOKINGS & RESERVATIONS
+            </span>
 
-            <div
-                style={{
-                    "background": "var(--off-white)",
-                    "padding": "48px",
-                    "borderRadius": "24px",
-                    "border": "1px solid var(--light-gray)"
-                }}
+            <h1 className="mb-24">
+                Tell us where you are flying.
+            </h1>
+
+            <p className="body-large mb-32" style={{ color: "var(--slate-600)" }}>
+                Share your travel dates, destination and passenger details.
+                Our team can help you explore suitable flight options and
+                guide you through the booking process.
+            </p>
+
+            <Link
+                href="/contact"
+                className="btn btn-primary magnetic"
+                style={{ marginTop: "24px" }}
             >
-
-                <h3 className="mb-24">
-                    Tell us where you are flying.
-                </h3>
-
-                <p className="body-base mb-32">
-                    Share your travel dates, destination and passenger details.
-                    Our team can help you explore suitable flight options and
-                    guide you through the booking process.
-                </p>
-
-                <Link
-                    href="/contact"
-                    className="btn btn-primary magnetic"
-                >
-                    Enquire About Flights
-                </Link>
-
-            </div>
-
+                Enquire About Flights
+            </Link>
         </div>
-
     </div>
 </section>
 
@@ -609,63 +606,14 @@ export default function AIR_TICKETS_Page() {
     </div>
 </section>
 
-<section>
-    <div className="container">
+        <JourneyCTA
+          eyebrow="READY TO BOOK?"
+          title="Tell Us Where You Are"
+          titleHighlight="Flying?"
+          description="Share your destination, travel dates and passenger details. Vision Visa will check available flight options and guide you through seamless booking."
+          primaryBtnText="Enquire About Flights"
+        />
 
-        <div
-            className="reveal"
-            style={{
-                "textAlign": "center",
-                "maxWidth": "850px",
-                "margin": "0 auto"
-            }}
-        >
-
-            <span className="eyebrow">
-                READY TO BOOK?
-            </span>
-
-            <h2 className="mb-24">
-                Tell us where you are flying.
-            </h2>
-
-            <p className="body-large mb-48">
-                Share your destination, travel dates and passenger details.
-                Vision Visa can help you check available flight options and
-                guide you through the booking process.
-            </p>
-
-            <div
-                style={{
-                    "display": "flex",
-                    "justifyContent": "center",
-                    "gap": "16px",
-                    "flexWrap": "wrap"
-                }}
-            >
-
-                <Link
-                    href="/contact"
-                    className="btn btn-primary magnetic"
-                >
-                    Enquire About Flights
-                </Link>
-
-                <Link
-                    href="/contact"
-                    className="btn btn-secondary magnetic"
-                >
-                    Talk to Our Team
-                </Link>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-    {/*  Footer  */}
         {/*  Footer  */}
     </main>
   );

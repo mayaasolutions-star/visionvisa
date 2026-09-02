@@ -1,10 +1,13 @@
 /** @type {import('next').NextConfig} */
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '/visionvisa-demo';
+const isProd = process.env.NODE_ENV === 'production';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH !== undefined
+  ? process.env.NEXT_PUBLIC_BASE_PATH
+  : (isProd ? '/visionvisa-demo' : '');
 
 const nextConfig = {
   output: 'export',
 
-  basePath: basePath,
+  ...(basePath ? { basePath } : {}),
 
   trailingSlash: true,
 
@@ -17,4 +20,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default nextConfig;

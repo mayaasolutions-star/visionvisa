@@ -1,6 +1,8 @@
+import { getAssetPath } from '@/lib/asset-path';
 import React from 'react';
 import Link from 'next/link';
 import HeroSection from '../../components/HeroSection';
+import JourneyCTA from '../../components/JourneyCTA';
 
 export const metadata = {
     title: "Travel Insurance | International Travel Cover | Vision Visa",
@@ -86,35 +88,35 @@ export default function TRAVEL_INSURANCE_Page() {
         {/*  Navigation  */}
     
 
-<section style={{ "paddingTop": "120px", "paddingBottom": "80px", "textAlign": "center" }}>
+<section
+    className="hero-img-banner"
+    style={{
+        backgroundImage: `url(${getAssetPath('/images/travelinsurance-hero.png')})`
+    }}
+>
     <div className="container">
-        <div className="reveal" style={{ "maxWidth": "900px", "margin": "0 auto" }}>
+        <div className="hero-img-banner-content reveal">
+            <span className="eyebrow">
+                INTERNATIONAL TRAVEL COVER
+            </span>
 
-            <div
-                style={{
-                    "background": "var(--off-white)",
-                    "padding": "48px",
-                    "borderRadius": "24px",
-                    "border": "1px solid var(--light-gray)"
-                }}
+            <h1 className="mb-24">
+                Going abroad soon?
+            </h1>
+
+            <p className="body-large mb-32" style={{ color: "var(--slate-600)" }}>
+                Tell us where you are travelling, when you are going and
+                why you are travelling. We will help you understand the
+                travel insurance requirements and available options.
+            </p>
+
+            <Link
+                href="/contact"
+                className="btn btn-primary magnetic"
+                style={{ marginTop: "24px" }}
             >
-                <h3 className="mb-24">
-                    Going abroad soon?
-                </h3>
-
-                <p className="body-base mb-32">
-                    Tell us where you are travelling, when you are going and
-                    why you are travelling. We will help you understand the
-                    travel insurance requirements and available options.
-                </p>
-
-                <Link
-                    href="/contact"
-                    className="btn btn-primary magnetic"
-                >
-                    Get Travel Insurance
-                </Link>
-            </div>
+                Get Travel Insurance
+            </Link>
         </div>
     </div>
 </section>
@@ -877,7 +879,14 @@ export default function TRAVEL_INSURANCE_Page() {
     </div>
 </section>
 
-    {/*  Footer  */}
+        <JourneyCTA
+          eyebrow="TRAVEL PROTECTION"
+          title="Need Travel Insurance for Your"
+          titleHighlight="Trip?"
+          description="Get comprehensive coverage for medical emergencies, delays, and lost baggage tailored to your destination."
+          primaryBtnText="Get Insurance Quote"
+        />
+
         {/*  Footer  */}
     </main>
   );

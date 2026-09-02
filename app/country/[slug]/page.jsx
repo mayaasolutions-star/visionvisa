@@ -135,47 +135,6 @@ export default async function CountrySlugPage({ params }) {
         </div>
       </section>
 
-      {/* 3. STEP-BY-STEP JOURNEY (TIMELINE & GUIDANCE CARDS) */}
-      <section className="master-section process-section">
-        <div className="container">
-          <div className="section-header">
-            <span className="section-label-tag">Step-by-Step Journey</span>
-            <h2 id="docProcessHeading" className="section-title">{data.name} Visa Process</h2>
-          </div>
-          <div className="process-layout-split">
-            {/* Left Timeline */}
-            <div className="process-timeline-left" id="processStepsContainer">
-              {data.processSteps?.map((step, idx) => (
-                <div key={idx} className="timeline-card-step">
-                  <span className="step-badge">{step.num}</span>
-                  <div className="step-info">
-                    <h3>{step.title}</h3>
-                    <p>{step.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Right 3 Stacked Guidance Cards */}
-            <div className="process-guidance-right">
-              <div className="guidance-card card-important">
-                <h3>📌 Important Notes</h3>
-                <p>Biometrics and original passport verification may be mandatory at VFS or Embassy appointments.</p>
-              </div>
-
-              <div className="guidance-card card-tips">
-                <h3>💡 Helpful Tips</h3>
-                <p>Keep 6 months of bank statements stamped by your bank branch and file your ITRs early.</p>
-              </div>
-
-              <div className="guidance-card card-before">
-                <h3>⚠️ Before You Apply</h3>
-                <p>Ensure your passport has 6+ months validity and at least 2 blank pages for embassy visa stamps.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* 4. PROCESSING TIME & VALIDITY DETAILS */}
       <section className="master-section proc-val-section">

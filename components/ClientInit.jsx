@@ -10,6 +10,7 @@ export default function ClientInit() {
     // 1. Trigger Lucide Icons
     if (typeof window !== 'undefined' && window.lucide) {
       window.lucide.createIcons();
+      setTimeout(() => window.lucide.createIcons(), 100);
     }
 
     // 2. Intersection Observer for Reveal Animations

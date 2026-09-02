@@ -42,3 +42,28 @@
 .floating-badge {
     animation: floating 4s ease-in-out infinite;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+    .hero-plane-1,
+    .hero-plane-2,
+    .hero-blob,
+    .path-blue,
+    .path-orange,
+    .floating-airplane-wrap,
+    .floating-pin-badge,
+    .floating-badge {
+        animation: none !important;
+        transform: none !important;
+    }
+}

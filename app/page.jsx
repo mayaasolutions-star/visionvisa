@@ -2,6 +2,7 @@ import { getAssetPath } from '@/lib/asset-path';
 import React from 'react';
 import Link from 'next/link';
 import HeroSearchForm from '../components/HeroSearchForm';
+import JourneyCTA from '../components/JourneyCTA';
 
 export const metadata = {
     title: "Vision Visa | Visa Assistance for International Travel",
@@ -91,27 +92,50 @@ export default function HomePage() {
     
     {/*  Hero & Search Section  */}
     <section className="hero-section">
-        {/*  Animated Travel Background Canvas  */}
+        {/*  Light Travel Background & Animated Flight Canvas  */}
         <div className="hero-bg-canvas" aria-hidden="true">
-            <div className="hero-world-map"></div>
-            <div className="hero-blob blob-1"></div>
-            <div className="hero-blob blob-2"></div>
-            
-            <svg className="hero-flight-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 600" preserveAspectRatio="none">
-                <path d="M-100,450 C300,100 800,500 1540,150" className="hero-path-line path-blue" />
-                <path d="M-50,150 C450,550 950,50 1490,400" className="hero-path-line path-orange" />
+            <div className="hero-bg-image-layer"></div>
+
+            {/* Single Animated Airplane along curved travel route */}
+            <svg className="hero-flight-route-canvas" viewBox="0 0 1717 916" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    id="heroFlightPath"
+                    d="M 130,250 C 460,90 1120,310 1580,215"
+                    fill="none"
+                    stroke="#1E73DC"
+                    strokeWidth="2"
+                    strokeDasharray="5 7"
+                    strokeOpacity="0.4"
+                    className="hero-route-stroke"
+                />
+
+                {/* Single Animated Flying Airplane */}
+                <g className="hero-flying-plane-group">
+                    <g transform="translate(-14, -14)">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="#1E73DC">
+                            <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" transform="rotate(90 12 12)" />
+                        </svg>
+                    </g>
+                    <animateMotion
+                        dur="12s"
+                        repeatCount="indefinite"
+                        rotate="auto"
+                        keyPoints="0;0.94;0.98;1"
+                        keyTimes="0;0.90;0.95;1"
+                        keySplines="0.45 0.05 0.55 0.95; 0 0 1 1; 0 0 1 1"
+                        calcMode="spline"
+                    >
+                        <mpath href="#heroFlightPath" />
+                    </animateMotion>
+                    <animate
+                        attributeName="opacity"
+                        values="0;0.85;0.85;0.85;0;0"
+                        keyTimes="0;0.05;0.88;0.94;0.98;1"
+                        dur="12s"
+                        repeatCount="indefinite"
+                    />
+                </g>
             </svg>
-            
-            <div className="hero-plane hero-plane-1">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.7 5.2c.3.4.8.5 1.3.3l.5-.3c.4-.2.6-.6.5-1.1z"/>
-                </svg>
-            </div>
-            <div className="hero-plane hero-plane-2">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.7 5.2c.3.4.8.5 1.3.3l.5-.3c.4-.2.6-.6.5-1.1z"/>
-                </svg>
-            </div>
         </div>
 
         <div className="container hero-content-wrapper">
@@ -161,7 +185,7 @@ export default function HomePage() {
             <div className="destination-grid">
             {/*  Row 1: 1 Large + 2 Standard  */}
 
-<Link href="/country/argentina" className="card card-large reveal">
+<Link href="/country/argentina" className="card reveal">
     <img src={getAssetPath("/images/Argentina.webp")} alt="Argentina" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">South America</span>
@@ -253,7 +277,7 @@ export default function HomePage() {
     </div>
 </Link>
 
-<Link href="/country/canada" className="card card-large reveal">
+<Link href="/country/canada" className="card reveal">
     <img src={getAssetPath("/images/Canada.webp")} alt="Canada" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">North America</span>
@@ -345,7 +369,7 @@ export default function HomePage() {
     </div>
 </Link>
 
-<Link href="/country/estonia" className="card card-large reveal">
+<Link href="/country/estonia" className="card reveal">
     <img src={getAssetPath("/images/Estonia.webp")} alt="Estonia" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">Europe</span>
@@ -358,7 +382,7 @@ export default function HomePage() {
 
             {/*  Row 6: 1 Large + 2 Standard  */}
 
-<Link href="/country/finland" className="card card-large reveal">
+<Link href="/country/finland" className="card reveal">
     <img src={getAssetPath("/images/Finland.webp")} alt="Finland" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">Europe</span>
@@ -450,7 +474,7 @@ export default function HomePage() {
     </div>
 </Link>
 
-<Link href="/country/iceland" className="card card-large reveal">
+<Link href="/country/iceland" className="card reveal">
     <img src={getAssetPath("/images/Iceland.webp")} alt="Iceland" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">Europe</span>
@@ -542,7 +566,7 @@ export default function HomePage() {
     </div>
 </Link>
 
-<Link href="/country/luxembourg" className="card card-large reveal">
+<Link href="/country/luxembourg" className="card reveal">
     <img src={getAssetPath("/images/Luxembourg.webp")} alt="Luxembourg" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">Europe</span>
@@ -555,7 +579,7 @@ export default function HomePage() {
 
             {/*  Row 11: 1 Large + 2 Standard  */}
 
-<Link href="/country/madagascar" className="card card-large reveal">
+<Link href="/country/madagascar" className="card reveal">
     <img src={getAssetPath("/images/Madagascar-2048x1366.webp")} alt="Madagascar" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">Africa</span>
@@ -647,7 +671,7 @@ export default function HomePage() {
     </div>
 </Link>
 
-<Link href="/country/panama" className="card card-large reveal">
+<Link href="/country/panama" className="card reveal">
     <img src={getAssetPath("/images/Panama.webp")} alt="Panama" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">Central America</span>
@@ -739,7 +763,7 @@ export default function HomePage() {
     </div>
 </Link>
 
-<Link href="/country/slovenia" className="card card-large reveal">
+<Link href="/country/slovenia" className="card reveal">
     <img src={getAssetPath("/images/Slovenia.webp")} alt="Slovenia" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">Europe</span>
@@ -752,7 +776,7 @@ export default function HomePage() {
 
             {/*  Row 16: 1 Large + 2 Standard  */}
 
-<Link href="/country/south-africa" className="card card-large reveal">
+<Link href="/country/south-africa" className="card reveal">
     <img src={getAssetPath("/images/South-Africa.webp")} alt="South Africa" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">Africa</span>
@@ -844,7 +868,7 @@ export default function HomePage() {
     </div>
 </Link>
 
-<Link href="/country/turkey" className="card card-large reveal">
+<Link href="/country/turkey" className="card reveal">
     <img src={getAssetPath("/images/Turkey.webp")} alt="Turkey" className="card-img" loading="lazy" />
     <div className="card-overlay">
         <span className="card-tag">Europe / Asia</span>
@@ -929,7 +953,7 @@ export default function HomePage() {
 </div></section>
 
     {/*  Why Vision Visa  */}
-    <section className="bg-off-white">
+    <section className="guidance-section bg-off-white">
     <div className="container">
 
         <div
@@ -956,130 +980,114 @@ export default function HomePage() {
         </div>
 
 
-        <div
-            className="destination-grid"
-            style={{
-                "gridTemplateColumns": "repeat(3, 1fr)"
-            }}
-        >
+        <div className="guidance-grid">
 
-            <div className="category-card reveal">
-
-                <div className="category-icon">
-                    <i data-lucide="message-circle"></i>
+            <div className="guidance-card reveal">
+                <div className="guidance-icon-box">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                    </svg>
                 </div>
-
-                <div>
-                    <h3 className="mb-12">
+                <div className="guidance-content">
+                    <h3 className="guidance-title">
                         Clear Guidance
                     </h3>
-
-                    <p className="body-small">
-                        Understand your visa requirements and next steps
-                        without complicated explanations.
+                    <div className="guidance-accent-line"></div>
+                    <p className="guidance-desc">
+                        Understand your visa requirements and next steps without complicated explanations.
                     </p>
                 </div>
-
             </div>
 
-
-            <div className="category-card reveal reveal-delay-1">
-
-                <div className="category-icon">
-                    <i data-lucide="file-check-2"></i>
+            <div className="guidance-card reveal reveal-delay-1">
+                <div className="guidance-icon-box">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+                        <polyline points="14 2 14 8 20 8" />
+                        <path d="m9 15 2 2 4-4" />
+                    </svg>
                 </div>
-
-                <div>
-                    <h3 className="mb-12">
+                <div className="guidance-content">
+                    <h3 className="guidance-title">
                         Document Support
                     </h3>
-
-                    <p className="body-small">
-                        Get practical help understanding and preparing the
-                        documents needed for your application.
+                    <div className="guidance-accent-line"></div>
+                    <p className="guidance-desc">
+                        Get practical help understanding and preparing the documents needed for your application.
                     </p>
                 </div>
-
             </div>
 
-
-            <div className="category-card reveal reveal-delay-2">
-
-                <div className="category-icon">
-                    <i data-lucide="eye"></i>
+            <div className="guidance-card reveal reveal-delay-2">
+                <div className="guidance-icon-box">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                        <circle cx="12" cy="12" r="3" />
+                    </svg>
                 </div>
-
-                <div>
-                    <h3 className="mb-12">
+                <div className="guidance-content">
+                    <h3 className="guidance-title">
                         Straightforward Process
                     </h3>
-
-                    <p className="body-small">
-                        Know what to expect at each stage of your visa
-                        application.
+                    <div className="guidance-accent-line"></div>
+                    <p className="guidance-desc">
+                        Know what to expect at each stage of your visa application with a simple and transparent process.
                     </p>
                 </div>
-
             </div>
 
-
-            <div className="category-card reveal">
-
-                <div className="category-icon">
-                    <i data-lucide="plane"></i>
+            <div className="guidance-card reveal">
+                <div className="guidance-icon-box">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.7 5.2c.3.4.8.5 1.3.3l.5-.3c.4-.2.6-.6.5-1.1z" />
+                    </svg>
                 </div>
-
-                <div>
-                    <h3 className="mb-12">
+                <div className="guidance-content">
+                    <h3 className="guidance-title">
                         Travel Services
                     </h3>
-
-                    <p className="body-small">
-                        Visa assistance, travel insurance, forex and air
-                        tickets, all in one place.
+                    <div className="guidance-accent-line"></div>
+                    <p className="guidance-desc">
+                        Visa assistance, travel insurance, forex and air tickets, all in one place.
                     </p>
                 </div>
-
             </div>
 
-
-            <div className="category-card reveal reveal-delay-1">
-
-                <div className="category-icon">
-                    <i data-lucide="headphones"></i>
+            <div className="guidance-card reveal reveal-delay-1">
+                <div className="guidance-icon-box">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+                        <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z" />
+                    </svg>
                 </div>
-
-                <div>
-                    <h3 className="mb-12">
+                <div className="guidance-content">
+                    <h3 className="guidance-title">
                         Personal Support
                     </h3>
-
-                    <p className="body-small">
-                        Have a question? Speak with our team about your
-                        travel and visa plans.
+                    <div className="guidance-accent-line"></div>
+                    <p className="guidance-desc">
+                        Have a question? Speak with our team about your travel and visa plans.
                     </p>
                 </div>
-
             </div>
 
-
-            <div className="category-card reveal reveal-delay-2">
-
-                <div className="category-icon">
-                    <i data-lucide="globe-2"></i>
+            <div className="guidance-card reveal reveal-delay-2">
+                <div className="guidance-icon-box">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="2" y1="12" x2="22" y2="12" />
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                    </svg>
                 </div>
-
-                <div>
-                    <h3 className="mb-12">
+                <div className="guidance-content">
+                    <h3 className="guidance-title">
                         International Travel
                     </h3>
-
-                    <p className="body-small">
-                        Get assistance for different visa types and
-                        international travel needs.
+                    <div className="guidance-accent-line"></div>
+                    <p className="guidance-desc">
+                        Get assistance for different visa types and international travel needs.
                     </p>
                 </div>
-
             </div>
 
         </div>
@@ -1088,7 +1096,7 @@ export default function HomePage() {
 </section>
 
     {/*  Services  */}
-    <section>
+    <section className="services-section">
     <div className="container">
 
         <div className="reveal services-header">
@@ -1220,46 +1228,7 @@ export default function HomePage() {
 
 
     {/*  Final CTA  */}
-    <section className="visa-cta">
-    <div className="container">
-
-        <div className="cta-card reveal">
-
-            <span className="section-label">
-                PLAN YOUR JOURNEY
-            </span>
-
-            <h2>
-                Not Sure Where to Start?
-            </h2>
-
-            <p>
-                Tell us where you want to go. We'll help you understand the
-                visa requirements and next steps.
-            </p>
-
-            <div className="cta-buttons">
-
-                <Link
-                    href="/contact"
-                    className="btn btn-primary"
-                >
-                    Apply Now
-                </Link>
-
-                <Link
-                    href="/contact"
-                    className="btn btn-secondary"
-                >
-                    Talk to Our Team
-                </Link>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
+    <JourneyCTA />
 
     {/*  Footer  */}
     </main>

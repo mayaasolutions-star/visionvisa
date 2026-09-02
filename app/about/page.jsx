@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import HeroSection from '../../components/HeroSection';
+import JourneyCTA from '../../components/JourneyCTA';
 
 export const metadata = {
     title: "About Vision Visa | Visa & Travel Assistance",
@@ -81,7 +82,7 @@ export default function ABOUT_Page() {
         {/*  Navigation  */}
     
 
-    <section className="bg-off-white" style={{"paddingTop":"120px"}}>
+    <section className="bg-off-white" style={{ "paddingTop": "120px", "paddingBottom": "80px", "borderBottom": "1px solid rgba(226, 232, 240, 0.8)" }}>
     <div className="container">
 
         <div
@@ -675,7 +676,14 @@ export default function ABOUT_Page() {
     </div>
 </section>
 
-        {/*  Footer  */}
+        <JourneyCTA
+          eyebrow="GET STARTED WITH VISION VISA"
+          title="Plan Your Travel with"
+          titleHighlight="Confidence"
+          description="Talk to our experienced visa consultants today for straightforward guidance on your international visa and travel requirements."
+          primaryBtnText="Contact Our Team"
+        />
+
         {/*  Footer  */}
     </main>
   );

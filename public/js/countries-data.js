@@ -6,315 +6,451 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ar.png",
     "heroImage": "/images/Argentina.webp",
-    "processingTime": "Varies by category & volume",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Embassy / Consulate of Argentina",
-    "insuranceRequirement": "May be required",
-    "overviewTitle": "About Argentina Visa",
-    "overviewDescription": "Planning a trip to Argentina? Whether you're travelling for tourism, business, visiting family or attending an event, Indian passport holders may need a visa depending on their travel eligibility. Vision Visa helps make the application process simple by guiding you through the required documents, application steps, and embassy requirements.\n\nFrom the lively streets of Buenos Aires to the breathtaking landscapes of Patagonia and Iguazu Falls, Argentina offers unforgettable travel experiences. Applying with the correct documents and complete information can help make your visa process smoother.\n\nDo Indians Need a Visa for Argentina?\nIndian passport holders generally require a visa to travel to Argentina. However, entry requirements may vary based on your travel purpose and current immigration policies. In certain cases, travellers holding eligible valid visas from specific countries may qualify for visa exemptions under Argentina's latest regulations. It is always advisable to verify your eligibility before planning your trip.\n\nVision Visa can help you understand the latest requirements and prepare your application correctly.\n\nArgentina Visa Processing Time\nVisa processing times can vary depending on the visa category, application volume, and individual circumstances. To avoid delays, it is recommended to apply well before your planned travel date and ensure all documents are complete and accurate.",
+    "processingTime": "Not Specified",
+    "stayDuration": "90 Days",
+    "entryType": "Multiple",
+    "applyThrough": "Argentine Consular Office",
+    "insuranceRequirement": "Travel Insurance Required",
+    "overviewTitle": "Argentina Tourist Visa",
+    "overviewDescription": "Indian passport holders travelling to Argentina for tourism, sightseeing, or visiting relatives and friends require an Argentina Tourist Visa. The visa allows a stay of up to 90 days and is valid for 3 months with multiple entry.\n\nApplicants are required to submit the visa application along with the required documents, including a valid passport, photographs, application forms, covering letter, leave letter, financial documents, confirmed flight tickets, hotel booking, and travel insurance.\n\nApplicants must personally attend the appointment for visa submission after the documents have been verified by the Consulate.",
     "documents": {
       "mandatory": [
-        "Valid passport with sufficient validity",
-        "Completed visa application form",
-        "Recent passport-size photographs",
-        "Flight reservation",
-        "Hotel booking or accommodation details",
-        "Proof of financial capability",
-        "Travel itinerary",
-        "Travel insurance, if applicable",
-        "Supporting documents based on your travel purpose"
+        "Original passport valid for at least 6 months",
+        "Two colour photographs, 35x45 mm, with white background",
+        "Two completed and signed visa application forms",
+        "Covering letter from the applicant",
+        "Leave letter from the company, where applicable",
+        "Indian company registration copy, where applicable",
+        "Personal bank statement for the last 3 months",
+        "Personal Income Tax Returns for the last 3 years",
+        "Confirmed flight ticket",
+        "Hotel booking as per the flight itinerary",
+        "Travel insurance as per the flight itinerary"
       ],
-      "supporting": [
-        "Document checklist guidance",
-        "Application review",
-        "Visa consultation",
-        "Appointment assistance",
-        "Application tracking support",
-        "Timely updates throughout the process"
-      ],
-      "alertText": "The Argentine authorities may request additional documents or an interview depending on the application."
+      "supporting": [],
+      "alertText": "Applicants must personally attend the appointment for visa submission. The appointment is provided after the documents are verified by the Consulate."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Category",
-        "desc": "Choose the appropriate visa category (Tourist, Business, Student, Work, Family/Visitor, Transit)."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Argentina."
       },
       {
         "num": "02",
-        "title": "Application Form",
-        "desc": "Complete the visa application form accurately."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Argentina consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Gather Documents",
-        "desc": "Gather all required supporting documents and schedule an appointment if required."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Submit & Interview",
-        "desc": "Submit your application and attend an interview if requested by Argentine authorities."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Decision & Collection",
-        "desc": "Wait for the visa decision and collect your passport after approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Argentina visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
-      "title": "Discover Argentina",
-      "subtitle": "Experience the Best of Argentina",
-      "desc": "From the lively streets of Buenos Aires to the breathtaking landscapes of Patagonia and Iguazu Falls, Argentina offers unforgettable travel experiences.",
+      "title": "Argentina",
+      "subtitle": "Plan Your Argentina Trip",
+      "desc": "Argentina is an ideal destination for Indian travellers visiting for tourism, sightseeing, or to meet relatives and friends.",
       "place1": {
-        "name": "Buenos Aires Streets",
-        "desc": "Lively city streets, rich culture, tango, and architectural landmarks.",
+        "name": "Argentina",
+        "desc": "Explore Argentina with the right visa and travel documents in place.",
         "image": "/images/Argentina.webp"
       },
       "place2": {
-        "name": "Patagonia Landscapes",
-        "desc": "Breathtaking glaciers, pristine mountain ranges, and nature trails.",
+        "name": "Tourism",
+        "desc": "Travel to Argentina for tourism and sightseeing.",
         "image": "/images/Argentina.webp"
       },
       "place3": {
-        "name": "Iguazu Falls",
-        "desc": "World-famous natural waterfall marvel amidst lush rainforests.",
+        "name": "Travel",
+        "desc": "Plan your trip with confirmed travel and accommodation arrangements.",
         "image": "/images/Argentina.webp"
       },
       "place4": {
-        "name": "Argentine Culture & Cuisine",
-        "desc": "Experience authentic local cuisine and warm South American hospitality.",
+        "name": "Visit Family & Friends",
+        "desc": "The tourist visa is also suitable for visiting relatives and friends in Argentina.",
         "image": "/images/Argentina.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Spring & Autumn",
-      "currency": "Argentine Peso (ARS)",
-      "language": "Spanish",
-      "timeZone": "GMT-3"
+      "bestSeason": "Not Specified",
+      "currency": "Argentine Peso",
+      "language": "Not Specified",
+      "timeZone": "Not Specified"
     },
     "faqs": [
       {
-        "q": "How early should I apply for an Argentina visa?",
-        "a": "It is recommended to apply several weeks before your intended travel date to allow sufficient time for processing."
+        "q": "How long can I stay in Argentina with a tourist visa?",
+        "a": "The Argentina Tourist Visa allows a stay of up to 90 days."
       },
       {
-        "q": "Is travel insurance required?",
-        "a": "Travel insurance may be required depending on the type of visa and current travel regulations."
+        "q": "What is the validity of the Argentina Tourist Visa?",
+        "a": "The Argentina Tourist Visa is valid for 3 months."
       },
       {
-        "q": "Can additional documents be requested?",
-        "a": "Yes. Immigration authorities may request additional supporting documents if required during the assessment of your application."
+        "q": "Is the Argentina Tourist Visa multiple entry?",
+        "a": "Yes. The Argentina Tourist Visa is listed as a multiple-entry visa."
       },
       {
-        "q": "Does having all documents guarantee visa approval?",
-        "a": "No. Visa approval is entirely at the discretion of the Argentine immigration authorities after reviewing your application."
+        "q": "What documents are required for an Argentina Tourist Visa?",
+        "a": "Requirements include a valid passport, photographs, completed visa application forms, covering letter, leave letter where applicable, financial documents, confirmed flight ticket, hotel booking, and travel insurance."
+      },
+      {
+        "q": "Is travel insurance required for Argentina?",
+        "a": "Yes. Travel insurance as per the flight itinerary is listed as a requirement for the Argentina Tourist Visa."
+      },
+      {
+        "q": "Do I need to attend the visa appointment personally?",
+        "a": "Yes. Applicants must personally attend the appointment for visa submission."
+      },
+      {
+        "q": "When is the Argentina visa appointment provided?",
+        "a": "The appointment is provided after the applicant's documents have been verified by the Consulate."
+      },
+      {
+        "q": "What is the processing time for an Argentina Tourist Visa?",
+        "a": "The reference information does not specify a processing time for the Argentina Tourist Visa."
+      },
+      {
+        "q": "What is the Argentina visa fee?",
+        "a": "The reference page lists the visa fee as INR 1,390."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport valid for at least 6 months from entry date with 2 blank pages",
+        "Two recent colour photographs (35x45 mm, white background, front view)",
+        "Two completed and signed Argentina visa application forms",
+        "Consular visa fee payment receipt & in-person interview appointment confirmation"
+      ],
+      "financial": [
+        "Personal bank statement for the last 3 to 6 months stamped and signed by the bank",
+        "Personal Income Tax Returns (ITR-V) for the last 3 assessment years",
+        "Employment letter / Leave sanction letter from employer with salary details",
+        "Salary slips for the last 3 months",
+        "Company registration certificate & company financials (for self-employed applicants)"
+      ],
+      "travel": [
+        "Confirmed round-trip flight tickets as per itinerary",
+        "Confirmed hotel booking matching flight itinerary dates",
+        "Travel medical insurance covering the full duration of stay in Argentina"
+      ],
+      "additional": [
+        "Personal covering letter explaining the purpose of travel, itinerary, and financial responsibility",
+        "Letter of invitation certified by Argentine Public Notary and RENURE registration (for business/visit)",
+        "Previous international visa copies and travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For leisure travel, sightseeing in Buenos Aires, Patagonia, and visiting relatives.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For commercial meetings, trade negotiations, and attending exhibitions in Argentina.",
+        "icon": "💼"
+      },
+      {
+        "name": "Technical / Work Visa",
+        "description": "For carrying out specialized technical work or professional services under local contract.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For academic courses and university exchange programs at Argentine institutions.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For brief airport transits through Argentine airports en route to neighboring nations.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "australia": {
     "name": "Australia",
     "slug": "australia",
-    "visaType": "Visitor Visa (Subclass 600)",
+    "visaType": "Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/au.png",
     "heroImage": "/images/Australia.webp",
-    "processingTime": "Varies by category & demand",
-    "stayDuration": "Up to 90 Days / Category dependent",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Department of Home Affairs / High Commission",
-    "insuranceRequirement": "Recommended",
-    "overviewTitle": "About Australia Visa",
-    "overviewDescription": "Australia is one of the most popular international destinations for tourism, higher education, business, and skilled employment. From the iconic Sydney Opera House and Great Barrier Reef to world-class universities and thriving business cities, Australia attracts travellers from around the world.\n\nIf you are an Indian passport holder planning to visit Australia, you will generally need a visa before travelling. The type of visa depends on the purpose of your visit, such as tourism, business, study, work, or visiting family and friends. Vision Visa helps simplify your Australia visa application by guiding you through the required documents, application process, and important travel requirements.\n\nDo Indians Need a Visa for Australia?\nYes. Indian passport holders must obtain a valid Australian visa before travelling. Australia offers different visa categories depending on the purpose and duration of your stay. Choosing the correct visa category and submitting complete documentation can improve the application process. Visa approval is entirely at the discretion of the Australian immigration authorities.\n\nAustralia Visa Types\nAustralia offers several visa categories based on your travel purpose. These commonly include: Tourist Visa, Visitor Visa, Business Visitor Visa, Student Visa, Work Visa, Skilled Migration Visa, Family or Partner Visa, and Transit Visa. Each visa category has its own eligibility criteria and document requirements.\n\nFinancial Requirements\nApplicants should be able to demonstrate that they have enough financial resources to support their stay in Australia. Supporting documents may include recent bank statements, salary slips, Income Tax Returns, employment proof, and sponsorship documents if applicable. The required financial evidence may differ depending on the visa category and duration of stay.\n\nAustralia Visa Processing Time & Validity\nVisa processing times vary depending on visa category, individual application, document verification, seasonal demand, and immigration assessment. It is always recommended to apply well before your intended travel date. Some visitor visas allow short-term stays, while student, work, and migration visas are issued for longer durations based on the approved category. Always follow the conditions mentioned on your approved visa.",
+    "processingTime": "15-30 Working Days",
+    "stayDuration": "As granted",
+    "entryType": "As granted",
+    "applyThrough": "Australian High Commission",
+    "insuranceRequirement": "Required",
+    "overviewTitle": "Australia Visitor Visa",
+    "overviewDescription": "Indian passport holders require a valid visa to visit Australia. The Visitor Visa is suitable for applicants travelling to Australia for tourism, visiting family or friends, or other short-term visits.\n\nApplicants are required to provide the necessary documents along with their visa application. The visa validity and permitted stay depend on the visa granted by the Australian authorities.",
     "documents": {
       "mandatory": [
-        "Valid passport",
-        "Completed visa application",
-        "Recent passport-size photographs, if required",
-        "Proof of sufficient financial funds",
-        "Travel itinerary",
-        "Flight reservation, where applicable",
-        "Accommodation details",
-        "Employment or business documents",
-        "Invitation letter, if visiting family, friends, or for business",
-        "Student admission documents for study visas",
-        "Supporting documents relevant to your visa category"
+        "Original passport valid for at least 6 months",
+        "Recent passport-size photographs",
+        "Completed visa application form",
+        "Covering letter stating the purpose of travel",
+        "Personal bank statement",
+        "Income Tax Returns",
+        "Employment proof, where applicable",
+        "Leave letter, where applicable",
+        "Confirmed return air ticket",
+        "Hotel booking",
+        "Travel insurance"
       ],
       "supporting": [
-        "Choosing the correct visa category",
-        "Complete document checklist",
-        "Application review & Visa consultation",
-        "Appointment guidance",
-        "Application tracking support & Regular updates"
+        "Invitation letter, if visiting family or friends",
+        "Sponsor documents, where applicable",
+        "Additional documents as requested by the Australian authorities"
       ],
-      "alertText": "Additional documents or biometric collection may be requested during the assessment process by Australian authorities."
+      "alertText": "Additional documents may be requested by the Australian authorities during the visa assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Visa Category",
-        "desc": "Select the appropriate visa category based on your purpose of visit."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Australia."
       },
       {
         "num": "02",
-        "title": "Online Application",
-        "desc": "Complete the online visa application accurately."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Australia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Upload Documents",
-        "desc": "Upload all required supporting documents and pay the applicable government fee."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Biometrics & Medical",
-        "desc": "Complete biometric collection and attend a medical examination if requested."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Processing & Decision",
-        "desc": "Wait for visa processing and receive your visa decision."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Australia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Australia",
-      "subtitle": "Experience the Best of Australia",
-      "desc": "From the iconic Sydney Opera House and Great Barrier Reef to world-class universities and thriving business cities, explore why Australia is a top destination.",
+      "subtitle": "Experience Australia",
+      "desc": "Australia offers a blend of vibrant cities, beautiful coastlines, natural landscapes and unique experiences.",
       "place1": {
-        "name": "Sydney Opera House & Harbour",
-        "desc": "Iconic architectural marvel and vibrant harbour city experience.",
+        "name": "Sydney",
+        "desc": "Discover Sydney's iconic landmarks, harbour and beautiful beaches.",
         "image": "/images/Australia.webp"
       },
       "place2": {
-        "name": "Great Barrier Reef",
-        "desc": "World-famous marine wonder and breathtaking natural coral reefs.",
+        "name": "Melbourne",
+        "desc": "Experience Melbourne's culture, food, arts and city life.",
         "image": "/images/Australia.webp"
       },
       "place3": {
-        "name": "Melbourne & Culture",
-        "desc": "Thriving art, coffee culture, laneways, and world-class educational hubs.",
+        "name": "Great Barrier Reef",
+        "desc": "Explore one of Australia's most famous natural attractions.",
         "image": "/images/Australia.webp"
       },
       "place4": {
-        "name": "Australian Outback & Coast",
-        "desc": "Pristine beaches, rugged wilderness, and incredible wildlife encounters.",
+        "name": "Australian Coast",
+        "desc": "Enjoy Australia's spectacular coastline and natural beauty.",
         "image": "/images/Australia.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Sept - Nov & March - May",
+      "bestSeason": "March to May & September to November",
       "currency": "Australian Dollar (AUD)",
       "language": "English",
       "timeZone": "GMT+8 to GMT+11"
     },
     "faqs": [
       {
-        "q": "Do Indian citizens need a visa to travel to Australia?",
-        "a": "Yes. Indian passport holders must obtain a valid Australian visa before travelling."
+        "q": "Do Indian citizens need a visa for Australia?",
+        "a": "Yes. Indian passport holders require a valid Australian visa before travelling to Australia."
       },
       {
-        "q": "Can I apply online?",
-        "a": "Many Australian visa categories are submitted online. The application process depends on your visa type."
+        "q": "Which visa is suitable for tourism in Australia?",
+        "a": "The Visitor Visa is commonly used for applicants travelling to Australia for tourism or visiting family and friends."
       },
       {
-        "q": "How early should I apply?",
-        "a": "It is advisable to apply several weeks before your planned departure to allow sufficient processing time."
+        "q": "How long can I stay in Australia on a Visitor Visa?",
+        "a": "The permitted stay depends on the visa granted by the Australian authorities."
       },
       {
-        "q": "Can immigration request additional documents?",
-        "a": "Yes. Australian immigration authorities may request additional documents, medical examinations, or biometrics during the assessment process."
+        "q": "What documents are required for an Australia Visitor Visa?",
+        "a": "Common requirements include a valid passport, photographs, completed application form, financial documents, covering letter, travel details, accommodation and travel insurance."
       },
       {
-        "q": "Does a visa guarantee entry into Australia?",
-        "a": "No. Holding a valid visa does not automatically guarantee entry. Final admission is determined by Australian border authorities upon arrival."
+        "q": "How long does an Australia Visitor Visa take to process?",
+        "a": "Processing generally takes around 15 to 30 working days, depending on the application and document assessment."
+      },
+      {
+        "q": "Is travel insurance required for an Australia Visitor Visa?",
+        "a": "Yes. Travel insurance is required as part of the visa documentation."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Australian authorities may request additional documents or information during the visa assessment."
+      },
+      {
+        "q": "Does submitting all documents guarantee visa approval?",
+        "a": "No. The final decision on the visa application rests with the Australian authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Color scan of valid passport (bio-data page and all stamped/visa pages)",
+        "Completed Subclass 600 Visitor Visa application submitted via Australian ImmiAccount",
+        "Australian visa application fee payment confirmation",
+        "Recent passport-sized digital photograph per Australian immigration criteria",
+        "VFS Biometrics appointment notification (if requested by Home Affairs)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 6 months showing steady financial history",
+        "Income Tax Returns (ITR) for the last 3 financial years",
+        "Letter of employment and sanctioned leave approval from employer",
+        "Last 3 months salary slips",
+        "Business registration (GST / company certificate) and company bank statements (if self-employed)"
+      ],
+      "travel": [
+        "Detailed Australian travel itinerary covering planned cities and activities",
+        "Proof of accommodation (hotel bookings or host residential address)",
+        "Provisional round-trip flight booking"
+      ],
+      "additional": [
+        "Genuine Temporary Entrant (GTE) statement / Cover letter outlining reasons to return to India",
+        "Invitation letter, host Australian passport/PR copy, and host utility bills (if visiting family/friends)",
+        "Evidence of home ties (property ownership, continuing employment, dependent family)",
+        "Copies of previous overseas visas and travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Visitor Visa (Tourist Stream Subclass 600)",
+        "description": "For holidays, sightseeing, visiting friends or family, and informal recreation.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visitor Stream (Subclass 600)",
+        "description": "For general business inquiries, contract negotiations, trade fairs, and conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Sponsored Family Stream",
+        "description": "For applicants formally sponsored by an eligible Australian citizen or permanent resident.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa (Subclass 500)",
+        "description": "For full-time registered study at Australian universities and vocational colleges.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Temporary Work Visa (Subclass 482 / 400)",
+        "description": "For skilled employment and specialized short-term work assignments in Australia.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Transit Visa (Subclass 771)",
+        "description": "For transiting through Australia for up to 72 hours.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "austria": {
     "name": "Austria",
     "slug": "austria",
-    "visaType": "Austria Schengen Visa",
+    "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/at.png",
     "heroImage": "/images/Austria.webp",
-    "processingTime": "Varies by category & demand",
-    "stayDuration": "Up to 90 Days (Schengen Rules)",
+    "processingTime": "15 Working Days",
+    "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Global / Austrian Embassy",
-    "insuranceRequirement": "Mandatory (Schengen Compliant)",
-    "overviewTitle": "About Austria Visa",
-    "overviewDescription": "Austria is one of Europe's most beautiful destinations, known for its historic cities, alpine landscapes, world-class museums, and rich cultural heritage. Whether you are travelling for a holiday, business meeting, higher education, or visiting family and friends, obtaining the correct visa is an important part of planning your trip. As Austria is part of the Schengen Area, travellers who require a visa generally need a Schengen Visa for short stays. Vision Visa helps you understand the visa requirements, prepare the necessary documents, and complete your application with confidence.\n\nDo Indians Need a Visa for Austria?\nYes. Indian passport holders generally require a visa before travelling to Austria. For short visits of up to 90 days within a 180-day period, travellers usually need an Austria Schengen Visa. If you plan to study, work, or stay longer, you must apply for the appropriate long-term visa or residence permit based on your purpose of travel. Visa approval is granted solely by the Austrian authorities after reviewing your application.\n\nAustria Visa Types\nAustria offers different visa categories depending on the reason for your visit. Common visa types include: Tourist Visa, Schengen Visitor Visa, Business Visa, Student Visa, Work Visa, Family Visit Visa, Transit Visa, and Long Stay National Visa. Each category has its own eligibility requirements and supporting documents.\n\nAustria Schengen Visa & Financial Requirements\nThe Austria Schengen Visa allows eligible travellers to visit Austria and other Schengen countries for tourism, business, family visits, or short-term purposes up to 90 days within a 180-day period. Travellers should ensure that Austria is their main destination or first point of entry. Applicants should demonstrate that they have enough financial resources to cover their stay in Austria through recent bank statements, salary slips, Income Tax Returns, employment proof, and sponsorship documents where applicable.\n\nAustria Visa Processing Time & Validity\nVisa processing times vary depending on the type of application, document verification, seasonal demand, and individual circumstances. Travellers are advised to submit their applications well in advance of their planned departure to allow sufficient time for processing. Always follow the conditions mentioned on your approved visa.",
+    "applyThrough": "VFS Global",
+    "insuranceRequirement": "Mandatory, €30,000 Coverage",
+    "overviewTitle": "Austria Schengen Visa",
+    "overviewDescription": "Indian passport holders travelling to Austria require a Schengen Visa. The visa is suitable for tourism, business, visiting family or friends and other short visits.\n\nA Schengen Visa allows travellers to stay in Austria for up to 90 days within a 180-day period, subject to the visa granted. Applicants must provide the required documents and travel medical insurance as part of the application.",
     "documents": {
       "mandatory": [
-        "Valid passport with sufficient validity",
-        "Completed visa application form",
+        "Valid passport",
+        "Completed and signed Schengen visa application form",
         "Recent passport-size photographs",
-        "Travel itinerary",
-        "Confirmed accommodation details",
-        "Proof of sufficient financial funds",
+        "Proof of accommodation",
         "Flight reservation",
-        "Travel medical insurance meeting Schengen requirements",
-        "Employment or business documents",
-        "Invitation letter, if applicable",
-        "Additional supporting documents based on the purpose of travel"
+        "Proof of sufficient funds",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Employment or business documents, where applicable",
+        "Proof of purpose of travel"
       ],
       "supporting": [
-        "Visa consultation",
-        "Document checklist assistance",
-        "Application review",
-        "Appointment guidance",
-        "Travel document support",
-        "Application tracking assistance & Timely updates"
+        "Recent bank statements",
+        "Salary slips",
+        "Income Tax Returns",
+        "Employment confirmation or leave approval",
+        "Invitation letter, where applicable",
+        "Additional documents requested by the Austrian authorities"
       ],
-      "alertText": "The Austrian authorities may request further documents or an interview during the application process."
+      "alertText": "Travel medical insurance is mandatory and must provide minimum coverage of €30,000. Additional documents or an interview may be requested."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Select Category",
-        "desc": "Select the appropriate visa category based on your purpose of visit."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Austria."
       },
       {
         "num": "02",
-        "title": "Application Form",
-        "desc": "Complete the visa application form accurately."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Austria consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Prepare & Schedule",
-        "desc": "Prepare all supporting documents and schedule a visa appointment if required."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Biometrics & Interview",
-        "desc": "Submit your application, provide biometric information, and attend an interview if requested."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Processing & Passport",
-        "desc": "Wait for processing and collect your passport after a decision is made."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Austria visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Austria",
-      "subtitle": "Experience the Best of Austria",
-      "desc": "From historic imperial palaces and world-class concert halls to majestic Alpine peaks and charming villages, explore why Austria is a top European destination.",
+      "subtitle": "Experience Austria",
+      "desc": "Austria offers a blend of historic cities, cultural landmarks, beautiful landscapes and Alpine scenery.",
       "place1": {
-        "name": "Vienna Imperial Palaces & Culture",
-        "desc": "Stately classical architecture, grand palaces, and world-class classical music heritage.",
+        "name": "Vienna",
+        "desc": "Explore historic architecture, museums, palaces and classical music.",
         "image": "/images/Austria.webp"
       },
       "place2": {
-        "name": "Salzburg & Mozart Heritage",
-        "desc": "Baroque church spires, historic fortress, and musical history amidst stunning hills.",
+        "name": "Salzburg",
+        "desc": "Discover historic streets, beautiful architecture and cultural heritage.",
         "image": "/images/Austria.webp"
       },
       "place3": {
-        "name": "Austrian Alps & Lakes",
-        "desc": "Breathtaking mountain peaks, pristine Alpine lakes, skiing, and hiking trails.",
+        "name": "Austrian Alps",
+        "desc": "Experience spectacular mountain landscapes and Alpine villages.",
         "image": "/images/Austria.webp"
       },
       "place4": {
-        "name": "Innsbruck & Tyrolean Charm",
-        "desc": "Charming alpine city nestled in dramatic snow-capped Alpine peaks.",
+        "name": "Innsbruck",
+        "desc": "Discover an Alpine city surrounded by beautiful mountains.",
         "image": "/images/Austria.webp"
       }
     },
@@ -327,115 +463,182 @@ window.VISION_VISA_COUNTRIES = {
     "faqs": [
       {
         "q": "Do Indian citizens need a visa for Austria?",
-        "a": "Yes. Indian passport holders generally require a visa before travelling to Austria."
+        "a": "Yes. Indian passport holders require a Schengen Visa to travel to Austria for short visits."
+      },
+      {
+        "q": "How long can I stay in Austria with a Schengen Visa?",
+        "a": "A Schengen Visa generally allows a stay of up to 90 days within a 180-day period."
       },
       {
         "q": "Is Austria part of the Schengen Area?",
-        "a": "Yes. Austria is a member of the Schengen Area, and eligible travellers usually apply for a Schengen Visa for short visits."
+        "a": "Yes. Austria is part of the Schengen Area."
       },
       {
-        "q": "Is travel medical insurance required?",
-        "a": "Yes. Applicants for a Schengen Visa are generally required to have travel medical insurance that meets Schengen requirements."
+        "q": "Is travel insurance required for an Austria Schengen Visa?",
+        "a": "Yes. Travel medical insurance with minimum coverage of €30,000 is required."
       },
       {
-        "q": "How early should I apply?",
-        "a": "It is recommended to apply several weeks before your intended travel date to allow sufficient time for processing."
+        "q": "How long does an Austria Schengen Visa take to process?",
+        "a": "The usual processing time is around 15 working days."
+      },
+      {
+        "q": "Where do I submit my Austria visa application?",
+        "a": "The application is submitted through the appropriate Visa Application Centre."
+      },
+      {
+        "q": "Do I need to provide biometrics for an Austria visa?",
+        "a": "Applicants may be required to provide biometric information as part of the Schengen visa application."
       },
       {
         "q": "Can additional documents be requested?",
-        "a": "Yes. Austrian authorities may request additional documents or schedule an interview depending on your individual application."
+        "a": "Yes. Additional documents or information may be requested during the assessment."
       },
       {
-        "q": "Does a visa guarantee entry into Austria?",
-        "a": "No. A valid visa allows you to travel to Austria, but final entry is decided by border authorities at the point of arrival."
+        "q": "Does an Austria visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of the border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Austria / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Austria and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Austria and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Austria.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Austria.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "azerbaijan": {
     "name": "Azerbaijan",
     "slug": "azerbaijan",
-    "visaType": "Azerbaijan eVisa / Tourist Visa",
+    "visaType": "Azerbaijan eVisa",
     "flagImage": "https://flagcdn.com/w40/az.png",
     "heroImage": "/images/Azerbaijan.webp",
-    "processingTime": "3 - 5 Working Days (eVisa)",
+    "processingTime": "3 Working Days / 3 Hours Urgent",
     "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "ASAN Visa Portal (eVisa)",
+    "entryType": "Single Entry",
+    "applyThrough": "ASAN Visa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Azerbaijan Visa",
-    "overviewDescription": "Azerbaijan is a fascinating destination where modern architecture meets ancient history. From the vibrant streets of Baku and the Caspian Sea coastline to mountain villages and cultural landmarks, the country offers memorable experiences for tourists, business travellers, and families alike. If you are planning to visit Azerbaijan from India, obtaining the correct visa is an important part of your travel planning. Vision Visa helps you understand the visa requirements, prepare your documents, and complete the application process with confidence.\n\nDo Indians Need a Visa for Azerbaijan?\nYes. Indian passport holders generally require a visa to enter Azerbaijan. Many eligible travellers can apply for an Azerbaijan eVisa for short visits, making the application process quicker and more convenient. Depending on your travel purpose, you may also need to apply for another visa category through the appropriate authorities. Visa approval is entirely at the discretion of the Azerbaijan immigration authorities.\n\nAzerbaijan Visa Types & eVisa\nDepending on the purpose of your visit, you can apply for the appropriate visa category: Tourist Visa, Azerbaijan eVisa, Business Visa, Student Visa, Work Visa, Family Visit Visa, and Transit Visa. The Azerbaijan eVisa is one of the most popular options for short-term travellers visiting for tourism, business meetings, or similar purposes. Eligible applicants can complete the application online by submitting required documents, and once approved, the eVisa is issued electronically to be carried while travelling.\n\nAzerbaijan Visa Requirements & Financial Proof\nApplicants are generally expected to provide a valid passport, completed visa application, passport-size photograph, travel itinerary, confirmed accommodation, flight reservation, financial proof (bank statements, salary slips, ITRs), invitation letter if applicable, and employment documents. The immigration authorities may request additional documents if required during the application process.\n\nAzerbaijan Visa Processing Time & Validity\nVisa processing times depend on visa category, application method, individual verification, document completeness, and seasonal demand. Travellers are encouraged to apply well before their intended departure date. Short-term visas and eVisas are generally issued for limited travel periods, while other visa categories may have different validity based on the purpose of travel.",
+    "overviewDescription": "Planning a trip to Azerbaijan? Indian passport holders generally need a visa before travelling to Azerbaijan. For eligible travellers, the Azerbaijan eVisa offers a convenient online option for short visits.\n\nThe standard eVisa is normally issued within 3 working days, while an urgent eVisa can be issued within 3 hours. The eVisa is valid for 90 days and allows a stay of up to 30 days in Azerbaijan. It is issued as a single-entry visa.\n\nDo Indians Need a Visa for Azerbaijan?\nYes. Indian passport holders generally require a visa to enter Azerbaijan. India is included in the list of nationalities eligible to apply for the Azerbaijan eVisa, subject to the current eligibility conditions.\n\nAzerbaijan Visa Types\nFor eligible short-term travellers, the Azerbaijan eVisa is a convenient option for tourism and other permitted purposes. Travellers who do not qualify for an eVisa or who require a different type of visa may need to apply through an Azerbaijani diplomatic mission.\n\nAzerbaijan Visa Processing Time\nA standard Azerbaijan eVisa is issued within 3 working days. An urgent eVisa is available with processing within 3 hours. Applicants should still apply in advance and carefully check the information entered in the application before submitting it.",
     "documents": {
       "mandatory": [
-        "Valid passport with sufficient validity",
-        "Completed visa application",
-        "Recent passport-size photograph, if required",
-        "Travel itinerary",
-        "Confirmed accommodation details",
-        "Flight reservation",
-        "Proof of sufficient financial funds",
-        "Invitation letter, where applicable",
-        "Employment or business documents",
-        "Supporting documents based on the purpose of travel"
+        "Valid passport or travel document",
+        "Passport details matching the document used for travel",
+        "Scanned copy of the passport photo page",
+        "Required personal and travel information",
+        "Valid email address for receiving the eVisa",
+        "Online payment for the applicable visa fee"
       ],
       "supporting": [
-        "Visa consultation",
-        "Document checklist assistance",
-        "Application review",
-        "eVisa guidance",
-        "Application support",
-        "Travel document assistance & Timely updates"
+        "Travel itinerary",
+        "Accommodation details, where applicable",
+        "Additional supporting documents if requested",
+        "Documents relevant to the purpose of travel, where applicable"
       ],
-      "alertText": "The immigration authorities may request additional supporting documents if required during the application process."
+      "alertText": "Your passport should remain valid for at least 3 months beyond the expiry date of the eVisa. The eVisa must be printed and presented together with your travel document at the border."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Category",
-        "desc": "Choose the appropriate visa category (eVisa, Tourist, Business, etc.)."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Azerbaijan."
       },
       {
         "num": "02",
-        "title": "Complete Application",
-        "desc": "Complete the online visa application accurately."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Azerbaijan consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Upload Documents",
-        "desc": "Prepare and upload all required supporting documents."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Pay Fee & Submit",
-        "desc": "Submit your application online or designated process and pay the applicable visa fee."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive eVisa",
-        "desc": "Wait for processing and receive your approved electronic visa."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Azerbaijan visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Azerbaijan",
-      "subtitle": "Experience the Best of Azerbaijan",
-      "desc": "From the modern skyline of Baku's Flame Towers and Caspian Sea promenade to the ancient Silk Road historic towns of Sheki and Gobustan petroglyphs.",
+      "subtitle": "Experience Azerbaijan",
+      "desc": "From the modern streets of Baku to historic towns, mountain landscapes and the Caspian Sea, Azerbaijan offers a mix of culture, history and natural beauty.",
       "place1": {
-        "name": "Baku Flame Towers & Old City",
-        "desc": "Futuristic skyscrapers alongside ancient UNESCO Maiden Tower and Shirvanshah Palace.",
+        "name": "Baku",
+        "desc": "Explore the capital's modern skyline, Caspian Sea promenade and historic Old City.",
         "image": "/images/Azerbaijan.webp"
       },
       "place2": {
-        "name": "Gobustan & Mud Volcanoes",
-        "desc": "Ancient rock petroglyphs and fascinating natural mud volcano landscapes.",
+        "name": "Gobustan",
+        "desc": "Discover ancient rock carvings and unique landscapes near the Caspian Sea.",
         "image": "/images/Azerbaijan.webp"
       },
       "place3": {
-        "name": "Sheki Palace & Caucasus Mountains",
-        "desc": "Historic Silk Road palace with intricate stained glass against Caucasian mountain backdrops.",
+        "name": "Sheki",
+        "desc": "Visit the historic Silk Road city known for its architecture, culture and mountain setting.",
         "image": "/images/Azerbaijan.webp"
       },
       "place4": {
-        "name": "Caspian Sea Coastline",
-        "desc": "Vibrant seaside promenade, parks, and rich Azerbaijani culinary traditions.",
+        "name": "Caspian Sea",
+        "desc": "Enjoy Baku's waterfront, seaside parks and the distinctive atmosphere of the Caspian coast.",
         "image": "/images/Azerbaijan.webp"
       }
     },
@@ -448,116 +651,165 @@ window.VISION_VISA_COUNTRIES = {
     "faqs": [
       {
         "q": "Do Indian citizens need a visa for Azerbaijan?",
-        "a": "Yes. Indian passport holders generally require a visa before travelling to Azerbaijan."
+        "a": "Yes. Indian passport holders generally require a visa before travelling to Azerbaijan. Eligible Indian travellers can apply for an Azerbaijan eVisa."
       },
       {
-        "q": "Can I apply for an Azerbaijan eVisa?",
-        "a": "Eligible travellers can apply for an Azerbaijan eVisa for short visits, subject to the latest immigration requirements."
+        "q": "Can Indians apply for an Azerbaijan eVisa?",
+        "a": "Yes. India is included among the countries whose citizens are eligible for the Azerbaijan eVisa, subject to the current eligibility conditions."
       },
       {
-        "q": "How early should I apply?",
-        "a": "It is advisable to apply well before your planned travel date to allow enough time for processing."
+        "q": "How long does an Azerbaijan eVisa take?",
+        "a": "A standard eVisa is issued within 3 working days. An urgent eVisa can be issued within 3 hours."
+      },
+      {
+        "q": "How long is an Azerbaijan eVisa valid?",
+        "a": "An Azerbaijan eVisa is valid for 90 days and allows a stay of up to 30 days within its validity period."
+      },
+      {
+        "q": "Is the Azerbaijan eVisa single or multiple entry?",
+        "a": "The standard Azerbaijan eVisa is a single-entry visa."
+      },
+      {
+        "q": "How long should my passport be valid?",
+        "a": "Your travel document should remain valid for at least 3 months beyond the expiry date of the Azerbaijan eVisa."
+      },
+      {
+        "q": "Do I need to print my Azerbaijan eVisa?",
+        "a": "Yes. The eVisa should be printed and presented together with your travel document at the Azerbaijan border."
       },
       {
         "q": "Can additional documents be requested?",
-        "a": "Yes. Immigration authorities may request additional supporting documents depending on your application."
+        "a": "Yes. Additional information or documents may be requested depending on the application and circumstances."
       },
       {
-        "q": "Does having a visa guarantee entry into Azerbaijan?",
-        "a": "No. A valid visa allows you to travel to Azerbaijan, but final entry is decided by immigration officials at the port of entry."
+        "q": "Does an Azerbaijan eVisa guarantee entry?",
+        "a": "No. A valid eVisa allows you to travel to Azerbaijan subject to its conditions, but final entry is determined by the border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "High-resolution digital color copy of valid passport bio-data page (valid min 3 months beyond eVisa expiry)",
+        "Completed online Azerbaijan ASAN Visa application",
+        "Valid email address and eVisa processing fee payment"
+      ],
+      "financial": [],
+      "travel": [
+        "Accommodation address / hotel booking details in Baku or Azerbaijan",
+        "Expected entry and departure dates",
+        "Return flight itinerary"
+      ],
+      "additional": [
+        "Travel insurance (recommended)",
+        "Corporate invitation letter (for business travel)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Standard Tourist ASAN eVisa (30 Days)",
+        "description": "Single-entry electronic visa processed in 3 working days for Baku tourism and sightseeing.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Urgent / Express ASAN eVisa",
+        "description": "Fast-track electronic visa issued within 3 to 5 hours for emergency or last-minute travel.",
+        "icon": "⚡"
+      },
+      {
+        "name": "Business eVisa",
+        "description": "For attending corporate discussions, exhibitions, and bilateral trade conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Official / Cultural Visa",
+        "description": "For attending governmental, scientific, sports, and cultural festivals in Azerbaijan.",
+        "icon": "🏛️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "bahrain": {
     "name": "Bahrain",
     "slug": "bahrain",
-    "visaType": "Bahrain eVisa / Visitor Visa",
+    "visaType": "Bahrain Visa",
     "flagImage": "https://flagcdn.com/w40/bh.png",
     "heroImage": "/images/Bahrain.webp",
-    "processingTime": "3 - 7 Working Days",
-    "stayDuration": "Up to 14 / 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Bahrain eVisa Portal / Immigration",
-    "insuranceRequirement": "Recommended",
-    "overviewTitle": "About Bahrain Visa",
-    "overviewDescription": "Bahrain is a popular destination in the Middle East, known for its modern skyline, rich cultural heritage, historic forts, luxury shopping, and thriving business environment. Whether you are travelling for tourism, business, family visits, or work, having the correct visa is essential before planning your journey. Vision Visa helps make the Bahrain visa process simple by guiding you through the required documents, eligibility, and application process, so you can travel with confidence.\n\nDo Indians Need a Visa for Bahrain?\nYes. Indian passport holders generally require a visa to enter Bahrain. Depending on your eligibility and travel purpose, you may be able to apply for a Bahrain eVisa or another suitable visa category. Entry requirements can vary, so it is always recommended to check the latest immigration guidelines before applying. Visa approval is granted solely by the Bahrain immigration authorities.\n\nBahrain Visa Types & eVisa\nBahrain offers different visa categories based on the purpose of travel: Tourist Visa, Bahrain eVisa, Business Visa, Family Visit Visa, Work Visa, Student Visa, and Transit Visa. The Bahrain eVisa allows eligible travellers to apply online without visiting an embassy for many short-term travel purposes. Applicants usually complete the application online, upload required documents, and receive the approved visa electronically.\n\nBahrain Visa Requirements & Financial Evidence\nThe required documents depend on your visa category. In most cases, applicants provide a valid passport, completed visa application, recent photograph, flight reservation, hotel booking, proof of financial funds (bank statements, salary slips, ITRs, employment proof), travel itinerary, and invitation letters where applicable. The Bahrain authorities may request further documents if necessary during processing.\n\nBahrain Visa Processing Time & Validity\nVisa processing times depend on visa category, application method, individual verification, document completeness, and seasonal demand. Applying well before your intended travel date is recommended. The validity of your Bahrain visa depends on the category approved by the immigration authorities. Short-term tourist and business visas generally allow limited stays, while work and long-term visas follow different validity periods based on the approved category.",
+    "processingTime": "3-5 Working Days",
+    "stayDuration": "14 Days",
+    "entryType": "Multiple Entry",
+    "applyThrough": "Bahrain eVisa",
+    "insuranceRequirement": "Required",
+    "overviewTitle": "Bahrain Visa",
+    "overviewDescription": "Indian passport holders travelling to Bahrain require a visa. Eligible travellers can apply for a Bahrain eVisa for tourism and short visits.\n\nThe visa allows eligible visitors to stay in Bahrain for the period specified on the approved visa. Applicants need to provide the required documents and complete the online application process.",
     "documents": {
       "mandatory": [
-        "Valid passport with sufficient validity",
-        "Completed visa application",
+        "Valid passport",
         "Recent passport-size photograph",
-        "Flight reservation",
-        "Hotel booking or accommodation details",
-        "Proof of sufficient financial funds",
-        "Travel itinerary",
-        "Employment or business documents",
-        "Invitation letter, where applicable",
-        "Additional documents based on your purpose of travel"
+        "Completed visa application form",
+        "Confirmed return air ticket",
+        "Hotel booking",
+        "Bank statement",
+        "Travel insurance"
       ],
       "supporting": [
-        "Visa consultation",
-        "Document checklist assistance",
-        "Application review",
-        "Bahrain eVisa guidance",
-        "Travel document support",
-        "Application tracking assistance & Timely updates"
+        "Employment proof",
+        "Additional documents, if requested"
       ],
-      "alertText": "The Bahrain authorities may request further documents or information if necessary during the application process."
+      "alertText": "Additional documents may be requested during the visa application process."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Select Category",
-        "desc": "Select the appropriate visa category (eVisa, Tourist, Business, etc.)."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Bahrain."
       },
       {
         "num": "02",
-        "title": "Application Form",
-        "desc": "Complete the visa application accurately."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Bahrain consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Upload Documents",
-        "desc": "Prepare and upload all required supporting documents."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Pay Fee & Submit",
-        "desc": "Submit your application online or designated process and pay the applicable visa fee."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Visa",
-        "desc": "Wait for processing and receive your approved visa before travelling."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Bahrain visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Bahrain",
-      "subtitle": "Experience the Best of Bahrain",
-      "desc": "From the iconic Qal'at al-Bahrain (Bahrain Fort) and Al Fateh Grand Mosque to luxury Gulf island resorts and traditional Manama Souq.",
+      "subtitle": "Experience Bahrain",
+      "desc": "Bahrain offers a mix of modern attractions, historic landmarks and Arabian Gulf culture.",
       "place1": {
-        "name": "Manama Skyline & Pearl Diving",
-        "desc": "Ultra-modern financial towers alongside ancient maritime pearl harvesting legacy.",
+        "name": "Manama",
+        "desc": "Explore Bahrain's capital, with its modern skyline, markets and waterfront.",
         "image": "/images/Bahrain.webp"
       },
       "place2": {
-        "name": "Qal'at al-Bahrain (Bahrain Fort)",
-        "desc": "UNESCO World Heritage ancient Portuguese fort overlooking the Persian Gulf.",
+        "name": "Bahrain Fort",
+        "desc": "Visit one of Bahrain's important historic landmarks.",
         "image": "/images/Bahrain.webp"
       },
       "place3": {
         "name": "Al Fateh Grand Mosque",
-        "desc": "One of the world's largest majestic mosques, featuring Islamic architecture and marble crafts.",
+        "desc": "Discover one of Bahrain's well-known Islamic architectural landmarks.",
         "image": "/images/Bahrain.webp"
       },
       "place4": {
-        "name": "Bab Al Bahrain & Manama Souq",
-        "desc": "Historic arched gateway opening into vibrant spice, gold, and handicraft bazaars.",
+        "name": "Bab Al Bahrain",
+        "desc": "Explore this historic landmark near Manama Souq.",
         "image": "/images/Bahrain.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Nov - March",
+      "bestSeason": "November - March",
       "currency": "Bahraini Dinar (BHD)",
       "language": "Arabic",
       "timeZone": "GMT+3"
@@ -565,117 +817,163 @@ window.VISION_VISA_COUNTRIES = {
     "faqs": [
       {
         "q": "Do Indian citizens need a visa for Bahrain?",
-        "a": "Yes. Indian passport holders generally require a valid visa before travelling to Bahrain."
+        "a": "Yes. Indian passport holders require a visa to travel to Bahrain."
       },
       {
-        "q": "Can I apply for a Bahrain eVisa?",
-        "a": "Eligible travellers may apply for a Bahrain eVisa for certain travel purposes, subject to the latest immigration requirements."
+        "q": "Can Indians apply for a Bahrain eVisa?",
+        "a": "Yes. Eligible Indian travellers can apply for a Bahrain eVisa online."
       },
       {
-        "q": "How early should I apply?",
-        "a": "It is advisable to submit your application well before your planned travel date to allow enough time for processing."
+        "q": "How long does a Bahrain visa take to process?",
+        "a": "The usual processing time is around 3 to 5 working days."
       },
       {
-        "q": "Can immigration authorities request additional documents?",
-        "a": "Yes. Bahrain immigration authorities may request additional supporting documents or information during the assessment of your application."
+        "q": "How long can I stay in Bahrain on a visitor visa?",
+        "a": "The Bahrain visitor visa generally allows a stay of up to 14 days."
       },
       {
-        "q": "Does a Bahrain visa guarantee entry?",
-        "a": "No. A valid visa allows you to travel to Bahrain, but final entry is determined by immigration officials upon arrival."
+        "q": "Is the Bahrain visa multiple entry?",
+        "a": "The Bahrain visa can be issued as a multiple-entry visa, subject to the visa granted."
+      },
+      {
+        "q": "Is travel insurance required for Bahrain?",
+        "a": "Yes. Travel insurance is required for the Bahrain visa."
+      },
+      {
+        "q": "What documents are required for a Bahrain visa?",
+        "a": "Common requirements include a valid passport, photograph, confirmed return ticket, hotel booking, bank statement and travel insurance."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Additional documents may be requested during the visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital copy of valid passport data page and address page (valid min 6 months)",
+        "Completed Bahrain eVisa application",
+        "eVisa fee payment confirmation"
+      ],
+      "financial": [
+        "Stamped personal bank statement for the last 3 months with required minimum balance (min INR 60,000+ equivalent)"
+      ],
+      "travel": [
+        "Confirmed round-trip flight booking to/from Bahrain",
+        "Confirmed hotel booking or CPR copy and utility bill of Bahrain resident sponsor"
+      ],
+      "additional": [
+        "Cover letter stating the purpose and dates of travel",
+        "Previous GCC or international visas (if applicable)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist eVisa (2 Weeks / 1 Month)",
+        "description": "For holidays, weekend getaways, and visiting relatives in Manama and Bahrain.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Multiple Entry Tourist eVisa (3 Months / 1 Year)",
+        "description": "For frequent visitors, allowing multiple stays up to 30 days per visit.",
+        "icon": "🌴"
+      },
+      {
+        "name": "Business eVisa",
+        "description": "For corporate meetings, investment discussions, and commercial trade conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For connecting flight passengers transiting through Bahrain International Airport.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "bangladesh": {
     "name": "Bangladesh",
     "slug": "bangladesh",
-    "visaType": "Tourist / Visitor Visa",
+    "visaType": "Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/bd.png",
     "heroImage": "/images/Bangladesh.webp",
-    "processingTime": "5 - 7 Working Days",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "High Commission of Bangladesh",
-    "insuranceRequirement": "Recommended",
-    "overviewTitle": "About Bangladesh Visa",
-    "overviewDescription": "Bangladesh is a vibrant South Asian destination known for its rich cultural heritage, historical landmarks, beautiful rivers, lush countryside, and growing business opportunities. Whether you are travelling for tourism, business, medical treatment, education, or visiting family and friends, obtaining the appropriate visa is an important part of your travel plans. Vision Visa helps simplify the Bangladesh visa application process by guiding you through the required documents, eligibility criteria, and application procedures, making your journey smoother from start to finish.\n\nDo Indians Need a Visa for Bangladesh?\nYes. Indian passport holders generally require a valid visa before travelling to Bangladesh. The type of visa you need depends on your purpose of travel, such as tourism, business, medical treatment, education, employment, or visiting family. Applicants should ensure they apply under the correct visa category and submit all required supporting documents. Visa approval is granted solely by the Bangladesh immigration authorities.\n\nBangladesh Visa Types & Tourist Visa\nBangladesh offers several visa categories based on the purpose of travel: Tourist Visa, Business Visa, Medical Visa, Student Visa, Work Visa, Family Visit Visa, Transit Visa, and Official or Diplomatic Visa. A Bangladesh Tourist Visa is suitable for travellers visiting the country for holidays, sightseeing, cultural experiences, or visiting relatives and friends. The visa validity and permitted duration of stay depend on the approval granted by the immigration authorities.\n\nBangladesh Visa Requirements & Financial Resources\nThe required documents vary depending on your visa category. Applicants provide a valid passport, completed visa application form, recent photographs, flight reservation, hotel booking, proof of financial funds (bank statements, salary slips, ITRs, employment proof), travel itinerary, employment or business documents, invitation letter where applicable, medical documents for medical visas, and admission documents for student visas. The Bangladesh authorities may request additional documents during assessment.\n\nBangladesh Visa Processing Time & Validity\nVisa processing times may vary depending on visa category, individual application, document verification, seasonal demand, and additional checks by immigration authorities. Applicants are advised to apply well before their intended travel date. The validity and duration of stay depend on the visa category approved by the Bangladesh authorities.",
+    "processingTime": "5-7 Working Days",
+    "stayDuration": "30 Days",
+    "entryType": "Single Entry",
+    "applyThrough": "Bangladesh High Commission",
+    "insuranceRequirement": "Not Required",
+    "overviewTitle": "Bangladesh Tourist Visa",
+    "overviewDescription": "Indian citizens travelling to Bangladesh for tourism require a valid Bangladesh Tourist Visa. The visa is generally issued for a stay of up to 30 days.\n\nApplicants can complete the visa application form online and must submit the printed application along with the required documents to the Bangladesh High Commission or relevant visa office.",
     "documents": {
       "mandatory": [
-        "Valid passport with sufficient validity",
+        "Valid passport",
         "Completed visa application form",
         "Recent passport-size photographs",
-        "Flight reservation",
-        "Hotel booking or accommodation details",
-        "Proof of sufficient financial funds",
-        "Travel itinerary",
-        "Employment or business documents",
-        "Invitation letter, where applicable",
-        "Medical documents for treatment visits",
-        "Student admission documents for study visas"
+        "Confirmed return air ticket",
+        "Hotel booking",
+        "Covering letter",
+        "Bank statement",
+        "Employment proof"
       ],
       "supporting": [
-        "Visa consultation",
-        "Document checklist guidance",
-        "Application review",
-        "Appointment assistance",
-        "Travel document support",
-        "Application tracking guidance & Regular updates"
+        "Invitation letter, if applicable",
+        "Additional documents, if requested"
       ],
-      "alertText": "The Bangladesh authorities may request additional documents or an interview during the assessment process if required."
+      "alertText": "The Bangladesh High Commission may request additional documents during the visa application process."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Select Category",
-        "desc": "Choose the appropriate visa category (Tourist, Business, Medical, Student, etc.)."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Bangladesh."
       },
       {
         "num": "02",
-        "title": "Application Form",
-        "desc": "Complete the visa application form accurately."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Bangladesh consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Gather Documents",
-        "desc": "Gather all required supporting documents and schedule an appointment if applicable."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Submit & Biometrics",
-        "desc": "Submit your application and attend biometric collection or an interview if required."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Processing & Decision",
-        "desc": "Wait for processing and collect your passport after the visa decision."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Bangladesh visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Bangladesh",
-      "subtitle": "Experience the Best of Bangladesh",
-      "desc": "From the lush Sundarbans mangrove forests and World Heritage Sixty Dome Mosque in Bagerhat to Cox's Bazar unbroken sandy beach and historic Lalbagh Fort.",
+      "subtitle": "Experience Bangladesh",
+      "desc": "Bangladesh offers a mix of vibrant cities, historic landmarks, natural landscapes and rich cultural heritage.",
       "place1": {
-        "name": "Sundarbans Mangrove Forest",
-        "desc": "World's largest tidal mangrove forest, home to the Royal Bengal Tiger.",
+        "name": "Dhaka",
+        "desc": "Explore Bangladesh's capital and its historic landmarks, markets and vibrant city life.",
         "image": "/images/Bangladesh.webp"
       },
       "place2": {
-        "name": "Cox's Bazar Sea Beach",
-        "desc": "World's longest natural unbroken sandy beach with golden shores and scenic sunsets.",
+        "name": "Cox's Bazar",
+        "desc": "Visit the famous coastal destination known for its long sandy beach.",
         "image": "/images/Bangladesh.webp"
       },
       "place3": {
-        "name": "Dhaka Lalbagh Fort & Ahsan Manzil",
-        "desc": "17th-century Mughal fort complex and Pink Palace along the Buriganga River.",
+        "name": "Sundarbans",
+        "desc": "Discover the world's largest mangrove forest and its unique wildlife.",
         "image": "/images/Bangladesh.webp"
       },
       "place4": {
-        "name": "Bagerhat Sixty Dome Mosque",
-        "desc": "15th-century UNESCO World Heritage Sultanate brick mosque architecture.",
+        "name": "Bagerhat",
+        "desc": "Explore the historic city known for its Islamic architecture and heritage sites.",
         "image": "/images/Bangladesh.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Nov - Feb",
+      "bestSeason": "November - February",
       "currency": "Bangladeshi Taka (BDT)",
       "language": "Bengali",
       "timeZone": "GMT+6"
@@ -683,25 +981,90 @@ window.VISION_VISA_COUNTRIES = {
     "faqs": [
       {
         "q": "Do Indian citizens need a visa for Bangladesh?",
-        "a": "Yes. Indian passport holders generally require a valid visa before travelling to Bangladesh."
+        "a": "Yes. Indian citizens require a valid visa to travel to Bangladesh."
       },
       {
-        "q": "Which visa should I apply for?",
-        "a": "The correct visa depends on your reason for travel, including tourism, business, medical treatment, education, work, or visiting family."
+        "q": "What visa is required for tourism in Bangladesh?",
+        "a": "Indian citizens travelling to Bangladesh for tourism generally require a Bangladesh Tourist Visa."
       },
       {
-        "q": "How early should I apply?",
-        "a": "It is recommended to submit your application several weeks before your planned travel date to allow sufficient processing time."
+        "q": "How long can I stay in Bangladesh on a tourist visa?",
+        "a": "The Bangladesh Tourist Visa generally allows a stay of up to 30 days."
       },
       {
-        "q": "Can immigration authorities request additional documents?",
-        "a": "Yes. Bangladesh immigration authorities may request additional supporting documents or information during the assessment of your application."
+        "q": "Can I apply for a Bangladesh visa online?",
+        "a": "Yes. The visa application form can be completed online. The printed application and required documents must then be submitted to the relevant Bangladesh visa office."
       },
       {
-        "q": "Does having a visa guarantee entry into Bangladesh?",
-        "a": "No. A valid visa allows you to travel to Bangladesh, but final entry is determined by immigration officials at the port of entry."
+        "q": "How long does a Bangladesh visa take to process?",
+        "a": "The usual processing time is around 5 to 7 working days."
+      },
+      {
+        "q": "Do I need to submit the application personally?",
+        "a": "The completed application and required documents need to be submitted to the relevant Bangladesh High Commission or visa office."
+      },
+      {
+        "q": "What documents are required for a Bangladesh Tourist Visa?",
+        "a": "Common requirements include a valid passport, photographs, completed application form, confirmed return ticket, hotel booking, covering letter, bank statement and employment proof."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Additional documents may be requested during the visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Bangladesh consular specifications (35x45 mm, white background)",
+        "Completed and signed Bangladesh visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Bangladesh",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Bangladesh)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Bangladesh.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Bangladesh.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Bangladesh.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Bangladesh.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Bangladesh.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "belgium": {
     "name": "Belgium",
@@ -712,114 +1075,189 @@ window.VISION_VISA_COUNTRIES = {
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Global / Belgian Embassy",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Belgium Schengen Visa application, from document verification to submission guidance.",
+    "applyThrough": "VFS Global",
+    "insuranceRequirement": "Mandatory, €30,000 Coverage",
+    "overviewTitle": "Belgium Schengen Visa",
+    "overviewDescription": "Indian passport holders travelling to Belgium require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other short-term travel.\n\nA Belgium Schengen Visa generally permits a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance as part of the application.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Belgium Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed and signed Schengen visa application form",
+        "Recent passport-size photographs",
+        "Proof of accommodation",
+        "Flight reservation",
+        "Proof of sufficient financial means",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Proof of purpose of travel",
+        "Employment or business documents, where applicable"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Salary slips",
+        "Income Tax Returns",
+        "Employment confirmation or leave approval",
+        "Invitation letter, where applicable",
+        "Additional documents requested by the Belgian authorities"
       ],
-      "alertText": "The VFS Global / Belgian Embassy may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Travel medical insurance with minimum €30,000 coverage is mandatory. Additional documents or an interview may be requested."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Belgium visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Belgium."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Belgium consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Global / Belgian Embassy)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Belgium visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Belgium visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Belgium",
-      "subtitle": "Experience the Best of Belgium",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Belgium is a top destination.",
+      "subtitle": "Experience Belgium",
+      "desc": "Belgium offers a mix of historic cities, beautiful architecture, culture and European charm.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Belgium.",
+        "name": "Brussels",
+        "desc": "Explore Belgium's capital, Grand Place, historic architecture and museums.",
         "image": "/images/Belgium.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Bruges",
+        "desc": "Discover medieval streets, canals and historic buildings.",
         "image": "/images/Belgium.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Ghent",
+        "desc": "Experience historic architecture, canals and a lively cultural atmosphere.",
         "image": "/images/Belgium.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Belgian Cuisine",
+        "desc": "Enjoy Belgian favourites including chocolates, waffles and local dishes.",
         "image": "/images/Belgium.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - June & September - October",
       "currency": "Euro (EUR)",
       "language": "Dutch / French / German",
-      "timeZone": "GMT+1"
+      "timeZone": "GMT+1 (CET)"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Belgium visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Belgium?",
+        "a": "Yes. Indian passport holders require a Schengen Visa for short visits to Belgium."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "How long can I stay in Belgium on a Schengen Visa?",
+        "a": "A short-stay Schengen Visa generally allows a stay of up to 90 days within a 180-day period."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long does a Belgium Schengen Visa take to process?",
+        "a": "The usual processing time is around 15 working days."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Is travel insurance required for a Belgium Schengen Visa?",
+        "a": "Yes. Travel medical insurance with minimum coverage of €30,000 is mandatory."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Do I need to provide biometrics for a Belgium visa?",
+        "a": "Applicants may be required to provide their photograph and fingerprints as part of the visa application."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Global / Belgian Embassy)."
+        "q": "Where do I submit my Belgium visa application?",
+        "a": "The application is submitted through the appropriate Visa Application Centre."
+      },
+      {
+        "q": "What documents are required for a Belgium Schengen Visa?",
+        "a": "Common requirements include a valid passport, application form, photographs, accommodation proof, flight reservation, financial proof, travel insurance and supporting documents."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Belgian authorities may request additional documents or an interview during the assessment."
+      },
+      {
+        "q": "Does a Belgium visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of the border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Belgium / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Belgium and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Belgium and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Belgium.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Belgium.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "brazil": {
     "name": "Brazil",
@@ -827,235 +1265,366 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/br.png",
     "heroImage": "/images/Brazil.webp",
-    "processingTime": "7 - 12 Days",
+    "processingTime": "10-15 Working Days",
     "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Embassy of Brazil",
+    "entryType": "Multiple Entry",
+    "applyThrough": "Brazilian Consulate",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Brazil Visitor Visa application, from document verification to submission guidance.",
+    "overviewTitle": "Brazil Visitor Visa",
+    "overviewDescription": "Indian passport holders travelling to Brazil for tourism require a Visitor Visa. The visa allows eligible visitors to stay in Brazil for up to 90 days, subject to the visa granted.\n\nApplicants need to complete the online visa application and submit the required documents to the Brazilian Consulate. The application process includes document submission and payment of the applicable visa fee.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Brazil Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with at least 6 months validity",
+        "Completed visa application form",
+        "Recent passport-size photographs",
+        "Covering letter",
+        "Confirmed return air ticket",
+        "Hotel booking",
+        "Bank statement",
+        "Income Tax Returns",
+        "Employment proof",
+        "Travel itinerary"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Invitation letter, where applicable",
+        "Additional documents, if requested"
       ],
-      "alertText": "The Embassy of Brazil may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Brazilian Consulate may request additional documents during the visa assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Brazil visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Brazil."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Brazil consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Embassy of Brazil)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Brazil visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Brazil visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Brazil",
-      "subtitle": "Experience the Best of Brazil",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Brazil is a top destination.",
+      "subtitle": "Experience Brazil",
+      "desc": "Brazil offers a vibrant mix of iconic cities, beaches, natural landscapes and rich culture.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Brazil.",
+        "name": "Rio de Janeiro",
+        "desc": "Explore famous beaches, mountains and iconic landmarks.",
         "image": "/images/Brazil.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Amazon Rainforest",
+        "desc": "Experience one of the world's most remarkable natural environments.",
         "image": "/images/Brazil.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Iguazu Falls",
+        "desc": "Discover one of the world's most spectacular waterfall systems.",
         "image": "/images/Brazil.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Brazilian Culture",
+        "desc": "Experience Brazil's music, food, festivals and cultural traditions.",
         "image": "/images/Brazil.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - October",
       "currency": "Brazilian Real (BRL)",
       "language": "Portuguese",
       "timeZone": "GMT-3"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Brazil visa?",
-        "a": "Processing usually takes around 7 - 12 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Brazil?",
+        "a": "Indian passport holders travelling to Brazil for tourism require a valid Visitor Visa."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Brazil."
+        "q": "What visa is required for tourism in Brazil?",
+        "a": "The Visitor Visa is the appropriate visa for tourism and short visits to Brazil."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Brazil on a Visitor Visa?",
+        "a": "A Visitor Visa generally allows a stay of up to 90 days, subject to the visa granted."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What documents are required for a Brazil Visitor Visa?",
+        "a": "Common requirements include a valid passport, application form, photographs, covering letter, flight ticket, hotel booking, financial documents, employment proof and travel itinerary."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How long does a Brazil visa take to process?",
+        "a": "The usual processing time is around 10 to 15 working days."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Embassy of Brazil)."
+        "q": "Is travel insurance required for Brazil?",
+        "a": "Travel insurance is recommended for travel to Brazil."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Brazilian Consulate may request additional documents during the visa assessment."
+      },
+      {
+        "q": "Does a Brazil visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of Brazilian immigration authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from entry date and 2 blank pages",
+        "Printed Visa Request Form Receipt (RER) with uploaded photo and physical signature",
+        "One recent passport photograph (35x45 mm, white background, taken within 6 months)",
+        "Consular visa fee payment receipt"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 months stamped by the bank (showing sufficient funds)",
+        "Income Tax Returns (ITR-V) for the last 2 assessment years",
+        "Employment verification letter / Leave sanction letter on company letterhead",
+        "Last 3 months salary slips",
+        "Business incorporation documents & company financials (if self-employed)"
+      ],
+      "travel": [
+        "Confirmed round-trip flight booking / e-ticket reservation",
+        "Confirmed hotel reservations in Rio de Janeiro, São Paulo, etc.",
+        "Day-wise travel itinerary in Brazil"
+      ],
+      "additional": [
+        "Personal cover letter detailing travel objectives, dates, and financial responsibility",
+        "Notarized letter of invitation from Brazilian host or company (if visiting family or on business)",
+        "International Certificate of Vaccination for Yellow Fever (recommended for certain regions)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Visitor Visa (VIVIS - Tourist)",
+        "description": "For leisure vacations, sightseeing, carnival trips, and visiting family or friends.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Visitor Visa (VIVIS - Business)",
+        "description": "For attending commercial meetings, trade conferences, and exploring corporate contracts.",
+        "icon": "💼"
+      },
+      {
+        "name": "Transit Visa (VIVIS - Transit)",
+        "description": "For connecting flights passing through Brazilian territory to another final destination.",
+        "icon": "✈️"
+      },
+      {
+        "name": "Temporary Student Visa (VITEM IV)",
+        "description": "For higher education degrees and exchange programs in Brazil.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Temporary Work Visa (VITEM V)",
+        "description": "For foreign professionals with approved employment authorization from the Ministry of Labour.",
+        "icon": "🏢"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "canada": {
     "name": "Canada",
     "slug": "canada",
-    "visaType": "Visitor Visa (V-1)",
+    "visaType": "Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/ca.png",
     "heroImage": "/images/Canada.webp",
-    "processingTime": "15 - 30 Days",
+    "processingTime": "15-30 Working Days",
     "stayDuration": "Up to 6 Months",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Canada / IRCC Portal",
+    "applyThrough": "IRCC",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Canada Visitor Visa (V-1) application, from document verification to submission guidance.",
+    "overviewTitle": "Canada Visitor Visa",
+    "overviewDescription": "Indian passport holders travelling to Canada for tourism, visiting family or friends require a Canada Visitor Visa. The visa allows visitors to stay in Canada for up to 6 months, subject to the conditions granted.\n\nApplicants need to complete the visa application and provide the required documents, including financial proof, travel details and supporting documents. The application is submitted online through the IRCC portal.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Canada Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed visa application form",
+        "Recent passport-size photographs",
+        "Proof of financial means",
+        "Travel itinerary",
+        "Accommodation details",
+        "Employment proof",
+        "Bank statements",
+        "Income Tax Returns"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Invitation letter, where applicable",
+        "Travel history documents",
+        "Additional documents, if requested"
       ],
-      "alertText": "The VFS Canada / IRCC Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Additional documents may be requested by IRCC during the visa assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Canada visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Canada."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Canada consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Canada / IRCC Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Canada visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Canada visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Canada",
-      "subtitle": "Experience the Best of Canada",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Canada is a top destination.",
+      "subtitle": "Experience Canada",
+      "desc": "Canada offers a mix of vibrant cities, natural landscapes, mountains, lakes and memorable travel experiences.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Canada.",
+        "name": "Toronto",
+        "desc": "Explore Canada's largest city, known for its skyline, culture and waterfront.",
         "image": "/images/Canada.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Vancouver",
+        "desc": "Discover a scenic coastal city surrounded by mountains and beaches.",
         "image": "/images/Canada.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Banff",
+        "desc": "Experience spectacular mountain scenery, lakes and national parks.",
         "image": "/images/Canada.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Niagara Falls",
+        "desc": "Visit one of Canada's most famous natural attractions.",
         "image": "/images/Canada.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - October",
       "currency": "Canadian Dollar (CAD)",
       "language": "English / French",
-      "timeZone": "GMT-5"
+      "timeZone": "GMT-3:30 to GMT-8"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Canada visa?",
-        "a": "Processing usually takes around 15 - 30 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Canada?",
+        "a": "Yes. Indian passport holders require a Canada Visitor Visa for tourism and other permitted short-term visits."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Canada."
+        "q": "What is a Canada Visitor Visa?",
+        "a": "A Canada Visitor Visa allows eligible travellers to visit Canada temporarily for tourism, visiting family or friends and other permitted purposes."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Canada on a Visitor Visa?",
+        "a": "Visitors can generally stay in Canada for up to 6 months, subject to the period authorised by Canadian authorities."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Canada Visitor Visa take to process?",
+        "a": "The usual processing time is around 15 to 30 working days."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Can I apply for a Canada Visitor Visa online?",
+        "a": "Yes. The Canada Visitor Visa application can be submitted online through the IRCC portal."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Canada / IRCC Portal)."
+        "q": "Do Indian applicants need to give biometrics?",
+        "a": "Applicants may be required to provide fingerprints and a photograph as part of the application."
+      },
+      {
+        "q": "What documents are required for a Canada Visitor Visa?",
+        "a": "Common requirements include a valid passport, application form, photographs, financial proof, travel itinerary, accommodation details and employment documents."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. IRCC may request additional documents or information during the visa assessment."
+      },
+      {
+        "q": "Does a Canada Visitor Visa guarantee entry?",
+        "a": "No. Final entry and the authorised period of stay are determined by Canadian border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original valid passport with sufficient validity beyond the intended return date",
+        "Completed IRCC online Temporary Resident Visa application (IMM 5257) & Family Information form (IMM 5645)",
+        "IRCC visa fee & biometric fee payment receipts",
+        "Two passport photographs (35x45mm, white background) conforming to IRCC specifications",
+        "VFS Biometrics collection appointment letter"
+      ],
+      "financial": [
+        "Personal bank statements for the last 6 months certified by the bank",
+        "Income Tax Returns (ITR-V) for the last 3 assessment years",
+        "Employment letter / Leave approval NOC from current employer stating salary and designation",
+        "Pay slips for the last 3 to 6 months",
+        "Business registration (GST/incorporation) and corporate financial statements (if self-employed)"
+      ],
+      "travel": [
+        "Comprehensive travel itinerary detailing day-by-day sightseeing and city transfers in Canada",
+        "Confirmed hotel reservations or accommodation arrangements",
+        "Tentative return flight itinerary"
+      ],
+      "additional": [
+        "Statement of Purpose / Personal cover letter explaining visit objectives and ties to India",
+        "Proof of ties to home country (employment continuity, residential property, family dependents)",
+        "Invitation letter, Canadian host PR card/citizenship proof, and Notice of Assessment (if invited)",
+        "Copies of previous international visas and entry/exit stamps"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Visitor Visa (Tourist)",
+        "description": "For leisure travel, exploring Canadian national parks, and vacationing.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visitor Visa",
+        "description": "For attending business conferences, trade seminars, and meetings with Canadian companies.",
+        "icon": "💼"
+      },
+      {
+        "name": "Super Visa (Parents & Grandparents)",
+        "description": "Multi-entry visa allowing eligible parents and grandparents to stay up to 5 years per visit.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Study Permit",
+        "description": "For enrolled students at Designated Learning Institutions (DLI) in Canada.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work Permit",
+        "description": "For professionals with valid LMIA-approved job offers or intra-company transfers.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For travel through Canadian airports en route to another international destination.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "china": {
     "name": "China",
@@ -1063,117 +1632,178 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa (L)",
     "flagImage": "https://flagcdn.com/w40/cn.png",
     "heroImage": "/images/China.webp",
-    "processingTime": "7 - 10 Days",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Chinese Visa Application Service Center",
+    "processingTime": "6 Working Days",
+    "stayDuration": "As Granted",
+    "entryType": "Single / Double / Multiple",
+    "applyThrough": "Chinese Visa Application Service Centre",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your China Tourist Visa (L) application, from document verification to submission guidance.",
+    "overviewTitle": "China Tourist Visa",
+    "overviewDescription": "Indian passport holders travelling to China for tourism require a Chinese Tourist Visa. The L Visa is issued for tourism purposes.\n\nThe visa validity, permitted stay and number of entries depend on the visa granted. Applicants must complete the visa application and submit the required documents through the Chinese Visa Application Service Centre.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed China Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed Chinese visa application form",
+        "Recent passport-size photograph",
+        "Travel itinerary",
+        "Round-trip flight reservation",
+        "Hotel reservation",
+        "Documents supporting the purpose of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Employment confirmation or leave approval",
+        "Salary slips",
+        "Income Tax Returns",
+        "Invitation letter, where applicable",
+        "Additional documents, if requested"
       ],
-      "alertText": "The Chinese Visa Application Service Center may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Additional documents may be requested by the Chinese authorities during the visa application process."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate China visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to China."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against China consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Chinese Visa Application Service Center)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic China visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved China visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover China",
-      "subtitle": "Experience the Best of China",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why China is a top destination.",
+      "subtitle": "Experience China",
+      "desc": "China offers a blend of historic landmarks, modern cities, rich culture and remarkable landscapes.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of China.",
+        "name": "Beijing",
+        "desc": "Explore historic landmarks including the Forbidden City and Great Wall.",
         "image": "/images/China.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Shanghai",
+        "desc": "Experience China's modern skyline, waterfront and vibrant city life.",
         "image": "/images/China.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Great Wall of China",
+        "desc": "Discover one of China's most famous historic landmarks.",
         "image": "/images/China.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Chinese Culture & Cuisine",
+        "desc": "Experience China's traditions, festivals and diverse regional cuisine.",
         "image": "/images/China.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - May & September - October",
       "currency": "Chinese Yuan (CNY)",
-      "language": "Mandarin",
+      "language": "Mandarin Chinese",
       "timeZone": "GMT+8"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a China visa?",
-        "a": "Processing usually takes around 7 - 10 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for China?",
+        "a": "Yes. Indian passport holders generally require a Chinese visa for tourism."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to China."
+        "q": "Which China visa is required for tourism?",
+        "a": "The L Visa is the standard visa category for tourism in China."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in China on a Tourist Visa?",
+        "a": "The permitted stay depends on the visa granted."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a China Tourist Visa take to process?",
+        "a": "The usual processing time is around 6 working days."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Can I apply for a China visa online?",
+        "a": "The Chinese visa application form is completed online, followed by submission through the Chinese Visa Application Service Centre."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Chinese Visa Application Service Center)."
+        "q": "What documents are required for a China Tourist Visa?",
+        "a": "Common requirements include a valid passport, application form, photograph, travel itinerary, flight reservation, hotel reservation and supporting documents."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Additional documents or information may be requested during the visa assessment."
+      },
+      {
+        "q": "Does a China visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of Chinese immigration authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per China consular specifications (35x45 mm, white background)",
+        "Completed and signed China visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in China",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in China)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in China.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in China.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in China.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in China.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through China.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "costa-rica": {
     "name": "Costa Rica",
@@ -1181,117 +1811,176 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/cr.png",
     "heroImage": "/images/Costa-Rica.webp",
-    "processingTime": "10 - 15 Days",
-    "stayDuration": "Up to 30/90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Consulate of Costa Rica",
+    "processingTime": "15 Working Days",
+    "stayDuration": "90 Days",
+    "entryType": "Single Entry",
+    "applyThrough": "Costa Rican Consulate",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Costa Rica Tourist Visa application, from document verification to submission guidance.",
+    "overviewTitle": "Costa Rica Tourist Visa",
+    "overviewDescription": "Indian passport holders travelling to Costa Rica for tourism may require a Costa Rica Tourist Visa. Visa requirements depend on the traveller's circumstances and applicable entry rules.\n\nApplicants who require a visa need to submit the completed application along with the required documents to the Costa Rican Consulate. The visa validity and permitted stay are subject to the visa granted.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Costa Rica Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed visa application form",
+        "Recent passport-size photographs",
+        "Copy of passport",
+        "Confirmed return air ticket",
+        "Hotel booking",
+        "Bank statement",
+        "Proof of employment",
+        "Travel itinerary"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Invitation letter, where applicable",
+        "Additional documents, if requested"
       ],
-      "alertText": "The Consulate of Costa Rica may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Costa Rican Consulate may request additional documents during the visa assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Costa Rica visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Costa Rica."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Costa Rica consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Consulate of Costa Rica)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Costa Rica visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Costa Rica visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Costa Rica",
-      "subtitle": "Experience the Best of Costa Rica",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Costa Rica is a top destination.",
+      "subtitle": "Experience Costa Rica",
+      "desc": "Costa Rica offers tropical landscapes, rainforests, volcanoes, beaches and rich natural beauty.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Costa Rica.",
+        "name": "San José",
+        "desc": "Explore Costa Rica's capital, museums, markets and local culture.",
         "image": "/images/Costa-Rica.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Arenal Volcano",
+        "desc": "Discover volcanic landscapes, forests and natural attractions.",
         "image": "/images/Costa-Rica.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Monteverde",
+        "desc": "Experience cloud forests, biodiversity and scenic nature trails.",
         "image": "/images/Costa-Rica.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Costa Rican Beaches",
+        "desc": "Relax along Costa Rica's beautiful Pacific and Caribbean coastlines.",
         "image": "/images/Costa-Rica.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "December - April",
       "currency": "Costa Rican Colón (CRC)",
       "language": "Spanish",
       "timeZone": "GMT-6"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Costa Rica visa?",
-        "a": "Processing usually takes around 10 - 15 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Costa Rica?",
+        "a": "Indian passport holders may require a Costa Rica Tourist Visa depending on their circumstances and applicable entry requirements."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Costa Rica."
+        "q": "What visa is required for tourism in Costa Rica?",
+        "a": "The Costa Rica Tourist Visa is applicable for travellers visiting the country for tourism."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Costa Rica on a tourist visa?",
+        "a": "The permitted stay depends on the visa granted and applicable immigration rules."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Costa Rica Tourist Visa take to process?",
+        "a": "The usual processing time is around 15 working days."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "What documents are required for a Costa Rica Tourist Visa?",
+        "a": "Common requirements include a valid passport, application form, photographs, passport copy, return ticket, hotel booking, bank statement, employment proof and travel itinerary."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Consulate of Costa Rica)."
+        "q": "Is travel insurance required for Costa Rica?",
+        "a": "Travel insurance is recommended for travel to Costa Rica."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Costa Rican Consulate may request additional documents during the visa assessment."
+      },
+      {
+        "q": "Does a Costa Rica visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of Costa Rican immigration authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Costa Rica consular specifications (35x45 mm, white background)",
+        "Completed and signed Costa Rica visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Costa Rica",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Costa Rica)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Costa Rica.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Costa Rica.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Costa Rica.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Costa Rica.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Costa Rica.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "croatia": {
     "name": "Croatia",
@@ -1302,350 +1991,579 @@ window.VISION_VISA_COUNTRIES = {
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Global / Croatian Embassy",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Croatia Schengen Visa application, from document verification to submission guidance.",
+    "applyThrough": "VFS Global",
+    "insuranceRequirement": "Mandatory, €30,000 Coverage",
+    "overviewTitle": "Croatia Schengen Visa",
+    "overviewDescription": "Indian passport holders travelling to Croatia require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other permitted short-term travel.\n\nA Croatia Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Croatia Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed and signed Schengen visa application form",
+        "Recent passport-size photographs",
+        "Proof of accommodation",
+        "Flight reservation",
+        "Proof of sufficient financial means",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Proof of purpose of travel",
+        "Employment or business documents, where applicable"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Salary slips",
+        "Income Tax Returns",
+        "Employment confirmation or leave approval",
+        "Invitation letter, where applicable",
+        "Additional documents requested by the Croatian authorities"
       ],
-      "alertText": "The VFS Global / Croatian Embassy may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Travel medical insurance with minimum €30,000 coverage is mandatory. Additional documents or information may be requested during the assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Croatia visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Croatia."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Croatia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Global / Croatian Embassy)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Croatia visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Croatia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Croatia",
-      "subtitle": "Experience the Best of Croatia",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Croatia is a top destination.",
+      "subtitle": "Experience Croatia",
+      "desc": "Croatia offers a mix of historic cities, beautiful coastlines, cultural landmarks and natural landscapes.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Croatia.",
+        "name": "Dubrovnik",
+        "desc": "Explore the historic Old Town, city walls and views of the Adriatic Sea.",
         "image": "/images/Croatia.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Split",
+        "desc": "Discover Diocletian's Palace and the lively waterfront.",
         "image": "/images/Croatia.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Plitvice Lakes",
+        "desc": "Experience beautiful lakes, waterfalls and forest landscapes.",
         "image": "/images/Croatia.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Adriatic Coast",
+        "desc": "Enjoy Croatia's islands, beaches, coastal towns and clear waters.",
         "image": "/images/Croatia.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - June & September - October",
       "currency": "Euro (EUR)",
       "language": "Croatian",
-      "timeZone": "GMT+1"
+      "timeZone": "GMT+1 (CET)"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Croatia visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Croatia?",
+        "a": "Yes. Indian passport holders require a Schengen Visa for short visits to Croatia."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Croatia part of the Schengen Area?",
+        "a": "Yes. Croatia is part of the Schengen Area."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Croatia on a Schengen Visa?",
+        "a": "A short-stay Schengen Visa generally allows a stay of up to 90 days within a 180-day period."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Croatia Schengen Visa take to process?",
+        "a": "The usual processing time is around 15 working days."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance required for a Croatia Schengen Visa?",
+        "a": "Yes. Travel medical insurance with minimum €30,000 coverage is mandatory."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Global / Croatian Embassy)."
+        "q": "Do I need to provide biometrics for a Croatia visa?",
+        "a": "Applicants may be required to provide biometric information as part of the Schengen visa application."
+      },
+      {
+        "q": "What documents are required for a Croatia Schengen Visa?",
+        "a": "Common requirements include a valid passport, application form, photographs, accommodation proof, flight reservation, financial proof, travel insurance and supporting documents."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Croatian authorities may request additional documents or information during the visa assessment."
+      },
+      {
+        "q": "Does a Croatia visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of the border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Croatia / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Croatia and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Croatia and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Croatia.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Croatia.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "cyprus": {
     "name": "Cyprus",
     "slug": "cyprus",
-    "visaType": "National Tourist Visa",
+    "visaType": "Short-Stay Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/cy.png",
     "heroImage": "/images/Cyprus.webp",
-    "processingTime": "7 - 10 Days",
+    "processingTime": "10 - 15 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "Consulate of Cyprus",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Cyprus National Tourist Visa application, from document verification to submission guidance.",
+    "applyThrough": "VFS Global",
+    "insuranceRequirement": "Mandatory, €30,000 Coverage",
+    "overviewTitle": "Cyprus Tourist Visa",
+    "overviewDescription": "Indian passport holders travelling to Cyprus for tourism require a Cyprus Short-Stay Tourist Visa. The visa allows eligible travellers to stay for up to 90 days, subject to the visa granted.\n\nApplicants need to complete the visa application and submit the required documents through the appropriate Visa Application Centre. Travel medical insurance with minimum €30,000 coverage is required.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Cyprus Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed and signed visa application form",
+        "Two recent passport-size photographs",
+        "Round-trip flight itinerary",
+        "Confirmed hotel or accommodation details",
+        "Bank statement for the last 3 months",
+        "Proof of employment or source of income",
+        "Tax declaration for the last 3 years",
+        "Medical travel insurance with minimum €30,000 coverage",
+        "Covering letter stating the purpose of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Employment letter or approved leave",
+        "Salary or income documents",
+        "Invitation letter, where applicable",
+        "Business documents, where applicable",
+        "Old passports, where available",
+        "Additional documents requested by the Cyprus authorities"
       ],
-      "alertText": "The Consulate of Cyprus may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Medical travel insurance with minimum €30,000 coverage is mandatory. Additional documents may be requested during the visa assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Cyprus visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Cyprus."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Cyprus consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Consulate of Cyprus)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Cyprus visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Cyprus visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Cyprus",
-      "subtitle": "Experience the Best of Cyprus",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Cyprus is a top destination.",
+      "subtitle": "Experience Cyprus",
+      "desc": "Cyprus offers a blend of Mediterranean beaches, historic sites, cultural heritage and scenic landscapes.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Cyprus.",
+        "name": "Nicosia",
+        "desc": "Explore Cyprus's historic capital, museums, old city and cultural heritage.",
         "image": "/images/Cyprus.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Paphos",
+        "desc": "Discover ancient archaeological sites, coastal scenery and historic landmarks.",
         "image": "/images/Cyprus.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Limassol",
+        "desc": "Enjoy a lively coastal city with beaches, restaurants and a vibrant waterfront.",
         "image": "/images/Cyprus.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Troodos Mountains",
+        "desc": "Experience mountain villages, nature trails and historic monasteries.",
         "image": "/images/Cyprus.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - June & September - October",
       "currency": "Euro (EUR)",
       "language": "Greek / Turkish",
       "timeZone": "GMT+2"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Cyprus visa?",
-        "a": "Processing usually takes around 7 - 10 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Cyprus?",
+        "a": "Yes. Indian passport holders generally require a Cyprus visa for short visits."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Cyprus part of the Schengen Area?",
+        "a": "No. Cyprus is not currently part of the Schengen Area."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Cyprus on a tourist visa?",
+        "a": "A short-stay Cyprus visa can allow a stay of up to 90 days, subject to the visa granted."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Cyprus Tourist Visa take to process?",
+        "a": "The usual processing time is around 10 to 15 working days."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance required for a Cyprus visa?",
+        "a": "Yes. Medical travel insurance with minimum €30,000 coverage is mandatory."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Consulate of Cyprus)."
+        "q": "What documents are required for a Cyprus Tourist Visa?",
+        "a": "Common requirements include a valid passport, application form, photographs, flight itinerary, accommodation details, bank statement, employment proof, tax declaration, travel insurance and covering letter."
+      },
+      {
+        "q": "Where do I submit my Cyprus visa application?",
+        "a": "The application is submitted through the appropriate VFS Visa Application Centre."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Cyprus authorities may request additional documents or information during the assessment."
+      },
+      {
+        "q": "Does a Cyprus visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of Cyprus immigration authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Cyprus consular specifications (35x45 mm, white background)",
+        "Completed and signed Cyprus visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Cyprus",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Cyprus)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Cyprus.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Cyprus.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Cyprus.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Cyprus.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Cyprus.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "czech-republic": {
     "name": "Czech Republic",
     "slug": "czech-republic",
-    "visaType": "Schengen Visa",
+    "visaType": "Czech Republic Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/cz.png",
     "heroImage": "/images/Czech-Republic.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "VFS Global / Czech Embassy",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Czech Republic Schengen Visa application, from document verification to submission guidance.",
+    "processingTime": "Usually Up to 15 Days",
+    "stayDuration": "Up to 90 Days in 180 Days",
+    "entryType": "Single / Multiple, as granted",
+    "applyThrough": "VFS Global / Czech Embassy or Consulate",
+    "insuranceRequirement": "Mandatory, €30,000 Minimum",
+    "overviewTitle": "About Czech Republic Visa",
+    "overviewDescription": "Planning a trip to the Czech Republic? Indian passport holders generally need a Schengen visa before travelling to Czechia for tourism, visiting family or friends, business or other permitted short stays.\n\nThe Czech Republic is part of the Schengen Area. A short-stay Schengen visa allows eligible travellers to stay for up to 90 days within any 180-day period, subject to the conditions of the visa issued.\n\nDo Indians Need a Visa for the Czech Republic?\nYes. Indian citizens generally require a Schengen visa before travelling to the Czech Republic for a short stay. If your trip includes more than one Schengen country, you should apply through the country that is your main destination according to Schengen visa rules.\n\nCzech Republic Visa Processing Time\nShort-stay Schengen visa applications are normally processed within 15 calendar days after the application is accepted. In individual cases, processing can be extended up to 45 calendar days when further examination, consultation or verification is required. Applicants in India are advised to apply well in advance of their planned journey.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Czech Republic Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport meeting Schengen requirements",
+        "Completed and signed Schengen visa application form",
+        "Recent passport-size photograph",
+        "Proof of accommodation",
+        "Flight reservation or travel itinerary",
+        "Proof of sufficient financial means",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Documents showing the purpose of travel",
+        "Proof of intention to leave the Schengen Area",
+        "Additional documents required for the visa category"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Salary slips or income documents",
+        "Employment confirmation or approved leave",
+        "Income Tax Returns, where applicable",
+        "Business registration documents, where applicable",
+        "Invitation letter, where applicable",
+        "Proof of family, professional or financial ties to India",
+        "Additional documents requested by the Czech authorities"
       ],
-      "alertText": "The VFS Global / Czech Embassy may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Czech Embassy, Consulate or Visa Application Centre may request additional documents, information or an interview during the assessment. Applicants must provide documents relevant to their specific purpose of travel."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Czech Republic visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Czech Republic."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Czech Republic consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Global / Czech Embassy)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Czech Republic visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Czech Republic visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Czech Republic",
-      "subtitle": "Experience the Best of Czech Republic",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Czech Republic is a top destination.",
+      "subtitle": "Experience Czechia",
+      "desc": "From Prague's historic streets and castles to medieval towns, beautiful landscapes and traditional cuisine, Czechia offers a rich mix of history, culture and European charm.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Czech Republic.",
+        "name": "Prague",
+        "desc": "Explore Prague Castle, Charles Bridge, the Old Town and the city's historic architecture.",
         "image": "/images/Czech-Republic.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Český Krumlov",
+        "desc": "Discover a beautifully preserved medieval town surrounded by the Vltava River.",
         "image": "/images/Czech-Republic.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Karlovy Vary",
+        "desc": "Experience the famous spa town known for its mineral springs, architecture and surrounding scenery.",
         "image": "/images/Czech-Republic.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Czech Culture & Cuisine",
+        "desc": "Enjoy traditional Czech dishes, historic cafés, local traditions and a strong cultural heritage.",
         "image": "/images/Czech-Republic.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - June & September - October",
       "currency": "Czech Koruna (CZK)",
       "language": "Czech",
-      "timeZone": "GMT+1"
+      "timeZone": "GMT+1 (CET)"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Czech Republic visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for the Czech Republic?",
+        "a": "Yes. Indian citizens generally need a Schengen visa before travelling to the Czech Republic for a short stay."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is the Czech Republic part of the Schengen Area?",
+        "a": "Yes. The Czech Republic is part of the Schengen Area, and its short-stay visa follows the Schengen visa rules."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in the Czech Republic on a Schengen visa?",
+        "a": "A short-stay Schengen visa generally allows a stay of up to 90 days within any 180-day period, subject to the conditions of the visa issued."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Czech Republic visa take to process?",
+        "a": "Applications are normally processed within 15 calendar days. In individual cases, processing can take up to 45 calendar days if additional examination or verification is required."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How early can I apply for a Czech Schengen visa?",
+        "a": "A Schengen visa application can generally be submitted up to 6 months before the planned journey. The Czech Embassy in India recommends applying at least 3 weeks before departure."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Global / Czech Embassy)."
+        "q": "Is travel insurance mandatory for a Czech Republic visa?",
+        "a": "Yes. Travel medical insurance must cover the Schengen Area for the intended stay and provide minimum coverage of €30,000."
+      },
+      {
+        "q": "Do Indian applicants need to provide biometrics?",
+        "a": "Schengen applicants generally submit fingerprints and a photograph during the application process, subject to applicable exemptions. Children under 12 are exempt from fingerprint collection."
+      },
+      {
+        "q": "Can I apply for a Czech visa through VFS Global in India?",
+        "a": "Yes. Applicants legally residing in India generally submit short-stay Czech Schengen visa applications through a VFS Global Visa Application Centre."
+      },
+      {
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "A flight reservation or itinerary is generally part of the supporting documents. It is advisable to avoid purchasing non-refundable tickets before the visa is approved."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Czech authorities may request additional documents, information or an interview during the assessment of your application."
+      },
+      {
+        "q": "Does a Czech Republic Schengen visa guarantee entry?",
+        "a": "No. A valid visa allows you to travel subject to its conditions, but final entry is determined by border authorities when you arrive."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Czech Republic / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Czech Republic and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Czech Republic and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Czech Republic.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Czech Republic.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "denmark": {
     "name": "Denmark",
@@ -1656,114 +2574,195 @@ window.VISION_VISA_COUNTRIES = {
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Denmark",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Denmark Schengen Visa application, from document verification to submission guidance.",
+    "applyThrough": "VFS Global",
+    "insuranceRequirement": "Mandatory, €30,000 Coverage",
+    "overviewTitle": "Denmark Schengen Visa",
+    "overviewDescription": "Indian passport holders travelling to Denmark require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other permitted short-term travel.\n\nA Denmark Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Denmark Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed and signed Schengen visa application form",
+        "Recent passport-size photograph",
+        "Proof of accommodation",
+        "Return or round-trip flight reservation",
+        "Travel itinerary",
+        "Proof of sufficient financial means",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Proof of employment or source of income",
+        "Documents supporting the purpose of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statement",
+        "Income Tax Return acknowledgements",
+        "Recent salary slips",
+        "Employment confirmation or leave letter",
+        "Business documents, where applicable",
+        "Invitation or sponsorship documents, where applicable",
+        "Additional documents requested by the Danish authorities"
       ],
-      "alertText": "The VFS Denmark may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Travel medical insurance with minimum €30,000 coverage is mandatory. Additional documents or an interview may be requested during the assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Denmark visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Denmark."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Denmark consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Denmark)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Denmark visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Denmark visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Denmark",
-      "subtitle": "Experience the Best of Denmark",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Denmark is a top destination.",
+      "subtitle": "Experience Denmark",
+      "desc": "Denmark offers a blend of historic cities, coastal landscapes, culture, design and Nordic charm.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Denmark.",
+        "name": "Copenhagen",
+        "desc": "Explore Nyhavn, royal landmarks, historic streets and the waterfront.",
         "image": "/images/Copenhagen-denmark.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Roskilde",
+        "desc": "Discover Denmark's historic city and its Viking heritage.",
         "image": "/images/Copenhagen-denmark.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Aarhus",
+        "desc": "Experience museums, architecture and the cultural life of Denmark's second-largest city.",
         "image": "/images/Copenhagen-denmark.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Danish Coast",
+        "desc": "Enjoy scenic coastlines, countryside and charming Danish landscapes.",
         "image": "/images/Copenhagen-denmark.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Danish Krone (DKK)",
       "language": "Danish",
-      "timeZone": "GMT+1"
+      "timeZone": "GMT+1 (CET)"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Denmark visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Denmark?",
+        "a": "Yes. Indian passport holders require a Schengen Visa for short visits to Denmark."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Denmark part of the Schengen Area?",
+        "a": "Yes. Denmark is part of the Schengen Area."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Denmark on a Schengen Visa?",
+        "a": "A short-stay Schengen Visa generally allows a stay of up to 90 days within a 180-day period."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Denmark Schengen Visa take to process?",
+        "a": "The usual processing time is around 15 working days."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance required for a Denmark visa?",
+        "a": "Yes. Travel medical insurance with minimum €30,000 coverage is mandatory."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Denmark)."
+        "q": "Can I apply for a Denmark visa through VFS Global?",
+        "a": "Yes. Denmark visa applications can be submitted through the appropriate VFS Global Visa Application Centre."
+      },
+      {
+        "q": "Do I need to provide biometrics for a Denmark visa?",
+        "a": "Applicants may be required to provide fingerprints and other biometric information as part of the Schengen visa process."
+      },
+      {
+        "q": "What documents are required for a Denmark Schengen Visa?",
+        "a": "Common requirements include a valid passport, application form, photograph, accommodation proof, flight reservation, financial proof, travel insurance and supporting documents."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Danish authorities may request additional documents or an interview during the assessment."
+      },
+      {
+        "q": "Does a Denmark visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of the border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Denmark / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Denmark and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Denmark and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Denmark.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Denmark.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "egypt": {
     "name": "Egypt",
@@ -1771,117 +2770,171 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa / eVisa",
     "flagImage": "https://flagcdn.com/w40/eg.png",
     "heroImage": "/images/Egypt.webp",
-    "processingTime": "5 - 7 Days",
+    "processingTime": "7 Working Days",
     "stayDuration": "Up to 30 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "Egypt Visa Center / eVisa",
+    "applyThrough": "Egypt eVisa Portal",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Egypt Tourist Visa / eVisa application, from document verification to submission guidance.",
+    "overviewTitle": "Egypt Tourist Visa",
+    "overviewDescription": "Indian passport holders travelling to Egypt for tourism require a valid Egypt Tourist Visa. Eligible Indian travellers can apply for an Egypt eVisa online.\n\nThe eVisa application can be completed online through the official Egypt eVisa Portal. Applicants should create their application at least 7 days before departure and provide the required travel and passport details.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Egypt Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with at least 6 months validity",
+        "Completed Egypt visa application",
+        "Clear passport information page",
+        "Recent passport-size photograph, where required",
+        "Travel itinerary",
+        "Hotel booking or accommodation details",
+        "Printed copy of approved eVisa"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Return or onward flight details",
+        "Bank statements or proof of funds, where required",
+        "Employment or income documents, where applicable",
+        "Additional documents, if requested"
       ],
-      "alertText": "The Egypt Visa Center / eVisa may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Additional documents or information may be requested by Egyptian visa authorities during the application process."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Egypt visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Egypt."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Egypt consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Egypt Visa Center / eVisa)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Egypt visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Egypt visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Egypt",
-      "subtitle": "Experience the Best of Egypt",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Egypt is a top destination.",
+      "subtitle": "Experience Egypt",
+      "desc": "Egypt offers a fascinating mix of ancient landmarks, historic cities, the Nile and beautiful coastal destinations.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Egypt.",
+        "name": "Pyramids of Giza",
+        "desc": "Visit one of the world's most famous ancient landmarks and the Great Sphinx.",
         "image": "/images/Egypt.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Cairo",
+        "desc": "Explore Egypt's capital, museums, historic sites and vibrant markets.",
         "image": "/images/Egypt.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Nile & Luxor",
+        "desc": "Discover ancient temples and historic sites along the Nile.",
         "image": "/images/Egypt.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Red Sea Coast",
+        "desc": "Enjoy beaches, clear waters and coral reefs along Egypt's Red Sea coast.",
         "image": "/images/Egypt.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "October - April",
       "currency": "Egyptian Pound (EGP)",
       "language": "Arabic",
-      "timeZone": "GMT+2"
+      "timeZone": "GMT+3"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Egypt visa?",
-        "a": "Processing usually takes around 5 - 7 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Egypt?",
+        "a": "Yes. Indian passport holders require a visa before travelling to Egypt."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Egypt."
+        "q": "Can Indians apply for an Egypt eVisa?",
+        "a": "Yes. Eligible Indian travellers can apply for an Egypt Tourist eVisa online."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How early should I apply for an Egypt eVisa?",
+        "a": "Applicants should create their eVisa application at least 7 days before departure."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long can I stay in Egypt on a tourist visa?",
+        "a": "The permitted stay depends on the visa granted, with tourist visas allowing short-term stays."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Can I get a single-entry or multiple-entry Egypt tourist visa?",
+        "a": "Yes. Single-entry and multiple-entry tourist visa options are available, subject to eligibility and approval."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Egypt Visa Center / eVisa)."
+        "q": "What documents are required for an Egypt Tourist Visa?",
+        "a": "Common requirements include a passport valid for at least 6 months, visa application, passport information page, travel itinerary and accommodation details."
+      },
+      {
+        "q": "Do I need to print my Egypt eVisa?",
+        "a": "Yes. The approved eVisa should be downloaded and printed for presentation at immigration."
+      },
+      {
+        "q": "Is travel insurance required for Egypt?",
+        "a": "Travel insurance is recommended for travel to Egypt."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Additional documents or information may be requested during the visa assessment."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with min 6 months validity (or clear scan for eVisa)",
+        "Completed Egypt visa application form",
+        "Two recent passport photographs (35x45 mm, white background)",
+        "Visa fee payment receipt"
+      ],
+      "financial": [
+        "Personal bank statements for the last 6 months stamped by bank",
+        "Employment NOC / salary slips or business proof (for consular submission)"
+      ],
+      "travel": [
+        "Confirmed round-trip flight tickets",
+        "Confirmed hotel reservations in Cairo, Giza, Luxor, or Red Sea resorts",
+        "Comprehensive travel itinerary for Egypt sightseeing"
+      ],
+      "additional": [
+        "Cover letter stating purpose and schedule of travel",
+        "Invitation letter from host or authorized Egyptian travel agency (if applicable)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist eVisa / Sticker Visa (Single Entry)",
+        "description": "Valid for 90 days, allowing up to 30 days stay for exploring pyramids, Nile cruises, and heritage.",
+        "icon": "🏛️"
+      },
+      {
+        "name": "Multiple Entry Tourist Visa",
+        "description": "Valid for 6 months, allowing multiple entries up to 30 days per visit.",
+        "icon": "🌴"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For commercial meetings, trade conferences, and industrial partnerships in Egypt.",
+        "icon": "💼"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For connecting flight layovers exceeding international airport transit zones.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "estonia": {
     "name": "Estonia",
@@ -1892,114 +2945,193 @@ window.VISION_VISA_COUNTRIES = {
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Estonia",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Estonia Schengen Visa application, from document verification to submission guidance.",
+    "applyThrough": "VFS Global",
+    "insuranceRequirement": "Mandatory, €30,000 Coverage",
+    "overviewTitle": "Estonia Schengen Visa",
+    "overviewDescription": "Indian passport holders travelling to Estonia require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other permitted short-term travel.\n\nA short-stay Estonia Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Estonia Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed and signed Schengen visa application form",
+        "Recent passport-size photograph",
+        "Proof of accommodation",
+        "Flight reservation",
+        "Proof of sufficient financial means",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Documents supporting the purpose of travel",
+        "Proof of employment or source of income"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Salary slips",
+        "Income Tax Returns",
+        "Employment confirmation or leave approval",
+        "Invitation letter, where applicable",
+        "Additional documents requested by Estonian authorities"
       ],
-      "alertText": "The VFS Estonia may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Travel medical insurance with minimum €30,000 coverage is mandatory. Additional documents, information or an interview may be requested during the assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Estonia visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Estonia."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Estonia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Estonia)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Estonia visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Estonia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Estonia",
-      "subtitle": "Experience the Best of Estonia",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Estonia is a top destination.",
+      "subtitle": "Experience Estonia",
+      "desc": "Estonia offers a mix of medieval heritage, natural landscapes, Baltic coastline and Nordic culture.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Estonia.",
+        "name": "Tallinn Old Town",
+        "desc": "Explore the medieval centre, historic streets, towers and traditional architecture.",
         "image": "/images/Estonia.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Kadriorg Palace",
+        "desc": "Discover the elegant palace, gardens and museums in Tallinn.",
         "image": "/images/Estonia.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Lahemaa National Park",
+        "desc": "Experience forests, coastal landscapes and Estonia's natural beauty.",
         "image": "/images/Estonia.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Estonian Culture",
+        "desc": "Experience local traditions, food and Estonia's distinctive cultural heritage.",
         "image": "/images/Estonia.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Euro (EUR)",
       "language": "Estonian",
-      "timeZone": "GMT+2"
+      "timeZone": "GMT+2 (EET)"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Estonia visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Estonia?",
+        "a": "Yes. Indian passport holders require a Schengen Visa for short visits to Estonia."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Estonia part of the Schengen Area?",
+        "a": "Yes. Estonia is part of the Schengen Area."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Estonia on a Schengen Visa?",
+        "a": "A short-stay Schengen Visa generally allows a stay of up to 90 days within a 180-day period."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does an Estonia Schengen Visa take to process?",
+        "a": "The usual processing time is around 15 working days."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance required for an Estonia visa?",
+        "a": "Yes. Travel medical insurance with minimum €30,000 coverage is mandatory."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Estonia)."
+        "q": "Do I need to provide biometrics for an Estonia visa?",
+        "a": "Applicants may be required to provide biometric information as part of the Schengen visa application."
+      },
+      {
+        "q": "What documents are required for an Estonia Schengen Visa?",
+        "a": "Common requirements include a valid passport, application form, photograph, accommodation proof, flight reservation, financial proof, travel insurance and supporting documents."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Estonian authorities may request additional documents, information or an interview during the assessment."
+      },
+      {
+        "q": "Can I visit other Schengen countries with an Estonia visa?",
+        "a": "Yes. A valid Schengen Visa can generally be used to travel within the Schengen Area, subject to its conditions."
+      },
+      {
+        "q": "Does an Estonia visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of the border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Estonia / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Estonia and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Estonia and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Estonia.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Estonia.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "finland": {
     "name": "Finland",
@@ -2010,114 +3142,193 @@ window.VISION_VISA_COUNTRIES = {
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Finland",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Finland Schengen Visa application, from document verification to submission guidance.",
+    "applyThrough": "VFS Global",
+    "insuranceRequirement": "Mandatory, €30,000 Coverage",
+    "overviewTitle": "Finland Schengen Visa",
+    "overviewDescription": "Indian passport holders travelling to Finland require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other permitted short-term travel.\n\nA Finland Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Finland Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed and signed Schengen visa application form",
+        "Recent passport-size photograph",
+        "Proof of accommodation",
+        "Flight reservation",
+        "Proof of sufficient financial means",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Proof of purpose of travel",
+        "Proof of employment or source of income"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Salary slips",
+        "Income Tax Returns",
+        "Employment confirmation or leave approval",
+        "Invitation or sponsorship documents, where applicable",
+        "Additional documents requested by Finnish authorities"
       ],
-      "alertText": "The VFS Finland may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Travel medical insurance with minimum €30,000 coverage is mandatory. Additional documents or an interview may be requested during the assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Finland visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Finland."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Finland consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Finland)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Finland visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Finland visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Finland",
-      "subtitle": "Experience the Best of Finland",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Finland is a top destination.",
+      "subtitle": "Experience Finland",
+      "desc": "Finland offers a unique mix of Nordic culture, peaceful landscapes, modern cities and natural beauty.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Finland.",
+        "name": "Helsinki",
+        "desc": "Explore Finland's coastal capital, known for architecture, design, markets and waterfront views.",
         "image": "/images/Finland.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Lapland",
+        "desc": "Experience Arctic landscapes, winter activities and the Northern Lights.",
         "image": "/images/Finland.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Finnish Lake District",
+        "desc": "Discover peaceful lakes, forests, islands and beautiful countryside.",
         "image": "/images/Finland.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Finnish Culture & Design",
+        "desc": "Experience Finnish design, food, saunas and Nordic traditions.",
         "image": "/images/Finland.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "June - August & December - March",
       "currency": "Euro (EUR)",
       "language": "Finnish / Swedish",
-      "timeZone": "GMT+2"
+      "timeZone": "GMT+2 (EET)"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Finland visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Finland?",
+        "a": "Yes. Indian passport holders require a Schengen Visa for short visits to Finland."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Finland part of the Schengen Area?",
+        "a": "Yes. Finland is part of the Schengen Area."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Finland on a Schengen Visa?",
+        "a": "A short-stay Schengen Visa generally allows a stay of up to 90 days within a 180-day period."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Finland Schengen Visa take to process?",
+        "a": "The usual processing time is around 15 working days."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance required for a Finland visa?",
+        "a": "Yes. Travel medical insurance with minimum €30,000 coverage is mandatory."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Finland)."
+        "q": "Can I apply for a Finland visa through VFS Global?",
+        "a": "Yes. Finland visa applications in India can be submitted through the appropriate VFS Global Visa Application Centre."
+      },
+      {
+        "q": "Do I need to provide biometrics for a Finland visa?",
+        "a": "Applicants may be required to provide biometric information as part of the Schengen visa application."
+      },
+      {
+        "q": "What documents are required for a Finland Schengen Visa?",
+        "a": "Common requirements include a valid passport, application form, photograph, accommodation proof, flight reservation, financial proof, travel insurance and supporting documents."
+      },
+      {
+        "q": "Can additional documents or an interview be requested?",
+        "a": "Yes. Finnish authorities may request additional documents or invite an applicant for an interview."
+      },
+      {
+        "q": "Does a Finland visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of the border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Finland / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Finland and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Finland and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Finland.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Finland.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "france": {
     "name": "France",
@@ -2125,235 +3336,384 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/fr.png",
     "heroImage": "/images/France.webp",
-    "processingTime": "10 - 15 Days",
+    "processingTime": "15 Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS France / TLScontact",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your France Schengen Visa application, from document verification to submission guidance.",
+    "applyThrough": "France-Visas / VFS Global",
+    "insuranceRequirement": "Mandatory, €30,000 Coverage",
+    "overviewTitle": "France Schengen Visa",
+    "overviewDescription": "Indian passport holders generally need a Schengen Visa to visit France for tourism, business, visiting family or friends and other permitted short stays.\n\nA France Schengen Visa allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions of the visa granted. The application starts through France-Visas and is submitted through VFS Global in India.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed France Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed France-Visas application",
+        "Recent passport-size photograph",
+        "Proof of accommodation",
+        "Flight reservation or travel itinerary",
+        "Proof of sufficient financial means",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Proof of purpose of travel",
+        "Proof of professional or personal circumstances in India"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Salary slips or income documents",
+        "Employment confirmation or leave approval",
+        "Income Tax Returns, where applicable",
+        "Invitation or sponsorship documents, where applicable",
+        "Additional documents requested by French authorities"
       ],
-      "alertText": "The VFS France / TLScontact may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Travel medical insurance with minimum €30,000 coverage is mandatory. French authorities may request additional documents or an interview."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate France visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to France."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against France consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS France / TLScontact)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic France visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved France visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover France",
-      "subtitle": "Experience the Best of France",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why France is a top destination.",
+      "subtitle": "Experience France",
+      "desc": "France offers a blend of iconic landmarks, historic cities, beautiful coastlines, countryside and world-renowned culture.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of France.",
+        "name": "Paris",
+        "desc": "Explore the Eiffel Tower, Louvre Museum, Seine River and historic streets.",
         "image": "/images/France.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "French Riviera",
+        "desc": "Discover Mediterranean beaches, coastal towns and cities such as Nice and Cannes.",
         "image": "/images/France.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "French Countryside",
+        "desc": "Experience historic châteaux, vineyards, villages and scenic landscapes.",
         "image": "/images/France.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "French Culture & Cuisine",
+        "desc": "Enjoy French food, cafés, art, fashion and local traditions.",
         "image": "/images/France.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - June & September - October",
       "currency": "Euro (EUR)",
       "language": "French",
-      "timeZone": "GMT+1"
+      "timeZone": "GMT+1 (CET)"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a France visa?",
-        "a": "Processing usually takes around 10 - 15 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for France?",
+        "a": "Yes. Indian passport holders generally need a Schengen Visa for short visits to France."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is France part of the Schengen Area?",
+        "a": "Yes. France is part of the Schengen Area."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in France on a Schengen Visa?",
+        "a": "A short-stay Schengen Visa generally allows a stay of up to 90 days within a 180-day period."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a France Schengen Visa take to process?",
+        "a": "The normal processing time is around 15 days. Some applications may take longer."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance required for a France visa?",
+        "a": "Yes. Travel medical insurance with minimum €30,000 coverage is mandatory."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS France / TLScontact)."
+        "q": "Where do I apply for a France visa in India?",
+        "a": "The application starts through France-Visas and is submitted through the appropriate VFS Global Visa Application Centre."
+      },
+      {
+        "q": "Do I need to provide biometrics for a France Schengen Visa?",
+        "a": "Applicants generally provide biometric information during the application process, subject to applicable exemptions."
+      },
+      {
+        "q": "What documents are required for a France Schengen Visa?",
+        "a": "Common requirements include a valid passport, application form, photograph, accommodation proof, travel itinerary, financial proof, travel insurance and supporting documents."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a France visa?",
+        "a": "Yes. A valid France Schengen Visa can generally be used to travel within the Schengen Area, subject to its conditions."
+      },
+      {
+        "q": "Can additional documents or an interview be requested?",
+        "a": "Yes. French authorities may request additional documents or an interview during the assessment."
+      },
+      {
+        "q": "Does a France Schengen Visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of the border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official France / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in France and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across France and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in France.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in France.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "georgia": {
     "name": "Georgia",
     "slug": "georgia",
-    "visaType": "eVisa",
+    "visaType": "Georgia eVisa",
     "flagImage": "https://flagcdn.com/w40/ge.png",
     "heroImage": "/images/Georgia.webp",
-    "processingTime": "3 - 5 Days",
-    "stayDuration": "Up to 30 Days",
+    "processingTime": "Minimum 5 Working Days",
+    "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
     "applyThrough": "Georgia eVisa Portal",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Georgia eVisa application, from document verification to submission guidance.",
+    "insuranceRequirement": "Mandatory",
+    "overviewTitle": "Georgia eVisa",
+    "overviewDescription": "Indian passport holders generally need a visa to travel to Georgia. Eligible Indian travellers can apply for a Georgia eVisa online for short-term visits.\n\nThe eVisa application is completed online without visiting a Georgian Embassy. Indian applicants may need to provide an eligible supporting visa or residence permit, depending on their circumstances.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Georgia Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Biometric passport photograph",
+        "Proof of accommodation",
+        "Round-trip flight reservation",
+        "Travel and health insurance",
+        "Proof of sufficient financial means",
+        "Proof of purpose of travel",
+        "Eligible supporting document, where required"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Qualifying visa or residence permit, where applicable",
+        "Recent bank statements",
+        "Employment or income proof",
+        "Invitation or sponsor documents, where applicable",
+        "Additional documents requested by Georgian authorities"
       ],
-      "alertText": "The Georgia eVisa Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Indian applicants may need a qualifying supporting document. Georgian authorities may request additional documents or information during the application process."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Georgia visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Georgia."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Georgia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Georgia eVisa Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Georgia visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Georgia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Georgia",
-      "subtitle": "Experience the Best of Georgia",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Georgia is a top destination.",
+      "subtitle": "Experience Georgia",
+      "desc": "Georgia offers a blend of historic cities, mountain landscapes, wine regions and Black Sea experiences.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Georgia.",
+        "name": "Tbilisi",
+        "desc": "Explore the old town, historic architecture, colourful streets and local culture.",
         "image": "/images/Georgia.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Kazbegi",
+        "desc": "Discover dramatic Caucasus landscapes, valleys and mountain scenery.",
         "image": "/images/Georgia.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Kakheti",
+        "desc": "Experience vineyards, Georgian wine culture and peaceful countryside.",
         "image": "/images/Georgia.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Batumi",
+        "desc": "Enjoy the Black Sea coast, beaches, modern architecture and waterfront.",
         "image": "/images/Georgia.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - October",
       "currency": "Georgian Lari (GEL)",
       "language": "Georgian",
       "timeZone": "GMT+4"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Georgia visa?",
-        "a": "Processing usually takes around 3 - 5 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Georgia?",
+        "a": "Yes. Indian passport holders generally require a visa before travelling to Georgia."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Can Indians apply for a Georgia eVisa?",
+        "a": "Yes. Eligible Indian citizens can apply for a Georgia eVisa online, subject to the current requirements."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "What supporting document is required for Indian applicants?",
+        "a": "Depending on the applicant's circumstances, a qualifying visa or residence permit may be required."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Georgia eVisa take to process?",
+        "a": "The official eVisa process takes a minimum of 5 working days for a decision."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "What documents are required for a Georgia eVisa?",
+        "a": "Common requirements include a valid passport, biometric photograph, accommodation proof, travel reservation, insurance, financial proof and purpose of travel."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Georgia eVisa Portal)."
+        "q": "Is travel insurance mandatory for Georgia?",
+        "a": "Yes. Valid travel and health insurance covering the stay is required."
+      },
+      {
+        "q": "How long can I stay in Georgia with an eVisa?",
+        "a": "The eVisa is intended for short-term visits of up to 90 days, subject to the visa granted."
+      },
+      {
+        "q": "Do I need to print my Georgia eVisa?",
+        "a": "Yes. You should print the approved eVisa and carry it with your passport."
+      },
+      {
+        "q": "Can I apply for a Georgia eVisa while in Georgia?",
+        "a": "No. The eVisa application must be made while the applicant is outside Georgia."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Georgian authorities may request additional documents or information during the process."
+      },
+      {
+        "q": "Does a Georgia eVisa guarantee entry?",
+        "a": "No. Final entry is determined by Georgian border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital scan of valid passport bio-data page (min 6 months validity)",
+        "Recent digital passport-size photograph with white background",
+        "Completed Georgia electronic visa application form"
+      ],
+      "financial": [
+        "Proof of sufficient funds (bank statement or credit card limit proof if requested by immigration)"
+      ],
+      "travel": [
+        "Confirmed return or onward flight itinerary",
+        "Confirmed hotel accommodation or host stay details in Georgia"
+      ],
+      "additional": [
+        "Cover letter detailing purpose of visit and travel schedule",
+        "Travel health insurance (recommended for international journeys)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Georgia.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Georgia.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Georgia.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Georgia.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Georgia.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "germany": {
     "name": "Germany",
@@ -2361,707 +3721,1220 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/de.png",
     "heroImage": "/images/Germany.webp",
-    "processingTime": "15 Working Days",
+    "processingTime": "15 Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Germany",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Germany Schengen Visa application, from document verification to submission guidance.",
+    "applyThrough": "VFS Global",
+    "insuranceRequirement": "Mandatory, €30,000 Coverage",
+    "overviewTitle": "Germany Schengen Visa",
+    "overviewDescription": "Indian passport holders generally need a Schengen Visa to travel to Germany for tourism, business, visiting family or friends and other permitted short stays.\n\nA Germany Schengen Visa generally allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions of the visa granted. Applications from India are submitted through VFS Global.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Germany Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed and signed Schengen visa application",
+        "Recent biometric passport photograph",
+        "Proof of accommodation",
+        "Flight reservation and travel itinerary",
+        "Proof of sufficient financial means",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Covering letter explaining the purpose of travel",
+        "Proof of employment or professional circumstances",
+        "Documents supporting the purpose of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Salary slips or income documents",
+        "Employment confirmation or leave approval",
+        "Income Tax Returns, where applicable",
+        "Business documents, where applicable",
+        "Invitation or sponsorship documents, where applicable",
+        "Additional documents requested by German authorities"
       ],
-      "alertText": "The VFS Germany may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Travel medical insurance with minimum €30,000 coverage is mandatory. German authorities may request additional documents, information or an interview."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Germany visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Germany."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Germany consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Germany)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Germany visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Germany visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Germany",
-      "subtitle": "Experience the Best of Germany",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Germany is a top destination.",
+      "subtitle": "Experience Germany",
+      "desc": "Germany offers a mix of historic cities, castles, scenic landscapes and rich regional culture.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Germany.",
+        "name": "Berlin",
+        "desc": "Explore Germany's capital, historic landmarks, museums and vibrant cultural scene.",
         "image": "/images/Germany.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Bavaria",
+        "desc": "Discover fairytale castles, Alpine scenery and charming Bavarian towns.",
         "image": "/images/Germany.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Rhine Valley",
+        "desc": "Experience vineyards, historic towns and castles along the Rhine River.",
         "image": "/images/Germany.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "German Culture",
+        "desc": "Experience traditional food, local markets and Germany's diverse regional culture.",
         "image": "/images/Germany.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Euro (EUR)",
       "language": "German",
-      "timeZone": "GMT+1"
+      "timeZone": "GMT+1 (CET)"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Germany visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Germany?",
+        "a": "Yes. Indian passport holders generally need a Schengen Visa for short visits to Germany."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Germany part of the Schengen Area?",
+        "a": "Yes. Germany is part of the Schengen Area."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Germany on a Schengen Visa?",
+        "a": "A short-stay Schengen Visa generally allows a stay of up to 90 days within a 180-day period."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Germany Schengen Visa take to process?",
+        "a": "The usual processing time is around 15 days. Some applications may take longer."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance required for a Germany visa?",
+        "a": "Yes. Travel medical insurance with minimum €30,000 coverage is mandatory."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Germany)."
+        "q": "Where do I apply for a Germany visa in India?",
+        "a": "Germany Schengen Visa applications in India are submitted through the appropriate VFS Global Visa Application Centre."
+      },
+      {
+        "q": "Do I need to provide biometrics for a Germany Schengen Visa?",
+        "a": "Applicants generally provide biometric information during the application process, subject to applicable exemptions."
+      },
+      {
+        "q": "What documents are required for a Germany Schengen Visa?",
+        "a": "Common requirements include a valid passport, application form, photograph, accommodation proof, flight reservation, financial proof, travel insurance and supporting documents."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Germany visa?",
+        "a": "Yes. A valid Germany Schengen Visa can generally be used to travel within the Schengen Area, subject to its conditions."
+      },
+      {
+        "q": "Can additional documents or an interview be requested?",
+        "a": "Yes. German authorities may request additional documents or an interview during the assessment."
+      },
+      {
+        "q": "Does a Germany Schengen Visa guarantee entry?",
+        "a": "No. Final entry is subject to the decision of the border authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Germany / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Germany and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Germany and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Germany.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Germany.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "ghana": {
     "name": "Ghana",
     "slug": "ghana",
-    "visaType": "Entry Visa",
+    "visaType": "Ghana Entry Visa",
     "flagImage": "https://flagcdn.com/w40/gh.png",
     "heroImage": "/images/Ghana.webp",
-    "processingTime": "7 - 10 Days",
-    "stayDuration": "Up to 30 Days",
+    "processingTime": "Varies by Application",
+    "stayDuration": "As Granted",
     "entryType": "Single / Multiple",
     "applyThrough": "Ghana High Commission",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Ghana Entry Visa application, from document verification to submission guidance.",
+    "overviewTitle": "Ghana Entry Visa",
+    "overviewDescription": "Indian passport holders generally need a visa before travelling to Ghana for tourism, business, visiting family or other permitted purposes.\n\nFor tourism and short visits, applicants need to submit the required application and supporting documents through the Ghana High Commission. The visa validity, permitted stay and number of entries depend on the visa granted.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Ghana Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport",
+        "Completed Ghana visa application form",
+        "Recent passport-size photograph",
+        "Confirmed return or onward air ticket",
+        "Covering letter explaining the purpose of travel",
+        "Proof of financial means",
+        "Yellow fever vaccination certificate",
+        "Accommodation or hotel reservation",
+        "Invitation or host details, where applicable"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Employment or business documents",
+        "Recent bank statements",
+        "Approved leave letter, where applicable",
+        "Invitation letter and host documents, where applicable",
+        "Additional documents requested by the Ghana High Commission"
       ],
-      "alertText": "The Ghana High Commission may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Additional documents or information may be requested by the Ghana High Commission during the visa assessment."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Ghana visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Ghana."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Ghana consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Ghana High Commission)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Ghana visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Ghana visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Ghana",
-      "subtitle": "Experience the Best of Ghana",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Ghana is a top destination.",
+      "subtitle": "Experience Ghana",
+      "desc": "Ghana offers a vibrant mix of culture, history, coastal landscapes and tropical nature.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Ghana.",
+        "name": "Accra",
+        "desc": "Explore Ghana's capital, markets, beaches, restaurants and cultural landmarks.",
         "image": "/images/Ghana.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Cape Coast",
+        "desc": "Discover historic coastal forts and important heritage sites.",
         "image": "/images/Ghana.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Kakum National Park",
+        "desc": "Experience tropical rainforest, wildlife and the famous canopy walkway.",
         "image": "/images/Ghana.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Ghanaian Culture",
+        "desc": "Experience local food, markets, music and traditional culture.",
         "image": "/images/Ghana.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "November - March",
       "currency": "Ghanaian Cedi (GHS)",
       "language": "English",
       "timeZone": "GMT+0"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Ghana visa?",
-        "a": "Processing usually takes around 7 - 10 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Ghana?",
+        "a": "Yes. Ordinary Indian passport holders generally require a visa before travelling to Ghana."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Ghana."
+        "q": "Which Ghana visa should I apply for?",
+        "a": "The appropriate visa depends on your purpose of travel, such as tourism, business, family visit or transit."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long does a Ghana visa take to process?",
+        "a": "Processing time varies depending on the application and the Ghanaian mission handling it."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What documents are required for a Ghana tourist visa?",
+        "a": "Common requirements include a valid passport, application form, photograph, return or onward ticket, covering letter, financial proof, yellow fever certificate and accommodation or host details."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is yellow fever vaccination required for Ghana?",
+        "a": "Travellers entering Ghana generally need a valid yellow fever vaccination certificate. Check the latest health requirements before travelling."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Ghana High Commission)."
+        "q": "Do I need an invitation letter for Ghana?",
+        "a": "An invitation letter may be required when visiting a host in Ghana. Tourist applicants staying in hotels can provide accommodation details where applicable."
+      },
+      {
+        "q": "Do I need a confirmed flight ticket for a Ghana visa?",
+        "a": "A confirmed return or onward air ticket may be required as part of the visa application."
+      },
+      {
+        "q": "Can I get a single-entry or multiple-entry Ghana visa?",
+        "a": "Yes. Ghana issues single-entry and multiple-entry visas, subject to the visa granted."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Ghana High Commission may request additional documents or information during the assessment."
+      },
+      {
+        "q": "Does a Ghana visa guarantee entry?",
+        "a": "No. Final admission into Ghana is determined by the immigration authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Ghana consular specifications (35x45 mm, white background)",
+        "Completed and signed Ghana visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Ghana",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Ghana)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Ghana.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Ghana.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Ghana.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Ghana.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Ghana.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "greece": {
     "name": "Greece",
     "slug": "greece",
-    "visaType": "Schengen Visa",
+    "visaType": "Greece Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/gr.png",
     "heroImage": "/images/Greece.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Global Visa Center World (GVCW)",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Greece Schengen Visa application, from document verification to submission guidance.",
+    "processingTime": "Usually 15 Working Days",
+    "stayDuration": "Up to 90 Days in 180 Days",
+    "entryType": "Single / Multiple, as granted",
+    "applyThrough": "Greece Visa Application Centre / Greek Embassy",
+    "insuranceRequirement": "Mandatory, €30,000 Minimum",
+    "overviewTitle": "About Greece Visa",
+    "overviewDescription": "Indian passport holders generally need a Schengen visa before travelling to Greece for tourism, visiting family or friends, business or other permitted short stays.\n\nGreece is part of the Schengen Area. A short-stay Schengen visa generally allows eligible travellers to stay for up to 90 days within any 180-day period, subject to the conditions of the visa issued.\n\nDo Indians Need a Visa for Greece?\nYes. Indian citizens generally require a Schengen visa before travelling to Greece for a short stay. If your trip includes multiple Schengen countries, Greece should normally be the main destination for a Greek Schengen visa application.\n\nGreece Visa Processing Time\nSchengen visa applications are generally processed within 15 calendar days after the application is considered admissible. In individual cases, processing can take longer when additional checks, documents or an interview are required. Applicants should apply well in advance of their planned travel date.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Greece Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport meeting Schengen requirements",
+        "Completed and signed Schengen visa application form",
+        "Recent passport-size photographs",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Return or round-trip flight reservation",
+        "Proof of accommodation",
+        "Cover letter explaining the purpose of travel",
+        "Proof of sufficient financial means",
+        "Proof of employment, business or other professional circumstances",
+        "Documents supporting the purpose and itinerary of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Salary slips and employment certificate",
+        "Income Tax Return acknowledgements, where applicable",
+        "Approved leave letter",
+        "Business registration documents, where applicable",
+        "Invitation or sponsorship documents, where applicable",
+        "Proof of family, professional or financial ties to India",
+        "Previous passports and visas, where relevant",
+        "Additional documents requested by Greek authorities"
       ],
-      "alertText": "The Global Visa Center World (GVCW) may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Greek Consular Authorities may request additional documents, information or an interview during the assessment. Requirements can vary depending on the purpose of travel and individual circumstances."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Greece visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Greece."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Greece consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Global Visa Center World (GVCW))."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Greece visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Greece visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Greece",
-      "subtitle": "Experience the Best of Greece",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Greece is a top destination.",
+      "subtitle": "Experience Greece",
+      "desc": "From ancient landmarks and beautiful islands to Mediterranean cuisine, coastal towns and spectacular landscapes, Greece offers a rich mix of history, culture and natural beauty.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Greece.",
+        "name": "Athens & Acropolis",
+        "desc": "Explore Athens and the iconic Acropolis, ancient monuments, museums and vibrant city life.",
         "image": "/images/Greece.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Santorini",
+        "desc": "Discover whitewashed villages, blue-domed churches, dramatic cliffs and Aegean sunsets.",
         "image": "/images/Greece.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Crete",
+        "desc": "Experience beautiful beaches, mountain landscapes, historic sites and distinctive local cuisine.",
         "image": "/images/Greece.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Greek Culture & Cuisine",
+        "desc": "Enjoy traditional Greek food, lively markets, coastal towns and Mediterranean culture.",
         "image": "/images/Greece.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - October",
       "currency": "Euro (EUR)",
       "language": "Greek",
       "timeZone": "GMT+2"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Greece visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Greece?",
+        "a": "Yes. Indian citizens generally need a Schengen visa before travelling to Greece for a short stay."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Greece part of the Schengen Area?",
+        "a": "Yes. Greece is part of the Schengen Area and follows the common short-stay Schengen visa rules."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Greece on a Schengen visa?",
+        "a": "A short-stay Schengen visa generally allows a stay of up to 90 days within any 180-day period, subject to the conditions of the visa issued."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Greece Schengen visa take to process?",
+        "a": "Applications are generally processed within 15 calendar days. Individual cases can take longer when additional checks or documents are required."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How early can I apply for a Greece Schengen visa?",
+        "a": "A Schengen visa application can generally be submitted up to 6 months before the planned journey. Applying early is recommended."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Global Visa Center World (GVCW))."
+        "q": "Is travel insurance mandatory for a Greece visa?",
+        "a": "Yes. Travel medical insurance must cover the Schengen Area for the entire intended stay and provide minimum coverage of €30,000."
+      },
+      {
+        "q": "What passport validity is required for a Greece Schengen visa?",
+        "a": "The passport should generally have been issued within the previous 10 years, have at least two blank visa pages and remain valid for at least three months after the intended return."
+      },
+      {
+        "q": "Do I need to provide biometrics for a Greece visa?",
+        "a": "Applicants generally provide fingerprints and a photograph during the Schengen visa application process, subject to applicable exemptions."
+      },
+      {
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "A return or round-trip flight reservation may be required. Applicants are advised to avoid purchasing non-refundable tickets before the visa is approved."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Greece visa?",
+        "a": "Yes. A valid Greece Schengen visa can generally be used to travel within the Schengen Area, subject to its validity, number of entries and other conditions."
+      },
+      {
+        "q": "Can additional documents or an interview be requested?",
+        "a": "Yes. Greek Consular Authorities may request additional documents or call an applicant for an interview during the assessment."
+      },
+      {
+        "q": "Does a Greece Schengen visa guarantee entry?",
+        "a": "No. A valid visa allows you to travel subject to its conditions, but final entry is determined by border authorities when you arrive."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Greece / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Greece and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Greece and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Greece.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Greece.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "haiti": {
     "name": "Haiti",
     "slug": "haiti",
-    "visaType": "Tourist Visa",
+    "visaType": "Visa-Free for Indian Passport Holders",
     "flagImage": "https://flagcdn.com/w40/ht.png",
     "heroImage": "/images/Haiti.webp",
-    "processingTime": "10 - 14 Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Haiti Consulate",
+    "processingTime": "No Advance Tourist Visa Required",
+    "stayDuration": "Visa-Free Tourist Entry",
+    "entryType": "Visa-Free Entry",
+    "applyThrough": "Haitian Immigration Authorities",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Haiti Tourist Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Haiti Travel for Indians",
+    "overviewDescription": "Planning a trip to Haiti? Indian ordinary passport holders can generally travel to Haiti without obtaining an advance tourist visa for a qualifying short visit, subject to the country's current entry requirements.\n\nHaiti offers a distinctive Caribbean experience, with tropical coastlines, historic landmarks, colourful art, music and a rich cultural heritage. Travellers should ensure they have the required documents ready before departure.\n\nDo Indians Need a Visa for Haiti?\nNo. Indian ordinary passport holders currently benefit from visa-free tourist access to Haiti. This means an eligible Indian traveller generally does not need to obtain a tourist visa before travelling to Haiti.\n\nTravellers should carry a passport with sufficient validity, return or onward travel details and accommodation information. A tourist fee may also be payable on arrival.\n\nHaiti Entry Requirements for Indian Travellers\nAlthough an advance tourist visa is generally not required, travellers should be prepared to demonstrate the purpose and duration of their visit and meet Haitian immigration requirements. Immigration authorities may request additional information or supporting documents at the port of entry.\n\nVisa-free tourist access does not automatically permit employment, study, residence or other activities requiring prior immigration authorisation. Different rules may apply depending on the purpose of travel.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Haiti Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Indian passport with at least 6 months validity",
+        "Return or onward travel details",
+        "Accommodation details or hotel booking",
+        "Proof of purpose and duration of travel, if requested",
+        "US$10 tourist fee on arrival, where applicable"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Travel itinerary",
+        "Proof of sufficient funds for the stay",
+        "Invitation or host details, if staying with family or friends",
+        "Employment or business details, where relevant",
+        "Travel insurance",
+        "Additional documents requested by Haitian immigration authorities"
       ],
-      "alertText": "The Haiti Consulate may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Visa-free access does not remove border-entry requirements. Haitian immigration authorities may request travel, accommodation, financial or other supporting information on arrival."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Haiti visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Haiti."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Haiti consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Haiti Consulate)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Haiti visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Haiti visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Haiti",
-      "subtitle": "Experience the Best of Haiti",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Haiti is a top destination.",
+      "subtitle": "Experience Haiti",
+      "desc": "From Caribbean beaches and mountain landscapes to historic forts, colourful art and a distinctive local culture, Haiti offers a unique travel experience.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Haiti.",
+        "name": "Port-au-Prince",
+        "desc": "Explore Haiti's capital, known for its markets, art, music and vibrant cultural life.",
         "image": "/images/Haiti.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Citadelle Laferrière",
+        "desc": "Visit the impressive mountain fortress and one of Haiti's most important historic landmarks.",
         "image": "/images/Haiti.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Labadee & Caribbean Coast",
+        "desc": "Enjoy tropical coastal scenery, beaches and the warm Caribbean atmosphere.",
         "image": "/images/Haiti.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Haitian Art & Culture",
+        "desc": "Experience Haiti's colourful artwork, traditional music, local food and distinctive cultural heritage.",
         "image": "/images/Haiti.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "November - March",
       "currency": "Haitian Gourde (HTG)",
       "language": "French / Haitian Creole",
       "timeZone": "GMT-5"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Haiti visa?",
-        "a": "Processing usually takes around 10 - 14 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Haiti?",
+        "a": "No. Indian ordinary passport holders currently have visa-free access to Haiti for tourism, subject to the applicable entry requirements."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Haiti."
+        "q": "Can Indians travel to Haiti without a tourist visa?",
+        "a": "Yes. Eligible Indian passport holders generally do not need to obtain an advance tourist visa for a qualifying visit to Haiti."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long should my passport be valid for Haiti?",
+        "a": "Your passport should generally be valid for at least 6 months when travelling to Haiti."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Is there a fee to enter Haiti?",
+        "a": "Tourists may be required to pay a US$10 tourist fee on arrival at the airport, subject to the current entry rules."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Do I need travel insurance for Haiti?",
+        "a": "Travel insurance is recommended even though it is not generally presented as an advance visa requirement for visa-free tourist entry."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Haiti Consulate)."
+        "q": "Do I need a return ticket for Haiti?",
+        "a": "Travellers should carry return or onward travel details and be prepared to show them if requested by immigration authorities."
+      },
+      {
+        "q": "Can I stay with family or friends in Haiti?",
+        "a": "Yes. If you are staying with family or friends, it is advisable to carry the host's contact and accommodation details."
+      },
+      {
+        "q": "Can I work or study in Haiti without a visa?",
+        "a": "No. Visa-free tourist access does not automatically cover employment, study, residence or other activities requiring prior immigration authorisation."
+      },
+      {
+        "q": "Can immigration authorities ask for additional documents?",
+        "a": "Yes. Immigration officials may request information or documents relating to your purpose of travel, accommodation, finances or onward travel."
+      },
+      {
+        "q": "Does visa-free travel guarantee entry into Haiti?",
+        "a": "No. Visa-free access allows eligible travellers to travel without obtaining a tourist visa in advance, but final entry is determined by Haitian immigration authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Haiti consular specifications (35x45 mm, white background)",
+        "Completed and signed Haiti visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Haiti",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Haiti)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Haiti.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Haiti.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Haiti.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Haiti.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Haiti.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "hungary": {
     "name": "Hungary",
     "slug": "hungary",
-    "visaType": "Schengen Visa",
+    "visaType": "Hungary Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/hu.png",
     "heroImage": "/images/Hungary.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "VFS Hungary",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Hungary Schengen Visa application, from document verification to submission guidance.",
+    "processingTime": "Usually 15 Calendar Days",
+    "stayDuration": "Up to 90 Days in 180 Days",
+    "entryType": "Single / Double / Multiple, as granted",
+    "applyThrough": "VFS Global / Hungarian Embassy or Consulate",
+    "insuranceRequirement": "Mandatory, €30,000 Minimum",
+    "overviewTitle": "About Hungary Visa",
+    "overviewDescription": "Planning a trip to Hungary? Indian passport holders generally need a Schengen visa before travelling to Hungary for tourism, visiting family or friends, business or other permitted short stays.\n\nHungary is part of the Schengen Area. A short-stay Schengen visa generally allows eligible travellers to stay for up to 90 days within any 180-day period, subject to the conditions of the visa issued.\n\nDo Indians Need a Visa for Hungary?\nYes. Indian citizens generally require a valid C-type Schengen visa for a short stay in Hungary. If your trip includes several Schengen countries, you should normally apply through Hungary when it is your main destination under Schengen visa rules.\n\nHungary Visa Application in India\nHungary Schengen visa applications are submitted through VFS Global in India. The responsible Hungarian mission depends on the applicant's state of residence. Applicants should follow the current VFS appointment and document-submission instructions applicable to their jurisdiction.\n\nHungary Visa Processing Time\nThe standard processing period is 15 calendar days. In individual cases, processing can take up to 45 calendar days when additional examination or documents are required. Applicants should apply well in advance and allow extra time for appointments and document submission.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Hungary Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport meeting Schengen requirements",
+        "Completed and signed Hungary Schengen visa application form",
+        "Recent passport-size colour photograph",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Proof of intended means of transport and travel itinerary",
+        "Proof of accommodation for the planned stay",
+        "Proof of sufficient financial means",
+        "Income Tax Return acknowledgements, where applicable",
+        "Documents supporting the purpose of travel",
+        "Biometric data, where applicable"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Salary slips and employment certificate",
+        "Approved leave letter",
+        "Business registration documents, where applicable",
+        "Invitation or sponsorship documents, where applicable",
+        "Proof of family, professional or financial ties to India",
+        "Documents for additional Schengen countries visited",
+        "Conference or event invitation, where applicable",
+        "Previous passports and visas, where relevant",
+        "Additional documents requested by Hungarian authorities"
       ],
-      "alertText": "The VFS Hungary may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Hungarian Consular Authorities may request additional documents or certificates during the assessment. Requirements can vary according to the circumstances and purpose of an application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Hungary visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Hungary."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Hungary consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Hungary)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Hungary visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Hungary visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Hungary",
-      "subtitle": "Experience the Best of Hungary",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Hungary is a top destination.",
+      "subtitle": "Experience Hungary",
+      "desc": "From Budapest's grand architecture and thermal baths to historic castles, Lake Balaton and traditional cuisine, Hungary offers a rich mix of history, culture and natural beauty.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Hungary.",
+        "name": "Budapest",
+        "desc": "Explore Hungary's capital, known for the Danube, Parliament Building, Buda Castle and historic thermal baths.",
         "image": "/images/Hungary.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Lake Balaton",
+        "desc": "Relax around Central Europe's largest lake, with scenic shores, vineyards and charming towns.",
         "image": "/images/Hungary.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Hungarian Castles & Heritage",
+        "desc": "Discover historic castles, palaces and traditional towns that reflect Hungary's long history.",
         "image": "/images/Hungary.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Hungarian Culture & Cuisine",
+        "desc": "Experience local markets, traditional dishes, cafés and the distinctive culture of Hungary.",
         "image": "/images/Hungary.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - October",
       "currency": "Hungarian Forint (HUF)",
       "language": "Hungarian",
-      "timeZone": "GMT+1"
+      "timeZone": "GMT+1 (CET)"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Hungary visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Hungary?",
+        "a": "Yes. Indian citizens generally need a valid C-type Schengen visa for a short stay in Hungary."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Hungary part of the Schengen Area?",
+        "a": "Yes. Hungary is part of the Schengen Area and follows the common short-stay Schengen visa rules."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Hungary on a Schengen visa?",
+        "a": "A short-stay Schengen visa generally allows a stay of up to 90 days within any 180-day period, subject to the conditions of the visa issued."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does a Hungary Schengen visa take to process?",
+        "a": "The standard processing period is 15 calendar days. In individual cases, processing may take up to 45 calendar days when additional examination or documents are required."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How early can I apply for a Hungary Schengen visa?",
+        "a": "A Schengen application can generally be submitted up to 6 months before the intended journey and should normally be submitted at least 15 calendar days before travel."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Hungary)."
+        "q": "Where do I submit a Hungary visa application in India?",
+        "a": "Hungary uses VFS Global for C-type Schengen visa application submission in India. The responsible Hungarian mission depends on your state of residence."
+      },
+      {
+        "q": "Which Hungary visa centre should applicants from Karnataka use?",
+        "a": "Applicants residing in Karnataka fall under the jurisdiction of the Consulate General of Hungary in Mumbai. Applicants should follow the current VFS Global appointment instructions for the Hungary C visa."
+      },
+      {
+        "q": "Is travel insurance mandatory for a Hungary Schengen visa?",
+        "a": "Yes. Schengen travel medical insurance with minimum coverage of €30,000 is required, subject to the applicable Schengen rules."
+      },
+      {
+        "q": "What passport validity is required for a Hungary Schengen visa?",
+        "a": "The passport should generally have at least two blank pages, have been issued within the previous 10 years and remain valid for at least three months after the intended departure from the Schengen Area."
+      },
+      {
+        "q": "Do I need to provide biometrics for a Hungary visa?",
+        "a": "Biometric data is collected when required under the Schengen visa rules, subject to applicable exemptions."
+      },
+      {
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "Applicants generally need to provide proof of intended transport and itinerary. It is advisable to use a reservation rather than purchasing non-refundable tickets before visa approval."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Hungary visa?",
+        "a": "Yes. A valid Hungary Schengen visa can generally be used to travel within the Schengen Area, subject to its validity, number of entries and other conditions."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Hungarian Consular Authorities may request additional documents or certificates during the assessment of an application."
+      },
+      {
+        "q": "Does a Hungary Schengen visa guarantee entry?",
+        "a": "No. A valid visa allows you to travel subject to its conditions, but border authorities may request proof that you meet the applicable entry and stay requirements."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Hungary / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Hungary and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Hungary and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Hungary.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Hungary.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "iceland": {
     "name": "Iceland",
     "slug": "iceland",
-    "visaType": "Schengen Visa",
+    "visaType": "Iceland Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/is.png",
     "heroImage": "/images/Iceland.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "VFS Iceland / Embassy",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Iceland Schengen Visa application, from document verification to submission guidance.",
+    "processingTime": "Usually 15 Calendar Days",
+    "stayDuration": "Up to 90 Days in 180 Days",
+    "entryType": "Single / Double / Multiple",
+    "applyThrough": "VFS Global / Embassy of Iceland, New Delhi",
+    "insuranceRequirement": "Mandatory, €30,000 Minimum",
+    "overviewTitle": "About Iceland Visa",
+    "overviewDescription": "Planning a trip to Iceland? Indian passport holders generally need a Schengen visa before travelling to Iceland for tourism, visiting family or friends, business or other permitted short stays.\n\nIceland is part of the Schengen Area. A short-stay Schengen visa generally allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions of the visa issued. A Schengen visa issued by Iceland can also be used to travel to other Schengen countries, provided its validity and conditions allow it.\n\nDo Indians Need a Visa for Iceland?\nYes. Indian passport holders generally require a Schengen visa before travelling to Iceland. If you are visiting several Schengen countries, Iceland should be the country where you spend the maximum period of your trip for the Iceland Visa Application Centre to accept the application.\n\nIceland Visa Application in India\nIceland visa applications in India are submitted through VFS Global Visa Application Centres, with the Embassy of Iceland in New Delhi responsible for the visa process and decision. Applicants complete the online application, print the confirmation and submit it with the required documents at VFS Global.\n\nIceland Visa Processing Time\nThe current VFS Global India information states that processing usually takes around 15 calendar days from the time the Embassy or Consulate receives the application and all requested documents. Transportation time from the Visa Application Centre is not included. Processing may take longer when additional documents, an interview or further examination is required.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Iceland Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport meeting Schengen requirements",
+        "Printed and signed Schengen visa application",
+        "Recent passport-size photograph",
+        "Online Iceland visa application confirmation",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Proof of accommodation for the complete stay",
+        "Proof of intended travel and return journey",
+        "Proof of sufficient financial means",
+        "Documents supporting the purpose of travel",
+        "Proof of employment, business or other professional circumstances"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Income Tax Return documents",
+        "Salary slips and employment certificate",
+        "Approved leave letter",
+        "Business registration documents, where applicable",
+        "Invitation letter or host documents, where applicable",
+        "Previous passports and Schengen visas, where relevant",
+        "Proof of family or financial ties in India",
+        "Travel itinerary covering all Schengen destinations",
+        "Additional documents requested by the Embassy of Iceland"
       ],
-      "alertText": "The VFS Iceland / Embassy may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Embassy of Iceland may request additional documents, information or an interview during the assessment. VFS Global does not make the visa decision."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Iceland visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Iceland."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Iceland consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Iceland / Embassy)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Iceland visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Iceland visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Iceland",
-      "subtitle": "Experience the Best of Iceland",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Iceland is a top destination.",
+      "subtitle": "Experience Iceland",
+      "desc": "From dramatic waterfalls and volcanic landscapes to glaciers, geothermal lagoons and the Northern Lights, Iceland offers some of Europe's most striking natural experiences.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Iceland.",
+        "name": "Reykjavik",
+        "desc": "Explore Iceland's colourful capital, known for its waterfront, architecture, museums and lively cultural scene.",
         "image": "/images/Iceland.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Golden Circle",
+        "desc": "Discover some of Iceland's best-known natural attractions, including waterfalls, geothermal areas and historic landscapes.",
         "image": "/images/Iceland.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Glaciers & Waterfalls",
+        "desc": "Experience dramatic glaciers, black-sand landscapes and powerful waterfalls across Iceland's countryside.",
         "image": "/images/Iceland.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Northern Lights & Geothermal Lagoons",
+        "desc": "Enjoy Iceland's famous winter skies and relax in naturally heated geothermal waters.",
         "image": "/images/Iceland.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "June - August",
       "currency": "Icelandic Króna (ISK)",
       "language": "Icelandic",
       "timeZone": "GMT+0"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Iceland visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Iceland?",
+        "a": "Yes. Indian passport holders generally need a Schengen visa before travelling to Iceland."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Iceland part of the Schengen Area?",
+        "a": "Yes. Iceland is part of the Schengen Area and follows the common short-stay Schengen visa rules."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Iceland on a Schengen visa?",
+        "a": "A short-stay Schengen visa generally allows a stay of up to 90 days within any 180-day period, subject to the conditions of the visa issued."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does an Iceland Schengen visa take to process?",
+        "a": "Processing usually takes around 15 calendar days from the time the Embassy or Consulate receives the application and all requested documents. Transportation time from VFS Global is not included."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How early can I apply for an Iceland Schengen visa?",
+        "a": "A Schengen visa application can generally be submitted up to 6 months before the planned journey. Applying well in advance is recommended, especially during busy travel periods."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Iceland / Embassy)."
+        "q": "Where do I submit an Iceland visa application in India?",
+        "a": "Iceland Schengen visa applications in India are submitted through VFS Global Visa Application Centres, with the Embassy of Iceland in New Delhi handling the visa process."
+      },
+      {
+        "q": "Can I apply for an Iceland visa if I am visiting other Schengen countries?",
+        "a": "Yes, but Iceland should generally be your main destination. If another Schengen country is where you will spend the longest time, you should normally apply through that country's responsible visa authority."
+      },
+      {
+        "q": "Is travel insurance mandatory for an Iceland Schengen visa?",
+        "a": "Yes. Schengen travel medical insurance with minimum coverage of €30,000 is required for the intended stay."
+      },
+      {
+        "q": "What passport validity is required for an Iceland Schengen visa?",
+        "a": "The passport must generally have been issued within the previous 10 years, have at least two blank pages and remain valid for at least three months after the intended departure from the Schengen Area."
+      },
+      {
+        "q": "Do I need to provide biometrics for an Iceland visa?",
+        "a": "Applicants generally provide biometric data during the Schengen visa application process, subject to applicable exemptions."
+      },
+      {
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "Applicants need to provide evidence of their intended travel and return journey. It is advisable to use reservations rather than purchasing non-refundable tickets before visa approval."
+      },
+      {
+        "q": "Can I visit other Schengen countries with an Iceland visa?",
+        "a": "Yes. An Iceland-issued Schengen visa can generally be used to travel within the Schengen Area, subject to its validity, number of entries and other conditions."
+      },
+      {
+        "q": "Can additional documents or an interview be requested?",
+        "a": "Yes. The Embassy of Iceland may request additional documents, information or an interview if further assessment is required."
+      },
+      {
+        "q": "Does an Iceland Schengen visa guarantee entry?",
+        "a": "No. A valid visa does not automatically guarantee entry. Border authorities may ask for documents showing the purpose of travel, accommodation, insurance and sufficient means."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Iceland / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Iceland and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Iceland and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Iceland.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Iceland.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "indonesia-bali": {
     "name": "Indonesia (Bali)",
@@ -3069,471 +4942,777 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "e-VOA / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/id.png",
     "heroImage": "/images/Indonesia-Bali-.webp",
-    "processingTime": "2 - 3 Days",
+    "processingTime": "Usually Quick Online Processing",
     "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Indonesia e-VOA Portal",
+    "entryType": "Single Entry",
+    "applyThrough": "Indonesia e-VOA / e-Visa Portal",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Indonesia (Bali) e-VOA / Tourist Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Indonesia Visa",
+    "overviewDescription": "Planning a trip to Bali or elsewhere in Indonesia? Eligible Indian passport holders can apply for Indonesia's electronic Visa on Arrival (e-VOA) for permitted short visits, including tourism.\n\nBali is one of Indonesia's most popular destinations, known for its beaches, temples, rice terraces, waterfalls and distinctive Balinese culture. Having the correct entry permission and travel documents ready can make your arrival smoother.\n\nDo Indians Need a Visa for Indonesia?\nIndian travellers generally need an appropriate visa or entry permission to visit Indonesia. Eligible Indian passport holders can use the e-VOA facility for permitted short visits. The e-VOA generally allows an initial stay of up to 30 days from the date of arrival and may generally be extended once for another 30 days, subject to Indonesian immigration rules.\n\nIndonesia e-VOA Requirements\nBasic requirements include a passport valid for more than six months and a return or onward ticket. Depending on the application and current immigration requirements, additional information or documents may be requested.\n\nThe e-VOA is issued electronically and all details should match the traveller's passport exactly. An e-VOA does not automatically guarantee entry, as the final decision is made by Indonesian immigration officials at the port of entry.\n\nIndonesia e-VOA Processing\nThe e-VOA application is completed online through the Indonesian immigration system. Applying before travel allows eligible travellers to have their visa ready before arrival. Applicants should allow sufficient time for processing and carefully verify all application details.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Indonesia (Bali) Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with more than 6 months validity",
+        "Recent passport-size photograph, where required",
+        "Return or onward flight ticket",
+        "Valid email address",
+        "Payment method for the online visa application"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Hotel or accommodation details",
+        "Travel itinerary",
+        "Proof of sufficient funds, if requested",
+        "Additional documents based on the purpose of travel",
+        "Any information requested by Indonesian immigration authorities"
       ],
-      "alertText": "The Indonesia e-VOA Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Indonesian immigration authorities may request additional information or documents. The e-VOA must match the traveller's passport details exactly, and issuance of an e-VOA does not guarantee entry into Indonesia."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Indonesia (Bali) visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Indonesia (Bali)."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Indonesia (Bali) consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Indonesia e-VOA Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Indonesia (Bali) visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Indonesia (Bali) visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
-      "title": "Discover Indonesia (Bali)",
-      "subtitle": "Experience the Best of Indonesia (Bali)",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Indonesia (Bali) is a top destination.",
+      "title": "Discover Indonesia",
+      "subtitle": "Experience the Best of Bali",
+      "desc": "From peaceful beaches and ancient temples to lush rice terraces and vibrant local culture, Bali offers a memorable mix of relaxation, adventure and cultural experiences.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Indonesia (Bali).",
+        "name": "Ubud Rice Terraces",
+        "desc": "Explore lush green rice fields, traditional villages and the artistic heart of Bali.",
         "image": "/images/Indonesia-Bali-.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Uluwatu Temple",
+        "desc": "Visit the dramatic cliffside temple overlooking the Indian Ocean and enjoy spectacular sunsets.",
         "image": "/images/Indonesia-Bali-.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Bali Beaches",
+        "desc": "Relax on tropical beaches, enjoy water activities and experience Bali's coastal atmosphere.",
         "image": "/images/Indonesia-Bali-.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Balinese Culture & Cuisine",
+        "desc": "Experience traditional temples, ceremonies, local markets and authentic Indonesian flavours.",
         "image": "/images/Indonesia-Bali-.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - October",
       "currency": "Indonesian Rupiah (IDR)",
       "language": "Indonesian",
       "timeZone": "GMT+8"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Indonesia (Bali) visa?",
-        "a": "Processing usually takes around 2 - 3 Days, depending on embassy workload and season."
+        "q": "Do Indians need a visa for Bali?",
+        "a": "Indian passport holders generally need an appropriate visa or entry permission to visit Indonesia. Eligible travellers can use the Indonesia e-VOA facility for permitted short visits."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Indonesia (Bali)."
+        "q": "How long can I stay in Indonesia with an e-VOA?",
+        "a": "An e-VOA generally allows an initial stay of up to 30 days from the date of arrival. It can generally be extended once for another 30 days, subject to Indonesian immigration rules."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Can I apply for an Indonesia e-VOA before travelling?",
+        "a": "Yes. Eligible travellers can apply for the electronic Visa on Arrival online before travelling to Indonesia."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What documents are required for an Indonesia e-VOA?",
+        "a": "You generally need a passport valid for more than six months and a return or onward ticket. A recent photograph and other information may also be required during the online application."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance mandatory for Indonesia?",
+        "a": "Travel insurance is recommended for international travel to Indonesia, although it is not the core e-VOA requirement."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Indonesia e-VOA Portal)."
+        "q": "Can I extend my Indonesia e-VOA?",
+        "a": "Yes. The e-VOA stay can generally be extended once for another 30 days, subject to the applicable Indonesian immigration rules."
+      },
+      {
+        "q": "Do I need a confirmed flight ticket?",
+        "a": "A return or onward ticket is required for the e-VOA process and may be checked by immigration officials when you arrive."
+      },
+      {
+        "q": "Can I use an e-VOA for work or study?",
+        "a": "No. The e-VOA is intended for permitted short-visit purposes. Work and study require the appropriate Indonesian visa or immigration permission."
+      },
+      {
+        "q": "Does an Indonesia e-VOA guarantee entry?",
+        "a": "No. Having an e-VOA does not guarantee entry. Final entry is decided by Indonesian immigration officials at the port of entry."
+      },
+      {
+        "q": "What happens if my e-VOA details are incorrect?",
+        "a": "The information on the e-VOA should match your passport exactly. Incorrect details can make the e-VOA invalid and may require a new application."
+      },
+      {
+        "q": "Can I visit places other than Bali with an Indonesia e-VOA?",
+        "a": "Yes. The e-VOA is an Indonesian entry permission and is not limited to Bali. You can travel to other parts of Indonesia as permitted by your visa and immigration conditions."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Indonesian immigration authorities may request additional information or supporting documents depending on the application and circumstances."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Valid passport scan with at least 6 months validity from arrival date",
+        "Recent digital color photograph (passport format with plain light background)",
+        "Completed official Indonesian electronic visa application"
+      ],
+      "financial": [],
+      "travel": [
+        "Confirmed return or onward international flight ticket",
+        "Hotel reservation or villa booking confirmation in Bali / Indonesia",
+        "Completed electronic Customs Declaration (e-CD) prior to arrival"
+      ],
+      "additional": [
+        "Bali Tourist Levy payment voucher (for travellers arriving in Bali)",
+        "Travel medical insurance (recommended)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "e-VOA (Electronic Visa on Arrival - B1)",
+        "description": "30-day tourist visa for holidays, leisure, and sightseeing in Bali, extendable once.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "60 Days Tourist Visa (211A)",
+        "description": "For extended vacations, spiritual retreats, and long-stay exploration across Indonesia.",
+        "icon": "🌴"
+      },
+      {
+        "name": "Business eVisa (211B)",
+        "description": "For attending corporate seminars, business discussions, and trade exhibitions.",
+        "icon": "💼"
+      },
+      {
+        "name": "Multiple Entry Visitor Visa (D1/D2)",
+        "description": "For frequent business or leisure travel with multiple entries over 1 to 2 years.",
+        "icon": "🌐"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "iran": {
     "name": "Iran",
     "slug": "iran",
-    "visaType": "eVisa / Tourist Visa",
+    "visaType": "Iran eVisa / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ir.png",
     "heroImage": "/images/Iran.webp",
-    "processingTime": "5 - 7 Days",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Iran eVisa Portal",
+    "processingTime": "Varies by Application",
+    "stayDuration": "Usually Up to 30 Days",
+    "entryType": "As Granted",
+    "applyThrough": "Iran eVisa Portal / Iranian Embassy or Consulate",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Iran eVisa / Tourist Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Iran Visa",
+    "overviewDescription": "Planning a trip to Iran? Indian passport holders generally need the appropriate visa before travelling to Iran. For tourism, the Iran tourist visa or electronic visa process may be available depending on the traveller's nationality, travel purpose and current entry rules.\n\nIran offers a fascinating mix of ancient Persian history, impressive architecture, traditional bazaars and diverse landscapes. From the historic cities of Isfahan and Shiraz to Tehran and the ancient ruins of Persepolis, the country offers a distinctive cultural and historical experience.\n\nDo Indians Need a Visa for Iran?\nIndian passport holders generally need a visa to visit Iran. The applicable visa type depends on the purpose of travel and the traveller's circumstances. Tourists should check their current eligibility and visa requirements before making travel arrangements.\n\nIran Tourist Visa & eVisa\nTravellers visiting Iran for tourism may apply through the applicable Iranian visa process. An electronic visa application may require personal details, passport information, a photograph and other supporting information. Depending on the application, an approval or visa reference may be required before the visa can be issued.\n\nIran Visa Requirements\nApplicants should have a valid passport and provide documents supporting their travel purpose. Depending on the visa category and individual circumstances, authorities may request travel details, accommodation information, photographs, financial information, travel insurance or other supporting documents.\n\nIran Visa Processing Time\nProcessing time varies depending on the visa category, nationality, document verification and the requirements of the Iranian authorities. Travellers should apply well before their intended travel date and avoid making non-refundable travel arrangements until the applicable visa requirements and approval are confirmed.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Iran Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed Iran visa application",
+        "Recent passport-size photograph",
+        "Passport and personal information as requested in the application",
+        "Travel purpose and itinerary details",
+        "Accommodation details, where applicable",
+        "Travel insurance, where required",
+        "Additional documents specified for the selected visa category"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Return or onward flight details",
+        "Hotel or accommodation confirmation",
+        "Proof of sufficient funds, if requested",
+        "Employment or business documents, where applicable",
+        "Invitation or host documents, where applicable",
+        "Previous travel or visa information, if requested",
+        "Additional documents requested by Iranian authorities"
       ],
-      "alertText": "The Iran eVisa Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Iranian authorities may request additional documents, information or further verification depending on the applicant, nationality and visa category."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Iran visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Iran."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Iran consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Iran eVisa Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Iran visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Iran visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Iran",
       "subtitle": "Experience the Best of Iran",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Iran is a top destination.",
+      "desc": "From ancient Persian cities and historic monuments to colourful bazaars and dramatic landscapes, Iran offers a rich mix of history, culture and tradition.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Iran.",
+        "name": "Tehran",
+        "desc": "Explore Iran's capital with its museums, palaces, modern city life and views towards the Alborz Mountains.",
         "image": "/images/Iran.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Isfahan",
+        "desc": "Discover grand Persian architecture, historic squares, mosques, bridges and traditional bazaars.",
         "image": "/images/Iran.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Shiraz & Persepolis",
+        "desc": "Experience Shiraz, known for Persian gardens and poetry, along with the remarkable ancient ruins of Persepolis.",
         "image": "/images/Iran.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Persian Culture & Cuisine",
+        "desc": "Explore traditional markets, Persian handicrafts and a diverse cuisine shaped by centuries of history.",
         "image": "/images/Iran.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "March - May & September - November",
       "currency": "Iranian Rial (IRR)",
       "language": "Persian",
-      "timeZone": "GMT+3.5"
+      "timeZone": "GMT+3:30"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Iran visa?",
-        "a": "Processing usually takes around 5 - 7 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Iran?",
+        "a": "Yes. Indian passport holders generally need an appropriate visa before travelling to Iran. The applicable requirements depend on the purpose of travel and current Iranian visa rules."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Iran."
+        "q": "Can Indians apply for an Iran eVisa?",
+        "a": "An electronic visa application may be available for eligible travellers, subject to current Iranian immigration rules and the applicant's circumstances."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Iran on a tourist visa?",
+        "a": "The permitted stay depends on the visa issued and the conditions approved by the Iranian authorities. Short-term tourist visas may allow stays of up to 30 days."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does an Iran visa take to process?",
+        "a": "Processing time can vary depending on the visa category, nationality, document verification and individual application. Travellers should apply well before their planned travel date."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "What documents are required for an Iran tourist visa?",
+        "a": "Applicants generally need a valid passport, visa application details, photograph and information supporting the purpose of travel. Additional documents may be requested depending on the application."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Iran eVisa Portal)."
+        "q": "Is travel insurance required for Iran?",
+        "a": "Travel insurance is recommended and may be required depending on the visa process and current entry requirements."
+      },
+      {
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "Travel details may be required during the application process. It is advisable to avoid purchasing non-refundable tickets until the applicable visa requirements and approval are confirmed."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Iranian authorities may request additional documents, information or verification during the assessment of an application."
+      },
+      {
+        "q": "Does an Iran visa guarantee entry?",
+        "a": "No. Visa approval does not automatically guarantee entry. Final admission is subject to checks by Iranian immigration authorities at the point of entry."
+      },
+      {
+        "q": "Can I travel to Iran for purposes other than tourism?",
+        "a": "Yes. Iran has different visa categories for purposes such as business, study, work, family visits and other activities. The correct visa must be obtained for the intended purpose."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital scan of valid passport bio-data page (min 6 months validity)",
+        "Recent digital passport-size photograph with white background",
+        "Completed Iran electronic visa application form"
+      ],
+      "financial": [
+        "Proof of sufficient funds (bank statement or credit card limit proof if requested by immigration)"
+      ],
+      "travel": [
+        "Confirmed return or onward flight itinerary",
+        "Confirmed hotel accommodation or host stay details in Iran"
+      ],
+      "additional": [
+        "Cover letter detailing purpose of visit and travel schedule",
+        "Travel health insurance (recommended for international journeys)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Iran.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Iran.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Iran.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Iran.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Iran.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "ireland": {
     "name": "Ireland",
     "slug": "ireland",
-    "visaType": "Short Stay Tourist Visa (C)",
+    "visaType": "Short Stay 'C' Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ie.png",
     "heroImage": "/images/Ireland.webp",
-    "processingTime": "15 - 20 Days",
+    "processingTime": "Usually Around 8 Weeks",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Ireland / AVATS",
-    "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Ireland Short Stay Tourist Visa (C) application, from document verification to submission guidance.",
+    "applyThrough": "AVATS / VFS Global / Irish Visa Office",
+    "insuranceRequirement": "Recommended",
+    "overviewTitle": "About Ireland Visa",
+    "overviewDescription": "Planning a trip to Ireland? Indian passport holders generally need an Irish visa before travelling for tourism or other short-term purposes. For a holiday, the appropriate visa is usually the Short Stay 'C' Visit Tourist Visa.\n\nIreland is not part of the Schengen Area, so an Irish visa is separate from a Schengen visa. A Short Stay 'C' visa can allow you to visit Ireland for up to 90 days, subject to the permission granted by Irish immigration officials when you arrive.\n\nDo Indians Need a Visa for Ireland?\nYes. Indian passport holders generally need a visa to travel to Ireland. You must apply for the appropriate Irish visa before travelling and provide documents that show the purpose of your visit, your ability to support yourself during the trip and your intention to leave Ireland after your visit.\n\nIreland Tourist Visa\nFor tourism, applicants should select Short Stay 'C' and Visit Tourist when completing the AVATS online application. Single-entry visas are common, while multiple-entry visas are approved only in limited circumstances and normally require a suitable travel history or other qualifying circumstances.\n\nIreland Visa Requirements\nThe application normally requires a valid passport, application form, photographs, financial evidence, accommodation details, travel plans and documents showing your personal, professional and financial circumstances. Depending on your situation, additional documents such as an employment letter, approved leave, invitation letter or evidence of family and economic ties may be required.\n\nIreland Visa Processing Time\nIrish visa processing can take several weeks. Current Irish immigration guidance states that applicants can generally expect a decision around 8 weeks after the visa office receives the required documents, although processing times can vary. Applicants are advised to prepare their application well in advance and not purchase travel tickets before receiving a visa decision.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Ireland Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed and signed Irish visa application generated through AVATS",
+        "Recent passport-size photographs",
+        "Proof of sufficient funds for the trip",
+        "Evidence of accommodation in Ireland",
+        "Travel itinerary and intended travel details",
+        "Documents explaining the purpose of your visit",
+        "Evidence that you will leave Ireland after your visit",
+        "Passport and previous visa information, where applicable"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements",
+        "Income Tax Returns and financial records",
+        "Salary slips and employment certificate",
+        "Approved leave letter from employer",
+        "Business registration documents, if self-employed",
+        "Invitation letter and host documents, where applicable",
+        "Evidence of family, social or economic ties in India",
+        "Previous passports and travel history",
+        "Travel medical insurance, where appropriate",
+        "Additional documents requested by the Irish visa office"
       ],
-      "alertText": "The VFS Ireland / AVATS may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Irish immigration authorities may request additional documents or information during assessment. Applicants living in India are generally required to provide biometric information unless an applicable exemption applies."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Ireland visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Ireland."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Ireland consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Ireland / AVATS)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Ireland visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Ireland visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Ireland",
       "subtitle": "Experience the Best of Ireland",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Ireland is a top destination.",
+      "desc": "From lively Dublin and historic castles to dramatic coastlines and green countryside, Ireland offers a mix of history, culture and natural beauty.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Ireland.",
+        "name": "Dublin",
+        "desc": "Explore Ireland's capital with its historic streets, museums, Georgian architecture and lively cultural scene.",
         "image": "/images/Ireland.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Cliffs of Moher",
+        "desc": "See one of Ireland's most famous coastal landscapes, with dramatic cliffs overlooking the Atlantic Ocean.",
         "image": "/images/Ireland.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Irish Castles & Heritage",
+        "desc": "Discover historic castles, ancient monuments and centuries of Irish history across the country.",
         "image": "/images/Ireland.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Irish Countryside & Culture",
+        "desc": "Experience green landscapes, traditional villages, local music and the welcoming character of Ireland.",
         "image": "/images/Ireland.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Euro (EUR)",
       "language": "English / Irish",
       "timeZone": "GMT+0"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Ireland visa?",
-        "a": "Processing usually takes around 15 - 20 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Ireland?",
+        "a": "Yes. Indian passport holders generally need an Irish visa before travelling to Ireland."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is Ireland part of the Schengen Area?",
+        "a": "No. Ireland is not part of the Schengen Area, so an Irish visa is separate from a Schengen visa."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Which visa should I apply for tourism?",
+        "a": "For a holiday or sightseeing trip of less than 90 days, applicants generally apply for a Short Stay 'C' Visit Tourist visa through the AVATS online system."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long can I stay in Ireland on a Short Stay 'C' visa?",
+        "a": "A Short Stay 'C' visa can allow a stay of up to 90 days. The actual permission to stay is decided by an immigration officer when you arrive."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How long does an Ireland tourist visa take to process?",
+        "a": "Current Irish immigration guidance says applicants can generally expect a decision around 8 weeks after the required documents are received. Processing times can vary depending on the application and visa office."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Ireland / AVATS)."
+        "q": "How early should I apply for an Ireland visa?",
+        "a": "Irish immigration guidance recommends preparing your application about 3 months before your planned travel date."
+      },
+      {
+        "q": "Do Indian applicants need to provide biometrics?",
+        "a": "Yes. Applicants living in India are generally required to provide fingerprints as part of the Irish visa process, subject to applicable exemptions."
+      },
+      {
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "You should provide evidence of your intended travel plans, but Irish immigration advises applicants not to buy travel tickets before receiving a visa decision."
+      },
+      {
+        "q": "Can I get a multiple-entry Ireland tourist visa?",
+        "a": "Multiple-entry visas are approved only in limited circumstances. Applicants normally need to meet the relevant eligibility conditions and demonstrate an appropriate travel history or other qualifying reason."
+      },
+      {
+        "q": "Can I travel to Northern Ireland with an Irish visa?",
+        "a": "No. Northern Ireland is part of the United Kingdom and follows UK immigration rules. An Irish visa does not automatically give permission to enter Northern Ireland."
+      },
+      {
+        "q": "Can I travel to the UK with an Ireland visa?",
+        "a": "An Irish visa does not automatically give permission to enter the UK. Certain Indian nationals may qualify for the British-Irish Visa Scheme when the required conditions are met and the visa carries the appropriate endorsement."
+      },
+      {
+        "q": "Is travel insurance mandatory for an Ireland tourist visa?",
+        "a": "Travel insurance is recommended for your trip. Ireland is not part of the Schengen Area, so the €30,000 Schengen insurance rule does not apply to an Irish tourist visa."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Irish visa office may request additional documents or information if required to assess your application."
+      },
+      {
+        "q": "Does an Ireland visa guarantee entry?",
+        "a": "No. A visa allows you to travel to Ireland, but final permission to enter and the length of stay are decided by an immigration officer at border control."
+      },
+      {
+        "q": "Does having a visa guarantee approval?",
+        "a": "No. There is no guaranteed approval. Irish visa officers assess each application based on the evidence and circumstances provided."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Ireland consular specifications (35x45 mm, white background)",
+        "Completed and signed Ireland visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Ireland",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Ireland)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Ireland.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Ireland.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Ireland.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Ireland.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Ireland.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "israel": {
     "name": "Israel",
     "slug": "israel",
-    "visaType": "B/2 Visitor Visa",
+    "visaType": "B/2 Visitor Visa / eVisa-B2",
     "flagImage": "https://flagcdn.com/w40/il.png",
     "heroImage": "/images/Israel.webp",
-    "processingTime": "10 - 15 Days",
+    "processingTime": "Varies by Application",
     "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Israel Embassy",
-    "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Israel B/2 Visitor Visa application, from document verification to submission guidance.",
+    "entryType": "As Granted",
+    "applyThrough": "Israel eVisa-B2 Portal / Israeli Mission",
+    "insuranceRequirement": "Required",
+    "overviewTitle": "About Israel Visa",
+    "overviewDescription": "Planning a trip to Israel? Indian passport holders generally need the appropriate Israeli entry visa before travelling. For tourism, sightseeing, visiting family or friends and other permitted short visits, the B/2 Visitor Visa is the relevant visa category.\n\nIndian and Sri Lankan passport holders residing in India and Sri Lanka can apply directly for an Israel eVisa-B2 through the official online system, subject to the applicable requirements. Depending on the applicant and circumstances, the Israeli authorities may also require additional verification or documents.\n\nDo Indians Need a Visa for Israel?\nYes. Indian passport holders are currently required to obtain a visa before travelling to Israel. The ETA-IL system for visa-exempt nationalities does not currently apply to Indian passport holders, so Indian travellers should follow the standard visa process.\n\nIsrael B/2 Visitor Visa\nThe B/2 Visitor Visa is intended for short visits such as tourism, visiting relatives or friends, medical tourism, business visits and certain other permitted short-term activities. A B/2 visa does not allow the holder to work in Israel.\n\nIsrael eVisa-B2 for Indian Travellers\nThe Israeli Embassy has introduced an eVisa-B2 facility for Indian passport holders residing in India. Eligible applicants can submit their application through the official online system. The application requires accurate passport and personal details along with the documents requested by the Israeli authorities.\n\nIsrael Visa Requirements\nApplicants should generally provide a valid travel document, recent photographs, financial evidence, employment information, accommodation details, return or two-way travel details and proof of travel insurance. Additional documents may be requested depending on the applicant and purpose of travel.\n\nIsrael Visa Processing Time\nProcessing time can vary depending on the application, document verification, nationality, security checks and other requirements. Applicants should apply sufficiently in advance and avoid making non-refundable travel arrangements until the visa has been issued.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Israel Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport or travel document",
+        "Passport valid for at least 3 months beyond the visa period",
+        "Completed Israel visa application or online eVisa-B2 application",
+        "Two recent colour passport photographs with white background",
+        "Bank statement covering the required recent period",
+        "Employment confirmation or proof of professional status",
+        "Proof of accommodation in Israel",
+        "Two-way or return flight details",
+        "Travel insurance covering the entire period of stay"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent bank statements and financial records",
+        "Salary slips, where applicable",
+        "Approved leave letter from employer",
+        "Business registration documents, if self-employed",
+        "Invitation letter from family or friends in Israel, where applicable",
+        "Medical documents for medical travel, where applicable",
+        "Previous passport and visa history",
+        "Detailed travel itinerary",
+        "Additional documents requested by the Israeli authorities"
       ],
-      "alertText": "The Israel Embassy may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Israeli immigration or consular authorities may request additional documents, information or verification during the assessment of your application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Israel visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Israel."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Israel consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Israel Embassy)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Israel visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Israel visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Israel",
       "subtitle": "Experience the Best of Israel",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Israel is a top destination.",
+      "desc": "From ancient cities and historic landmarks to Mediterranean beaches, desert landscapes and vibrant local markets, Israel offers a rich mix of history, culture and natural beauty.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Israel.",
+        "name": "Jerusalem Old City",
+        "desc": "Explore one of the world's most historic cities, home to important religious sites, ancient streets and centuries of heritage.",
         "image": "/images/Israel.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Tel Aviv",
+        "desc": "Experience a modern Mediterranean city known for its beaches, architecture, food scene and lively atmosphere.",
         "image": "/images/Israel.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Dead Sea",
+        "desc": "Visit the famous salt lake surrounded by dramatic desert landscapes and experience its unique mineral-rich waters.",
         "image": "/images/Israel.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Israeli Culture & Cuisine",
+        "desc": "Discover colourful markets, traditional dishes and cultural influences from across the region.",
         "image": "/images/Israel.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "March - May & September - November",
       "currency": "Israeli New Shekel (ILS)",
-      "language": "Hebrew",
+      "language": "Hebrew / Arabic",
       "timeZone": "GMT+2"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Israel visa?",
-        "a": "Processing usually takes around 10 - 15 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Israel?",
+        "a": "Yes. Indian passport holders currently need an appropriate Israeli visa before travelling to Israel."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Israel."
+        "q": "Can Indian passport holders apply for an Israel eVisa?",
+        "a": "Yes. Indian passport holders residing in India can apply for the Israel eVisa-B2 through the official online system, subject to the applicable requirements."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "What is an Israel B/2 Visitor Visa?",
+        "a": "A B/2 Visitor Visa is intended for permitted short visits such as tourism, visiting family or friends, medical tourism and certain business or other short-term activities."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long can I stay in Israel on a B/2 visa?",
+        "a": "A B/2 Visitor Visa can allow a stay of up to 90 days, but the actual period of stay is determined by Israeli border control."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How long does an Israel visa take to process?",
+        "a": "Processing time varies depending on the application, document verification, security checks and other circumstances. Applicants should allow sufficient time before their planned journey."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Israel Embassy)."
+        "q": "What documents are required for an Israel tourist visa?",
+        "a": "Applicants generally need a valid passport, photographs, recent bank statements, employment confirmation, accommodation details, return or two-way travel details and travel insurance. Additional documents may be requested."
+      },
+      {
+        "q": "Is travel insurance required for Israel?",
+        "a": "Yes. Proof of insurance covering the entire period of stay is listed among the required documents for the Israeli visitor visa application."
+      },
+      {
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "Two-way flight details are part of the application requirements, but travellers should consider waiting for visa approval before purchasing non-refundable tickets."
+      },
+      {
+        "q": "Can I work in Israel with a B/2 Visitor Visa?",
+        "a": "No. A B/2 Visitor Visa does not permit the holder to work in Israel."
+      },
+      {
+        "q": "Do Indian citizens need ETA-IL for Israel?",
+        "a": "No. Indian passport holders are currently not part of the ETA-IL visa-exempt system and require the standard visa process."
+      },
+      {
+        "q": "Can I visit Israel for business with a B/2 visa?",
+        "a": "Certain short business visits can fall under the B/2 Visitor Visa category. The permitted activity must comply with Israeli immigration rules and should not involve employment."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Israeli authorities may request additional documents, information or further verification during the application process."
+      },
+      {
+        "q": "Does an Israel visa guarantee entry?",
+        "a": "No. A visa does not automatically guarantee entry. Final admission and the permitted length of stay are determined by Israeli border control."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Israel consular specifications (35x45 mm, white background)",
+        "Completed and signed Israel visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Israel",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Israel)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Israel.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Israel.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Israel.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Israel.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Israel.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "italy": {
     "name": "Italy",
@@ -3566,92 +5745,165 @@ window.VISION_VISA_COUNTRIES = {
         "Invitation Letter from Host / Sponsor (if applicable)",
         "Property & Financial Asset Proofs"
       ],
-      "alertText": "The VFS Italy / VMS may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "VFS Italy / VMS may request additional supporting documents depending on your travel history and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Italy visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Italy."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Italy consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Italy / VMS)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Italy visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Italy visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Italy",
       "subtitle": "Experience the Best of Italy",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Italy is a top destination.",
+      "desc": "From historic cities and world-famous landmarks to beautiful coastlines, countryside and exceptional cuisine, Italy offers unforgettable travel experiences.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Italy.",
+        "name": "Rome & Historic Landmarks",
+        "desc": "Explore ancient Roman landmarks, historic piazzas and iconic architectural treasures.",
         "image": "/images/Italy.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Venice & Italian Heritage",
+        "desc": "Experience romantic canals, historic architecture and the unique charm of Venice.",
         "image": "/images/Italy.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Amalfi Coast & Landscapes",
+        "desc": "Discover dramatic coastlines, picturesque villages and breathtaking Mediterranean views.",
         "image": "/images/Italy.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Italian Markets & Cuisine",
+        "desc": "Enjoy authentic Italian food, local markets and regional culinary traditions.",
         "image": "/images/Italy.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - June & September - October",
       "currency": "Euro (EUR)",
       "language": "Italian",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Italy visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "How long does it take to process an Italy visa?",
+        "a": "Processing usually takes around 15 Working Days, depending on embassy workload, application volume and individual circumstances."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is travel insurance mandatory for an Italy Schengen visa?",
+        "a": "Yes. Schengen visa applicants are required to have travel medical insurance with minimum coverage of €30,000."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Do I need to provide biometrics for an Italy visa?",
+        "a": "Biometrics, including fingerprints and a photograph, may be required during the visa submission process."
+      },
+      {
+        "q": "What documents are required for an Italy Schengen visa?",
+        "a": "Applicants generally need a valid passport, visa application form, photographs, proof of funds, travel itinerary, accommodation proof, travel insurance and supporting documents based on their circumstances."
       },
       {
         "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "a": "Yes. Our experts review your documents, help identify missing items and assist throughout your visa application process."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "Flight reservations and travel itineraries are generally used during the visa application stage. Travellers should avoid making non-refundable arrangements before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Italy / VMS)."
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The Italian authorities or visa application centre may request additional documents or information during the assessment of your application."
+      },
+      {
+        "q": "How is the Italy visa decision made?",
+        "a": "Visa approval is solely at the discretion of the competent Italian embassy or consular authority."
+      },
+      {
+        "q": "Does an Italy Schengen visa allow travel to other Schengen countries?",
+        "a": "A valid Schengen visa may allow travel within the Schengen Area, subject to the visa conditions and applicable entry requirements."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Italy / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Italy and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Italy and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Italy.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Italy.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "japan": {
     "name": "Japan",
@@ -3660,116 +5912,192 @@ window.VISION_VISA_COUNTRIES = {
     "flagImage": "https://flagcdn.com/w40/jp.png",
     "heroImage": "/images/Japan.webp",
     "processingTime": "5 - 7 Days",
-    "stayDuration": "Up to 15/30 Days",
+    "stayDuration": "Up to 15 / 30 Days",
     "entryType": "Single / Multiple",
     "applyThrough": "Japan Visa Application Center / VFS",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Japan e-Visa / Short Term Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Japan Visa",
+    "overviewDescription": "Planning a trip to Japan? Indian travellers may need a visa depending on their nationality, purpose of travel and current entry requirements. For short visits, eligible travellers may apply under the appropriate short-term visa category or e-Visa route. Vision Visa helps you understand the requirements, prepare your documents and complete the application process correctly.\n\nFrom Tokyo's modern cityscape and Kyoto's historic temples to Mount Fuji and Japan's unique food and culture, the country offers a mix of tradition and modern life. Preparing the right documents and providing accurate information can help make your visa application smoother.\n\nDo Indians Need a Visa for Japan?\nIndian passport holders generally need a visa before travelling to Japan for short-term visits. The exact visa category and application process depend on the purpose and circumstances of your trip. Eligible applicants may be able to use the Japan e-Visa system, while other applications may need to be submitted through the designated visa application centre or Japanese authorities.\n\nJapan Visa Types\nDepending on your purpose of travel, you may apply for a short-term visa for tourism, visiting relatives or friends, business activities or other permitted purposes. Other visa categories are available for longer stays, study, employment and specific activities. The requirements and permitted stay vary by visa category.\n\nJapan Visa Processing Time\nProcessing generally takes around 5 - 7 Days, but the actual timeframe can vary depending on the application, document verification, seasonal demand and the relevant Japanese authorities. Applying well in advance and submitting complete documents can help avoid unnecessary delays.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Japan Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed Japan visa application form",
+        "Recent passport-size photograph",
+        "Proof of sufficient financial funds",
+        "Flight itinerary or reservation",
+        "Accommodation details",
+        "Travel itinerary",
+        "Supporting documents based on the purpose of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Bank statements and financial documents",
+        "Income Tax Returns, where applicable",
+        "Salary slips and employment letter",
+        "Leave approval or leave sanction letter",
+        "Business registration documents, if self-employed",
+        "Invitation letter or documents from a host in Japan, if applicable"
       ],
-      "alertText": "The Japan Visa Application Center / VFS may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Japanese authorities or designated visa application centre may request additional documents or information depending on your application and travel purpose."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Japan visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Japan."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Japan consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Japan Visa Application Center / VFS)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Japan visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Japan visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Japan",
       "subtitle": "Experience the Best of Japan",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Japan is a top destination.",
+      "desc": "From futuristic cities and ancient temples to Mount Fuji, peaceful gardens and world-famous cuisine, Japan offers something different in every season.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Japan.",
+        "name": "Tokyo",
+        "desc": "Experience Japan's energetic capital, from modern neighbourhoods and shopping districts to historic temples and local food.",
         "image": "/images/Japan.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Kyoto",
+        "desc": "Explore traditional temples, shrines, gardens and historic streets that showcase Japan's cultural heritage.",
         "image": "/images/Japan.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Mount Fuji",
+        "desc": "See one of Japan's most recognisable landmarks surrounded by scenic lakes, forests and mountain landscapes.",
         "image": "/images/Japan.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Japanese Food & Culture",
+        "desc": "Discover sushi, ramen, regional specialities, traditional markets and the everyday culture of Japan.",
         "image": "/images/Japan.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "March - May & October - November",
       "currency": "Japanese Yen (JPY)",
       "language": "Japanese",
       "timeZone": "GMT+9"
     },
     "faqs": [
       {
+        "q": "Do Indian citizens need a visa for Japan?",
+        "a": "Yes. Indian passport holders generally need a visa before travelling to Japan. The appropriate visa category depends on the purpose and circumstances of the trip."
+      },
+      {
+        "q": "Can Indian travellers apply for a Japan e-Visa?",
+        "a": "Eligible travellers may be able to apply through the Japan e-Visa system, subject to the latest eligibility and application requirements."
+      },
+      {
         "q": "How long does it take to process a Japan visa?",
-        "a": "Processing usually takes around 5 - 7 Days, depending on embassy workload and season."
+        "a": "Processing generally takes around 5 - 7 Days, although the actual timeframe can vary depending on the application and document verification."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Japan."
+        "q": "What documents are required for a Japan tourist visa?",
+        "a": "Common requirements include a valid passport, visa application form, photograph, financial documents, travel itinerary, accommodation details and other supporting documents based on your circumstances."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Is travel insurance mandatory for Japan?",
+        "a": "Travel insurance is recommended for international travel to Japan. Check the latest requirements applicable to your visa and travel circumstances."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a Japan visa?",
+        "a": "Biometric requirements can depend on the visa category and application process. Applicants should follow the instructions provided by the relevant Japanese authorities or visa application centre."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight itinerary or reservation may be used as part of the application documents. Travellers should avoid making non-refundable travel arrangements before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Japan Visa Application Center / VFS)."
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Japanese authorities may request additional documents or information if required while assessing your application."
+      },
+      {
+        "q": "Does having a Japan visa guarantee entry?",
+        "a": "No. A visa permits travel to Japan subject to its conditions, but final admission is determined by immigration authorities at the port of entry."
+      },
+      {
+        "q": "Can Vision Visa help with my Japan visa application?",
+        "a": "Yes. Vision Visa can assist with document checklist guidance, application review and general support throughout the visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Completed and signed Japan visa application form with photo pasted",
+        "Two recent photographs (45x45 mm / 2x2 inch, white background, matte finish)",
+        "Personal cover letter addressed to the Embassy/Consulate General of Japan"
+      ],
+      "financial": [
+        "Original personal bank statements for the last 6 months stamped and signed by the bank",
+        "Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 assessment years",
+        "Employment certificate and sanctioned leave letter from employer",
+        "Salary slips for the last 3 months",
+        "Company registration certificate & company bank statement (for self-employed applicants)"
+      ],
+      "travel": [
+        "Confirmed round-trip flight reservation",
+        "Confirmed hotel bookings for all nights of stay in Japan",
+        "Detailed 'Schedule of Stay' (Form 1) indicating daily activities, accommodation names, and contact numbers"
+      ],
+      "additional": [
+        "Letter of Reason for Invitation & Schedule of Stay from host in Japan (if visiting relatives/friends)",
+        "Host Residence Certificate (Juminhyo) & copy of Japanese visa/residence card (if invited)",
+        "Corporate invitation letter and Certificate of Employment (for business visa applications)",
+        "Previous passports and international travel records"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Short-Term Stay)",
+        "description": "For tourism, sightseeing, cultural tours, and holiday visits in Japan.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For short-term business affairs, corporate meetings, and attending conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visiting Relatives / Friends Visa",
+        "description": "For visiting relatives, acquaintances, or friends living in Japan.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For long-term study at Japanese universities, language schools, and vocational colleges.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Highly Skilled / Work Visa",
+        "description": "For specialized employment holding a Certificate of Eligibility (COE).",
+        "icon": "🏢"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For brief sightseeing during flight connections in Japan.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "kuwait": {
     "name": "Kuwait",
@@ -3782,112 +6110,175 @@ window.VISION_VISA_COUNTRIES = {
     "entryType": "Single / Multiple",
     "applyThrough": "Kuwait eVisa Portal",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Kuwait eVisa application, from document verification to submission guidance.",
+    "overviewTitle": "About Kuwait Visa",
+    "overviewDescription": "Planning a trip to Kuwait? Indian passport holders generally need a visa before travelling to Kuwait. Eligible travellers may be able to apply for a Kuwait eVisa for short visits, depending on their nationality, purpose of travel and current entry requirements. Vision Visa helps you understand the requirements, prepare your documents and complete the visa application process correctly.\n\nKuwait combines a modern Gulf lifestyle with traditional Arabian culture. From the Kuwait Towers and waterfront areas to historic markets and museums, the country offers a different experience for travellers visiting the Gulf.\n\nDo Indians Need a Visa for Kuwait?\nYes. Indian passport holders generally require a valid visa before travelling to Kuwait. Depending on your eligibility and purpose of travel, you may be able to apply for an eVisa or another appropriate visa category. Visa requirements and eligibility can change, so applicants should check the latest requirements before submitting their application.\n\nKuwait Visa Types\nVisa options depend on the purpose of your visit. Short-term travellers may apply for a visitor or tourist eVisa where eligible, while business, family visit, work and other categories have separate requirements. The permitted stay and visa conditions depend on the category approved by the Kuwaiti authorities.\n\nKuwait Visa Processing Time\nProcessing generally takes around 3 - 5 Days, although the actual timeframe can vary depending on application details, document verification and the volume of applications. Applying in advance with complete and accurate information can help avoid unnecessary delays.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Kuwait Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed Kuwait visa application",
+        "Recent passport-size photograph, if required",
+        "Proof of sufficient financial funds, where applicable",
+        "Flight itinerary or reservation",
+        "Accommodation details",
+        "Travel itinerary",
+        "Supporting documents based on the purpose of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Bank statements or other financial documents",
+        "Employment letter and salary slips",
+        "Leave approval letter, where applicable",
+        "Income Tax Returns, where applicable",
+        "Business registration documents, if self-employed",
+        "Invitation or sponsor documents, where applicable"
       ],
-      "alertText": "The Kuwait eVisa Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Kuwaiti authorities may request additional documents or information depending on your visa category, eligibility and individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Kuwait visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Kuwait."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Kuwait consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Kuwait eVisa Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Kuwait visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Kuwait visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Kuwait",
       "subtitle": "Experience the Best of Kuwait",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Kuwait is a top destination.",
+      "desc": "From modern Gulf architecture and waterfront views to traditional souqs, museums and local cuisine, Kuwait offers a blend of contemporary life and Arabian heritage.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Kuwait.",
+        "name": "Kuwait City & Kuwait Towers",
+        "desc": "Explore Kuwait City's modern skyline and the country's iconic Kuwait Towers overlooking the Arabian Gulf.",
         "image": "/images/Kuwait.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Souq Al-Mubarakiya",
+        "desc": "Step into one of Kuwait's traditional markets for spices, local products, handicrafts and authentic Gulf atmosphere.",
         "image": "/images/Kuwait.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Kuwait Waterfront",
+        "desc": "Enjoy coastal views, promenades and relaxed waterfront spaces along the Arabian Gulf.",
         "image": "/images/Kuwait.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Kuwaiti Culture & Cuisine",
+        "desc": "Discover traditional Kuwaiti dishes, Arabic coffee and the cultural traditions that shape everyday life in Kuwait.",
         "image": "/images/Kuwait.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "November - March",
       "currency": "Kuwaiti Dinar (KWD)",
       "language": "Arabic",
       "timeZone": "GMT+3"
     },
     "faqs": [
       {
+        "q": "Do Indian citizens need a visa for Kuwait?",
+        "a": "Yes. Indian passport holders generally need a valid visa before travelling to Kuwait. Eligibility and requirements depend on the purpose of travel and the latest Kuwaiti immigration rules."
+      },
+      {
+        "q": "Can Indian travellers apply for a Kuwait eVisa?",
+        "a": "Eligible travellers may be able to apply for a Kuwait eVisa, subject to the latest eligibility and immigration requirements."
+      },
+      {
         "q": "How long does it take to process a Kuwait visa?",
-        "a": "Processing usually takes around 3 - 5 Days, depending on embassy workload and season."
+        "a": "Processing generally takes around 3 - 5 Days, although the actual timeframe can vary depending on the application and document verification."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Kuwait."
+        "q": "What documents are required for a Kuwait visa?",
+        "a": "Common requirements include a valid passport, application details, photograph where required, travel itinerary, accommodation details and supporting documents based on your visa category."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Is travel insurance mandatory for Kuwait?",
+        "a": "Travel insurance is recommended for travellers visiting Kuwait. Check the latest requirements applicable to your visa category before travelling."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a Kuwait visa?",
+        "a": "Biometric requirements can vary depending on the visa category and current procedures. Follow the instructions provided by the relevant Kuwaiti authorities."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight itinerary or reservation may be used as part of the application documents. It is advisable to avoid non-refundable travel arrangements before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Kuwait eVisa Portal)."
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Kuwaiti authorities may request additional documents or information while assessing your application."
+      },
+      {
+        "q": "Does a Kuwait visa guarantee entry?",
+        "a": "No. A valid visa allows you to travel subject to its conditions, but final entry is determined by immigration authorities at the port of entry."
+      },
+      {
+        "q": "Can Vision Visa help with my Kuwait visa application?",
+        "a": "Yes. Vision Visa can assist with document checklist guidance, application review and general support throughout your visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital scan of valid passport bio-data page (min 6 months validity)",
+        "Recent digital passport-size photograph with white background",
+        "Completed Kuwait electronic visa application form"
+      ],
+      "financial": [
+        "Proof of sufficient funds (bank statement or credit card limit proof if requested by immigration)"
+      ],
+      "travel": [
+        "Confirmed return or onward flight itinerary",
+        "Confirmed hotel accommodation or host stay details in Kuwait"
+      ],
+      "additional": [
+        "Cover letter detailing purpose of visit and travel schedule",
+        "Travel health insurance (recommended for international journeys)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Kuwait.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Kuwait.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Kuwait.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Kuwait.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Kuwait.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "luxembourg": {
     "name": "Luxembourg",
@@ -3900,112 +6291,190 @@ window.VISION_VISA_COUNTRIES = {
     "entryType": "Single / Multiple",
     "applyThrough": "VFS Luxembourg",
     "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Luxembourg Schengen Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Luxembourg Visa",
+    "overviewDescription": "Planning a trip to Luxembourg? Indian passport holders generally need a Schengen visa before travelling to Luxembourg for a short stay. The visa can cover tourism, visiting family or friends, business and other permitted short-term purposes. Vision Visa helps you understand the requirements, prepare your documents and complete the application process correctly.\n\nLuxembourg may be small in size, but it offers a mix of historic old towns, impressive castles, European institutions and peaceful countryside. From Luxembourg City's historic centre to the scenic Moselle Valley, the country offers a convenient destination to explore as part of a wider European trip.\n\nDo Indians Need a Visa for Luxembourg?\nYes. Indian passport holders generally require a Schengen visa before travelling to Luxembourg for a short stay. The correct application depends on your purpose of travel and your overall Schengen itinerary. If you are visiting multiple Schengen countries, the country responsible for your visa application depends on the applicable Schengen rules and your main destination.\n\nLuxembourg Schengen Visa Requirements\nApplicants generally need a valid passport, completed application form, photographs, proof of financial means, travel itinerary, accommodation details, travel medical insurance and supporting documents based on their personal and professional circumstances. Additional documents may be requested during the assessment.\n\nLuxembourg Visa Processing Time\nA short-stay Schengen visa generally takes around 15 Working Days to process, although the actual timeframe can vary depending on application volume, document verification and individual circumstances. Applying in advance with complete documents is recommended.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Luxembourg Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed Luxembourg Schengen Visa Application Form",
+        "Recent passport-size photographs",
+        "Proof of sufficient financial funds",
+        "Flight reservation and travel itinerary",
+        "Hotel or accommodation proof",
+        "Travel medical insurance with minimum €30,000 coverage",
+        "Cover letter explaining the purpose of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Income Tax Returns, where applicable",
+        "Recent salary slips and employment letter",
+        "Approved leave or leave sanction letter",
+        "Business registration documents, if self-employed",
+        "Invitation letter from a host or sponsor, if applicable",
+        "Property or other financial asset documents, where relevant"
       ],
-      "alertText": "The VFS Luxembourg may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "VFS Luxembourg or the relevant Luxembourg authorities may request additional documents or information depending on your travel history and individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Luxembourg visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Luxembourg."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Luxembourg consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Luxembourg)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Luxembourg visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Luxembourg visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Luxembourg",
       "subtitle": "Experience the Best of Luxembourg",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Luxembourg is a top destination.",
+      "desc": "Explore Luxembourg's historic capital, medieval castles, peaceful valleys and distinctive European culture in a country where city life and countryside are never far apart.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Luxembourg.",
+        "name": "Luxembourg City Old Town",
+        "desc": "Walk through historic streets, fortifications and viewpoints around the UNESCO-listed old quarters of Luxembourg City.",
         "image": "/images/Luxembourg.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Vianden Castle",
+        "desc": "Visit one of Luxembourg's most famous castles, set above the town of Vianden and surrounded by wooded hills.",
         "image": "/images/Luxembourg.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Mullerthal Region",
+        "desc": "Discover forest trails, rock formations and scenic landscapes in Luxembourg's popular hiking region.",
         "image": "/images/Luxembourg.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Moselle Valley & Local Cuisine",
+        "desc": "Explore riverside villages, vineyards and Luxembourg's mix of French, German and local culinary influences.",
         "image": "/images/Luxembourg.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - June & September - October",
       "currency": "Euro (EUR)",
-      "language": "Luxembourgish / French",
+      "language": "Luxembourgish / French / German",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Luxembourg visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Luxembourg?",
+        "a": "Yes. Indian passport holders generally require a Schengen visa before travelling to Luxembourg for a short stay."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "How long does it take to process a Luxembourg Schengen visa?",
+        "a": "Processing generally takes around 15 Working Days, although the actual timeframe can vary depending on application volume and individual circumstances."
+      },
+      {
+        "q": "Is travel insurance mandatory for a Luxembourg Schengen visa?",
+        "a": "Yes. Schengen visa applicants generally need travel medical insurance with minimum coverage of €30,000."
+      },
+      {
+        "q": "What documents are required for a Luxembourg visa?",
+        "a": "Common requirements include a valid passport, application form, photographs, proof of funds, travel itinerary, accommodation details, travel insurance and supporting documents based on your circumstances."
       },
       {
         "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
-      },
-      {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "a": "Applicants may need to provide fingerprints and other biometric information during the visa submission process, subject to applicable rules and exemptions."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight reservation or itinerary may be submitted as part of the application. It is advisable to avoid non-refundable bookings before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Luxembourg)."
+        "q": "Can additional documents be requested?",
+        "a": "Yes. The visa application centre or Luxembourg authorities may request additional documents or information during the assessment of your application."
+      },
+      {
+        "q": "Can Vision Visa assist with document verification?",
+        "a": "Yes. Vision Visa can help review your documents, identify missing items and guide you through the application process."
+      },
+      {
+        "q": "Does a Luxembourg Schengen visa allow travel to other Schengen countries?",
+        "a": "A valid Schengen visa may allow travel within the Schengen Area, subject to the visa conditions and applicable entry requirements."
+      },
+      {
+        "q": "Does having a Luxembourg visa guarantee entry?",
+        "a": "No. A visa allows travel subject to its conditions, but final entry is determined by border and immigration authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Luxembourg / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Luxembourg and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Luxembourg and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Luxembourg.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Luxembourg.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "madagascar": {
     "name": "Madagascar",
@@ -4014,116 +6483,179 @@ window.VISION_VISA_COUNTRIES = {
     "flagImage": "https://flagcdn.com/w40/mg.png",
     "heroImage": "/images/Madagascar-2048x1366.webp",
     "processingTime": "3 - 5 Days",
-    "stayDuration": "Up to 30/60 Days",
+    "stayDuration": "Up to 30 / 60 Days",
     "entryType": "Single / Multiple",
     "applyThrough": "eVisa Madagascar",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Madagascar eVisa / Tourist Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Madagascar Visa",
+    "overviewDescription": "Planning a trip to Madagascar? Indian passport holders generally need a visa before travelling to Madagascar. Eligible travellers may be able to apply for an eVisa for short visits, depending on the purpose and duration of their trip. Vision Visa helps you understand the visa requirements, prepare your documents and complete the visa application process correctly.\n\nMadagascar is known for its unique wildlife, beautiful beaches, tropical landscapes and distinctive culture. From the famous Avenue of the Baobabs and rainforests to the island's diverse coastal regions, it offers experiences that are very different from a typical holiday destination.\n\nDo Indians Need a Visa for Madagascar?\nYes. Indian passport holders generally require a visa to enter Madagascar. Eligible travellers can apply through the Madagascar eVisa system for suitable short-term visits. The visa category, permitted stay and applicable requirements depend on the purpose and details of your trip.\n\nMadagascar Visa Types\nTravellers visiting Madagascar for tourism can generally apply for the appropriate tourist visa or eVisa. Other travel purposes may require different visa arrangements. The permitted duration of stay and visa conditions depend on the category approved by the Malagasy authorities.\n\nMadagascar Visa Requirements\nApplicants generally need a valid passport, visa application details, recent photograph where required, travel itinerary, accommodation information and supporting financial or travel documents. Additional documents may be requested depending on the application and purpose of travel.\n\nMadagascar Visa Processing Time\nProcessing generally takes around 3 - 5 Days, although the actual timeframe can vary depending on application details, document verification and seasonal demand. Applying ahead of your planned travel date with complete information is recommended.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Madagascar Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed Madagascar visa application",
+        "Recent passport-size photograph, if required",
+        "Proof of sufficient financial funds, where applicable",
+        "Flight itinerary or reservation",
+        "Hotel or accommodation details",
+        "Travel itinerary",
+        "Supporting documents based on the purpose of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Bank statements or other financial documents",
+        "Income Tax Returns, where applicable",
+        "Salary slips and employment letter",
+        "Approved leave or leave sanction letter",
+        "Business registration documents, if self-employed",
+        "Invitation letter or host documents, if applicable"
       ],
-      "alertText": "The eVisa Madagascar may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Madagascar immigration authorities may request additional documents or information depending on your visa category and individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Madagascar visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Madagascar."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Madagascar consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (eVisa Madagascar)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Madagascar visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Madagascar visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Madagascar",
       "subtitle": "Experience the Best of Madagascar",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Madagascar is a top destination.",
+      "desc": "From unique wildlife and ancient baobab trees to tropical beaches and colourful local culture, Madagascar offers an unforgettable island experience.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Madagascar.",
+        "name": "Avenue of the Baobabs",
+        "desc": "See Madagascar's iconic baobab trees rising along one of the country's most recognisable landscapes.",
         "image": "/images/Madagascar-2048x1366.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Rainforests & Wildlife",
+        "desc": "Explore Madagascar's remarkable biodiversity, including lemurs and other species found nowhere else in the world.",
         "image": "/images/Madagascar-2048x1366.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Madagascar Beaches",
+        "desc": "Discover tropical beaches, clear waters and scenic coastal landscapes across the island.",
         "image": "/images/Madagascar-2048x1366.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Local Culture & Markets",
+        "desc": "Experience Malagasy traditions, local crafts, markets and the island's distinctive food culture.",
         "image": "/images/Madagascar-2048x1366.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - October",
       "currency": "Malagasy Ariary (MGA)",
       "language": "Malagasy / French",
       "timeZone": "GMT+3"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Madagascar visa?",
-        "a": "Processing usually takes around 3 - 5 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Madagascar?",
+        "a": "Yes. Indian passport holders generally require a visa before travelling to Madagascar. Eligible travellers may be able to apply for an eVisa, subject to the latest requirements."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Madagascar."
+        "q": "Can Indian travellers apply for a Madagascar eVisa?",
+        "a": "Eligible travellers can apply through the Madagascar eVisa system, subject to the current eligibility and application requirements."
+      },
+      {
+        "q": "How long does it take to process a Madagascar visa?",
+        "a": "Processing generally takes around 3 - 5 Days, although the actual timeframe can vary depending on application details and document verification."
+      },
+      {
+        "q": "What documents are required for a Madagascar tourist visa?",
+        "a": "Common requirements include a valid passport, visa application details, photograph where required, travel itinerary, accommodation information and supporting documents based on your circumstances."
+      },
+      {
+        "q": "Is travel insurance mandatory for Madagascar?",
+        "a": "Travel insurance is recommended for travellers visiting Madagascar. Check the latest requirements applicable to your visa and travel dates."
       },
       {
         "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
-      },
-      {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "a": "Biometric requirements can vary depending on the visa category and current procedures. Follow the instructions provided by the relevant Malagasy authorities."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight itinerary or reservation may be used as part of the application documents. It is advisable to avoid non-refundable travel arrangements before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (eVisa Madagascar)."
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Malagasy authorities may request additional documents or information while assessing your application."
+      },
+      {
+        "q": "Does a Madagascar visa guarantee entry?",
+        "a": "No. A valid visa allows you to travel subject to its conditions, but final entry is determined by immigration authorities at the port of entry."
+      },
+      {
+        "q": "Can Vision Visa help with my Madagascar visa application?",
+        "a": "Yes. Vision Visa can assist with document checklist guidance, application review and general support throughout your visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital scan of valid passport bio-data page (min 6 months validity)",
+        "Recent digital passport-size photograph with white background",
+        "Completed Madagascar electronic visa application form"
+      ],
+      "financial": [
+        "Proof of sufficient funds (bank statement or credit card limit proof if requested by immigration)"
+      ],
+      "travel": [
+        "Confirmed return or onward flight itinerary",
+        "Confirmed hotel accommodation or host stay details in Madagascar"
+      ],
+      "additional": [
+        "Cover letter detailing purpose of visit and travel schedule",
+        "Travel health insurance (recommended for international journeys)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Madagascar.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Madagascar.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Madagascar.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Madagascar.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Madagascar.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "malaysia": {
     "name": "Malaysia",
@@ -4136,112 +6668,177 @@ window.VISION_VISA_COUNTRIES = {
     "entryType": "Single / Multiple",
     "applyThrough": "Malaysia eVISA Portal",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Malaysia eVISA / Tourist Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Malaysia Visa",
+    "overviewDescription": "Planning a trip to Malaysia? Indian travellers may need a visa depending on their nationality, travel purpose and current entry requirements. For eligible travellers, the Malaysia eVISA provides an online route for applying for a suitable tourist visa. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nMalaysia is a popular destination for its modern cities, tropical islands, cultural diversity, rainforests and food. From Kuala Lumpur's famous landmarks to Langkawi's beaches and the cultural streets of Penang, the country offers a mix of city experiences and tropical escapes.\n\nDo Indians Need a Visa for Malaysia?\nIndian citizens should check the latest Malaysia entry and visa requirements before travelling, as visa policies and permitted stay can change. Where an eVISA is required and the traveller is eligible, the application can be submitted through the Malaysia eVISA system.\n\nMalaysia Visa Types\nFor tourism, eligible travellers may apply for the appropriate Malaysia tourist eVISA. The visa type, validity, number of entries and permitted duration of stay depend on the approval issued by the Malaysian authorities.\n\nMalaysia Visa Requirements\nApplicants may need a valid passport, photograph, travel itinerary, accommodation details and proof of sufficient funds. Additional documents may be requested depending on the applicant's circumstances, travel history and purpose of visit.\n\nMalaysia Visa Processing Time\nProcessing generally takes around 2 - 4 Days, although the actual timeframe can vary depending on application volume, document verification and individual circumstances. Applying in advance is recommended to allow enough time before your planned departure.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Malaysia Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed Malaysia visa application",
+        "Recent passport-size photograph, if required",
+        "Proof of sufficient financial funds, where applicable",
+        "Flight itinerary or reservation",
+        "Hotel or accommodation details",
+        "Travel itinerary",
+        "Supporting documents based on the purpose of travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Bank statements or other financial documents",
+        "Income Tax Returns, where applicable",
+        "Salary slips and employment letter",
+        "Approved leave or leave sanction letter",
+        "Business registration documents, if self-employed",
+        "Invitation letter or host documents, if applicable"
       ],
-      "alertText": "The Malaysia eVISA Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Malaysia immigration authorities may request additional documents or information depending on your visa category and individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Malaysia visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Malaysia."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Malaysia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Malaysia eVISA Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Malaysia visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Malaysia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Malaysia",
       "subtitle": "Experience the Best of Malaysia",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Malaysia is a top destination.",
+      "desc": "From modern city skylines and historic neighbourhoods to tropical islands and incredible local food, Malaysia offers something for every kind of traveller.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Malaysia.",
+        "name": "Kuala Lumpur & City Landmarks",
+        "desc": "Explore Kuala Lumpur's famous skyline, modern architecture and lively city attractions.",
         "image": "/images/Malaysia.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Discover Malaysia's diverse cultural heritage through historic streets, temples, mosques and traditional neighbourhoods.",
         "image": "/images/Malaysia.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Tropical Islands & Nature",
+        "desc": "Enjoy beautiful beaches, tropical islands, rainforests and scenic landscapes across Malaysia.",
         "image": "/images/Malaysia.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Experience Malaysia's famous street food, local markets and diverse culinary traditions.",
         "image": "/images/Malaysia.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "December - March",
       "currency": "Malaysian Ringgit (MYR)",
       "language": "Malay",
       "timeZone": "GMT+8"
     },
     "faqs": [
       {
+        "q": "Do Indian citizens need a visa for Malaysia?",
+        "a": "Visa and entry requirements for Indian citizens depend on the latest Malaysian immigration rules, travel purpose and applicable exemptions. Check the current requirements before travelling."
+      },
+      {
+        "q": "Can Indian travellers apply for a Malaysia eVISA?",
+        "a": "Eligible travellers can apply through the Malaysia eVISA system when an eVISA is required for their travel circumstances."
+      },
+      {
         "q": "How long does it take to process a Malaysia visa?",
-        "a": "Processing usually takes around 2 - 4 Days, depending on embassy workload and season."
+        "a": "Processing generally takes around 2 - 4 Days, although the actual timeframe can vary depending on application volume and document verification."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Malaysia."
+        "q": "What documents are required for a Malaysia tourist visa?",
+        "a": "Common requirements may include a valid passport, application details, photograph where required, travel itinerary, accommodation details and supporting financial or employment documents."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Is travel insurance mandatory for Malaysia?",
+        "a": "Travel insurance is recommended for visitors to Malaysia. Check the latest requirements applicable to your visa and travel dates."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a Malaysia visa?",
+        "a": "Biometric requirements can vary depending on the visa category and current application procedures. Follow the instructions provided by the Malaysian authorities."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight itinerary or reservation may be used as part of the application documents. It is advisable to avoid making non-refundable travel arrangements before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Malaysia eVISA Portal)."
+        "q": "Can additional documents be requested for a Malaysia visa?",
+        "a": "Yes. Malaysian authorities may request additional documents or information when assessing an application."
+      },
+      {
+        "q": "Does a Malaysia visa guarantee entry?",
+        "a": "No. A visa allows travel subject to its conditions, but final admission is determined by Malaysian immigration authorities at the port of entry."
+      },
+      {
+        "q": "Can Vision Visa help with my Malaysia visa application?",
+        "a": "Yes. Vision Visa can assist with document checklist guidance, application review and general support throughout your Malaysia visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear scan of valid passport bio-data and signature pages (min 6 months validity)",
+        "Recent passport-size digital photograph (35x50mm, white background, studio quality)",
+        "Completed Malaysia visa application form"
+      ],
+      "financial": [
+        "Personal bank statement for the last 3 months with sufficient funds",
+        "Employment NOC / salary proof (if requested for eVisa)"
+      ],
+      "travel": [
+        "Confirmed round-trip flight booking with e-ticket numbers",
+        "Confirmed hotel booking or accommodation voucher in Malaysia",
+        "Completed Malaysia Digital Arrival Card (MDAC) submitted within 3 days prior to arrival"
+      ],
+      "additional": [
+        "Cover letter detailing purpose and dates of travel",
+        "Invitation letter and sponsor identification (if hosted in Malaysia)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist eVisa / eNTRI",
+        "description": "For leisure travel, sightseeing in Kuala Lumpur, Penang, Langkawi, and cultural holidays.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Multiple Entry Tourist Visa",
+        "description": "For frequent visitors, allowing multiple stays across a 3 to 12 months validity.",
+        "icon": "🌴"
+      },
+      {
+        "name": "Business eVisa",
+        "description": "For attending business meetings, investment seminars, and trade discussions.",
+        "icon": "💼"
+      },
+      {
+        "name": "Student Visa (VAL)",
+        "description": "With Visa Approval Letter from Education Malaysia Global Services (EMGS).",
+        "icon": "🎓"
+      },
+      {
+        "name": "Employment Pass (EP)",
+        "description": "For skilled expatriates employed by authorized companies in Malaysia.",
+        "icon": "🏢"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "malta": {
     "name": "Malta",
@@ -4254,112 +6851,189 @@ window.VISION_VISA_COUNTRIES = {
     "entryType": "Single / Multiple",
     "applyThrough": "VFS Malta",
     "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Malta Schengen Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Malta Visa",
+    "overviewDescription": "Planning a trip to Malta? Indian travellers visiting Malta for tourism generally need a Schengen visa before travelling. Malta is part of the Schengen Area, allowing eligible travellers to visit Malta and, subject to the visa conditions, other Schengen countries. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nMalta is known for its historic cities, Mediterranean coastline, clear blue waters, ancient architecture and rich cultural heritage. Whether you are planning a holiday, exploring historic sites or enjoying a relaxing island getaway, having the right visa is an important part of your travel preparation.\n\nDo Indians Need a Visa for Malta?\nYes. Indian passport holders generally require a valid Schengen visa to travel to Malta. The visa category and supporting documents depend on the purpose and details of your trip. Visa approval is solely at the discretion of the relevant authorities.\n\nMalta Schengen Visa\nFor short visits, the Malta Schengen Visa generally allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions stated on the visa. Depending on the visa issued, entry may be single or multiple.\n\nMalta Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photographs, proof of sufficient funds, travel itinerary, flight reservation, accommodation details and a cover letter explaining the purpose of the trip. Additional financial, employment or sponsorship documents may be required depending on the applicant's circumstances.\n\nMalta Visa Processing Time\nThe stated processing time is around 15 Working Days. Actual processing can vary depending on the embassy or visa centre workload, document verification, travel season and individual application. Applying in advance is recommended.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Malta Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed Malta Schengen Visa Application Form",
+        "Recent passport-size photographs",
+        "Proof of sufficient financial funds",
+        "Flight reservation and travel itinerary",
+        "Hotel or accommodation proof",
+        "Cover letter stating the purpose of visit"
       ],
       "supporting": [
         "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Salary slips for the last 3 - 6 months and employment letter",
+        "Leave sanction or approved leave certificate",
+        "Business registration documents, if self-employed",
+        "Invitation letter from host or sponsor, if applicable",
+        "Property and financial asset proofs"
       ],
-      "alertText": "The VFS Malta may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "VFS Malta or the relevant Maltese authorities may request additional supporting documents depending on your travel history and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Malta visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Malta."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Malta consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Malta)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Malta visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Malta visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Malta",
       "subtitle": "Experience the Best of Malta",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Malta is a top destination.",
+      "desc": "From historic walled cities and ancient architecture to Mediterranean beaches and coastal views, Malta offers a unique mix of history, culture and island life.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Malta.",
+        "name": "Valletta & Historic Landmarks",
+        "desc": "Explore Malta's historic capital, known for grand architecture, forts and centuries of Mediterranean history.",
         "image": "/images/Malta.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Mdina & Cultural Heritage",
+        "desc": "Walk through the narrow streets of the ancient fortified city of Mdina and discover Malta's rich heritage.",
         "image": "/images/Malta.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Mediterranean Coast & Islands",
+        "desc": "Enjoy Malta's clear waters, dramatic coastlines and beautiful island landscapes.",
         "image": "/images/Malta.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Experience traditional Maltese flavours, local markets and the island's relaxed Mediterranean lifestyle.",
         "image": "/images/Malta.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - October",
       "currency": "Euro (EUR)",
       "language": "Maltese / English",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
+        "q": "Do Indian citizens need a visa for Malta?",
+        "a": "Yes. Indian passport holders generally require a valid Schengen visa before travelling to Malta."
+      },
+      {
         "q": "How long does it take to process a Malta visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "a": "The stated processing time is around 15 Working Days, although actual processing may vary depending on application volume, document verification and individual circumstances."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is travel insurance mandatory for a Malta Schengen visa?",
+        "a": "Yes. Schengen visa applicants are required to have travel medical insurance with minimum coverage of €30,000."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
-      },
-      {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a Malta visa?",
+        "a": "Biometric information, including fingerprints and a photograph, may be required as part of the Schengen visa application process."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight reservation or itinerary can generally be submitted as part of the application. It is advisable to avoid making non-refundable travel arrangements before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Malta)."
+        "q": "Can Vision Visa help with Malta visa document verification?",
+        "a": "Yes. Vision Visa can help review your documents, identify missing requirements and guide you through the application process."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. VFS Malta or the relevant authorities may request additional documents or information during the assessment of your application."
+      },
+      {
+        "q": "Does a Malta Schengen visa guarantee entry?",
+        "a": "No. A visa permits travel subject to its conditions, but final entry is determined by immigration authorities at the port of entry."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Malta visa?",
+        "a": "A Malta-issued Schengen visa may allow travel to other Schengen countries, subject to the visa conditions and the applicable Schengen rules."
+      },
+      {
+        "q": "How can Vision Visa assist with my Malta visa application?",
+        "a": "Vision Visa provides document checklist guidance, application review and general support throughout your Malta visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Malta / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Malta and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Malta and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Malta.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Malta.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "morocco": {
     "name": "Morocco",
@@ -4372,112 +7046,174 @@ window.VISION_VISA_COUNTRIES = {
     "entryType": "Single / Multiple",
     "applyThrough": "Morocco eVisa Portal",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Morocco eVisa / Tourist Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Morocco Visa",
+    "overviewDescription": "Planning a trip to Morocco? Depending on your nationality, travel purpose and current entry requirements, you may need a visa before travelling. Eligible travellers may be able to apply for a Morocco eVisa through the online application system. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nMorocco is a fascinating destination known for its historic medinas, colourful souks, desert landscapes, Atlantic and Mediterranean coastlines, and distinctive blend of Arab, Berber and European influences. From Marrakech and Fes to the Sahara Desert and coastal cities, Morocco offers a wide range of experiences for travellers.\n\nDo Indians Need a Visa for Morocco?\nIndian citizens should check the latest Moroccan visa and entry requirements before planning their trip. Depending on the applicable rules and eligibility, travellers may be able to apply for an eVisa or may need to follow another visa application process. Visa approval is solely at the discretion of the Moroccan authorities.\n\nMorocco eVisa & Tourist Visa\nThe appropriate visa depends on your nationality, purpose of travel and eligibility. Tourist travellers should ensure that they apply under the correct category and provide accurate travel and personal information.\n\nMorocco Visa Requirements\nCommon documents may include a valid passport, recent photograph, travel itinerary, flight reservation, accommodation details and proof of sufficient funds. Additional financial, employment, business or invitation documents may be requested depending on the applicant's circumstances.\n\nMorocco Visa Processing Time\nThe stated processing time is around 3 - 7 Days. Actual processing can vary depending on application volume, document verification, individual circumstances and the requirements of the Moroccan authorities. Applying in advance is recommended to allow enough time before your planned departure.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Morocco Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed Morocco visa application",
+        "Recent passport-size photograph",
+        "Proof of sufficient financial funds",
+        "Flight reservation and travel itinerary",
+        "Hotel or accommodation details",
+        "Cover letter stating the purpose of visit"
       ],
       "supporting": [
         "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Salary slips for the last 3 - 6 months and employment letter",
+        "Leave sanction or approved leave certificate",
+        "Business registration documents, if self-employed",
+        "Invitation letter from host or sponsor, if applicable",
+        "Property and financial asset proofs"
       ],
-      "alertText": "The Morocco eVisa Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Morocco eVisa Portal or relevant Moroccan authorities may request additional supporting documents or information depending on your travel history and individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Morocco visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Morocco."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Morocco consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Morocco eVisa Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Morocco visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Morocco visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Morocco",
       "subtitle": "Experience the Best of Morocco",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Morocco is a top destination.",
+      "desc": "From colourful souks and ancient medinas to vast desert landscapes and beautiful coastal towns, Morocco brings together history, culture, nature and unforgettable local experiences.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Morocco.",
+        "name": "Marrakech & Historic Medina",
+        "desc": "Explore Marrakech's famous medina, traditional souks, historic palaces and lively Jemaa el-Fnaa square.",
         "image": "/images/Morocco.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Fes & Cultural Heritage",
+        "desc": "Discover the historic streets, traditional crafts and remarkable architecture of Fes, one of Morocco's cultural centres.",
         "image": "/images/Morocco.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Sahara Desert & Landscapes",
+        "desc": "Experience Morocco's dramatic desert scenery, golden dunes and traditional desert camps.",
         "image": "/images/Morocco.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Markets & Moroccan Cuisine",
+        "desc": "Taste traditional Moroccan dishes and explore colourful markets filled with spices, crafts and local products.",
         "image": "/images/Morocco.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "March - May / September - November",
       "currency": "Moroccan Dirham (MAD)",
-      "language": "Arabic",
+      "language": "Arabic / Amazigh",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
+        "q": "Do Indian citizens need a visa for Morocco?",
+        "a": "Indian citizens should check the latest Moroccan visa and entry requirements before travelling, as eligibility and application requirements can vary."
+      },
+      {
+        "q": "Can Indian travellers apply for a Morocco eVisa?",
+        "a": "Eligible Indian travellers may be able to apply for a Morocco eVisa, subject to the current eligibility requirements and applicable immigration rules."
+      },
+      {
         "q": "How long does it take to process a Morocco visa?",
-        "a": "Processing usually takes around 3 - 7 Days, depending on embassy workload and season."
+        "a": "The stated processing time is around 3 - 7 Days, although the actual timeframe may vary depending on application volume and document verification."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Morocco."
+        "q": "What documents are required for a Morocco tourist visa?",
+        "a": "Common documents may include a valid passport, photograph, travel itinerary, flight reservation, accommodation details and proof of sufficient funds. Additional documents may be requested depending on the application."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Is travel insurance mandatory for Morocco?",
+        "a": "Travel insurance is recommended for international travel to Morocco. Applicants should also check the latest requirements applicable to their visa category."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a Morocco visa?",
+        "a": "Biometric requirements may vary depending on the visa category and current application procedures. Follow the instructions provided by the Moroccan authorities."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight reservation or itinerary may be used as part of the visa application. It is advisable to avoid making non-refundable travel arrangements before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Morocco eVisa Portal)."
+        "q": "Can additional documents be requested for a Morocco visa?",
+        "a": "Yes. Moroccan authorities may request additional documents or information when assessing an application."
+      },
+      {
+        "q": "Does a Morocco visa guarantee entry?",
+        "a": "No. A visa permits travel subject to its conditions, but final entry is determined by Moroccan immigration authorities at the port of entry."
+      },
+      {
+        "q": "Can Vision Visa help with my Morocco visa application?",
+        "a": "Yes. Vision Visa can assist with document checklist guidance, application review and general support throughout your Morocco visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital scan of valid passport bio-data page (min 6 months validity)",
+        "Recent digital passport-size photograph with white background",
+        "Completed Morocco electronic visa application form"
+      ],
+      "financial": [
+        "Proof of sufficient funds (bank statement or credit card limit proof if requested by immigration)"
+      ],
+      "travel": [
+        "Confirmed return or onward flight itinerary",
+        "Confirmed hotel accommodation or host stay details in Morocco"
+      ],
+      "additional": [
+        "Cover letter detailing purpose of visit and travel schedule",
+        "Travel health insurance (recommended for international journeys)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Morocco.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Morocco.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Morocco.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Morocco.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Morocco.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "netherlands": {
     "name": "Netherlands",
@@ -4490,112 +7226,189 @@ window.VISION_VISA_COUNTRIES = {
     "entryType": "Single / Multiple",
     "applyThrough": "VFS Netherlands",
     "insuranceRequirement": "Mandatory (€30,000)",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Netherlands Schengen Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Netherlands Visa",
+    "overviewDescription": "Planning a trip to the Netherlands? Indian passport holders generally need a Schengen visa for short visits to the country. Vision Visa helps you understand the visa requirements, organise your documents and prepare your application with greater confidence.\n\nThe Netherlands is known for its historic cities, canals, museums, tulip fields, distinctive architecture and relaxed European atmosphere. Whether you are visiting Amsterdam, exploring Dutch heritage or travelling across the Schengen region, having the right visa and documents is an important part of your travel preparation.\n\nDo Indians Need a Visa for the Netherlands?\nYes. Indian passport holders generally require a valid Schengen visa before travelling to the Netherlands for a short stay. The visa category and supporting documents depend on your purpose of travel and individual circumstances. Visa approval is solely at the discretion of the relevant authorities.\n\nNetherlands Schengen Visa\nA short-stay Netherlands Schengen Visa can allow eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions stated on the visa. Depending on the visa issued, it may allow single or multiple entries.\n\nNetherlands Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photographs, proof of sufficient funds, travel itinerary, flight reservation, accommodation details and a cover letter explaining the purpose of the trip. Employment, financial, sponsorship or other supporting documents may also be required.\n\nNetherlands Visa Processing Time\nThe stated processing time is around 15 Working Days. Actual processing may vary depending on application volume, document verification, travel season and the circumstances of the individual application. Applying well in advance is recommended.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Netherlands Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed Netherlands Schengen Visa Application Form",
+        "Recent passport-size photographs",
+        "Proof of sufficient financial funds",
+        "Flight reservation and travel itinerary",
+        "Hotel or accommodation proof",
+        "Cover letter stating the purpose of visit"
       ],
       "supporting": [
         "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Salary slips for the last 3 - 6 months and employment letter",
+        "Leave sanction or approved leave certificate",
+        "Business registration documents, if self-employed",
+        "Invitation letter from host or sponsor, if applicable",
+        "Property and financial asset proofs"
       ],
-      "alertText": "The VFS Netherlands may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "VFS Netherlands or the relevant Dutch authorities may request additional supporting documents depending on your travel history and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Netherlands visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Netherlands."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Netherlands consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Netherlands)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Netherlands visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Netherlands visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Netherlands",
-      "subtitle": "Experience the Best of Netherlands",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Netherlands is a top destination.",
+      "subtitle": "Experience the Best of the Netherlands",
+      "desc": "From Amsterdam's famous canals and historic streets to colourful tulip fields, museums and peaceful countryside, the Netherlands offers a memorable mix of culture, history and modern European life.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Netherlands.",
+        "name": "Amsterdam Canals & Historic Centre",
+        "desc": "Explore Amsterdam's iconic canals, historic buildings and lively neighbourhoods.",
         "image": "/images/Netherlands.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Museums & Cultural Heritage",
+        "desc": "Discover world-famous museums, Dutch art and centuries of cultural heritage.",
         "image": "/images/Netherlands.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Tulip Fields & Dutch Countryside",
+        "desc": "Experience colourful flower fields, windmills and scenic countryside beyond the major cities.",
         "image": "/images/Netherlands.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Local Markets & Dutch Cuisine",
+        "desc": "Explore local markets and experience traditional Dutch food, cafés and everyday city life.",
         "image": "/images/Netherlands.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - May / September - October",
       "currency": "Euro (EUR)",
       "language": "Dutch",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
+        "q": "Do Indian citizens need a visa for the Netherlands?",
+        "a": "Yes. Indian passport holders generally require a valid Schengen visa before travelling to the Netherlands for a short stay."
+      },
+      {
         "q": "How long does it take to process a Netherlands visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "a": "The stated processing time is around 15 Working Days, although actual processing may vary depending on application volume, document verification and individual circumstances."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is travel insurance mandatory for a Netherlands Schengen visa?",
+        "a": "Yes. Schengen visa applicants are required to have travel medical insurance with minimum coverage of €30,000."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
-      },
-      {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a Netherlands visa?",
+        "a": "Biometric information, including fingerprints and a photograph, may be required as part of the Schengen visa application process."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight reservation or itinerary can generally be submitted as part of the application. It is advisable to avoid making non-refundable travel arrangements before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Netherlands)."
+        "q": "Can Vision Visa help with Netherlands visa document verification?",
+        "a": "Yes. Vision Visa can help review your documents, identify missing requirements and guide you through the application process."
+      },
+      {
+        "q": "Can additional documents be requested for a Netherlands visa?",
+        "a": "Yes. VFS Netherlands or the relevant Dutch authorities may request additional documents or information during the assessment of your application."
+      },
+      {
+        "q": "Does a Netherlands Schengen visa guarantee entry?",
+        "a": "No. A visa permits travel subject to its conditions, but final entry is determined by immigration authorities at the port of entry."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Netherlands visa?",
+        "a": "A Netherlands-issued Schengen visa may allow travel to other Schengen countries, subject to the visa conditions and applicable Schengen rules."
+      },
+      {
+        "q": "Can Vision Visa assist with my Netherlands visa application?",
+        "a": "Yes. Vision Visa provides document checklist guidance, application review and general support throughout your Netherlands visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Netherlands / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Netherlands and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Netherlands and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Netherlands.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Netherlands.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "new-zealand": {
     "name": "New Zealand",
@@ -4608,348 +7421,564 @@ window.VISION_VISA_COUNTRIES = {
     "entryType": "Single / Multiple",
     "applyThrough": "Immigration New Zealand Portal",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your New Zealand Visitor Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About New Zealand Visitor Visa",
+    "overviewDescription": "Planning a trip to New Zealand? Indian passport holders generally need to meet New Zealand's visitor entry requirements before travelling. The Visitor Visa is designed for travellers visiting for holidays, sightseeing, visiting family or friends, or other permitted short-term purposes. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nNew Zealand is known for its dramatic mountains, peaceful lakes, beautiful coastlines, Maori culture and outdoor experiences. From Auckland and Queenstown to the South Island's scenic landscapes, the country offers a mix of adventure, nature and cultural experiences.\n\nDo Indians Need a Visa for New Zealand?\nIndian citizens generally need a suitable visa or travel authority before travelling to New Zealand, depending on their circumstances and current immigration rules. Travellers should check their eligibility and applicable requirements before applying. Visa approval is solely at the discretion of Immigration New Zealand.\n\nNew Zealand Visitor Visa\nThe Visitor Visa can allow eligible travellers to visit New Zealand for tourism, holidays, visiting family or friends and other permitted visitor activities. The permitted duration of stay and number of entries depend on the visa granted and the conditions attached to it.\n\nNew Zealand Visa Requirements\nApplicants generally need a valid passport, completed application, recent photograph where required, proof of sufficient funds, travel plans, accommodation details and evidence of their circumstances and intention to leave New Zealand at the end of their stay. Employment, financial, sponsorship or other supporting documents may also be requested.\n\nNew Zealand Visa Processing Time\nThe stated processing time is around 20 - 30 Days. Actual processing can vary depending on application volume, document verification, individual circumstances and Immigration New Zealand processing requirements. Applying well before your intended travel date is recommended.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed New Zealand Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid passport with sufficient validity",
+        "Completed New Zealand Visitor Visa application",
+        "Recent passport-size photograph, where required",
+        "Proof of sufficient financial funds",
+        "Flight itinerary or reservation",
+        "Hotel or accommodation details",
+        "Cover letter explaining the purpose of visit",
+        "Evidence of travel plans and intention to leave New Zealand"
       ],
       "supporting": [
         "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Salary slips for the last 3 - 6 months and employment letter",
+        "Leave sanction or approved leave certificate",
+        "Business registration documents, if self-employed",
+        "Invitation letter from host or sponsor, if applicable",
+        "Property and financial asset proofs"
       ],
-      "alertText": "The Immigration New Zealand Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Immigration New Zealand may request additional documents, evidence or information depending on your travel history, financial circumstances and individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate New Zealand visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to New Zealand."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against New Zealand consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Immigration New Zealand Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic New Zealand visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved New Zealand visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover New Zealand",
       "subtitle": "Experience the Best of New Zealand",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why New Zealand is a top destination.",
+      "desc": "From snow-capped mountains and turquoise lakes to Maori heritage and vibrant cities, New Zealand offers unforgettable experiences for nature lovers, families and adventure seekers.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of New Zealand.",
+        "name": "Auckland & City Experiences",
+        "desc": "Explore Auckland's waterfront, city attractions, harbour views and diverse food scene.",
         "image": "/images/New-Zealand.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Maori Culture & Heritage",
+        "desc": "Discover New Zealand's Maori traditions, cultural experiences and important heritage sites.",
         "image": "/images/New-Zealand.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Mountains, Lakes & Landscapes",
+        "desc": "Experience spectacular mountains, clear lakes, glaciers and scenic national parks across the country.",
         "image": "/images/New-Zealand.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Taste fresh local produce, seafood and New Zealand favourites while exploring its cities and towns.",
         "image": "/images/New-Zealand.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "December - February",
       "currency": "New Zealand Dollar (NZD)",
-      "language": "English",
+      "language": "English / Māori",
       "timeZone": "GMT+12"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a New Zealand visa?",
-        "a": "Processing usually takes around 20 - 30 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for New Zealand?",
+        "a": "Indian citizens generally need to meet New Zealand's visa or travel authorisation requirements before travelling. The applicable requirement depends on the traveller's circumstances and current immigration rules."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to New Zealand."
+        "q": "How long does it take to process a New Zealand Visitor Visa?",
+        "a": "The stated processing time is around 20 - 30 Days, although actual processing may vary depending on application volume, document verification and individual circumstances."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in New Zealand on a Visitor Visa?",
+        "a": "The permitted stay depends on the visa granted and its conditions. The stated maximum for this listing is up to 9 months."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What documents are required for a New Zealand Visitor Visa?",
+        "a": "Common documents include a valid passport, application details, financial evidence, travel plans, accommodation details and supporting evidence of your circumstances. Additional documents may be requested by Immigration New Zealand."
+      },
+      {
+        "q": "Is travel insurance mandatory for New Zealand?",
+        "a": "Travel insurance is recommended for international travel to New Zealand, even where it is not specifically mandatory for the visa."
+      },
+      {
+        "q": "Do I need to provide biometrics for a New Zealand visa?",
+        "a": "Biometric or identity-verification requirements can vary depending on the applicant and application process. Follow the instructions provided by Immigration New Zealand."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight itinerary or reservation may be used as part of your travel plans. It is advisable to avoid making non-refundable travel arrangements before receiving your visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Immigration New Zealand Portal)."
+        "q": "Can Immigration New Zealand request additional documents?",
+        "a": "Yes. Immigration New Zealand may request additional documents, evidence or information while assessing an application."
+      },
+      {
+        "q": "Does a New Zealand Visitor Visa guarantee entry?",
+        "a": "No. A visa permits travel subject to its conditions, but entry is ultimately subject to New Zealand's immigration requirements and border assessment."
+      },
+      {
+        "q": "Can Vision Visa help with my New Zealand visa application?",
+        "a": "Yes. Vision Visa can assist with document checklist guidance, application review and general support throughout your New Zealand Visitor Visa application process."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original valid passport with at least 6 months validity",
+        "Completed New Zealand online visitor visa application via INZ portal",
+        "Visa application and International Visitor Conservation and Tourism Levy (IVL) fee receipt",
+        "Digital passport photograph meeting INZ requirements"
+      ],
+      "financial": [
+        "Personal bank statements for the last 6 months showing sufficient funds (min NZD 1,000/month or NZD 400 if pre-paid stay)",
+        "Income Tax Returns (ITR) for the last 2 to 3 years",
+        "Employment letter / NOC with approved leave dates and recent 3 months payslips",
+        "Business registration and financial statements (for business owners)"
+      ],
+      "travel": [
+        "Travel itinerary detailing New Zealand travel plans",
+        "Return flight ticket booking or itinerary",
+        "Confirmed hotel or lodge accommodation reservations",
+        "Comprehensive travel medical insurance"
+      ],
+      "additional": [
+        "Cover letter detailing purpose of visit and commitments in India",
+        "Sponsorship form (INZ 1025) and host identification if sponsored by a New Zealand resident",
+        "Previous international travel history and visa copies"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Visitor Visa (Tourist)",
+        "description": "For tourism, sightseeing, visiting friends, and exploring New Zealand.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visitor Visa",
+        "description": "For attending business meetings, conducting negotiations, and trade fairs.",
+        "icon": "💼"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For pursuing full-time academic courses at New Zealand universities and institutes.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Accredited Employer Work Visa",
+        "description": "For professionals working with an accredited New Zealand employer.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For passing through Auckland International Airport en route to another destination.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "norway": {
     "name": "Norway",
     "slug": "norway",
-    "visaType": "Schengen Visa",
+    "visaType": "Schengen Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/no.png",
     "heroImage": "/images/Norway.webp",
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Norway",
+    "applyThrough": "VFS Global / Norwegian Embassy",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Norway Schengen Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Norway? Indian passport holders need a Schengen visitor visa to travel to Norway for tourism, visiting family or friends, or other permitted short-term purposes. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nA Norway Visitor Visa is a Schengen visa that can allow you to stay in Norway and other Schengen countries for up to 90 days within a 180-day period, subject to the conditions of your visa. If you are visiting several Schengen countries, you generally need to apply through the country that is your main destination.\n\nNorway Visa for Indians\nIndian citizens need to apply for a visitor visa before travelling to Norway. Applications from India are submitted through VFS Global and are processed by the Norwegian authorities. Applicants must register their application online before submitting their documents and attending their appointment.\n\nNorway Visa Requirements\nApplicants generally need a valid passport, completed application, photograph, proof of sufficient funds, travel itinerary, accommodation details and travel medical insurance. Employment, financial, sponsorship or other supporting documents may also be required depending on the applicant's circumstances.\n\nNorway Visa Processing Time\nThe normal processing time is around 15 working days from receipt of the application at the Embassy. During high season or in cases requiring additional assessment, processing can take longer. In some cases, applications may take up to 45 working days. Applicants from India should also allow additional time for courier transmission depending on the VFS centre.\n\nNorway Travel Medical Insurance\nTravel medical insurance is mandatory and must provide at least €30,000 coverage, including medical emergencies and repatriation. The insurance should be valid throughout the Schengen area and cover the entire planned stay.\n\nBiometrics for Norway Visa\nApplicants are generally required to appear personally at a VFS Application Centre to provide fingerprints and a photograph, unless their fingerprints have already been collected within the applicable 59-month period.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Norway Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
+        "Valid Passport (valid for at least 3 months after planned departure from the Schengen area)",
+        "Completed Norway Schengen Visa Application",
+        "Recent Passport Photograph meeting international standards",
+        "Proof of Sufficient Funds",
         "Flight Reservation & Travel Itinerary",
         "Hotel Accommodation Proof",
+        "Travel Medical Insurance with minimum €30,000 coverage",
         "Cover Letter stating purpose of visit"
       ],
       "supporting": [
         "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
+        "Salary Slips for the last 3 - 6 months & Employment Letter",
         "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Business Registration Documents, if self-employed",
+        "Invitation Letter from Host / Sponsor, if applicable",
+        "Property & Financial Asset Proofs",
+        "Previous Travel History / Previous Schengen Visas, if applicable"
       ],
-      "alertText": "The VFS Norway may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Norwegian Embassy or VFS Global may request additional documents or information depending on your travel history, financial circumstances, purpose of travel and individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Norway visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Norway."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Norway consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Norway)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Norway visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Norway visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Norway",
       "subtitle": "Experience the Best of Norway",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Norway is a top destination.",
+      "desc": "From dramatic fjords and northern landscapes to historic cities and Scandinavian culture, Norway offers an unforgettable mix of nature, adventure and local experiences.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Norway.",
+        "name": "Oslo & Historic Landmarks",
+        "desc": "Explore Oslo's museums, waterfront, historic attractions and modern Scandinavian architecture.",
         "image": "/images/Norway.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Fjords & Scenic Landscapes",
+        "desc": "Discover Norway's spectacular fjords, mountains, waterfalls and scenic viewpoints.",
         "image": "/images/Norway.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Northern Lights & Arctic Experiences",
+        "desc": "Experience Norway's Arctic landscapes and, during the right season, the spectacular Northern Lights.",
         "image": "/images/Norway.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Local Culture & Cuisine",
+        "desc": "Experience Norwegian traditions, local markets, seafood and Scandinavian cuisine.",
         "image": "/images/Norway.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "June - August",
       "currency": "Norwegian Krone (NOK)",
       "language": "Norwegian",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
+        "q": "Do Indians need a visa for Norway?",
+        "a": "Yes. Indian passport holders generally need a Schengen visitor visa to travel to Norway for short stays."
+      },
+      {
         "q": "How long does it take to process a Norway visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "a": "The normal processing time is around 15 working days after the application is received by the Embassy. Some applications can take longer, and in certain cases processing may take up to 45 working days."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "How long can I stay in Norway on a Schengen visa?",
+        "a": "A Schengen visitor visa can allow a stay of up to 90 days within a 180-day period, subject to the conditions stated on the visa."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Is travel insurance mandatory for a Norway visa?",
+        "a": "Yes. Travel medical insurance with minimum coverage of €30,000 is required. It should cover the entire planned stay and be valid throughout the Schengen area."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a Norway visa?",
+        "a": "Applicants generally need to provide fingerprints and a photograph in person. Biometrics may not need to be collected again if fingerprints were already provided within the applicable 59-month period."
+      },
+      {
+        "q": "Where do I submit my Norway visa application in India?",
+        "a": "Applicants in India submit their documents and passport through VFS Global Application Centres. The application is then processed by the Norwegian authorities."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight reservation or itinerary can generally be included as part of your travel plans. It is advisable to avoid purchasing non-refundable tickets before your visa is granted."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Norway)."
+        "q": "Do I need to show proof of funds?",
+        "a": "Yes. Applicants need to demonstrate that they have sufficient funds for their planned stay. Depending on the circumstances, sponsorship documentation may also be used."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Norway visa?",
+        "a": "Yes, a Norway-issued Schengen visa can generally allow travel within the Schengen area, subject to the visa conditions and the rules governing the main destination."
+      },
+      {
+        "q": "Can Vision Visa help with my Norway visa application?",
+        "a": "Yes. Vision Visa can assist with document checklist guidance, document review, application preparation and general support throughout your Norway Schengen visa process."
+      },
+      {
+        "q": "Who makes the final decision on my Norway visa?",
+        "a": "The final visa decision is made by the competent Norwegian authorities. Vision Visa can assist with preparation, but cannot guarantee visa approval."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Norway / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Norway and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Norway and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Norway.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Norway.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "oman": {
     "name": "Oman",
     "slug": "oman",
-    "visaType": "eVisa",
+    "visaType": "Tourist eVisa",
     "flagImage": "https://flagcdn.com/w40/om.png",
     "heroImage": "/images/Oman.webp",
     "processingTime": "2 - 4 Days",
     "stayDuration": "Up to 30 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "Royal Oman Police eVisa",
+    "applyThrough": "Royal Oman Police eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Oman eVisa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Oman? The Royal Oman Police (ROP) manages Oman's visitor visa system, with eligible travellers able to apply online through the official eVisa portal. Vision Visa helps you understand the visa requirements, organise your documents and prepare your application correctly.\n\nOman Tourist Visa for Indians\nIndian passport holders should check their eligibility through the official ROP eVisa system before travelling. Visa requirements can vary depending on nationality, visa category and individual circumstances. India is also included in Oman's list of nationalities that may benefit from specific entry arrangements when holding a valid visa from certain countries, subject to the applicable conditions.\n\nOman Visa Requirements\nApplicants should have a valid passport and provide the documents requested for their selected visa category. Depending on the application, this can include passport details, personal information, photograph and supporting travel documents. Additional documents may be requested by the Omani authorities.\n\nOman eVisa Application\nEligible travellers can register on the ROP eVisa website, select the appropriate visa type and complete the online application. The ROP system allows applicants to submit visitor visa applications electronically and check their application status online.\n\nOman Visa Processing Time\nProcessing time can vary depending on the visa category, application details and government assessment. A typical processing estimate may be around 2 - 4 working days, but applicants should allow additional time and should not make non-refundable travel arrangements based solely on the estimated processing period.\n\nOman Travel Insurance\nTravel insurance is recommended for international travel to Oman. Applicants should also check the latest entry and health requirements applicable to their nationality and planned travel dates.\n\nOman Visa Approval\nSubmitting an application does not guarantee approval or entry into Oman. The competent Omani authorities have the final decision on visa issuance and admission at the border.",
     "documents": {
       "mandatory": [
         "Valid Passport (minimum 6 months validity)",
-        "Completed Oman Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
+        "Completed Oman Tourist Visa / eVisa Application",
+        "Recent Passport Photograph",
         "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Hotel Accommodation / Stay Details",
+        "Proof of Sufficient Funds, where requested"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Return Flight Reservation",
+        "Hotel Booking Confirmation",
+        "Bank Statements or Other Financial Proof",
+        "Employment Letter / Salary Slips",
+        "Income Tax Returns (ITR), where applicable",
+        "Invitation Letter from Host / Sponsor, if applicable",
+        "Previous Travel History, where applicable",
+        "Additional documents requested by the Royal Oman Police"
       ],
-      "alertText": "The Royal Oman Police eVisa may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Royal Oman Police may request additional documents depending on your nationality, selected visa category, travel purpose and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Oman visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Oman."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Oman consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Royal Oman Police eVisa)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Oman visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Oman visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Oman",
       "subtitle": "Experience the Best of Oman",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Oman is a top destination.",
+      "desc": "From ancient forts and traditional souqs to dramatic mountains, desert landscapes and beautiful coastlines, Oman offers a unique mix of heritage, nature and Arabian hospitality.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Oman.",
+        "name": "Muscat & Historic Landmarks",
+        "desc": "Explore Muscat's grand architecture, historic forts, traditional souqs and beautiful waterfront.",
         "image": "/images/Oman.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Desert & Mountain Landscapes",
+        "desc": "Discover Oman's dramatic mountains, desert dunes, valleys and scenic outdoor landscapes.",
         "image": "/images/Oman.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Coastlines & Natural Wonders",
+        "desc": "Experience pristine beaches, rugged coastlines, wadis and spectacular natural scenery.",
         "image": "/images/Oman.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Souqs & Omani Cuisine",
+        "desc": "Experience traditional markets, local crafts, aromatic spices and authentic Omani cuisine.",
         "image": "/images/Oman.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "October - April",
       "currency": "Omani Rial (OMR)",
       "language": "Arabic",
       "timeZone": "GMT+4"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Oman visa?",
-        "a": "Processing usually takes around 2 - 4 Days, depending on embassy workload and season."
+        "q": "Do Indians need a visa for Oman?",
+        "a": "Indian passport holders should check their eligibility and applicable visa conditions through the official Royal Oman Police eVisa system before travelling."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Oman."
+        "q": "How long does it take to process an Oman eVisa?",
+        "a": "Processing time can vary depending on the visa category and individual application. A typical estimate may be around 2 - 4 working days, but applicants should allow additional time."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Oman on a tourist visa?",
+        "a": "The permitted stay depends on the visa category issued. Some tourist visa options allow stays of up to 30 days, subject to the conditions stated on the visa."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Where do I apply for an Oman tourist visa?",
+        "a": "Oman visitor visa applications are managed by the Royal Oman Police. Eligible travellers can apply through the official ROP eVisa website."
+      },
+      {
+        "q": "Do I need to visit an embassy to apply for an Oman eVisa?",
+        "a": "For eligible online tourist visa categories, the application can be submitted through the Royal Oman Police eVisa system. The exact process depends on the visa category and applicant's circumstances."
+      },
+      {
+        "q": "Is travel insurance mandatory for Oman?",
+        "a": "Travel insurance is recommended for international travel to Oman. Travellers should also check the latest requirements applicable to their nationality and travel dates."
+      },
+      {
+        "q": "Can I apply for an Oman visa online?",
+        "a": "Yes. The Royal Oman Police operates an online eVisa system through which eligible visitors can register and apply for applicable visitor visa categories."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "Travel itinerary and accommodation details may be requested as part of the application. It is advisable to avoid purchasing non-refundable tickets before the visa is approved."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Royal Oman Police eVisa)."
+        "q": "Can Vision Visa help with my Oman visa application?",
+        "a": "Yes. Vision Visa can assist with document checklist guidance, document review, application preparation and general support throughout the Oman visa process."
+      },
+      {
+        "q": "Who makes the final decision on an Oman visa?",
+        "a": "The final decision is made by the competent Omani authorities. Vision Visa can assist with application preparation but cannot guarantee visa approval."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital scan of valid passport bio-data page (min 6 months validity)",
+        "Recent digital passport-size photograph with white background",
+        "Completed Oman electronic visa application form"
+      ],
+      "financial": [
+        "Proof of sufficient funds (bank statement or credit card limit proof if requested by immigration)"
+      ],
+      "travel": [
+        "Confirmed return or onward flight itinerary",
+        "Confirmed hotel accommodation or host stay details in Oman"
+      ],
+      "additional": [
+        "Cover letter detailing purpose of visit and travel schedule",
+        "Travel health insurance (recommended for international journeys)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Oman.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Oman.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Oman.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Oman.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Oman.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "panama": {
     "name": "Panama",
@@ -4987,559 +8016,946 @@ window.VISION_VISA_COUNTRIES = {
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Panama visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Panama."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Panama consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Embassy of Panama)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Panama visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Panama visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Panama",
       "subtitle": "Experience the Best of Panama",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Panama is a top destination.",
+      "desc": "From the iconic Panama Canal and historic districts to tropical islands, lush rainforests and vibrant local culture, Panama offers a memorable mix of nature, history and modern city life.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Panama.",
+        "name": "Panama City & Panama Canal",
+        "desc": "Explore Panama City's modern skyline and discover the engineering marvel of the Panama Canal.",
         "image": "/images/Panama.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Casco Viejo & Cultural Heritage",
+        "desc": "Walk through Panama City's historic quarter, known for colonial architecture, plazas, churches and cultural landmarks.",
         "image": "/images/Panama.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Tropical Islands & Nature",
+        "desc": "Discover tropical beaches, island landscapes, rainforests and diverse wildlife across Panama.",
         "image": "/images/Panama.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Local Markets & Panamanian Cuisine",
+        "desc": "Experience local markets, fresh seafood and traditional Panamanian flavours shaped by diverse cultural influences.",
         "image": "/images/Panama.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
-      "currency": "Panamanian Balboa (PAB)",
+      "bestSeason": "December - April",
+      "currency": "Panamanian Balboa (PAB) / US Dollar (USD)",
       "language": "Spanish",
       "timeZone": "GMT-5"
     },
     "faqs": [
       {
         "q": "How long does it take to process a Panama visa?",
-        "a": "Processing usually takes around 10 - 15 Days, depending on embassy workload and season."
+        "a": "Processing usually takes around 10 - 15 Days, depending on embassy workload, application volume and individual circumstances."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Panama."
+        "q": "Is travel insurance mandatory for Panama?",
+        "a": "Travel insurance is strongly recommended for international travel to Panama, although it is not listed as a mandatory visa requirement in the provided requirements."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Do I need to provide biometrics for a Panama visa?",
+        "a": "Biometric requirements may vary depending on nationality, visa category and the application procedure. Applicants should follow the instructions provided by the Embassy of Panama."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What documents are required for a Panama tourist visa?",
+        "a": "Common requirements include a valid passport, completed visa application form, recent photographs, proof of sufficient funds, flight reservation, accommodation proof and a cover letter explaining the purpose of travel."
+      },
+      {
+        "q": "Can Vision Visa assist with Panama visa document verification?",
+        "a": "Yes. Vision Visa can review your documents, help identify missing requirements and provide guidance throughout your Panama visa application process."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight reservation or itinerary can generally be used during the visa application stage. It is advisable to avoid purchasing non-refundable tickets before receiving the visa decision."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Embassy of Panama)."
+        "q": "Can additional documents be requested for a Panama visa?",
+        "a": "Yes. The Embassy of Panama may request additional supporting documents or information depending on your application and individual circumstances."
+      },
+      {
+        "q": "How is the Panama visa decision made?",
+        "a": "Visa approval is solely at the discretion of the Embassy or competent Panamanian authorities. Vision Visa can assist with application preparation but cannot guarantee approval."
+      },
+      {
+        "q": "How long can I stay in Panama with a tourist visa?",
+        "a": "The stated permitted stay for this Panama tourist visa listing is up to 30 days, subject to the conditions granted by the Panamanian authorities."
+      },
+      {
+        "q": "Does a Panama tourist visa guarantee entry?",
+        "a": "No. A visa permits travel subject to its conditions, but final entry is determined by Panamanian immigration authorities at the port of entry."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Panama consular specifications (35x45 mm, white background)",
+        "Completed and signed Panama visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Panama",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Panama)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Panama.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Panama.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Panama.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Panama.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Panama.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "philippines": {
     "name": "Philippines",
     "slug": "philippines",
-    "visaType": "eVisa / Temporary Visitor Visa",
+    "visaType": "Visa-Free Entry / Temporary Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/ph.png",
     "heroImage": "/images/Philippines.webp",
-    "processingTime": "5 - 10 Days",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "eVisa Philippines / Embassy",
+    "processingTime": "Visa-Free / 5 - 10 Days if Visa Required",
+    "stayDuration": "Up to 14 Days Visa-Free",
+    "entryType": "Visa-Free / Single / Multiple",
+    "applyThrough": "Philippine Embassy / Consulate / eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Philippines eVisa / Temporary Visitor Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to the Philippines from India? Indian nationals can currently benefit from visa-free entry for tourism and business purposes, subject to specific conditions. Eligible Indian travellers may enter for up to 14 days without a visa, provided they meet the passport, accommodation, financial capacity and onward-ticket requirements. Indian nationals holding a valid and current visa or residence permit from the United States, Japan, Australia, Canada, Schengen area, Singapore or United Kingdom may qualify for visa-free entry for up to 30 days for tourism or business purposes.\n\nPhilippines Visa for Indians\nFrom 08 June 2025, Indian nationals travelling to the Philippines for tourism or business may enter visa-free for a non-extendible and non-convertible stay of up to 14 days, subject to the applicable conditions. Travellers must have a passport valid for at least six months beyond the contemplated stay, confirmed hotel accommodation, proof of financial capacity and a return or onward ticket.\n\n30-Day Visa-Free Entry for Indians\nIndian nationals holding a valid and current American, Japanese, Australian, Canadian, Schengen, Singapore or United Kingdom visa or residence permit may qualify for visa-free entry for up to 30 days for tourism or business. A passport with at least six months validity beyond the contemplated stay and a return or onward ticket are required.\n\nPhilippines Visa Requirements\nIndian nationals who do not qualify for the applicable visa-free privileges, or who are travelling for purposes requiring a visa, may need to apply for an appropriate Philippine visa. The Temporary Visitor Visa is classified as a 9(a) visa, including 9(a-2) for tourism and leisure visitors. The Philippine authorities may request additional documents depending on the purpose of travel and individual application profile.\n\nPhilippines Visa Application\nVisa-required applicants can apply through the appropriate Philippine Embassy or Consulate. The Philippine eVisa system is also available for eligible foreign nationals and allows eligible applicants to submit applications online. The applicable application route depends on nationality, purpose of travel and visa category.\n\nPhilippines Visa Processing Time\nProcessing time depends on the visa category, application route, completeness of documents and assessment by the Philippine authorities. If a visa is required, applicants should allow sufficient time for processing and avoid making non-refundable travel arrangements before approval.\n\nPhilippines Travel Insurance\nTravel insurance is recommended for international travel to the Philippines. Applicants should also check the latest entry, health and immigration requirements before travelling.\n\nPhilippines Entry Requirements\nVisa-free entry does not guarantee admission into the Philippines. Final admission is determined by Philippine immigration authorities at the port of entry. Travellers should carry supporting documents such as accommodation confirmation, proof of financial capacity and onward or return travel as applicable.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Philippines Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Indian Passport",
+        "Passport valid for at least 6 months beyond the contemplated stay",
+        "Confirmed Hotel Accommodation / Booking",
+        "Proof of Financial Capacity",
+        "Return or Onward Ticket",
+        "Valid AJACSSUK Visa or Residence Permit, if claiming the 30-day visa-free privilege"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Flight Itinerary",
+        "Hotel Booking Confirmation",
+        "Recent Bank Statements / Financial Proof",
+        "Employment Letter / Salary Slips",
+        "Income Tax Returns (ITR), where applicable",
+        "Invitation Letter from Host / Sponsor, if applicable",
+        "Previous Travel History",
+        "Additional documents requested by the Philippine Embassy, Consulate or Immigration authorities"
       ],
-      "alertText": "The eVisa Philippines / Embassy may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Philippine immigration authorities may request additional documents depending on your nationality, purpose of travel, visa status and individual circumstances. Visa-free entry is subject to the conditions applicable to Indian nationals."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Philippines visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Philippines."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Philippines consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (eVisa Philippines / Embassy)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Philippines visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Philippines visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Philippines",
-      "subtitle": "Experience the Best of Philippines",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Philippines is a top destination.",
+      "subtitle": "Experience the Best of the Philippines",
+      "desc": "From tropical islands and historic cities to vibrant local culture, beautiful beaches and world-famous cuisine, the Philippines offers an unforgettable mix of adventure and relaxation.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Philippines.",
+        "name": "Manila & Historic Landmarks",
+        "desc": "Explore Manila's historic districts, cultural attractions and vibrant city life.",
         "image": "/images/Philippines.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Tropical Islands & Beaches",
+        "desc": "Discover crystal-clear waters, white-sand beaches and spectacular island landscapes.",
         "image": "/images/Philippines.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Natural Wonders",
+        "desc": "Experience dramatic landscapes, waterfalls, lagoons and incredible marine life.",
         "image": "/images/Philippines.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Taste Filipino favourites and experience the country's lively markets and local culture.",
         "image": "/images/Philippines.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "November - April",
       "currency": "Philippine Peso (PHP)",
       "language": "Filipino / English",
       "timeZone": "GMT+8"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Philippines visa?",
-        "a": "Processing usually takes around 5 - 10 Days, depending on embassy workload and season."
+        "q": "Do Indians need a visa for the Philippines?",
+        "a": "Not always. Indian nationals travelling for tourism or business may currently enter visa-free for up to 14 days if they meet the applicable conditions. Those holding a valid and current US, Japan, Australia, Canada, Schengen, Singapore or UK visa or residence permit may qualify for visa-free entry for up to 30 days."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Philippines."
+        "q": "How long can Indians stay in the Philippines without a visa?",
+        "a": "Eligible Indian nationals may enter visa-free for up to 14 days for tourism or business. Indian nationals meeting the AJACSSUK visa or residence permit conditions may qualify for up to 30 days."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "What documents do Indians need for visa-free entry?",
+        "a": "For the 14-day visa-free facility, Indian travellers need a passport valid for at least six months beyond the contemplated stay, confirmed hotel accommodation, proof of financial capacity and a return or onward ticket."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Can I get 30 days visa-free in the Philippines with a Schengen visa?",
+        "a": "Yes, Indian nationals holding a valid and current Schengen visa or residence permit may qualify for visa-free entry for up to 30 days for tourism or business, subject to the applicable conditions."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is the 14-day Philippines visa-free stay extendable?",
+        "a": "No. The current 14-day visa-free privilege for eligible Indian nationals is described as non-extendible and non-convertible."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (eVisa Philippines / Embassy)."
+        "q": "Do I need a return ticket for the Philippines?",
+        "a": "Yes. Eligible Indian travellers using the visa-free facility must have a return or onward ticket to the next destination."
+      },
+      {
+        "q": "Do I need hotel booking for the Philippines?",
+        "a": "Yes. Confirmed hotel accommodation or booking is one of the conditions for Indian nationals using the 14-day visa-free facility."
+      },
+      {
+        "q": "Is travel insurance mandatory for the Philippines?",
+        "a": "Travel insurance is recommended for international travel to the Philippines. Travellers should also check the latest official entry and health requirements before departure."
+      },
+      {
+        "q": "Do I need biometrics to enter the Philippines?",
+        "a": "Biometric requirements depend on the applicable visa or immigration process. The visa-free entry facility does not require applicants to complete a standard visa biometrics appointment before travel."
+      },
+      {
+        "q": "Can I apply for a Philippines visa if I am not eligible for visa-free entry?",
+        "a": "Yes. Visa-required travellers can apply for the appropriate Philippine visa through a Philippine Embassy or Consulate. Eligible foreign nationals may also use the official Philippine eVisa system."
+      },
+      {
+        "q": "Can Vision Visa help with my Philippines visa application?",
+        "a": "Yes. Vision Visa can assist with eligibility guidance, document review, application preparation and general support for travellers who need a Philippine visa."
+      },
+      {
+        "q": "Does a Philippines visa guarantee entry?",
+        "a": "No. A visa does not guarantee admission. The final decision to admit a foreign national is made by Philippine immigration authorities at the port of entry."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital scan of valid passport bio-data page (min 6 months validity)",
+        "Recent digital passport-size photograph with white background",
+        "Completed Philippines electronic visa application form"
+      ],
+      "financial": [
+        "Proof of sufficient funds (bank statement or credit card limit proof if requested by immigration)"
+      ],
+      "travel": [
+        "Confirmed return or onward flight itinerary",
+        "Confirmed hotel accommodation or host stay details in Philippines"
+      ],
+      "additional": [
+        "Cover letter detailing purpose of visit and travel schedule",
+        "Travel health insurance (recommended for international journeys)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Philippines.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Philippines.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Philippines.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Philippines.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Philippines.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "poland": {
     "name": "Poland",
     "slug": "poland",
-    "visaType": "Schengen Visa",
+    "visaType": "Schengen Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/pl.png",
     "heroImage": "/images/Poland.webp",
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "VFS Poland",
+    "entryType": "Single / Double / Multiple",
+    "applyThrough": "VFS Global / Polish Embassy",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Poland Schengen Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Poland? Indian passport holders generally require a Schengen visa for short visits to Poland. A Poland C-type Schengen visa is suitable for tourism, business visits and private visits. Applicants need to prepare their travel, accommodation, financial and supporting documents carefully before submission.\n\nPoland Visa Application in India\nPoland Schengen visa applications are submitted through the designated Visa Application Centre, with applications handled according to the applicable Polish consular jurisdiction. Applicants should book an appointment and submit the completed application along with the required supporting documents.\n\nPoland Visa Requirements\nThe application generally requires a valid passport, completed visa application form, recent photographs, proof of purpose of travel, accommodation, travel itinerary, financial documents and travel medical insurance. Additional documents may be requested depending on the applicant's circumstances and purpose of travel.\n\nPoland Travel Medical Insurance\nTravel medical insurance is mandatory for a Schengen visa and must provide minimum coverage of €30,000. The insurance should cover the Schengen Area and the intended period of stay.\n\nPoland Visa Processing\nProcessing time may vary depending on the application and the workload of the consular authorities. Applicants are advised to apply well in advance of their intended travel date.\n\nPoland Visa Decision\nThe final decision on a Poland Schengen visa is made by the competent Polish consular authorities. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Poland Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport",
+        "Completed Poland Schengen Visa Application Form",
+        "Recent Passport Photograph",
+        "Proof of Purpose of Travel",
+        "Proof of Sufficient Financial Resources",
+        "Accommodation Proof",
+        "Travel Itinerary / Flight Reservation",
+        "Travel Medical Insurance with minimum €30,000 coverage",
+        "Proof of Intention to Return / Ties to India"
       ],
       "supporting": [
         "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Salary Slips for the last 3 - 6 months",
+        "Employment Letter",
+        "Approved Leave / Leave Sanction Letter",
+        "Business Registration Documents, if self-employed",
+        "Invitation Letter from Host / Sponsor, if applicable",
+        "Property and Financial Asset Proofs",
+        "Previous Travel History / Previous Visas, if applicable"
       ],
-      "alertText": "The VFS Poland may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Polish Embassy, Consulate or VFS Global may request additional documents depending on your purpose of travel, financial circumstances, travel history and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Poland visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Poland."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Poland consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Poland)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Poland visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Poland visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Poland",
       "subtitle": "Experience the Best of Poland",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Poland is a top destination.",
+      "desc": "From historic cities and medieval architecture to scenic mountains, lakes and vibrant local culture, Poland offers a rich mix of heritage, nature and modern European experiences.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Poland.",
+        "name": "Warsaw & Historic Landmarks",
+        "desc": "Explore Warsaw's historic Old Town, royal landmarks, museums and vibrant city centre.",
         "image": "/images/Poland.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Kraków & Cultural Heritage",
+        "desc": "Discover Kraków's historic streets, medieval architecture and rich cultural heritage.",
         "image": "/images/Poland.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Lakes, Mountains & Landscapes",
+        "desc": "Experience Poland's mountains, lakes, forests and scenic natural landscapes.",
         "image": "/images/Poland.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Local Markets & Polish Cuisine",
+        "desc": "Experience traditional markets, local flavours and authentic Polish cuisine.",
         "image": "/images/Poland.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Polish Złoty (PLN)",
       "language": "Polish",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Poland visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "q": "Do Indians need a visa for Poland?",
+        "a": "Yes. Indian passport holders generally require a Schengen visa for short visits to Poland, including tourism."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "How long does it take to process a Poland Schengen visa?",
+        "a": "The stated processing time is around 15 working days, although actual processing may vary depending on the application and consular workload."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Poland on a Schengen visa?",
+        "a": "A short-stay Schengen visa can generally allow a stay of up to 90 days within a 180-day period, subject to the validity and conditions stated on the visa."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Where do I submit my Poland visa application in India?",
+        "a": "Poland Schengen visa applications are submitted through the designated Visa Application Centre according to the applicable Polish consular jurisdiction."
+      },
+      {
+        "q": "Is travel insurance mandatory for a Poland Schengen visa?",
+        "a": "Yes. Travel medical insurance with minimum coverage of €30,000 is required for a Schengen visa and must cover the applicable Schengen Area and intended period of travel."
+      },
+      {
+        "q": "Do I need to provide biometrics for a Poland visa?",
+        "a": "Schengen visa applicants generally provide fingerprints and a photograph as part of the application process, subject to applicable biometric exemptions."
       },
       {
         "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "a": "A flight reservation or travel itinerary can be provided as evidence of planned travel. Applicants should consider avoiding non-refundable ticket purchases before the visa is granted."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Poland)."
+        "q": "Do I need to show proof of funds for Poland?",
+        "a": "Yes. Applicants need to demonstrate sufficient financial resources to cover their planned stay and return or onward travel."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Poland visa?",
+        "a": "Yes. A valid Poland-issued Schengen visa can generally allow travel to other Schengen countries, subject to the visa conditions and applicable Schengen rules."
+      },
+      {
+        "q": "Can Vision Visa help with my Poland visa application?",
+        "a": "Yes. Vision Visa can assist with eligibility guidance, document checklist preparation, document review and general application support."
+      },
+      {
+        "q": "Who makes the final decision on a Poland visa?",
+        "a": "The final decision is made by the competent Polish consular authorities. Vision Visa can assist with application preparation but cannot guarantee visa approval."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Poland / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Poland and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Poland and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Poland.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Poland.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "portugal": {
     "name": "Portugal",
     "slug": "portugal",
-    "visaType": "Schengen Visa",
+    "visaType": "Schengen Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/pt.png",
     "heroImage": "/images/Portugal.webp",
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "VFS Portugal",
+    "entryType": "Single / Double / Multiple",
+    "applyThrough": "VFS Global / Portuguese Embassy",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Portugal Schengen Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Portugal? Indian passport holders generally require a Schengen visa for short visits to Portugal. A Portugal short-stay Schengen visa is suitable for tourism and other eligible visits of less than 90 days.\n\nPortugal Schengen Visa for Indians\nA Portugal Schengen visa may allow travel within the Schengen Area, subject to the validity, number of entries and conditions stated on the visa. Applicants should ensure Portugal is the appropriate destination for their application based on their travel plans.\n\nPortugal Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photograph, proof of travel purpose, accommodation, financial means, travel itinerary and travel medical insurance. Additional documents may be requested depending on the applicant's circumstances and purpose of travel.\n\nPortugal Visa Application in India\nPortugal visa applications in India are submitted through VFS Global. Applicants need to book an appointment and submit the application, supporting documents and biometric data at the appropriate Portugal Visa Application Centre according to their applicable consular jurisdiction.\n\nPortugal Visa Processing Time\nProcessing time can vary depending on the application, season and workload of the Portuguese consular authorities. Applicants are advised to apply well in advance of their intended travel date.\n\nPortugal Travel Medical Insurance\nTravel medical insurance is compulsory for Portugal Schengen visa applications and must provide minimum coverage of €30,000, including the required medical and repatriation coverage.\n\nPortugal Visa Decision\nThe final decision on a Portugal Schengen visa is made by the competent Portuguese consular authorities. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Portugal Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
+        "Valid Passport",
+        "Completed Portugal Schengen Visa Application Form",
+        "Recent Passport Photograph",
+        "Proof of Purpose of Travel",
+        "Proof of Sufficient Financial Means",
+        "Flight Reservation / Travel Itinerary",
         "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Travel Medical Insurance with minimum €30,000 coverage",
+        "Proof of Intention to Return / Ties to India"
       ],
       "supporting": [
         "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Salary Slips for the last 3 - 6 months",
+        "Employment Letter",
+        "Approved Leave / Leave Sanction Letter",
+        "Business Registration Documents, if self-employed",
+        "Invitation Letter from Host / Sponsor, if applicable",
+        "Property and Financial Asset Proofs",
+        "Previous Travel History / Previous Visas, if applicable"
       ],
-      "alertText": "The VFS Portugal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Portuguese Embassy, Consulate or VFS Global may request additional supporting documents depending on your travel history, financial circumstances, purpose of travel and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Portugal visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Portugal."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Portugal consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Portugal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Portugal visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Portugal visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Portugal",
       "subtitle": "Experience the Best of Portugal",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Portugal is a top destination.",
+      "desc": "From historic cities and coastal landscapes to colourful neighbourhoods and authentic Portuguese cuisine, Portugal offers a beautiful mix of culture, heritage and natural scenery.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Portugal.",
+        "name": "Lisbon & Historic Landmarks",
+        "desc": "Explore Lisbon's historic neighbourhoods, viewpoints, architecture and iconic landmarks.",
         "image": "/images/Portugal.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Porto & Cultural Heritage",
+        "desc": "Discover Porto's historic streets, riverside architecture and distinctive Portuguese culture.",
         "image": "/images/Portugal.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Coastal Landscapes & Beaches",
+        "desc": "Experience Portugal's dramatic coastline, beautiful beaches and scenic natural landscapes.",
         "image": "/images/Portugal.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Local Markets & Portuguese Cuisine",
+        "desc": "Taste traditional Portuguese dishes and explore lively markets and local neighbourhoods.",
         "image": "/images/Portugal.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "March - May & September - October",
       "currency": "Euro (EUR)",
       "language": "Portuguese",
       "timeZone": "GMT+0"
     },
     "faqs": [
       {
+        "q": "Do Indians need a visa for Portugal?",
+        "a": "Yes. Indian passport holders generally need a Schengen visa for short visits to Portugal, including tourism."
+      },
+      {
+        "q": "How long can I stay in Portugal on a Schengen visa?",
+        "a": "A short-stay Schengen visa can allow a stay of up to 90 days within a 180-day period, subject to the validity and conditions stated on the visa."
+      },
+      {
         "q": "How long does it take to process a Portugal visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "a": "The stated processing time is around 15 working days, although actual processing may vary depending on the application, season and workload of the Portuguese consular authorities."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Where do I submit my Portugal visa application in India?",
+        "a": "Portugal visa applications in India are submitted through VFS Global Visa Application Centres. The appropriate centre depends on the applicant's current place of residence and applicable consular jurisdiction."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Is travel insurance mandatory for a Portugal Schengen visa?",
+        "a": "Yes. Travel medical insurance is compulsory for Schengen visa applications and must provide at least €30,000 coverage, including the required medical and repatriation cover."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a Portugal visa?",
+        "a": "Applicants are generally required to provide biometric data, including fingerprints and a photograph, during the visa submission process, subject to applicable exemptions."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Can I apply for a Portugal visa without confirmed flight tickets?",
+        "a": "A flight reservation or travel itinerary can be submitted as evidence of your planned journey. It is generally advisable to avoid purchasing non-refundable tickets before the visa is approved."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Portugal)."
+        "q": "How early can I apply for a Portugal Schengen visa?",
+        "a": "Short-stay Schengen visa applications can generally be lodged well in advance of the intended travel date. Applicants should check the current VFS Global requirements before booking their appointment."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Portugal visa?",
+        "a": "Yes. A valid Portugal-issued Schengen visa can generally allow travel to other Schengen countries, subject to the visa conditions and applicable Schengen rules."
+      },
+      {
+        "q": "Do I need to show proof of funds for Portugal?",
+        "a": "Yes. Applicants generally need to demonstrate sufficient financial means to cover their planned stay and return or onward travel."
+      },
+      {
+        "q": "Can Vision Visa help with my Portugal visa application?",
+        "a": "Yes. Vision Visa can assist with eligibility guidance, document checklist preparation, document review and general application support."
+      },
+      {
+        "q": "Who makes the final decision on a Portugal visa?",
+        "a": "The final decision is made by the competent Portuguese consular authorities. Vision Visa can assist with application preparation but cannot guarantee visa approval."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Portugal / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Portugal and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Portugal and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Portugal.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Portugal.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "russia": {
     "name": "Russia",
     "slug": "russia",
-    "visaType": "e-Visa / Tourist Visa",
+    "visaType": "Unified e-Visa",
     "flagImage": "https://flagcdn.com/w40/ru.png",
     "heroImage": "/images/Russia.webp",
-    "processingTime": "4 Working Days",
-    "stayDuration": "Up to 16 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Russia Unified eVisa Portal",
-    "insuranceRequirement": "Mandatory (€30,000)",
+    "processingTime": "4 Calendar Days",
+    "stayDuration": "Up to 30 Days",
+    "entryType": "Single Entry",
+    "applyThrough": "Russia Unified e-Visa Portal",
+    "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Russia e-Visa / Tourist Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Russia? Eligible foreign nationals, including Indian citizens, can apply for Russia's unified electronic visa online. The unified e-Visa is designed for eligible short visits and can be applied for without visiting a Russian embassy or visa centre.\n\nRussia Unified e-Visa for Indians\nIndian citizens are eligible to apply for Russia's unified electronic visa. The e-Visa can be used for eligible travel purposes, subject to the conditions and validity stated by the Russian authorities.\n\nRussia e-Visa Requirements\nApplicants generally need a valid passport, recent photograph, completed online application and valid medical insurance covering the period of stay. Additional information or documents may be requested depending on individual circumstances.\n\nRussia e-Visa Application\nThe unified e-Visa application is completed online through the Russian Ministry of Foreign Affairs e-Visa portal. Applicants do not normally need an invitation, hotel booking confirmation or a visit to the Russian Embassy for the standard e-Visa application.\n\nRussia e-Visa Processing Time\nApplications are normally processed within 4 calendar days, excluding the day of submission. Applicants should still apply in advance to allow sufficient time before travel.\n\nRussia Travel Medical Insurance\nValid medical insurance covering the period of stay is strongly recommended when travelling to Russia, even though insurance information is not a mandatory condition for issuing the unified e-Visa.\n\nRussia e-Visa Decision\nThe final decision on a Russia unified e-Visa is made by the competent Russian authorities. Vision Visa can assist with application preparation and general e-Visa support but cannot guarantee approval.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Russia Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport",
+        "Recent Passport Photograph",
+        "Completed Russia Unified e-Visa Application Form"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Valid Medical Insurance Covering the Period of Stay",
+        "Hotel / Accommodation Details",
+        "Travel Itinerary",
+        "Previous Travel or Visa Details, if applicable",
+        "Additional Documents if Requested by Russian Authorities"
       ],
-      "alertText": "The Russia Unified eVisa Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Russian authorities may request additional information or documents depending on the applicant and circumstances of the trip. Hotel booking confirmation, invitation letters or other documents proving the purpose of travel are generally not required at the standard tourist e-Visa application stage."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Russia visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Russia."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Russia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Russia Unified eVisa Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Russia visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Russia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Russia",
       "subtitle": "Experience the Best of Russia",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Russia is a top destination.",
+      "desc": "From historic cities and grand architecture to rich cultural traditions and vast natural landscapes, Russia offers a remarkable mix of history, culture and scenery.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Russia.",
+        "name": "Moscow & Historic Landmarks",
+        "desc": "Explore Moscow's iconic architecture, historic landmarks and vibrant city life.",
         "image": "/images/Russia.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "St. Petersburg & Cultural Heritage",
+        "desc": "Discover grand palaces, museums, historic streets and Russia's rich cultural heritage.",
         "image": "/images/Russia.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Natural Landscapes",
+        "desc": "Experience Russia's vast landscapes, forests, mountains and spectacular natural scenery.",
         "image": "/images/Russia.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Discover traditional Russian flavours, local markets and everyday city culture.",
         "image": "/images/Russia.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Russian Ruble (RUB)",
       "language": "Russian",
       "timeZone": "GMT+3"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Russia visa?",
-        "a": "Processing usually takes around 4 Working Days, depending on embassy workload and season."
+        "q": "Can Indian citizens apply for a Russia e-Visa?",
+        "a": "Yes. Indian citizens are eligible to apply for Russia's unified electronic visa."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "How long can I stay in Russia with a unified e-Visa?",
+        "a": "The unified e-Visa permits a stay of up to 30 days from the date of entry, subject to the applicable visa conditions."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long is the Russia e-Visa valid?",
+        "a": "The unified e-Visa can be valid for up to 120 days from the date of issue, while the permitted stay is limited to 30 days."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does Russia e-Visa processing take?",
+        "a": "Applications are normally processed within 4 calendar days, excluding the day of application submission."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance mandatory for a Russia e-Visa?",
+        "a": "Insurance information is not a mandatory condition for issuing the unified e-Visa. However, valid medical insurance covering the period of stay is strongly recommended."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Russia Unified eVisa Portal)."
+        "q": "Do I need a hotel booking to apply for a Russia e-Visa?",
+        "a": "No. Hotel booking confirmation or other documents proving the purpose of travel are generally not required at the standard tourist e-Visa application stage."
+      },
+      {
+        "q": "Do I need to visit the Russian Embassy to apply for an e-Visa?",
+        "a": "No. The unified e-Visa application is completed online through the Russian Ministry of Foreign Affairs e-Visa portal."
+      },
+      {
+        "q": "Do I need an invitation letter for a Russia e-Visa?",
+        "a": "No. Invitations or confirmations are generally not required for the unified e-Visa application."
+      },
+      {
+        "q": "Do I need biometrics for a Russia e-Visa?",
+        "a": "The standard unified e-Visa application is completed online and does not involve the usual visa-centre biometric submission process. Additional requirements may apply in individual circumstances."
+      },
+      {
+        "q": "Can I travel anywhere in Russia with a unified e-Visa?",
+        "a": "Generally, e-Visa holders can travel throughout the Russian Federation, except for territories, organisations or facilities that require special permission under Russian law."
+      },
+      {
+        "q": "Can I enter Russia through any airport or border crossing?",
+        "a": "No. A unified e-Visa is valid for entry and exit only through authorised Russian border crossing points."
+      },
+      {
+        "q": "Can Vision Visa help with my Russia visa application?",
+        "a": "Yes. Vision Visa can assist with eligibility guidance, document preparation, application review and general e-Visa application support."
+      },
+      {
+        "q": "Who makes the final decision on a Russia e-Visa?",
+        "a": "The final decision is made by the competent Russian authorities. Vision Visa can assist with application preparation but cannot guarantee visa approval."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity beyond visa expiry and 2 blank pages",
+        "Printed electronic visa application form (from visa.kdmid.ru) with glued photograph",
+        "One recent color photograph (35x45 mm, white background, no headwear)",
+        "Official Russian Tourist Voucher & Confirmation (Tourist Acceptance Confirmation from an authorized Russian tour operator)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 months with bank stamp (recommended)",
+        "Employment letter / pay slip copy"
+      ],
+      "travel": [
+        "Confirmed return flight tickets to/from Russia",
+        "Hotel booking vouchers corresponding to the Tourist Confirmation",
+        "Travel Medical Insurance policy valid across the Russian Federation with minimum €30,000 coverage"
+      ],
+      "additional": [
+        "Personal cover letter stating travel itinerary across Moscow, St. Petersburg, etc.",
+        "Official invitation from the Ministry of Internal Affairs (MVD) for private/business visits",
+        "Previous Russian visa copies (if applicable)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Unified Electronic Visa (e-Visa)",
+        "description": "Single-entry electronic visa allowing up to 16 days stay for tourism, business, and cultural visits.",
+        "icon": "⚡"
+      },
+      {
+        "name": "Tourist Sticker Visa (Consular)",
+        "description": "Single or double entry consular visa for stays up to 30 days based on official Tourist Voucher.",
+        "icon": "🏛️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "Single, double, or multi-entry visa for commercial negotiations and trade fairs based on MVD invitation.",
+        "icon": "💼"
+      },
+      {
+        "name": "Private / Visit Visa",
+        "description": "For visiting Russian citizens or permanent residents based on official MVD invitation.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For full-time studies at Russian state and accredited private universities.",
+        "icon": "🎓"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "saudi-arabia": {
     "name": "Saudi Arabia",
@@ -5549,203 +8965,277 @@ window.VISION_VISA_COUNTRIES = {
     "heroImage": "/images/Saudi-Arabia.webp",
     "processingTime": "1 - 3 Days",
     "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "MOFA Saudi Arabia eVisa",
+    "entryType": "Multiple Entry",
+    "applyThrough": "Saudi eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Saudi Arabia Tourist eVisa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Saudi Arabia? Eligible travellers can apply online for a Saudi Tourist eVisa. The electronic visa is designed for eligible tourism-related travel and can also be used for Umrah, excluding Hajj, subject to applicable Saudi regulations.\n\nSaudi Arabia Tourist eVisa\nThe Saudi Tourist eVisa is generally a multiple-entry visa valid for one year and permits stays of up to 90 days, subject to the conditions stated on the issued visa. It can be used for tourism, events, leisure, family and relatives visits and Umrah, excluding Hajj.\n\nSaudi Arabia Visa Requirements\nApplicants need a valid passport from an eligible country, a recent photograph and accurate personal and travel information. The passport should have at least 6 months validity remaining from the date of entry into Saudi Arabia.\n\nSaudi Arabia eVisa Application\nThe application is completed online through the Saudi eVisa portal. Applicants provide the required information, complete the application and pay the applicable visa fee. If approved, the electronic visa is issued electronically.\n\nSaudi Arabia Travel Insurance\nMedical insurance is associated with the Saudi tourist visa service and the applicable insurance arrangements are reflected during the visa application process. Travellers should ensure they have appropriate medical coverage for their trip.\n\nSaudi Arabia Visa Decision\nThe final decision on a Saudi Tourist eVisa is made solely by the Saudi authorities. Vision Visa can assist with application preparation and document guidance but cannot guarantee visa approval.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Saudi Arabia Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport with at least 6 months validity from date of entry",
+        "Recent Passport Photograph",
+        "Completed Saudi Tourist eVisa Application",
+        "Valid Email Address",
+        "Accurate Personal and Travel Information"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Accommodation Details",
+        "Travel Itinerary",
+        "Previous Visa / Travel Details, if applicable",
+        "Additional Documents if Requested by Saudi Authorities"
       ],
-      "alertText": "The MOFA Saudi Arabia eVisa may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Saudi authorities may request additional information or documentation depending on the applicant and individual circumstances. Applicants should provide accurate information and ensure that the passport used for the application is the same passport used for entry."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Saudi Arabia visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Saudi Arabia."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Saudi Arabia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (MOFA Saudi Arabia eVisa)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Saudi Arabia visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Saudi Arabia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Saudi Arabia",
       "subtitle": "Experience the Best of Saudi Arabia",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Saudi Arabia is a top destination.",
+      "desc": "From historic cities and ancient heritage to modern skylines, desert landscapes and the Red Sea coastline, Saudi Arabia offers a fascinating mix of tradition, culture and natural beauty.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Saudi Arabia.",
+        "name": "Riyadh & Modern Landmarks",
+        "desc": "Explore Saudi Arabia's capital, modern architecture, cultural attractions and vibrant city life.",
         "image": "/images/Saudi-Arabia.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Jeddah & Historic Heritage",
+        "desc": "Discover Jeddah's historic Al-Balad district, traditional architecture and Red Sea atmosphere.",
         "image": "/images/Saudi-Arabia.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Deserts & Natural Landscapes",
+        "desc": "Experience dramatic desert scenery, mountains and some of the Kingdom's most distinctive landscapes.",
         "image": "/images/Saudi-Arabia.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Souks & Saudi Cuisine",
+        "desc": "Explore traditional markets and experience authentic Saudi flavours and local hospitality.",
         "image": "/images/Saudi-Arabia.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "October - March",
       "currency": "Saudi Riyal (SAR)",
       "language": "Arabic",
       "timeZone": "GMT+3"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Saudi Arabia visa?",
-        "a": "Processing usually takes around 1 - 3 Days, depending on embassy workload and season."
+        "q": "Can Indians apply for a Saudi Tourist eVisa?",
+        "a": "Indian citizens should check their current eligibility on the official Saudi eVisa portal before applying, as eligibility is based on nationality and the applicable visa rules."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Saudi Arabia."
+        "q": "How long is the Saudi Tourist eVisa valid?",
+        "a": "The standard Saudi Tourist eVisa is generally valid for one year from the date of issuance and permits multiple entries, subject to the conditions stated on the issued visa."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Saudi Arabia on a Tourist eVisa?",
+        "a": "The tourist eVisa generally permits a maximum stay of up to 90 days, subject to the conditions stated on the issued visa."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does it take to process a Saudi Tourist eVisa?",
+        "a": "The stated processing time is around 1 - 3 days, although actual processing may vary depending on the application and Saudi authorities."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How much passport validity is required for Saudi Arabia?",
+        "a": "Your passport should have at least 6 months remaining validity from the date you enter Saudi Arabia."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (MOFA Saudi Arabia eVisa)."
+        "q": "Do I need travel insurance for a Saudi Tourist eVisa?",
+        "a": "Applicants should review the applicable medical insurance arrangements shown during the Saudi visa application process and ensure they have appropriate medical coverage for their stay."
+      },
+      {
+        "q": "Do I need to provide biometrics for a Saudi Tourist eVisa?",
+        "a": "Biometric details may be captured by Saudi immigration authorities as part of the entry process, subject to applicable requirements."
+      },
+      {
+        "q": "Do I need an invitation letter for a Saudi Tourist eVisa?",
+        "a": "A standard tourist eVisa application does not generally require an invitation letter. Additional requirements may apply depending on the applicant and visa type."
+      },
+      {
+        "q": "Can I use the Saudi Tourist eVisa for Umrah?",
+        "a": "The Saudi Tourist eVisa can be used for Umrah, excluding Hajj, subject to applicable Saudi regulations and restrictions."
+      },
+      {
+        "q": "Can I work in Saudi Arabia on a Tourist eVisa?",
+        "a": "No. A Saudi Tourist eVisa is intended for tourism-related purposes and eligible Umrah travel, excluding Hajj, and does not permit paid employment."
+      },
+      {
+        "q": "Can I enter Saudi Arabia through any airport?",
+        "a": "The eVisa is valid for entry through authorised Saudi airports and seaports, subject to applicable immigration requirements."
+      },
+      {
+        "q": "Can I apply for a Saudi visa without confirmed flight tickets?",
+        "a": "Applicants should follow the requirements shown in the official application and provide accurate travel information. It is generally advisable to avoid purchasing non-refundable tickets before visa approval."
+      },
+      {
+        "q": "Can Vision Visa help with my Saudi Arabia visa application?",
+        "a": "Yes. Vision Visa can assist with eligibility guidance, application preparation, document review and general Saudi Tourist eVisa support."
+      },
+      {
+        "q": "Who makes the final decision on a Saudi Tourist eVisa?",
+        "a": "The final decision is made solely by the Saudi authorities. Vision Visa can assist with application preparation but cannot guarantee visa approval."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Valid passport scan with at least 6 months validity",
+        "Recent passport-style digital photograph with white background",
+        "Completed Saudi visa application details on official visa portal"
+      ],
+      "financial": [],
+      "travel": [
+        "Confirmed round-trip flight tickets",
+        "Confirmed hotel reservation in Saudi Arabia",
+        "Mandatory integrated medical insurance policy (included automatically with eVisa)"
+      ],
+      "additional": [
+        "Valid Schengen, US, or UK visa copy (for conditional instant eVisa eligibility)",
+        "Proof of Umrah registration via Nusuk app (for Umrah pilgrimage visitors)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist eVisa (1 Year Multiple Entry)",
+        "description": "Allows stays up to 90 days per visit for tourism, leisure, and Umrah pilgrimage (outside Hajj season).",
+        "icon": "🕌"
+      },
+      {
+        "name": "Stopover / Transit Visa (96 Hours)",
+        "description": "Free 96-hour transit visa when flying with Saudia or Flynas for short city visits and Umrah.",
+        "icon": "✈️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, investment discussions, and trade partnerships with Saudi entities.",
+        "icon": "💼"
+      },
+      {
+        "name": "Family Visit Visa",
+        "description": "For visiting immediate family members residing in the Kingdom of Saudi Arabia.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Employment Visa",
+        "description": "For long-term contractual employment approved by the Ministry of Human Resources.",
+        "icon": "🏢"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "singapore": {
     "name": "Singapore",
     "slug": "singapore",
-    "visaType": "e-Visa (Subclass 14A)",
+    "visaType": "Singapore Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/sg.png",
     "heroImage": "/images/Singapore.webp",
-    "processingTime": "3 - 5 Days",
+    "processingTime": "3 - 5 Working Days",
     "stayDuration": "Up to 30 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "ICA Singapore Authorized Agents",
+    "applyThrough": "Singapore Consulate / Authorized Visa Agents",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Singapore e-Visa (Subclass 14A) application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Singapore? Indian travellers can apply for a Singapore tourist visa by submitting the required application and supporting documents through the applicable authorised channel.\n\nSingapore Tourist Visa Requirements\nApplicants need an original passport valid for at least 6 months, recent photographs, a completed and signed visa application form, a covering letter explaining the travel details, financial documents and personal income tax documents. Additional documents may be required depending on the applicant's circumstances.\n\nFinancial Documents\nThe application requires a personal bank statement for the last 6 months with a balance above Rs. 50,000 and appropriate bank verification. Salaried applicants should also provide salary slips for the last 3 months and a detailed covering letter.\n\nSingapore Visa for Business Travellers\nBusiness applicants are required to provide an original covering letter from the Indian company, personal bank statement, business proof with personal contact details, an invitation letter from the Singapore company, confirmed flight ticket and hotel booking.\n\nSingapore Family Visit\nApplicants visiting family in Singapore may need an invitation letter from the invitee along with the invitee's passport and employment pass copy.\n\nSingapore Visa Processing\nThe stated processing time is 3 - 5 working days. The permitted stay is up to 30 days and is determined by immigration. Visa validity can be up to 2 years at the discretion of the Embassy.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Singapore Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Original Valid Passport with at least 6 months validity",
+        "Two Colour Photographs - 35mm x 45mm, 80% Face, White Background",
+        "Completed Singapore Visa Application Form Signed with Blue Ball Pen",
+        "Covering Letter Detailing Travel Plans",
+        "Personal Bank Statement for Last 6 Months with Balance Above Rs. 50,000",
+        "Personal Income Tax Returns for Last 3 Years"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Salary Slips for Last 3 Months",
+        "Hotel Booking",
+        "Invitation Letter from Invitee, if Visiting Family",
+        "Invitee Passport and Employment Pass Copy, if Applicable",
+        "Company Covering Letter with Seal, if Self-Employed",
+        "GST Certificate, if Self-Employed",
+        "Student ID Card for Children",
+        "Additional Documents as Requested"
       ],
-      "alertText": "The ICA Singapore Authorized Agents may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Additional documents may be requested depending on the applicant's travel purpose and individual circumstances. All documents should be accurate and consistent with the proposed travel."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Singapore visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Singapore."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Singapore consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (ICA Singapore Authorized Agents)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Singapore visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Singapore visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Singapore",
       "subtitle": "Experience the Best of Singapore",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Singapore is a top destination.",
+      "desc": "From iconic landmarks and vibrant neighbourhoods to modern architecture, gardens and world-famous cuisine, Singapore offers a unique blend of culture and modern city life.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Singapore.",
+        "name": "Marina Bay & Iconic Landmarks",
+        "desc": "Explore Singapore's modern skyline, Marina Bay and some of its most recognisable landmarks.",
         "image": "/images/Singapore.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Cultural Neighbourhoods",
+        "desc": "Discover Singapore's diverse cultural heritage through its historic neighbourhoods and architecture.",
         "image": "/images/Singapore.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Gardens & Natural Attractions",
+        "desc": "Experience Singapore's beautifully designed gardens, green spaces and scenic attractions.",
         "image": "/images/Singapore.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Taste Singapore's famous local dishes and explore vibrant food markets and neighbourhoods.",
         "image": "/images/Singapore.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "February - April",
       "currency": "Singapore Dollar (SGD)",
       "language": "English / Malay",
       "timeZone": "GMT+8"
@@ -5753,383 +9243,740 @@ window.VISION_VISA_COUNTRIES = {
     "faqs": [
       {
         "q": "How long does it take to process a Singapore visa?",
-        "a": "Processing usually takes around 3 - 5 Days, depending on embassy workload and season."
+        "a": "The stated processing time is around 3 - 5 working days."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Singapore."
+        "q": "How long can I stay in Singapore on a tourist visa?",
+        "a": "The stay period can be up to 30 days and is determined by Singapore immigration authorities."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long is a Singapore visa valid?",
+        "a": "The visa validity can be up to 2 years, subject to the discretion of the Embassy."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What passport validity is required for Singapore?",
+        "a": "Applicants should have an original passport valid for at least 6 months."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "What bank statement is required for a Singapore visa?",
+        "a": "The stated requirement is a personal bank statement for the last 6 months with a balance above Rs. 50,000 and appropriate bank verification."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (ICA Singapore Authorized Agents)."
+        "q": "Do I need salary slips for a Singapore tourist visa?",
+        "a": "Salaried applicants are required to provide salary slips for the last 3 months."
+      },
+      {
+        "q": "Do I need income tax returns for a Singapore visa?",
+        "a": "Yes. The stated requirement includes personal income tax documents for the last 3 years."
+      },
+      {
+        "q": "What documents are required if I am self-employed?",
+        "a": "Self-employed applicants should provide a covering letter on company letterhead with seal along with the applicable GST certificate."
+      },
+      {
+        "q": "What documents are required for a family visit to Singapore?",
+        "a": "Applicants visiting family may need an invitation letter from the invitee along with the invitee's passport and employment pass copy."
+      },
+      {
+        "q": "What documents are required for a Singapore business visa?",
+        "a": "Business applicants should provide an Indian company covering letter, personal bank statement, business proof, invitation letter from the Singapore company, confirmed ticket and hotel booking."
+      },
+      {
+        "q": "Is travel insurance mandatory for Singapore?",
+        "a": "Travel insurance is recommended for international travel to Singapore."
+      },
+      {
+        "q": "Can children apply for a Singapore visa?",
+        "a": "Yes. For children, the stated requirements include a student ID card along with the applicable visa documents."
+      },
+      {
+        "q": "Can I apply for a Singapore visa without confirmed flight tickets?",
+        "a": "The tourist visa requirements focus on the application and supporting documents. Applicants should follow the applicable submission requirements and provide accurate travel information."
+      },
+      {
+        "q": "Can Vision Visa help with my Singapore visa application?",
+        "a": "Yes. Vision Visa can assist with document preparation, document review and general Singapore visa application support."
+      },
+      {
+        "q": "Who makes the final decision on a Singapore visa?",
+        "a": "The visa decision and validity are at the discretion of the Singapore authorities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from departure date",
+        "Completed and physically signed Singapore Form 14A",
+        "Two recent passport photos (35x45mm, matte/semi-matte finish, 80% face coverage, white background)",
+        "Personal cover letter stating travel purpose and dates"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 3 to 6 months stamped by the bank",
+        "Employment letter / leave approval NOC on company letterhead (for salaried applicants)",
+        "Last 3 months salary slips",
+        "Business registration certificate (GST / Incorporation) if self-employed"
+      ],
+      "travel": [
+        "Confirmed round-trip flight tickets",
+        "Confirmed hotel accommodation booking",
+        "SG Arrival Card (electronic health & travel declaration submitted 3 days prior to arrival)"
+      ],
+      "additional": [
+        "Form V39A (Letter of Introduction) and sponsor NRIC copy (if sponsored by Singapore citizen/PR)",
+        "Invitation letter from Singapore registered entity (for business visa applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (e-Visa)",
+        "description": "For leisure travel, family vacations, shopping, and visiting Singapore attractions.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, exhibitions, and commercial discussions.",
+        "icon": "💼"
+      },
+      {
+        "name": "Social Visit Pass",
+        "description": "For visiting family members and close relatives residing in Singapore.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Pass",
+        "description": "For pursuing full-time education at recognized institutions in Singapore.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Employment Pass / S Pass",
+        "description": "For foreign professionals and executives employed by Singapore companies.",
+        "icon": "🏢"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "slovakia": {
     "name": "Slovakia",
     "slug": "slovakia",
-    "visaType": "Schengen Visa",
+    "visaType": "Schengen Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/sk.png",
     "heroImage": "/images/Slovakia.webp",
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Slovakia",
+    "applyThrough": "BLS International / VFS Global",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Slovakia Schengen Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Slovakia? Indian passport holders generally need a Schengen visa for short visits to Slovakia. Vision Visa helps you understand the requirements, organise your documents and prepare your application with confidence.\n\nSlovakia Schengen Visa for Indians\nA Slovakia short-stay Schengen visa allows eligible travellers to visit Slovakia and other Schengen countries for up to 90 days within the permitted period, subject to the conditions of the issued visa.\n\nSlovakia Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photograph, proof of travel purpose, accommodation, sufficient financial means, travel itinerary and valid travel medical insurance. Additional documents may be required depending on the applicant's circumstances.\n\nSlovakia Visa Application in India\nSchengen visa applications for Slovakia in India are submitted through BLS International or VFS Global, depending on the applicable centre and appointment availability. Indian applicants can submit through visa centres in Delhi, Mumbai, Bengaluru, Kolkata and Chennai.\n\nSlovakia Visa Processing Time\nThe standard processing time is 15 working days from receipt of the complete application by the Embassy. In individual cases, processing can take longer, particularly when additional scrutiny or documents are required.\n\nSlovakia Travel Medical Insurance\nTravel medical insurance is mandatory and must provide minimum coverage of €30,000 for the entire Schengen journey.\n\nSlovakia Visa Decision\nThe final decision is made by the competent Slovak consular authorities. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Slovakia Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport",
+        "Completed Slovakia Schengen Visa Application Form",
+        "Recent Passport Photograph with White Background",
+        "Proof of Purpose of Travel",
+        "Proof of Sufficient Financial Means",
+        "Confirmed / Reserved Round-Trip Travel Itinerary",
+        "Accommodation Proof",
+        "Travel Medical Insurance with minimum €30,000 coverage",
+        "Biometric Data / Fingerprints, where applicable"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Bank Statements for the Last 6 Months",
+        "Salary Slips for the Last 6 Months",
+        "Employment / Occupation Proof",
+        "Income Tax Returns",
+        "Approved Leave / Leave Sanction Letter",
+        "Business Registration Documents, if Self-Employed",
+        "Invitation Letter / Guarantee, if Applicable",
+        "Property and Financial Asset Proofs",
+        "Previous Schengen Visas / Travel History, if Applicable"
       ],
-      "alertText": "The VFS Slovakia may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Slovak Embassy, BLS International or VFS Global may request additional documents depending on the applicant's purpose of travel, financial circumstances, travel history and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Slovakia visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Slovakia."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Slovakia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Slovakia)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Slovakia visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Slovakia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Slovakia",
       "subtitle": "Experience the Best of Slovakia",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Slovakia is a top destination.",
+      "desc": "From historic towns and medieval castles to mountain landscapes, thermal springs and traditional cuisine, Slovakia offers a beautiful mix of culture, heritage and nature.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Slovakia.",
+        "name": "Bratislava & Historic Landmarks",
+        "desc": "Explore Bratislava's historic old town, castle, architecture and Danube riverside.",
         "image": "/images/Slovakia.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Castles & Cultural Heritage",
+        "desc": "Discover Slovakia's medieval castles, historic towns and rich cultural heritage.",
         "image": "/images/Slovakia.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Mountains & Natural Landscapes",
+        "desc": "Experience the High Tatras, scenic valleys, forests and spectacular mountain landscapes.",
         "image": "/images/Slovakia.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Taste traditional Slovak dishes and explore local markets and charming town centres.",
         "image": "/images/Slovakia.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Euro (EUR)",
       "language": "Slovak",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
+        "q": "Do Indians need a visa for Slovakia?",
+        "a": "Yes. Indian citizens generally need a Schengen visa to travel to Slovakia for short stays."
+      },
+      {
+        "q": "How long can I stay in Slovakia on a Schengen visa?",
+        "a": "A short-stay Schengen visa can allow a stay of up to 90 days within the applicable 180-day period, subject to the validity and conditions stated on the visa."
+      },
+      {
         "q": "How long does it take to process a Slovakia visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "a": "The standard processing period is 15 working days from receipt of the complete application by the Slovak Embassy. In individual cases, processing may take longer."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Where do I submit my Slovakia visa application in India?",
+        "a": "Slovakia Schengen visa applications in India are submitted through BLS International or VFS Global. Indian applicants can use applicable visa centres in Delhi, Mumbai, Bengaluru, Kolkata and Chennai."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Is travel insurance mandatory for a Slovakia visa?",
+        "a": "Yes. Travel medical insurance is mandatory for Schengen visa applicants and must provide at least €30,000 coverage for the entire Schengen journey."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a Slovakia visa?",
+        "a": "Yes. Fingerprints are generally collected during the application process, subject to applicable exemptions. Previously collected fingerprints may be reused in certain circumstances."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Can I apply for a Slovakia visa without buying flight tickets?",
+        "a": "Yes. A flight reservation or travel itinerary can be submitted as proof of intended travel. The Slovak Embassy specifically notes that applicants do not need to purchase the ticket before the visa is granted."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Slovakia)."
+        "q": "Do I need bank statements for a Slovakia visa?",
+        "a": "Applicants generally need to provide evidence of sufficient financial means. The Slovak Embassy's India checklist includes bank statements and salary slips for the previous six months."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Slovakia visa?",
+        "a": "Yes. A valid Slovakia-issued Schengen visa can generally allow travel to other Schengen countries, subject to the visa conditions and Schengen rules concerning your main destination."
+      },
+      {
+        "q": "Can I apply through VFS Global for Slovakia?",
+        "a": "Yes. VFS Global is an official application partner for Slovakia in India. BLS International also handles Slovakia Schengen visa applications in India."
+      },
+      {
+        "q": "Can Vision Visa help with my Slovakia visa application?",
+        "a": "Yes. Vision Visa can assist with eligibility guidance, document checklist preparation, document review and general Slovakia visa application support."
+      },
+      {
+        "q": "Who makes the final decision on a Slovakia visa?",
+        "a": "The final decision is made by the competent Slovak consular authorities. Vision Visa can assist with application preparation but cannot guarantee visa approval."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Slovakia / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Slovakia and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Slovakia and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Slovakia.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Slovakia.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "slovenia": {
     "name": "Slovenia",
     "slug": "slovenia",
-    "visaType": "Schengen Visa",
+    "visaType": "Schengen Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/si.png",
     "heroImage": "/images/Slovenia.webp",
     "processingTime": "15 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Slovenia",
-    "insuranceRequirement": "Mandatory (€30,000)",
+    "applyThrough": "VFS Global / Embassy of Slovenia",
+    "insuranceRequirement": "Mandatory",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Slovenia Schengen Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Slovenia? Indian travellers can apply for a Slovenia Schengen tourist visa by submitting the required application and supporting documents through the applicable visa submission process.\n\nSlovenia Tourist Visa Requirements\nApplicants generally need a valid passport with at least 3 months validity from the date of return and two blank pages, a completed visa form, signed declaration, recent photographs, covering letter, hotel confirmation, personal income tax papers, bank statement, travel insurance and return air ticket.\n\nFinancial & Employment Documents\nApplicants should provide personal income tax papers for the last 3 years and a personal bank statement for the last 6 months. Salaried applicants should also provide salary slips for the last 3 months. Self-employed applicants need to provide company registration documents.\n\nSlovenia Visa Application in India\nApplications are submitted through VFS Global. TP Visa states that applications can be submitted through VFS and that passports can be submitted from across India in Mumbai. Applicants should follow the applicable appointment and submission requirements.\n\nSlovenia Visa Processing Time\nThe stated processing time for Slovenia tourist and business visas is 15 working days. Visa submission time depends on the available appointment timing.\n\nSlovenia Travel Medical Insurance\nOverseas medical insurance is required as part of the visa documentation and should correspond with the travel itinerary.\n\nSlovenia Visa Decision\nThe final visa decision is made by the competent Slovenian authorities. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
+        "Valid Passport with at least 3 months validity from date of return",
+        "Passport with 2 Back-to-Back Blank Pages",
         "Completed Slovenia Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Signed Declaration",
+        "Two Colour Photographs - 35mm x 45mm, White Background, 80% Face",
+        "Covering Letter",
+        "Confirmed Hotel Booking as per Air Ticket",
+        "Personal Income Tax Papers for Last 3 Years",
+        "Personal Bank Statement for Last 6 Months",
+        "Overseas Medical Insurance as per Air Ticket",
+        "Return Air Ticket"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Salary Slips for Last 3 Months, if Working",
+        "Leave Letter from Indian Company, if Working",
+        "Company Registration Copy, if Self-Employed",
+        "Invitation Letter, if Applicable",
+        "Additional Documents as Requested"
       ],
-      "alertText": "The VFS Slovenia may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Additional supporting documents may be required depending on the applicant's employment status, travel purpose and individual circumstances. Company registration documents must be in English or appropriately translated and notarised where required."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Slovenia visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Slovenia."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Slovenia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Slovenia)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Slovenia visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Slovenia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Slovenia",
       "subtitle": "Experience the Best of Slovenia",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Slovenia is a top destination.",
+      "desc": "From charming historic towns and alpine landscapes to crystal-clear lakes, castles and traditional cuisine, Slovenia offers a beautiful mix of European culture and natural scenery.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Slovenia.",
+        "name": "Ljubljana & Historic Landmarks",
+        "desc": "Explore Ljubljana's charming old town, historic architecture, castle and riverside streets.",
         "image": "/images/Slovenia.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Castles & Cultural Heritage",
+        "desc": "Discover medieval castles, historic towns and Slovenia's rich cultural heritage.",
         "image": "/images/Slovenia.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Alpine Lakes & Natural Wonders",
+        "desc": "Experience Lake Bled, alpine scenery, forests, caves and spectacular natural landscapes.",
         "image": "/images/Slovenia.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Taste traditional Slovenian dishes and explore local markets, cafés and charming town centres.",
         "image": "/images/Slovenia.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Euro (EUR)",
       "language": "Slovenian",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
+        "q": "Do Indians need a visa for Slovenia?",
+        "a": "Yes. Indian travellers generally require a Schengen visa for short visits to Slovenia."
+      },
+      {
         "q": "How long does it take to process a Slovenia visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "a": "The stated processing time for Slovenia tourist and business visas is 15 working days."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "What passport validity is required for a Slovenia visa?",
+        "a": "The stated requirement is a passport valid for at least 3 months from the date of return with two back-to-back blank pages."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Where do I submit my Slovenia visa application in India?",
+        "a": "Slovenia visa applications are submitted through the applicable VFS Global visa submission process."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What photographs are required for a Slovenia visa?",
+        "a": "Two colour photographs measuring 35mm x 45mm with a white background and approximately 80% of the face visible are required."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "What financial documents are required for a Slovenia visa?",
+        "a": "Applicants should provide personal income tax papers for the last 3 years and a personal bank statement for the last 6 months. Salaried applicants should also provide salary slips for the last 3 months."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Slovenia)."
+        "q": "Do I need travel medical insurance for Slovenia?",
+        "a": "Yes. Overseas medical insurance is required and should correspond with the travel itinerary and air ticket."
+      },
+      {
+        "q": "Do I need a hotel booking for a Slovenia visa?",
+        "a": "Yes. The tourist visa requirements include confirmed hotel accommodation corresponding with the air ticket."
+      },
+      {
+        "q": "Do I need a return ticket for a Slovenia visa?",
+        "a": "Yes. A return air ticket is included in the stated Slovenia tourist visa requirements."
+      },
+      {
+        "q": "What documents are required if I am self-employed?",
+        "a": "Self-employed applicants should provide a company registration copy. Where the registration document is not in English, the stated requirements call for appropriate English translation and notarisation."
+      },
+      {
+        "q": "Do salaried applicants need a leave letter?",
+        "a": "Yes. Applicants who are working should provide a leave letter from their Indian company along with the applicable employment documents."
+      },
+      {
+        "q": "Can Vision Visa help with my Slovenia visa application?",
+        "a": "Yes. Vision Visa can assist with document preparation, document review and general Slovenia Schengen visa application support."
+      },
+      {
+        "q": "Who makes the final decision on a Slovenia visa?",
+        "a": "The final visa decision is made by the competent Slovenian authorities. Vision Visa can assist with application preparation but cannot guarantee visa approval."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Slovenia / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Slovenia and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Slovenia and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Slovenia.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Slovenia.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "south-africa": {
     "name": "South Africa",
     "slug": "south-africa",
-    "visaType": "Visitor Visa (Section 11)",
+    "visaType": "Visitor's Visa (Section 11)",
     "flagImage": "https://flagcdn.com/w40/za.png",
     "heroImage": "/images/South-Africa.webp",
-    "processingTime": "10 - 15 Days",
+    "processingTime": "5 - 7 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS South Africa",
+    "applyThrough": "VFS Global / South African High Commission",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your South Africa Visitor Visa (Section 11) application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to South Africa? Indian travellers generally need a Visitor's Visa for tourism and other eligible short visits. The South Africa Visitor's Visa under Section 11 is used for temporary visits, including tourism and visiting family or friends.\n\nSouth Africa Visitor Visa Requirements\nApplicants generally need a valid passport, completed DHA-84 application form, recent photographs, proof of sufficient funds, bank statements, travel itinerary, accommodation details and a covering letter stating the purpose and duration of the visit.\n\nFinancial & Supporting Documents\nApplicants should provide their latest 3 months of bank statements along with relevant employment, salary, tax and leave documents where applicable. Additional documents may be required for applicants visiting family or friends or depending on their individual circumstances.\n\nSouth Africa Visa Application in India\nSouth Africa visa applications in India are submitted through VFS Global Visa Application Centres. VFS Global facilitates the submission and administrative process, while the South African High Commission or Consulate is responsible for assessing the application and making the final decision.\n\nSouth Africa Visa Processing Time\nProcessing time varies by VFS jurisdiction. Current guidance indicates a minimum of 5 working days for New Delhi and around 7 working days for several other centres. Applications may take longer depending on the circumstances of the application and the decision-making authority.\n\nSouth Africa Travel Insurance\nTravel insurance is recommended for international travel to South Africa. Applicants should ensure that their policy provides appropriate medical and travel coverage for the full duration of their trip.\n\nSouth Africa Visa Decision\nThe final decision on a South Africa Visitor's Visa is made by the South African High Commission or Consulate. Vision Visa can assist with document preparation, verification and application guidance but cannot guarantee visa approval.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed South Africa Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport with at least 30 days validity beyond the intended departure from South Africa",
+        "At Least Two Blank Visa Pages in the Passport",
+        "Completed DHA-84 Visitor Visa Application Form",
+        "Recent Passport Photographs (35mm x 45mm)",
+        "Proof of Sufficient Funds",
+        "Last 3 Months Bank Statements",
+        "Return / Round-Trip Flight Reservation",
+        "Proof of Accommodation",
+        "Covering Letter stating purpose and duration of visit",
+        "Copies of Passport Bio-Data Pages"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Previous Passport, where applicable",
+        "Employment Letter",
+        "Salary Slips",
+        "Income Tax Returns",
+        "Approved Leave / Leave Sanction Letter",
+        "Invitation Letter from Host, if visiting family or friends",
+        "Host's South African Identity / Residence Documents, if applicable",
+        "Marriage Certificate, where applicable",
+        "Proof of Relationship with Host, if applicable",
+        "Additional Financial Documents, where applicable"
       ],
-      "alertText": "The VFS South Africa may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "VFS Global or the South African High Commission may request additional documents depending on your purpose of travel, financial circumstances, accommodation arrangements and individual application profile. Requirements can vary by VFS jurisdiction."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate South Africa visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to South Africa."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against South Africa consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS South Africa)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic South Africa visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved South Africa visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover South Africa",
       "subtitle": "Experience the Best of South Africa",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why South Africa is a top destination.",
+      "desc": "From vibrant cities and historic landmarks to spectacular wildlife, coastlines and diverse landscapes, South Africa offers an unforgettable mix of culture, adventure and natural beauty.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of South Africa.",
+        "name": "Cape Town & Iconic Landmarks",
+        "desc": "Explore Cape Town, Table Mountain, the V&A Waterfront and historic attractions.",
         "image": "/images/South-Africa.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Wildlife & National Parks",
+        "desc": "Experience South Africa's famous wildlife and unforgettable safari landscapes.",
         "image": "/images/South-Africa.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Scenic Landscapes & Coastlines",
+        "desc": "Discover dramatic coastlines, mountains, beaches and scenic routes across the country.",
         "image": "/images/South-Africa.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Local Culture & Cuisine",
+        "desc": "Experience South Africa's diverse cultures, local markets and distinctive cuisine.",
         "image": "/images/South-Africa.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "South African Rand (ZAR)",
       "language": "English",
       "timeZone": "GMT+2"
     },
     "faqs": [
       {
+        "q": "Do Indians need a visa for South Africa?",
+        "a": "Indian passport holders generally need an appropriate South African visa before travelling for tourism and other eligible purposes."
+      },
+      {
+        "q": "What type of visa do I need to visit South Africa?",
+        "a": "For tourism and eligible short visits, applicants generally apply for a Visitor's Visa under Section 11."
+      },
+      {
         "q": "How long does it take to process a South Africa visa?",
-        "a": "Processing usually takes around 10 - 15 Days, depending on embassy workload and season."
+        "a": "Processing time varies by VFS jurisdiction. Current guidance indicates a minimum of 5 working days for New Delhi and around 7 working days for several other centres. Actual processing may take longer."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to South Africa."
+        "q": "Where can I submit my South Africa visa application in India?",
+        "a": "South Africa visa applications in India are submitted through VFS Global Visa Application Centres. VFS Global facilitates submission while the South African authorities make the visa decision."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "What bank statements are required for a South Africa Visitor Visa?",
+        "a": "Applicants are generally required to provide their latest 3 months of bank statements. Requirements can vary by VFS jurisdiction."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How much money should I show for a South Africa visa?",
+        "a": "Applicants need to demonstrate sufficient funds for their intended stay. The exact financial requirement can depend on the applicable VFS checklist and jurisdiction."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Do I need confirmed flight tickets for a South Africa visa?",
+        "a": "A return or round-trip flight reservation is included in the stated application requirements. It is generally advisable to avoid purchasing non-refundable tickets before receiving the visa."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS South Africa)."
+        "q": "Is travel insurance mandatory for South Africa?",
+        "a": "Travel insurance is recommended for international travel to South Africa. It is not listed as a standard mandatory requirement for the Visitor's Visa."
+      },
+      {
+        "q": "Do I need a covering letter for a South Africa visa?",
+        "a": "Yes. The application requirements include a covering letter stating the purpose and duration of the visit."
+      },
+      {
+        "q": "Can I visit South Africa for up to 90 days?",
+        "a": "A Section 11 Visitor's Visa is intended for temporary visits of 90 days or less. The actual period granted is determined by the South African authorities and stated on the visa."
+      },
+      {
+        "q": "Do I need a DHA-84 form for a South Africa Visitor Visa?",
+        "a": "Yes. The DHA-84 Visitor Visa Application Form is part of the stated application requirements."
+      },
+      {
+        "q": "Can Vision Visa help with my South Africa visa application?",
+        "a": "Yes. Vision Visa can assist with eligibility guidance, document checklist preparation, document review and general South Africa visa application support."
+      },
+      {
+        "q": "Who makes the final decision on a South Africa visa?",
+        "a": "The final visa decision is made by the South African High Commission or Consulate. VFS Global facilitates the application process but does not make the visa decision."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 30 days validity beyond departure and 2 consecutive blank pages",
+        "Completed and signed Form DHA-84 visa application form in black ink",
+        "Two recent passport photographs (35x45 mm, white background)",
+        "VFS South Africa submission fee receipt"
+      ],
+      "financial": [
+        "Original personal bank statements for the last 3 months stamped and signed by bank (min balance maintaining healthy funds)",
+        "Employment letter / Leave sanction letter on company letterhead",
+        "Salary slips for the last 3 months",
+        "Business registration (GST / Incorporation) and company bank statements (if self-employed)"
+      ],
+      "travel": [
+        "Confirmed return flight itinerary showing confirmed seat status",
+        "Confirmed hotel booking on official hotel letterhead with guest names, check-in/out dates, and hotel contact",
+        "Day-by-day travel itinerary covering Cape Town, Johannesburg, Kruger, etc."
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose and duration of visit",
+        "Yellow Fever vaccination certificate (mandatory if travelling through yellow fever endemic countries)",
+        "Invitation letter, host South African ID copy, and host proof of residence (if visiting family/friends)",
+        "Birth certificates and parental consent affidavits (if travelling with minor children)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Visitor / Tourist Visa (Section 11(1))",
+        "description": "For holidays, wildlife safaris, sightseeing, and visiting family or friends.",
+        "icon": "🦁"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For attending corporate meetings, trade conferences, and exploring investment opportunities.",
+        "icon": "💼"
+      },
+      {
+        "name": "Study Visa",
+        "description": "For studying at primary, secondary, or higher educational institutions in South Africa.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Critical Skills Work Visa",
+        "description": "For qualified professionals falling under South Africa's critical skills list.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For transiting through South African airports to neighboring African nations.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "south-korea": {
     "name": "South Korea",
@@ -6137,353 +9984,600 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "C-3-9 Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/kr.png",
     "heroImage": "/images/South-Korea.webp",
-    "processingTime": "7 - 10 Days",
+    "processingTime": "9 Working Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "KVAC South Korea Center",
+    "applyThrough": "VFS Global / Korea Visa Application Center",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your South Korea C-3-9 Tourist Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to South Korea? Indian passport holders generally need a C-3-9 Tourist Visa for short-term tourism. The C-3-9 category is intended for travellers visiting South Korea for tourism and leisure, with the permitted period of stay determined by the visa issued and the Korean authorities.\n\nSouth Korea Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photograph, detailed travel plan, proof of financial capacity, employment or occupation proof and other supporting documents relevant to their circumstances.\n\nSouth Korea Visa Application in India\nVisa applications in India are submitted through the designated Korea Visa Application Centre operated by VFS Global. The appropriate application centre depends on the applicant's jurisdiction.\n\nSouth Korea Visa Processing Time\nThe stated processing time for ordinary applications is approximately 9 working days from the date of application. Additional time may be required if further documents or verification are requested.\n\nSouth Korea Travel Insurance\nTravel insurance is recommended for international travel to South Korea. Applicants should consider appropriate medical and travel coverage for the full duration of their trip.\n\nSouth Korea Visa Decision\nThe final decision is made solely by the competent Korean diplomatic or consular authority. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed South Korea Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport with at least 6 months remaining validity",
+        "Photocopy of Passport Bio-Data Page",
+        "Completed Korea Visa Application Form / e-Form",
+        "Recent Passport Photograph (3.5 cm x 4.5 cm, white background)",
+        "Detailed Travel Plan / Itinerary",
+        "Proof of Financial Capacity",
+        "Employment / Occupation Proof",
+        "Relevant Supporting Documents for the Purpose of Travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Last 3 Months Bank Statements",
+        "Income Tax Returns / ITR",
+        "Salary Slips",
+        "Employment Certificate / Employer Letter",
+        "Approved Leave / Leave Sanction Letter",
+        "Business Registration Documents, if Self-Employed",
+        "Company Registration / Business Proof, if Applicable",
+        "Hotel / Accommodation Details",
+        "Flight Reservation / Travel Itinerary",
+        "Previous Passport and Travel History, if Applicable",
+        "Additional Financial Documents, if Required"
       ],
-      "alertText": "The KVAC South Korea Center may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Korean Embassy, Consulate or VFS Global may request additional supporting documents depending on your financial circumstances, occupation, travel history, purpose of travel and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate South Korea visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to South Korea."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against South Korea consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (KVAC South Korea Center)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic South Korea visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved South Korea visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover South Korea",
       "subtitle": "Experience the Best of South Korea",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why South Korea is a top destination.",
+      "desc": "From Seoul's modern skyline and historic palaces to peaceful mountains, coastal landscapes and vibrant food streets, South Korea offers a fascinating blend of tradition and modern culture.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of South Korea.",
+        "name": "Seoul & Historic Landmarks",
+        "desc": "Explore Seoul's royal palaces, traditional neighbourhoods, modern architecture and vibrant city life.",
         "image": "/images/South-Korea.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Culture & Heritage",
+        "desc": "Discover Korean traditions, historic sites, temples and cultural experiences.",
         "image": "/images/South-Korea.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Mountains & Coastal Landscapes",
+        "desc": "Experience scenic mountains, national parks, islands and beautiful coastal destinations.",
         "image": "/images/South-Korea.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Markets & Korean Cuisine",
+        "desc": "Taste authentic Korean food and explore lively markets, cafés and local neighbourhoods.",
         "image": "/images/South-Korea.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "March - May / September - November",
       "currency": "South Korean Won (KRW)",
       "language": "Korean",
       "timeZone": "GMT+9"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a South Korea visa?",
-        "a": "Processing usually takes around 7 - 10 Days, depending on embassy workload and season."
+        "q": "Do Indians need a visa for South Korea?",
+        "a": "Indian passport holders generally need a South Korean visa for tourism and other eligible short-term visits. The C-3-9 is the relevant tourist visa category."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to South Korea."
+        "q": "What is the C-3-9 South Korea visa?",
+        "a": "The C-3-9 is a short-term tourist visa intended for visitors travelling to South Korea for tourism and leisure."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long does it take to process a South Korea visa in India?",
+        "a": "The stated processing time is approximately 9 working days from the date of application. Additional time may be required if further documents or verification are needed."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Where can I submit my South Korea visa application in India?",
+        "a": "South Korea visa applications in India are submitted through the designated Korea Visa Application Centre operated by VFS Global. The applicable centre depends on the applicant's jurisdiction."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How long can I stay in South Korea with a C-3-9 visa?",
+        "a": "The C-3-9 category can permit stays of up to 90 days, but the actual permitted stay depends on the visa issued and the conditions determined by the Korean authorities."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (KVAC South Korea Center)."
+        "q": "Is travel insurance mandatory for a South Korea visa?",
+        "a": "Travel insurance is recommended for South Korea travel, although it is not generally listed as a standard mandatory document for the C-3-9 tourist visa."
+      },
+      {
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "A travel itinerary may be required as part of the application. It is advisable to avoid purchasing non-refundable tickets before the visa decision unless specifically required."
+      },
+      {
+        "q": "Do I need to show bank statements for a South Korea visa?",
+        "a": "Applicants generally need to demonstrate sufficient financial capacity. Bank statements and other financial documents may be required depending on the applicable jurisdiction and current checklist."
+      },
+      {
+        "q": "Do I need an employment letter for a South Korea tourist visa?",
+        "a": "Employment or occupation proof may be required to demonstrate your professional circumstances and ties to India. Self-employed applicants may need to provide appropriate business documents."
+      },
+      {
+        "q": "Do I need to provide biometrics for a South Korea tourist visa?",
+        "a": "Biometric requirements can depend on the applicable Korean visa procedures and applicant circumstances. Applicants should follow the current instructions provided by the Korean authorities and VFS Global."
+      },
+      {
+        "q": "Can Vision Visa help with my South Korea visa application?",
+        "a": "Yes. Vision Visa can assist with eligibility guidance, document checklist preparation, document review and general South Korea visa application support."
+      },
+      {
+        "q": "Who makes the final decision on a South Korea visa?",
+        "a": "The final visa decision is made solely by the competent Korean diplomatic or consular authority. VFS Global facilitates the application process but does not decide whether a visa is approved."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Completed South Korea visa application form with 1 passport photo (35x45 mm, white background)",
+        "Visa fee receipt and Korea Visa Application Center (KVAC) appointment confirmation"
+      ],
+      "financial": [
+        "Personal bank statements for the last 6 months with bank verification seal",
+        "Income Tax Returns (ITR-V) for the last 2 assessment years",
+        "Employment certificate and sanctioned leave approval from employer",
+        "Last 3 months salary slips",
+        "Certificate of Business Registration & business bank statement (for business owners)"
+      ],
+      "travel": [
+        "Confirmed return flight booking",
+        "Confirmed hotel reservations in Seoul, Busan, Jeju, or other Korean cities",
+        "Detailed day-wise travel schedule in South Korea"
+      ],
+      "additional": [
+        "Cover letter stating the travel purpose, itinerary, and financial sponsorship",
+        "Invitation letter and host Certificate of Alien Registration / ID (if invited)",
+        "Corporate invitation letter and business registration copy of Korean host (for business visa)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (C-3-9)",
+        "description": "For leisure travel, K-pop and cultural tours, holiday sightseeing, and recreation in Korea.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (C-3-4)",
+        "description": "For short-term business consultations, trade meetings, and market research.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visiting Family / Friends Visa (C-3-1)",
+        "description": "For visiting relatives, Korean citizens, or registered foreign residents in South Korea.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa (D-2 / D-4)",
+        "description": "For degree courses and language training at Korean universities.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Short-Term Employment Visa (C-4)",
+        "description": "For temporary specialized contracts, performances, and technical installations.",
+        "icon": "🏢"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "spain": {
     "name": "Spain",
     "slug": "spain",
-    "visaType": "Schengen Visa",
+    "visaType": "Schengen Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/es.png",
     "heroImage": "/images/Spain.webp",
-    "processingTime": "15 Working Days",
+    "processingTime": "15 Calendar Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
     "applyThrough": "BLS International Spain",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Spain Schengen Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Spain? Indian passport holders generally need a Schengen visa for short tourist visits. A Spain Schengen Tourist Visa allows eligible travellers to visit Spain and, subject to the visa conditions, other Schengen countries for short stays.\n\nSpain Visa Requirements\nApplicants generally need a completed Schengen visa application form, recent photograph, valid passport, travel medical insurance, proof of accommodation, round-trip flight booking, financial documents and evidence supporting the purpose of travel.\n\nSpain Visa Application in India\nSpain visa applications in India are submitted through BLS International Visa Application Centres serving the relevant Spanish Consulate jurisdiction. Applicants must submit their documents according to the checklist applicable to their location.\n\nSpain Visa Processing Time\nThe normal legal decision period for a Schengen visa is 15 calendar days from the day after submission. This may be extended up to 45 calendar days if additional documents, an interview or further examination is required.\n\nSpain Travel Medical Insurance\nTravel medical insurance is mandatory and must provide at least €30,000 coverage for medical emergencies, hospitalisation and repatriation. The policy must be valid throughout the Schengen Area and for the entire intended stay.\n\nSpain Visa Decision\nThe final visa decision is made by the competent Spanish Consulate. BLS International facilitates the application process but does not make the visa decision. Vision Visa can assist with document preparation and application guidance but cannot guarantee approval.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Spain Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport with at least 2 blank pages",
+        "Passport valid for at least 3 months beyond the anticipated stay",
+        "Passport issued within the last 10 years",
+        "Completed Schengen Visa Application Form",
+        "Recent Passport Photograph (35 mm x 45 mm, white background)",
+        "Copy of Passport Bio-Data Pages",
+        "Proof of Residence within the Relevant Spanish Consulate Jurisdiction",
+        "Travel Medical Insurance with minimum €30,000 coverage",
+        "Round-Trip Flight Booking / Reservation",
+        "Accommodation Proof for the Entire Stay",
+        "Cover Letter stating the Purpose of Travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Original Bank Statements for the Last 6 Months",
+        "Bank Statements Signed and Stamped by the Bank",
+        "Income Tax Returns (ITR-V or Form 16) for the Last 2 Years",
+        "PAN Card Copy",
+        "Salary Slips for the Last 3 Months, where applicable",
+        "Employment Certificate / Employer Letter",
+        "Approved Leave / Leave Sanction Letter",
+        "Business Registration Documents, if Self-Employed",
+        "Invitation Letter Issued by Spanish Authorities, if Visiting Family or Friends",
+        "Previous Passports and Travel History, if Applicable",
+        "Additional Financial or Supporting Documents, if Requested"
       ],
-      "alertText": "The BLS International Spain may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Spanish Consulate or BLS International may request additional supporting documents, information or a personal interview depending on your travel history, financial circumstances, purpose of travel and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Spain visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Spain."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Spain consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (BLS International Spain)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Spain visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Spain visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Spain",
       "subtitle": "Experience the Best of Spain",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Spain is a top destination.",
+      "desc": "From historic cities and Mediterranean beaches to world-famous architecture, vibrant culture and unforgettable cuisine, Spain offers something for every traveller.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Spain.",
+        "name": "Madrid & Historic Landmarks",
+        "desc": "Explore Madrid's grand boulevards, royal landmarks, museums and historic neighbourhoods.",
         "image": "/images/Spain.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Barcelona & Cultural Heritage",
+        "desc": "Discover Barcelona's distinctive architecture, historic quarters and vibrant Catalan culture.",
         "image": "/images/Spain.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Beaches & Scenic Landscapes",
+        "desc": "Experience Spain's Mediterranean coastline, islands, mountains and beautiful countryside.",
         "image": "/images/Spain.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Markets & Spanish Cuisine",
+        "desc": "Taste authentic Spanish cuisine and explore local markets, tapas bars and lively city streets.",
         "image": "/images/Spain.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - June / September - October",
       "currency": "Euro (EUR)",
       "language": "Spanish",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
+        "q": "Do Indians need a visa for Spain?",
+        "a": "Yes. Indian passport holders generally need a Schengen visa for short tourist visits to Spain."
+      },
+      {
+        "q": "What type of visa do I need to visit Spain?",
+        "a": "For a short tourist trip, Indian travellers generally apply for a Spain Schengen Tourist Visa."
+      },
+      {
         "q": "How long does it take to process a Spain visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "a": "The normal legal decision period is 15 calendar days from the day after submission. In cases requiring additional documents, an interview or further examination, processing can take up to 45 calendar days."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Where can I submit my Spain visa application in India?",
+        "a": "Spain Schengen visa applications are submitted through BLS International Visa Application Centres serving the relevant Spanish Consulate jurisdiction."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Spain on a Schengen visa?",
+        "a": "A short-stay Schengen visa can generally allow up to 90 days within the applicable 180-day period, subject to the validity and conditions printed on the visa."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Is travel insurance mandatory for a Spain visa?",
+        "a": "Yes. Travel medical insurance is mandatory and must provide minimum coverage of €30,000 for medical emergencies and repatriation. It must cover the entire Schengen Area and the full intended stay."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How many months of bank statements are required for a Spain visa?",
+        "a": "The current Spain tourist visa checklist provided for the applicable jurisdiction asks for original, stamped and signed bank statements covering the last six months."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (BLS International Spain)."
+        "q": "How many years of ITR are required for a Spain visa?",
+        "a": "The current Spain tourist visa checklist asks for ITR-V or Form 16 for the last two years along with a PAN card copy."
+      },
+      {
+        "q": "Do I need confirmed flight tickets for a Spain visa?",
+        "a": "A round-trip flight booking or reservation is required as part of the tourist visa documentation. Applicants are advised not to purchase the air ticket until the visa has been granted."
+      },
+      {
+        "q": "Do I need biometrics for a Spain Schengen visa?",
+        "a": "Applicants generally provide fingerprints and a facial photograph during the visa application process, subject to applicable exemptions."
+      },
+      {
+        "q": "Can I visit other Schengen countries with a Spain visa?",
+        "a": "Yes. A Spain-issued Schengen visa can generally allow travel to other Schengen countries, subject to the visa's validity, entry conditions and applicable Schengen rules."
+      },
+      {
+        "q": "Can Vision Visa help with my Spain visa application?",
+        "a": "Yes. Vision Visa can assist with eligibility guidance, document checklist preparation, document review and general Spain visa application support."
+      },
+      {
+        "q": "Who makes the final decision on a Spain visa?",
+        "a": "The final decision is made by the competent Spanish Consulate. BLS International facilitates the application process but does not decide whether a visa is approved."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Spain / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Spain and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Spain and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Spain.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Spain.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "sri-lanka": {
     "name": "Sri Lanka",
     "slug": "sri-lanka",
-    "visaType": "ETA / Tourist Visa",
+    "visaType": "Tourist ETA",
     "flagImage": "https://flagcdn.com/w40/lk.png",
     "heroImage": "/images/Sri-lanka.webp",
-    "processingTime": "1 - 2 Days",
+    "processingTime": "Usually Within 24 Hours",
     "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "ETA Sri Lanka Portal",
+    "entryType": "Double Entry",
+    "applyThrough": "Sri Lanka ETA Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Sri Lanka ETA / Tourist Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Planning a trip to Sri Lanka? Indian travellers can apply for a Tourist ETA online before departure. Indian nationals are currently eligible for a free tourist ETA for stays of up to 30 days. Vision Visa helps you understand the process, check your travel requirements and prepare for a smooth journey.\n\nSri Lanka Tourist ETA for Indians\nThe Tourist ETA allows eligible travellers to visit Sri Lanka for tourism for up to 30 days. The initial tourist ETA provides a double-entry facility, with the second entry permitted within the original 30-day period.\n\nSri Lanka ETA Requirements\nTravellers should have a passport valid for at least 6 months from the date of arrival, a confirmed return ticket and sufficient funds to cover their stay. The standard online ETA application does not require passport copies, documents or photographs to be uploaded.\n\nSri Lanka ETA Application\nTourist ETA applications can be submitted online through the official Sri Lanka ETA system before travelling. Applicants should provide accurate personal and passport information and retain their ETA approval for travel.\n\nSri Lanka ETA Processing\nETA applications are processed electronically. Applicants should apply in advance rather than relying on a guaranteed processing time, as some applications may receive a referral notice for further processing.\n\nSri Lanka Travel Insurance\nTravel insurance is recommended for international travel to Sri Lanka, although it is not listed as a standard ETA entry requirement.\n\nSri Lanka Entry & Immigration\nAn ETA is an authorization to travel, but final admission to Sri Lanka is decided by immigration authorities at the port of entry. Travellers should carry their valid passport, return ticket and evidence of sufficient funds.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Sri Lanka Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport with at least 6 months validity from the date of arrival",
+        "Sri Lanka Tourist ETA Approval",
+        "Confirmed Return Air Ticket",
+        "Proof of Sufficient Funds for the Stay"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Accommodation Booking / Address in Sri Lanka",
+        "Travel Itinerary",
+        "Previous Travel History, if applicable",
+        "Additional Documents if Requested by Sri Lanka Immigration"
       ],
-      "alertText": "The ETA Sri Lanka Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Sri Lanka Immigration may request additional information or supporting documents depending on your nationality, travel purpose and individual circumstances. Requirements may change, so applicants should verify the latest conditions before travelling."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Sri Lanka visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Sri Lanka."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Sri Lanka consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (ETA Sri Lanka Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Sri Lanka visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Sri Lanka visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Sri Lanka",
       "subtitle": "Experience the Best of Sri Lanka",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Sri Lanka is a top destination.",
+      "desc": "From ancient heritage and tropical beaches to tea country, wildlife and vibrant local cuisine, Sri Lanka offers an unforgettable island experience.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Sri Lanka.",
+        "name": "Colombo & Historic Landmarks",
+        "desc": "Explore Colombo's vibrant streets, colonial architecture, temples and modern city life.",
         "image": "/images/Sri-lanka.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Discover ancient cities, Buddhist temples and Sri Lanka's remarkable cultural heritage.",
         "image": "/images/Sri-lanka.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Beaches & Natural Landscapes",
+        "desc": "Experience tropical beaches, lush mountains, tea plantations and scenic coastal landscapes.",
         "image": "/images/Sri-lanka.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Markets & Local Cuisine",
+        "desc": "Taste authentic Sri Lankan food and explore colourful markets filled with local flavours and crafts.",
         "image": "/images/Sri-lanka.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "December - April (West & South) / May - September (East)",
       "currency": "Sri Lankan Rupee (LKR)",
       "language": "Sinhala / Tamil",
       "timeZone": "GMT+5.5"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Sri Lanka visa?",
-        "a": "Processing usually takes around 1 - 2 Days, depending on embassy workload and season."
+        "q": "Do Indians need a visa for Sri Lanka?",
+        "a": "Indian passport holders need a Sri Lanka Tourist ETA for a short tourist visit. Indian nationals are currently eligible for a free tourist ETA for up to 30 days."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Sri Lanka."
+        "q": "Is the Sri Lanka ETA free for Indian citizens?",
+        "a": "Yes. Under the current scheme, Indian nationals are eligible for a free tourist ETA for up to 30 days."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Sri Lanka on a Tourist ETA?",
+        "a": "The standard Tourist ETA provides a stay of up to 30 days. The initial tourist ETA has a double-entry facility, with the second entry permitted within the original 30-day period."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "How long does Sri Lanka ETA processing take?",
+        "a": "ETA applications are processed electronically and are usually processed within 24 hours. Applicants should still apply in advance, as some applications may receive a referral notice for further processing."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "What documents do I need to enter Sri Lanka?",
+        "a": "Travellers should carry a passport valid for at least six months from the date of arrival, a confirmed return ticket and evidence of sufficient funds to cover their stay."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (ETA Sri Lanka Portal)."
+        "q": "Do I need to upload a passport copy or photograph for the Sri Lanka ETA?",
+        "a": "The standard online ETA application does not require passport copies, documents or photographs to be uploaded."
+      },
+      {
+        "q": "Do I need a confirmed return ticket for Sri Lanka?",
+        "a": "Yes. ETA holders should be able to show a confirmed return or round-trip ticket at the port of entry when travelling by air."
+      },
+      {
+        "q": "Do I need to show sufficient funds in Sri Lanka?",
+        "a": "Yes. Travellers should be able to provide evidence of sufficient funds to cover their expenses during their stay."
+      },
+      {
+        "q": "Do I need travel insurance for Sri Lanka?",
+        "a": "Travel insurance is recommended for international travel to Sri Lanka, although it is not listed as a standard ETA entry requirement."
+      },
+      {
+        "q": "Can I apply for Sri Lanka ETA online?",
+        "a": "Yes. Tourist ETA applications can be submitted online through the official Sri Lanka ETA system before travelling."
+      },
+      {
+        "q": "Can I get a Sri Lanka ETA on arrival?",
+        "a": "A limited facility to obtain ETA on arrival is available at Bandaranaike International Airport, with additional fees. Applying online before departure is the recommended option."
+      },
+      {
+        "q": "Can I extend my Sri Lanka tourist stay?",
+        "a": "Yes. A tourist stay can be extended through Sri Lanka Immigration, subject to the applicable rules and conditions."
+      },
+      {
+        "q": "Can Vision Visa help with my Sri Lanka ETA?",
+        "a": "Yes. Vision Visa can assist with ETA application guidance, document and travel requirement checks and general support before your trip."
+      },
+      {
+        "q": "Who decides whether I can enter Sri Lanka?",
+        "a": "The ETA is an authorization to travel, but final admission to Sri Lanka is decided by immigration authorities at the port of entry."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital scan of passport bio-data page (valid at least 6 months from arrival date)",
+        "Completed Sri Lanka Electronic Travel Authorization (ETA) application",
+        "ETA processing fee payment confirmation"
+      ],
+      "financial": [],
+      "travel": [
+        "Confirmed return or onward flight tickets",
+        "Proof of hotel accommodation or address of stay in Sri Lanka",
+        "Proof of sufficient funds for maintenance during the stay"
+      ],
+      "additional": [
+        "Travel health insurance (recommended)",
+        "Business invitation letter from Sri Lankan host organization (for Business ETA)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist ETA (30 Days Double Entry)",
+        "description": "For holidays, sightseeing, beach retreats, Ayurvedic wellness, and visiting friends.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business ETA (Multiple Entry)",
+        "description": "For participating in business meetings, conferences, negotiations, and short training.",
+        "icon": "💼"
+      },
+      {
+        "name": "Transit ETA (Free up to 48 Hours)",
+        "description": "For passengers transiting through Colombo Bandaranaike International Airport.",
+        "icon": "✈️"
+      },
+      {
+        "name": "Long-Term Resident / Residence Visa",
+        "description": "For investors, expatriate employment, and long-term academic studies.",
+        "icon": "🏢"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "sweden": {
     "name": "Sweden",
@@ -6491,87 +10585,90 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/se.png",
     "heroImage": "/images/Sweden.webp",
-    "processingTime": "15 Working Days",
+    "processingTime": "15 Calendar Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Sweden",
+    "applyThrough": "VFS Global Sweden",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Sweden Schengen Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Sweden is part of the Schengen Area, and Indian travellers visiting Sweden for tourism or other short-stay purposes generally require a Schengen Visa. The visa allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions stated on the visa.\n\nSweden Schengen Visa\nThe Sweden Schengen Visa is suitable for short visits such as tourism, visiting family or friends, business and other permitted purposes. Applicants should apply through the appropriate visa application centre and provide documents supporting their travel purpose.\n\nSweden Visa Requirements\nApplicants should have a valid passport, completed visa application form, recent photographs, travel medical insurance, accommodation details, travel plans and proof of sufficient financial means. Additional documents may be required depending on the applicant's employment, financial situation and purpose of travel.\n\nSweden Visa Processing\nSchengen visa applications are generally processed within 15 calendar days after the application reaches the Embassy. In individual cases, processing may take longer if additional documents, information or further examination is required.\n\nSweden Travel Insurance\nTravel medical insurance is mandatory for a Sweden Schengen Visa and must provide minimum coverage of €30,000 for the entire Schengen stay, including medical emergencies and repatriation.\n\nSweden Visa Application\nApplicants submit their application and supporting documents through the designated VFS Global visa application process in India. Biometric information is generally collected unless an applicable exemption applies.\n\nSweden Entry & Immigration\nA Schengen Visa does not guarantee entry. Travellers must meet the applicable entry requirements at the border, and the final decision on admission is made by the relevant immigration authorities.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Sweden Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport or Travel Document",
+        "Completed and Signed Schengen Visa Application Form",
+        "Recent Passport Photograph with White Background",
+        "Travel Medical Insurance with Minimum €30,000 Coverage",
+        "Proof of Accommodation for the Entire Stay",
+        "Travel Itinerary and Transport Reservations",
+        "Proof of Sufficient Financial Means",
+        "Documents Supporting the Purpose of Travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Previous Passports, if available",
+        "Income Tax Returns",
+        "Recent Bank Statements",
+        "Salary Slips and Employment Certificate",
+        "Approved Leave Letter from Employer",
+        "Business Registration Documents, if Self-Employed",
+        "Invitation Letter, if Visiting Family or Friends",
+        "Additional Financial or Personal Documents Supporting the Application"
       ],
-      "alertText": "The VFS Sweden may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Embassy of Sweden may request additional documents or information depending on the purpose of travel, personal circumstances and individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Sweden visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Sweden."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Sweden consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Sweden)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Sweden visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Sweden visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Sweden",
       "subtitle": "Experience the Best of Sweden",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Sweden is a top destination.",
+      "desc": "From historic cities and Scandinavian culture to peaceful lakes, forests and spectacular northern landscapes, Sweden offers a memorable Nordic travel experience.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Sweden.",
+        "name": "Stockholm & Historic Landmarks",
+        "desc": "Explore Stockholm's historic old town, waterfront neighbourhoods and distinctive Scandinavian architecture.",
         "image": "/images/Sweden.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Discover Sweden's royal heritage, museums, historic towns and rich Nordic culture.",
         "image": "/images/Sweden.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Lakes, Forests & Landscapes",
+        "desc": "Experience Sweden's peaceful forests, beautiful lakes, islands and dramatic northern scenery.",
         "image": "/images/Sweden.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Enjoy Swedish cafés, local markets and traditional Scandinavian flavours.",
         "image": "/images/Sweden.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Swedish Krona (SEK)",
       "language": "Swedish",
       "timeZone": "GMT+1"
@@ -6579,29 +10676,110 @@ window.VISION_VISA_COUNTRIES = {
     "faqs": [
       {
         "q": "How long does it take to process a Sweden visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "a": "Schengen visa applications are generally processed within 15 calendar days after the application reaches the Embassy. Processing may take longer in individual cases when additional documents, information or further examination is required."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is travel insurance mandatory for a Sweden Schengen Visa?",
+        "a": "Yes. Travel medical insurance is mandatory and must provide minimum coverage of €30,000 for the entire Schengen trip, including medical emergencies, evacuation and repatriation."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Where can I submit my Sweden visa application in India?",
+        "a": "Sweden Schengen Visa applications are submitted through the designated VFS Global visa application process in India."
+      },
+      {
+        "q": "Do I need to provide biometrics for a Sweden visa?",
+        "a": "Biometric information is generally collected as part of the Schengen visa application process, subject to applicable exemptions."
+      },
+      {
+        "q": "How long can I stay in Sweden with a Schengen Visa?",
+        "a": "A short-stay Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the conditions stated on the visa."
+      },
+      {
+        "q": "Can I apply for Sweden without confirmed flight tickets?",
+        "a": "Applicants should provide appropriate travel plans and supporting reservations as required by the applicable visa checklist. It is generally advisable to avoid purchasing non-refundable tickets before the visa decision unless necessary."
+      },
+      {
+        "q": "Do I need to provide accommodation for my Sweden visa?",
+        "a": "Yes. Applicants should provide proof of accommodation covering the planned stay as part of their supporting documentation."
+      },
+      {
+        "q": "Can I apply for Sweden if I am visiting other Schengen countries?",
+        "a": "You should apply through Sweden when Sweden is the main destination of your Schengen trip, in accordance with the Schengen visa application rules."
       },
       {
         "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "a": "Yes. Vision Visa can help review your documents, identify missing information and guide you through the Sweden visa application process."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Who makes the final decision on my Sweden visa?",
+        "a": "The Embassy or competent Swedish authorities make the visa decision. VFS Global provides application and submission services and does not decide whether a visa is granted."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Sweden)."
+        "q": "Can my Sweden Schengen Visa be extended?",
+        "a": "A short-stay Schengen Visa can generally only be extended in exceptional circumstances and subject to the applicable rules."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Sweden / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Sweden and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Sweden and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Sweden.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Sweden.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "switzerland": {
     "name": "Switzerland",
@@ -6609,117 +10787,211 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/ch.png",
     "heroImage": "/images/Switzerland.webp",
-    "processingTime": "15 Working Days",
+    "processingTime": "7 - 10 Calendar Days",
     "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Switzerland",
+    "applyThrough": "VFS Global Switzerland",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Switzerland Schengen Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Switzerland is part of the Schengen Area, and Indian travellers visiting Switzerland for tourism or other short-stay purposes generally require a Schengen Visa. The visa allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions stated on the visa.\n\nSwitzerland Schengen Visa\nThe Switzerland Schengen Visa is suitable for short visits including tourism, visiting family or friends, business and other permitted purposes. Applicants should apply through the appropriate visa application process and provide documents supporting their travel purpose.\n\nSwitzerland Visa Requirements\nApplicants should have a valid passport issued within the last 10 years, with at least 3 months validity beyond the planned return date and at least two blank pages. Other key requirements include the completed application form, photographs, travel medical insurance, accommodation details, travel plans and proof of sufficient financial means.\n\nSwitzerland Visa Processing\nApplications submitted in India generally take around 7 - 10 calendar days to process after submission at the relevant visa application centre. Processing may take longer in individual cases if additional documents, information or examination is required.\n\nSwitzerland Travel Insurance\nTravel medical insurance is mandatory for a Switzerland Schengen Visa and must provide minimum coverage of €30,000 for the required period of travel, including applicable medical emergencies and repatriation.\n\nSwitzerland Visa Application\nApplicants submit their application and supporting documents through the designated VFS Global Switzerland visa application process in India. Biometric information is generally required, subject to applicable exemptions and rules.\n\nSwitzerland Entry & Immigration\nA Schengen Visa does not automatically guarantee entry into Switzerland. Travellers must meet the applicable entry requirements at the border, and the final admission decision is made by the relevant Swiss authorities.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Switzerland Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid National Passport issued within the last 10 years",
+        "Passport with at least 3 months validity after the planned return date",
+        "At least 2 Blank Pages in the Passport",
+        "Completed and Signed Switzerland Schengen Visa Application Form",
+        "Recent Passport Photographs with White Background",
+        "Travel Medical Insurance with Minimum €30,000 Coverage",
+        "Proof of Accommodation for the Entire Stay",
+        "Travel Itinerary and Transport Reservations",
+        "Proof of Sufficient Financial Means",
+        "Documents Supporting the Purpose of Travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Previous Passports and Previous Schengen Visas, if applicable",
+        "Recent Bank Statements",
+        "Income Tax Returns (ITR)",
+        "Salary Slips and Employment Certificate",
+        "Approved Leave Letter from Employer",
+        "Business Registration Documents, if Self-Employed",
+        "Invitation Letter and Host Documents, if Visiting Family or Friends",
+        "Additional Financial or Personal Documents Supporting the Application"
       ],
-      "alertText": "The VFS Switzerland may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Embassy of Switzerland may request additional documents or information depending on your purpose of travel, financial situation, travel history and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Switzerland visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Switzerland."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Switzerland consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Switzerland)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Switzerland visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Switzerland visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Switzerland",
       "subtitle": "Experience the Best of Switzerland",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Switzerland is a top destination.",
+      "desc": "From breathtaking alpine landscapes and crystal-clear lakes to historic cities, charming villages and world-famous Swiss cuisine, Switzerland offers an unforgettable travel experience.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Switzerland.",
+        "name": "Zurich & Historic Landmarks",
+        "desc": "Explore Zurich's old town, lakeside setting, historic streets and vibrant city life.",
         "image": "/images/Switzerland.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Discover historic towns, museums, castles and Switzerland's distinctive cultural heritage.",
         "image": "/images/Switzerland.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Alps, Lakes & Landscapes",
+        "desc": "Experience spectacular mountain scenery, crystal-clear lakes and picturesque alpine villages.",
         "image": "/images/Switzerland.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Markets & Swiss Cuisine",
+        "desc": "Taste authentic Swiss specialities and explore local markets, cafés and traditional food culture.",
         "image": "/images/Switzerland.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "June - September",
       "currency": "Swiss Franc (CHF)",
-      "language": "German / French",
+      "language": "German / French / Italian / Romansh",
       "timeZone": "GMT+1"
     },
     "faqs": [
       {
         "q": "How long does it take to process a Switzerland visa?",
-        "a": "Processing usually takes around 15 Working Days, depending on embassy workload and season."
+        "a": "For applications submitted in India, processing generally takes around 7 - 10 calendar days after submission at the relevant VFS application centre. Processing may take longer in individual cases."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Is travel insurance mandatory for Switzerland?",
+        "a": "Yes. Travel medical insurance is mandatory for a Switzerland Schengen Visa and must provide at least €30,000 coverage for the required period of travel."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Where can I submit my Switzerland visa application in India?",
+        "a": "Schengen visa applications for Switzerland from India are submitted through the designated VFS Global Switzerland visa application process."
+      },
+      {
+        "q": "Do I need to provide biometrics for a Switzerland visa?",
+        "a": "Biometric data is generally required for Schengen visa applications. Previously collected fingerprints may be reusable where permitted under the applicable rules and exemptions."
+      },
+      {
+        "q": "How long can I stay in Switzerland with a Schengen Visa?",
+        "a": "A short-stay Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the conditions stated on the visa."
+      },
+      {
+        "q": "What passport validity is required for a Switzerland Schengen Visa?",
+        "a": "The passport should have been issued within the last 10 years and remain valid for at least 3 months after the scheduled return date. It should also have at least two blank pages."
+      },
+      {
+        "q": "Can I apply for Switzerland without confirmed flight tickets?",
+        "a": "Applicants should provide appropriate travel plans and transport reservations as required by the applicable visa checklist. It is generally advisable to avoid purchasing non-refundable tickets before receiving the visa decision."
+      },
+      {
+        "q": "Do I need proof of accommodation for Switzerland?",
+        "a": "Yes. Applicants should provide appropriate proof of accommodation covering their planned stay as part of the supporting documentation."
+      },
+      {
+        "q": "Do I need to show sufficient funds for a Switzerland visa?",
+        "a": "Yes. Applicants need to demonstrate sufficient financial means to cover their planned trip and stay."
       },
       {
         "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "a": "Yes. Vision Visa can review your documents, identify missing information and guide you through the Switzerland visa application process."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Who makes the final decision on a Switzerland visa?",
+        "a": "The Swiss Embassy or Consulate makes the final visa decision. VFS Global handles application submission and passport-related services but does not decide visa applications."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Switzerland)."
+        "q": "Can I apply for a Switzerland visa if I am visiting other Schengen countries?",
+        "a": "You should apply through Switzerland when Switzerland is your main destination in the Schengen Area, in accordance with the applicable Schengen visa rules."
+      },
+      {
+        "q": "Can a Switzerland Schengen Visa be extended?",
+        "a": "A Schengen short-stay visa can generally only be extended in exceptional circumstances and subject to the applicable rules."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity from return date and 2 blank pages",
+        "Two recent passport-size photographs (35x45mm, 80% face coverage, white background, matte finish)",
+        "Completed and signed official Switzerland / Schengen visa application form",
+        "Consular visa fee payment receipt & biometric appointment confirmation"
+      ],
+      "financial": [
+        "Original personal bank statement for the last 6 months with bank seal and signature",
+        "Personal Income Tax Returns (ITR-V) or Form 16 for the last 2 to 3 financial years",
+        "Salary slips for the last 3 months with company stamp (for salaried applicants)",
+        "Employment letter / Leave sanction NOC from employer on official letterhead",
+        "Business registration / GST certificate & company bank statement (for self-employed / business owners)"
+      ],
+      "travel": [
+        "Round-trip flight reservation or confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof covering entire stay in Switzerland and Schengen Area",
+        "Detailed day-by-day travel plan and sightseeing itinerary",
+        "Travel Medical Insurance with minimum coverage of €30,000 (valid across all Schengen member states)"
+      ],
+      "additional": [
+        "Personal cover letter explaining purpose of travel, itinerary, and financial sponsorship",
+        "Copies of previous passports and previous Schengen, US, UK, or Canada visas (if applicable)",
+        "Official invitation letter, host passport copy & residence proof (if visiting family/friends or business meetings)",
+        "Marriage certificate and birth certificates (if travelling with spouse or minor children)",
+        "Student ID card and leave NOC from school/university (for student applicants)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Schengen Type C)",
+        "description": "For tourism, leisure holidays, and sightseeing across Switzerland and the Schengen zone.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa (Schengen Type C)",
+        "description": "For corporate meetings, trade fairs, client discussions, and business conferences.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or friends residing in Switzerland.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student / Study Visa",
+        "description": "For university degree programs, exchange semesters, and academic courses.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work / Employment Visa",
+        "description": "For official long-term employment contracts with a registered employer in Switzerland.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Airport Transit Visa (Type A)",
+        "description": "For connecting flights through international transit zones of Schengen airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "taiwan": {
     "name": "Taiwan",
@@ -6727,589 +10999,1043 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/tw.png",
     "heroImage": "/images/Taiwan.webp",
-    "processingTime": "5 - 7 Days",
-    "stayDuration": "Up to 30 Days",
+    "processingTime": "5 - 7 Working Days",
+    "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "Taipei Economic Office",
+    "applyThrough": "Taipei Economic and Cultural Center",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Taiwan Visitor Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Taiwan offers a unique mix of modern cities, traditional culture, scenic mountains and vibrant local experiences. Indian travellers visiting Taiwan for tourism generally need to obtain the appropriate visa or qualify for an applicable special entry arrangement before travelling.\n\nTaiwan Visitor Visa\nThe Taiwan Visitor Visa is suitable for eligible travellers visiting for tourism and other permitted short-term purposes. The permitted period of stay and number of entries depend on the visa granted and the conditions specified by the relevant Taiwan authorities.\n\nTaiwan Visa Requirements\nApplicants should generally have a valid passport, completed visa application form, recent photographs, travel arrangements, accommodation details and evidence of sufficient funds. Additional documents may be required depending on the purpose of travel, employment status and individual circumstances.\n\nTaiwan Visa Application\nApplicants can complete the applicable online visa application form and should then follow the submission instructions provided by the relevant Taipei Economic and Cultural Center. Supporting documents and the original passport may be required depending on the visa category.\n\nTaiwan Visa Processing\nProcessing time depends on the visa type, application circumstances and the Taiwan overseas mission handling the application. Applicants should apply sufficiently in advance of their intended travel date.\n\nTaiwan Travel Insurance\nTravel insurance is recommended for travellers visiting Taiwan, although it is not generally listed as a standard mandatory requirement for a Visitor Visa.\n\nTaiwan Entry & Immigration\nA visa or other travel authorization does not automatically guarantee entry. Travellers must meet the applicable entry requirements, and final admission is determined by Taiwan immigration authorities at the port of entry.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
+        "Valid Passport with at least 6 months validity",
         "Completed Taiwan Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Recent Passport Photographs",
+        "Confirmed Flight Reservation / Travel Itinerary",
+        "Proof of Accommodation in Taiwan",
+        "Proof of Sufficient Funds",
+        "Documents Supporting the Purpose of Travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent Bank Statements",
+        "Income Tax Returns (ITR)",
+        "Salary Slips and Employment Certificate",
+        "Approved Leave Letter from Employer",
+        "Business Registration Documents, if Self-Employed",
+        "Invitation Letter and Host Documents, if Applicable",
+        "Previous Travel History / Previous Visas, if Applicable",
+        "Additional Documents Requested by the Taipei Economic and Cultural Center"
       ],
-      "alertText": "The Taipei Economic Office may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Taiwan authorities may request additional documents or information depending on your nationality, travel purpose and individual application profile."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Taiwan visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Taiwan."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Taiwan consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Taipei Economic Office)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Taiwan visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Taiwan visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Taiwan",
       "subtitle": "Experience the Best of Taiwan",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Taiwan is a top destination.",
+      "desc": "From vibrant cities and ancient temples to dramatic mountains, lively night markets and coastal escapes, Taiwan offers a fascinating blend of tradition and modern life.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Taiwan.",
+        "name": "Taipei & City Landmarks",
+        "desc": "Explore Taipei's iconic skyline, historic districts, temples and modern city attractions.",
         "image": "/images/Taiwan.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Discover traditional temples, historic neighbourhoods, museums and Taiwan's rich cultural heritage.",
         "image": "/images/Taiwan.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Mountains & Natural Landscapes",
+        "desc": "Experience Taiwan's mountains, forests, waterfalls, hot springs and scenic coastal landscapes.",
         "image": "/images/Taiwan.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Night Markets & Local Cuisine",
+        "desc": "Taste authentic Taiwanese dishes and explore lively night markets filled with local flavours.",
         "image": "/images/Taiwan.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "October - April",
       "currency": "New Taiwan Dollar (TWD)",
-      "language": "Mandarin",
+      "language": "Mandarin Chinese",
       "timeZone": "GMT+8"
     },
     "faqs": [
       {
+        "q": "Do Indian citizens need a visa for Taiwan?",
+        "a": "Indian passport holders generally need an appropriate Taiwan visa before travelling for tourism unless they qualify for a specific visa-free, eVisa or other special entry arrangement."
+      },
+      {
+        "q": "Can Indian tourists apply for a Taiwan eVisa?",
+        "a": "The Taiwan eVisa is not generally available to ordinary Indian tourists travelling independently. Indian nationals may qualify for an eVisa in specific situations, including designated group tours or certain business and official activities."
+      },
+      {
         "q": "How long does it take to process a Taiwan visa?",
-        "a": "Processing usually takes around 5 - 7 Days, depending on embassy workload and season."
+        "a": "Processing time depends on the visa type, application circumstances and the Taiwan overseas mission handling the application. Applicants should allow sufficient time for processing."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Taiwan."
+        "q": "How long can I stay in Taiwan on a Visitor Visa?",
+        "a": "The permitted period of stay depends on the visa issued and the conditions stated on the visa. Applicants should check the stay period granted on their individual visa."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "What passport validity is required for Taiwan?",
+        "a": "Applicants should generally hold a passport with at least 6 months validity for the applicable Taiwan travel authorization. Specific requirements may vary depending on the visa type and application."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need proof of accommodation for Taiwan?",
+        "a": "Applicants may be required to provide accommodation information or supporting documents as part of the Visitor Visa application."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Do I need to show sufficient funds for a Taiwan visa?",
+        "a": "Yes. Applicants may be required to demonstrate sufficient financial resources to cover their travel and stay in Taiwan."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Taipei Economic Office)."
+        "q": "Do I need travel insurance for Taiwan?",
+        "a": "Travel insurance is recommended for international travel to Taiwan, although it is not generally presented as a standard mandatory Visitor Visa requirement."
+      },
+      {
+        "q": "Do I need biometrics for a Taiwan visa?",
+        "a": "Biometric requirements depend on the visa type and the instructions of the Taiwan overseas mission handling the application."
+      },
+      {
+        "q": "Can I apply for a Taiwan visa online?",
+        "a": "Taiwan provides an online visa application form. Applicants should complete the applicable online form and then follow the instructions of the relevant Taiwan overseas mission for document submission."
+      },
+      {
+        "q": "Can Vision Visa assist with Taiwan visa applications?",
+        "a": "Yes. Vision Visa can assist with document preparation, application guidance, document verification and general support throughout the Taiwan visa process."
+      },
+      {
+        "q": "Who makes the final decision on a Taiwan visa?",
+        "a": "The relevant Taiwan overseas mission makes the final visa decision. Approval is subject to assessment of the applicant and the applicable immigration and visa rules."
+      },
+      {
+        "q": "Can I travel to Taiwan with an eVisa?",
+        "a": "Eligible eVisa holders can travel with an approved Taiwan eVisa. The approved eVisa should be printed and presented as required, with final admission remaining subject to Taiwan immigration authorities."
+      },
+      {
+        "q": "Can a Taiwan Visitor Visa be extended?",
+        "a": "Extension depends on the type of visa, permitted period of stay and applicable Taiwan immigration rules. Travellers should confirm eligibility with Taiwan immigration authorities before their permitted stay expires."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Taiwan consular specifications (35x45 mm, white background)",
+        "Completed and signed Taiwan visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Taiwan",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Taiwan)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Taiwan.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Taiwan.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Taiwan.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Taiwan.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Taiwan.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "thailand": {
     "name": "Thailand",
     "slug": "thailand",
-    "visaType": "Tourist Visa / E-VOA",
+    "visaType": "Tourist Visa / Visa Exemption",
     "flagImage": "https://flagcdn.com/w40/th.png",
     "heroImage": "/images/Thailand.webp",
-    "processingTime": "3 - 5 Days",
-    "stayDuration": "Up to 30/60 Days",
+    "processingTime": "3 - 5 Working Days",
+    "stayDuration": "Up to 60 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS Thailand / eVisa",
+    "applyThrough": "Thailand e-Visa / Royal Thai Embassy or Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Thailand Tourist Visa / E-VOA application, from document verification to submission guidance.",
+    "overviewDescription": "Thailand offers a combination of vibrant cities, historic temples, tropical islands and rich culinary traditions. Indian travellers should first check whether they qualify for Thailand's current visa exemption scheme or need to obtain a visa before travelling.\n\nThailand Tourist Visa & Visa Exemption\nIndian ordinary passport holders are currently eligible for Thailand's visa exemption scheme for tourism and certain short-term business activities, allowing eligible travellers to stay for up to 60 days, subject to the applicable conditions. Travellers who do not qualify for the exemption or require another type of entry permission may need to apply for the appropriate Thai visa.\n\nThailand Visa Requirements\nTravellers should have a valid passport, travel itinerary, accommodation information and evidence of sufficient funds. Additional documents may be required when applying for a Tourist Visa depending on the applicant's circumstances and visa category.\n\nThailand e-Visa\nTravellers who require a Thai visa can use the Thailand e-Visa system where eligible. Applicants should complete the online application, upload the required documents and follow the instructions provided by the relevant Thai authorities.\n\nThailand Visa Processing\nProcessing times can vary depending on the Thai mission, application volume, visa category and individual circumstances. Applications requiring additional documents or checks may take longer.\n\nThailand Travel Insurance\nTravel insurance is recommended for travellers visiting Thailand. Specific insurance requirements may vary depending on the applicable entry rules and visa category.\n\nThailand Entry Requirements\nTravellers should check the latest entry requirements before departure, including any Thailand Digital Arrival Card requirements that may apply. Visa exemption, visa approval or other travel authorization does not automatically guarantee entry, as final admission is determined by Thai immigration authorities.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Thailand Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport with at least 6 months validity",
+        "Recent Passport Photograph",
+        "Completed Thailand Visa Application, if a Visa is Required",
+        "Flight Itinerary / Travel Booking",
+        "Proof of Accommodation in Thailand",
+        "Proof of Sufficient Funds",
+        "Documents Supporting the Purpose of Travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent Bank Statements",
+        "Income Tax Returns (ITR), if applicable",
+        "Salary Slips and Employment Certificate",
+        "Approved Leave Letter from Employer",
+        "Business Registration Documents, if Self-Employed",
+        "Invitation Letter and Host Documents, if Applicable",
+        "Previous Travel History / Previous Visas, if Applicable",
+        "Additional Documents Requested by Thai Authorities"
       ],
-      "alertText": "The VFS Thailand / eVisa may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Document requirements can vary depending on nationality, visa category and individual circumstances. Thai authorities may request additional documents or an interview."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Thailand visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Thailand."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Thailand consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS Thailand / eVisa)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Thailand visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Thailand visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Thailand",
       "subtitle": "Experience the Best of Thailand",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Thailand is a top destination.",
+      "desc": "From Bangkok's vibrant streets and historic temples to tropical islands, beaches and famous Thai cuisine, Thailand offers something for every traveller.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Thailand.",
+        "name": "Bangkok & City Landmarks",
+        "desc": "Explore Bangkok's grand temples, lively neighbourhoods, modern skyline and iconic city attractions.",
         "image": "/images/Thailand.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Temples & Cultural Heritage",
+        "desc": "Experience Thailand's Buddhist temples, historic sites, traditional culture and architectural heritage.",
         "image": "/images/Thailand.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Islands & Natural Landscapes",
+        "desc": "Discover tropical islands, beaches, national parks and beautiful coastal landscapes.",
         "image": "/images/Thailand.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Markets & Thai Cuisine",
+        "desc": "Taste authentic Thai food and explore colourful street markets, floating markets and local neighbourhoods.",
         "image": "/images/Thailand.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "November - February",
       "currency": "Thai Baht (THB)",
       "language": "Thai",
       "timeZone": "GMT+7"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Thailand visa?",
-        "a": "Processing usually takes around 3 - 5 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Thailand?",
+        "a": "Indian ordinary passport holders are currently eligible for Thailand's visa exemption scheme for tourism and certain short-term business activities, allowing a stay of up to 60 days, subject to the applicable conditions and any future changes announced by Thai authorities."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Thailand."
+        "q": "How long can Indians stay in Thailand without a visa?",
+        "a": "Indian ordinary passport holders can currently stay in Thailand for up to 60 days under the visa exemption scheme. An extension of up to 30 additional days may be available at the discretion of Thai immigration authorities."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Do I need a Thailand Tourist Visa if I am travelling from India?",
+        "a": "Not normally for tourism within the current 60-day visa exemption period. Travellers who do not qualify for the exemption or who require a different type of entry permission may need to apply for the appropriate Thai visa."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Can I apply for a Thailand e-Visa from India?",
+        "a": "Yes. Thailand's e-Visa system is available in India. Travellers who require a visa can apply online through the official Thailand e-Visa system."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How long does a Thailand Tourist Visa take to process?",
+        "a": "Processing time can vary depending on the Thai mission, application volume and individual circumstances. Applications requiring additional documents or checks may take longer."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS Thailand / eVisa)."
+        "q": "What documents do I need for a Thailand Tourist Visa?",
+        "a": "Typical requirements include a valid passport, recent photograph, travel itinerary, accommodation details and financial evidence. Additional documents may be requested depending on the applicant and visa category."
+      },
+      {
+        "q": "Is travel insurance mandatory for Thailand?",
+        "a": "Travel insurance is recommended for travellers visiting Thailand. Requirements can vary depending on the applicable entry rules and visa category."
+      },
+      {
+        "q": "Do I need to show proof of funds for Thailand?",
+        "a": "Financial evidence may be required when applying for a Tourist Visa. The exact financial requirement can depend on the visa application and the Thai mission handling it."
+      },
+      {
+        "q": "Do I need confirmed flight tickets for Thailand?",
+        "a": "Travel itinerary or flight booking information may be required for a Tourist Visa application. Travellers should avoid making non-refundable arrangements solely on the assumption that a visa will be approved."
+      },
+      {
+        "q": "Do I need to complete the Thailand Digital Arrival Card?",
+        "a": "Travellers entering Thailand should check the current Thailand Digital Arrival Card requirements before departure and complete the required immigration information within the specified period."
+      },
+      {
+        "q": "Do I need biometrics for a Thailand visa?",
+        "a": "Biometric or other identity-verification requirements may depend on the visa application and instructions of the Thai authorities handling the application."
+      },
+      {
+        "q": "Can Vision Visa assist with Thailand visa applications?",
+        "a": "Yes. Vision Visa can assist with visa eligibility checks, document preparation, application guidance and general support throughout the Thailand visa process."
+      },
+      {
+        "q": "Who makes the final decision on a Thailand visa?",
+        "a": "The relevant Royal Thai Embassy or Consulate-General makes the final visa decision. Submission of an application does not guarantee visa approval."
+      },
+      {
+        "q": "Can I extend my stay in Thailand?",
+        "a": "Depending on your entry status and circumstances, an extension may be possible through Thai immigration authorities. Approval is subject to the applicable immigration rules."
+      },
+      {
+        "q": "Can I apply for a Thailand visa while I am already in Thailand?",
+        "a": "The Thailand e-Visa system states that applicants must be outside Thailand when applying. Travellers already in Thailand should follow the applicable Thai immigration procedures for their situation."
+      },
+      {
+        "q": "Is Visa on Arrival the same as visa exemption?",
+        "a": "No. Visa exemption allows eligible passport holders to enter without obtaining a visa in advance, subject to the exemption conditions. Visa on Arrival is a separate entry arrangement available only to eligible nationalities."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Completed and signed Thailand visa application form",
+        "Two recent photographs (35x45mm, white background, taken within last 6 months)",
+        "Proof of visa fee payment"
+      ],
+      "financial": [
+        "Original bank statement for the last 6 months stamped by bank (min balance of INR 50,000 per person / INR 1,00,000 per family)",
+        "Employment letter / NOC and salary slips (where applicable)",
+        "Business registration proof (if self-employed)"
+      ],
+      "travel": [
+        "Confirmed return or onward air tickets with flight numbers and dates",
+        "Confirmed hotel reservation / accommodation proof in Thailand matching flight dates"
+      ],
+      "additional": [
+        "Personal cover letter explaining travel purpose and itinerary",
+        "Invitation letter and Thai host ID copy (if visiting family or friends)",
+        "Travel insurance (recommended for international travel)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa (Single Entry - TR)",
+        "description": "Allows stay up to 60 days for tourism, beach holidays, and leisure travel.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Multiple Entry Tourist Visa (METV)",
+        "description": "Valid for 6 months, allowing multiple entries up to 60 days per visit.",
+        "icon": "🌴"
+      },
+      {
+        "name": "Non-Immigrant Business Visa (Category B)",
+        "description": "For attending corporate meetings, business negotiations, and trade events.",
+        "icon": "💼"
+      },
+      {
+        "name": "Education Visa (Category ED)",
+        "description": "For studying at recognized Thai academic institutions or taking specialized training.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa (Category TS)",
+        "description": "For transiting through Thai international airports to a third destination.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "turkey": {
     "name": "Turkey",
     "slug": "turkey",
-    "visaType": "eVisa / Sticker Visa",
+    "visaType": "e-Visa / Sticker Visa",
     "flagImage": "https://flagcdn.com/w40/tr.png",
     "heroImage": "/images/Turkey.webp",
-    "processingTime": "2 - 5 Days",
+    "processingTime": "2 - 5 Working Days",
     "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Turkey eVisa Portal / Gateway",
+    "entryType": "Single Entry",
+    "applyThrough": "Türkiye e-Visa Portal / Turkish Embassy or Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Turkey eVisa / Sticker Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Turkey offers a fascinating combination of historic landmarks, vibrant cities, ancient heritage, dramatic landscapes and Mediterranean coastlines. Indian travellers generally require a visa before travelling, with eligible applicants able to use the e-Visa route subject to specific conditions.\n\nTurkey e-Visa for Indian Citizens\nEligible Indian ordinary passport holders may obtain a 30-day single-entry e-Visa if they satisfy the applicable requirements. This includes holding a valid supporting visa or residence permit from a qualifying country or region and meeting the other conditions specified by Turkish authorities.\n\nTurkey Sticker Visa\nApplicants who do not qualify for the e-Visa route may need to apply for a sticker visa through the relevant Turkish Embassy or Consulate. The required documents and application procedure can vary depending on the applicant and purpose of travel.\n\nTurkey Visa Requirements\nTypical requirements include a valid passport, recent photograph, travel itinerary, accommodation details and proof of sufficient financial means. Additional documents may be requested depending on the visa category and individual circumstances.\n\nTurkey Visa Processing\nEligible e-Visa applicants can complete the application electronically. Processing requirements and timelines can vary, so applicants should apply sufficiently in advance of their intended travel date.\n\nTurkey Travel Insurance\nTravel insurance is recommended for travellers visiting Turkey. Specific insurance requirements may vary according to the visa type and individual application.\n\nTurkey Visa Application\nEligible travellers can apply online through the official Türkiye e-Visa system. Applicants who are not eligible for an e-Visa may need to follow the sticker visa application process through a Turkish diplomatic mission.\n\nTurkey Entry & Immigration\nA visa or e-Visa does not automatically guarantee entry into Turkey. Travellers must satisfy the applicable entry requirements, and final admission is determined by Turkish immigration authorities at the port of entry.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Turkey Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
+        "Valid Passport with Required Validity Beyond the Intended Stay",
+        "Recent Passport Photograph",
+        "Completed Turkey Visa Application Form, where applicable",
         "Flight Reservation & Travel Itinerary",
         "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Proof of Sufficient Funds",
+        "Travel Medical Insurance, where applicable"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Valid Schengen, USA, UK or Ireland Visa or Residence Permit, if Applying for the Eligible Indian e-Visa Route",
+        "Recent Bank Statements",
+        "Income Tax Returns (ITR), if applicable",
+        "Salary Slips & Employment Certificate",
+        "Approved Leave Letter from Employer",
+        "Business Registration Documents, if Self-Employed",
+        "Invitation Letter from Host or Sponsor, if Applicable",
+        "Previous Travel History / Previous Visas, if Applicable",
+        "Additional Documents Requested by Turkish Authorities"
       ],
-      "alertText": "The Turkey eVisa Portal / Gateway may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Indian ordinary passport holders may be eligible for a 30-day single-entry Turkey e-Visa only if they meet the applicable eligibility conditions. Applicants who do not qualify for the e-Visa must apply for the appropriate sticker visa through a Turkish diplomatic mission."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Turkey visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Turkey."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Turkey consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Turkey eVisa Portal / Gateway)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Turkey visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Turkey visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Turkey",
       "subtitle": "Experience the Best of Turkey",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Turkey is a top destination.",
+      "desc": "From Istanbul's historic landmarks and Cappadocia's extraordinary landscapes to Mediterranean coastlines, traditional bazaars and Turkish cuisine, Turkey offers diverse experiences for every traveller.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Turkey.",
+        "name": "Istanbul & Historic Landmarks",
+        "desc": "Explore Istanbul's iconic mosques, palaces, bazaars and historic neighbourhoods.",
         "image": "/images/Turkey.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Discover ancient ruins, Ottoman heritage and Turkey's rich cultural traditions.",
         "image": "/images/Turkey.webp"
       },
       "place3": {
         "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "desc": "Experience Cappadocia, turquoise coastlines, mountains and spectacular natural scenery.",
         "image": "/images/Turkey.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Markets & Turkish Cuisine",
+        "desc": "Explore traditional bazaars and enjoy authentic Turkish dishes, sweets and local flavours.",
         "image": "/images/Turkey.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - May & September - October",
       "currency": "Turkish Lira (TRY)",
       "language": "Turkish",
       "timeZone": "GMT+3"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Turkey visa?",
-        "a": "Processing usually takes around 2 - 5 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Turkey?",
+        "a": "Yes. Indian ordinary passport holders require a visa to enter Turkey. Eligible Indian passport holders may apply for a 30-day single-entry e-Visa if they meet the required conditions."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Turkey."
+        "q": "Can Indian citizens apply for a Turkey e-Visa?",
+        "a": "Yes, but not every Indian passport holder is eligible. Eligible Indian ordinary passport holders must satisfy the applicable requirements, including holding a qualifying supporting visa or residence permit and meeting the other e-Visa conditions."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can Indians stay in Turkey on an e-Visa?",
+        "a": "Eligible Indian travellers can obtain a single-entry e-Visa with a stay of up to 30 days, subject to the conditions of the visa issued."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What if I do not have a Schengen, USA, UK or Ireland visa?",
+        "a": "If you do not meet the e-Visa eligibility conditions, you may need to apply for a sticker visa through the relevant Turkish Embassy or Consulate."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "What supporting visa can Indians use for Turkey e-Visa eligibility?",
+        "a": "A valid visa or residence permit issued by a Schengen member country, the USA, UK or Ireland may qualify as a supporting document, subject to the other applicable e-Visa conditions."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Turkey eVisa Portal / Gateway)."
+        "q": "How long does a Turkey e-Visa take to process?",
+        "a": "Eligible applicants can complete the e-Visa application online. Processing requirements can vary, so applicants should apply sufficiently before their planned travel date."
+      },
+      {
+        "q": "What documents are required for a Turkey visa?",
+        "a": "Requirements depend on the visa route and applicant. Typical documents include a valid passport, travel details and supporting financial or travel documents. Additional documents may be requested by Turkish authorities."
+      },
+      {
+        "q": "Is travel insurance mandatory for Turkey?",
+        "a": "Travel insurance is recommended for travellers visiting Turkey. Specific insurance requirements may depend on the visa type and individual application."
+      },
+      {
+        "q": "Do I need confirmed flight tickets for a Turkey visa?",
+        "a": "Travel itinerary or flight reservation details may be required depending on the visa application. It is advisable to avoid non-refundable bookings before visa approval unless necessary."
+      },
+      {
+        "q": "Can I apply for Turkey e-Visa online?",
+        "a": "Eligible travellers can apply through the official Türkiye e-Visa portal. The e-Visa is issued electronically after the application and payment process is successfully completed."
+      },
+      {
+        "q": "Do I need a sticker visa if I am not eligible for e-Visa?",
+        "a": "Yes. Applicants who do not qualify for the e-Visa may need to obtain a sticker visa through a Turkish diplomatic mission."
+      },
+      {
+        "q": "Do I need biometrics for a Turkey visa?",
+        "a": "Biometric and identity-verification requirements can depend on the visa application route and instructions of the Turkish authorities handling the application."
+      },
+      {
+        "q": "Can Vision Visa assist with Turkey visa applications?",
+        "a": "Yes. Vision Visa can assist with eligibility checks, document preparation, application guidance and general support throughout the Turkey visa process."
+      },
+      {
+        "q": "Who makes the final decision on a Turkey visa?",
+        "a": "The Turkish authorities responsible for the application make the final visa decision. Assistance with an application does not guarantee visa approval."
+      },
+      {
+        "q": "Can I download my Turkey e-Visa after approval?",
+        "a": "Yes. Once the e-Visa application is successfully completed, the download link is provided and the e-Visa is also sent to the applicant by email."
+      },
+      {
+        "q": "How long should my passport be valid for Turkey?",
+        "a": "The passport or travel document should remain valid for at least 60 days beyond the duration of the authorised stay. Additional requirements can apply depending on nationality and visa type."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity beyond intended stay",
+        "Completed Turkey visa application form",
+        "Two biometric photographs (50x50 mm, white background, 80% face coverage)",
+        "Valid Schengen, USA, UK, or Ireland Visa / Residence Permit (for eligible conditional e-Visa route)"
+      ],
+      "financial": [
+        "Personal bank statement for the last 3 to 6 months stamped and signed by bank",
+        "Income Tax Returns (ITR) for the last 2 to 3 years",
+        "Employment letter / Leave sanction letter and last 3 months salary slips",
+        "Business registration documents (if self-employed)"
+      ],
+      "travel": [
+        "Confirmed round-trip flight booking",
+        "Confirmed hotel reservations covering the entire duration in Turkey",
+        "Travel medical insurance covering minimum €30,000 / $50,000 medical expenses"
+      ],
+      "additional": [
+        "Detailed travel itinerary and personal cover letter",
+        "Invitation letter from host/organization in Turkey (if visiting friends or business meetings)",
+        "Previous international visa copies and travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist e-Visa (Conditional)",
+        "description": "Instant 30-day single-entry e-Visa for holders of valid US, UK, Schengen, or Ireland visas.",
+        "icon": "⚡"
+      },
+      {
+        "name": "Tourist Sticker Visa (Consular)",
+        "description": "Standard consular sticker visa for applicants applying through Gateway / VFS Turkey centers.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For commercial meetings, trade conferences, supplier visits, and expos in Turkey.",
+        "icon": "💼"
+      },
+      {
+        "name": "Student / Education Visa",
+        "description": "For study programs at accredited Turkish universities and higher education academies.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Work Visa",
+        "description": "For official employment with a Turkish employer with Ministry of Labour approval.",
+        "icon": "🏢"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "uae": {
     "name": "UAE",
     "slug": "uae",
-    "visaType": "Tourist eVisa",
+    "visaType": "Tourist Visa / eVisa",
     "flagImage": "https://flagcdn.com/w40/ae.png",
     "heroImage": "/images/United-Arab-Emirate-UAE-DUBAI.webp",
-    "processingTime": "24 - 48 Hours",
-    "stayDuration": "30 / 60 Days",
+    "processingTime": "Usually 2 - 4 Working Days",
+    "stayDuration": "30 / 60 / 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "GDRFA / ICP Dubai Portal",
-    "insuranceRequirement": "Recommended",
+    "applyThrough": "GDRFA Dubai / ICP UAE",
+    "insuranceRequirement": "Mandatory",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your UAE Tourist eVisa application, from document verification to submission guidance.",
+    "overviewDescription": "The UAE is a popular destination for Indian travellers, offering iconic cities, cultural attractions, desert landscapes and world-class experiences. Indian passport holders generally require an appropriate UAE entry visa unless they qualify for a visa-free or special entry arrangement.\n\nUAE Tourist Visa\nUAE tourist and visit visas are available in different categories, with permitted stays commonly including 30, 60 or 90 days depending on the visa selected and applicable conditions. Multiple-entry options are also available under certain visa categories.\n\nUAE Visa Requirements\nApplicants should generally have a passport valid for at least 6 months, a recent photograph, completed application details, return or onward travel arrangements, accommodation information and valid UAE health insurance. Additional documents may be requested depending on the visa category, nationality, sponsor and individual circumstances.\n\nUAE Visa for Indian Citizens\nCertain special entry routes may be available to eligible Indian passport holders who meet specific conditions, such as holding a qualifying visa, residence permit or Green Card. Applicants should verify their eligibility before selecting the relevant visa route.\n\nUAE Visa Application\nDepending on the visa type and emirate, applications can be submitted through the relevant UAE government authority or an authorised tourism establishment or service provider. Dubai immigration services are handled by GDRFA Dubai, while ICP manages applicable federal immigration and identity services.\n\nUAE Visa Processing\nProcessing times depend on the visa category, issuing authority and individual application. Some UAE visa services may have official completion times of around two days, while actual processing can vary.\n\nUAE Travel Insurance\nValid health insurance is required for applicable UAE visit and tourist visa categories. Travellers should ensure their insurance policy satisfies the requirements applicable to their specific visa.\n\nUAE Entry & Immigration\nA UAE entry visa does not automatically guarantee admission. Travellers must meet the applicable entry requirements at the border, and final admission is determined by the relevant UAE immigration authorities.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
+        "Valid Passport with at least 6 months validity",
+        "Recent Passport Photograph with White Background",
         "Completed UAE Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Return or Onward Flight Ticket",
+        "Proof of Accommodation / Hotel Booking",
+        "Valid UAE Health Insurance",
+        "Additional Documents as Required for the Visa Category"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent Bank Statements, if Required",
+        "Salary Certificate or Employment Proof, if Required",
+        "Approved Leave Letter from Employer, if Applicable",
+        "Invitation Letter and Host Documents, if Applicable",
+        "Relationship Proof, if Applying for a Relative or Friend Visit Visa",
+        "Valid Supporting Visa / Residence Permit, if Applying Under a Special Eligibility Route",
+        "Previous Travel History / Visas, if Applicable",
+        "Additional Documents Requested by GDRFA or ICP"
       ],
-      "alertText": "The GDRFA / ICP Dubai Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "UAE visa requirements vary by visa type, nationality, sponsor and issuing authority. GDRFA Dubai or ICP may request additional documents depending on the individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate UAE visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to UAE."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against UAE consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (GDRFA / ICP Dubai Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic UAE visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved UAE visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover UAE",
       "subtitle": "Experience the Best of UAE",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why UAE is a top destination.",
+      "desc": "From Dubai's iconic skyline and Abu Dhabi's cultural landmarks to desert landscapes, luxury experiences and traditional souks, discover the many sides of the UAE.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of UAE.",
+        "name": "Dubai & Iconic Landmarks",
+        "desc": "Experience Dubai's world-famous skyline, Burj Khalifa, modern architecture and vibrant city life.",
         "image": "/images/United-Arab-Emirate-UAE-DUBAI.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Explore traditional neighbourhoods, mosques, museums and the UAE's rich cultural heritage.",
         "image": "/images/United-Arab-Emirate-UAE-DUBAI.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Desert & Natural Landscapes",
+        "desc": "Discover desert landscapes, dunes, beaches and unique outdoor experiences across the UAE.",
         "image": "/images/United-Arab-Emirate-UAE-DUBAI.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Souks & Local Cuisine",
+        "desc": "Explore traditional souks, modern shopping destinations and authentic Emirati and regional cuisine.",
         "image": "/images/United-Arab-Emirate-UAE-DUBAI.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "November - March",
       "currency": "UAE Dirham (AED)",
-      "language": "Arabic",
+      "language": "Arabic / English",
       "timeZone": "GMT+4"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a UAE visa?",
-        "a": "Processing usually takes around 24 - 48 Hours, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for the UAE?",
+        "a": "Indian passport holders generally require an appropriate UAE entry visa unless they qualify for a visa-free or special entry arrangement. Eligibility depends on nationality, passport type and individual circumstances."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to UAE."
+        "q": "How long can I stay in the UAE on a tourist visa?",
+        "a": "UAE tourist and visit visa categories can allow stays of 30, 60 or 90 days depending on the visa selected and applicable conditions."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Can Indian citizens get a 60-day UAE visa?",
+        "a": "Yes. A 60-day UAE visa is available under certain visa categories. Eligible Indian ordinary passport holders may also qualify for a specific 60-day entry visa if they meet the applicable conditions, including holding a qualifying visa, residence permit or Green Card."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What supporting documents are required for the special UAE visa route for Indians?",
+        "a": "Eligible Indian applicants may need to provide their passport, photograph and a copy of the qualifying visa, residence permit or Green Card. The passport must generally be valid for at least six months."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Can I apply for a UAE tourist visa online?",
+        "a": "Depending on the visa type and emirate, applications can be submitted through official government channels or authorised tourism establishments and service providers."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (GDRFA / ICP Dubai Portal)."
+        "q": "How long does a UAE tourist visa take to process?",
+        "a": "Processing time depends on the visa category, issuing authority and application circumstances. Some UAE visa services have official completion times of around two days, while actual processing can vary."
+      },
+      {
+        "q": "Is travel insurance mandatory for a UAE tourist visa?",
+        "a": "Valid health insurance is required for applicable UAE visit and tourist visa categories. Travellers should ensure that their policy meets the requirements applicable to their visa."
+      },
+      {
+        "q": "Do I need a return ticket for a UAE tourist visa?",
+        "a": "A return or onward travel ticket may be required depending on the visa category and applicable UAE entry requirements."
+      },
+      {
+        "q": "Do I need a hotel booking for a UAE tourist visa?",
+        "a": "Proof of accommodation may be required depending on the visa type. This can include a hotel booking or other acceptable accommodation evidence."
+      },
+      {
+        "q": "Can I apply for a UAE visa without confirmed flight tickets?",
+        "a": "A return or onward ticket may be required for the relevant visa or entry category. Travellers should check the requirements before making non-refundable travel arrangements."
+      },
+      {
+        "q": "Do I need biometrics for a UAE tourist visa?",
+        "a": "Biometric requirements depend on the visa type, nationality and applicable UAE immigration procedures. Not every tourist visa application follows the same biometric process."
+      },
+      {
+        "q": "Can Vision Visa assist with UAE visa applications?",
+        "a": "Yes. Vision Visa can assist with eligibility checks, document preparation, application guidance and general support throughout the UAE visa process."
+      },
+      {
+        "q": "Who makes the final decision on a UAE visa?",
+        "a": "The relevant UAE immigration authority or authorised issuing entity makes the final decision. Assistance with an application does not guarantee visa approval."
+      },
+      {
+        "q": "How will I receive my UAE visa after approval?",
+        "a": "UAE entry visas are generally issued electronically and can be received or downloaded through the relevant application channel."
+      },
+      {
+        "q": "Can I extend my UAE tourist visa?",
+        "a": "Extension options depend on the visa category and applicable UAE immigration rules. Some visit and tourist visas may be extendable subject to approval and applicable conditions."
+      },
+      {
+        "q": "What is the difference between GDRFA and ICP for UAE visas?",
+        "a": "GDRFA Dubai handles immigration services for Dubai, while ICP handles federal immigration and identity services for the other emirates and applicable federal visa categories. The correct authority depends on the visa and application route."
+      },
+      {
+        "q": "Can I get a multiple-entry UAE tourist visa?",
+        "a": "Yes. Multiple-entry tourist visa categories are available, but eligibility, validity and permitted stay depend on the specific visa category."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear color scan of passport bio-data page and address page (valid min 6 months)",
+        "Recent digital passport-size photograph with white background (clear face, no glasses)",
+        "Completed UAE visa application details"
+      ],
+      "financial": [],
+      "travel": [
+        "Confirmed round-trip flight tickets",
+        "Hotel booking confirmation or UAE resident host accommodation address details"
+      ],
+      "additional": [
+        "Valid Emirates ID copy and host visa copy (if staying with relatives or friends)",
+        "Birth certificate in English (for minor applicants travelling with parents)",
+        "PAN Card copy (for identity verification)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "30 Days Tourist Visa (Single Entry)",
+        "description": "Ideal for short vacations, family visits, and leisure holidays in Dubai and UAE.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "60 Days Tourist Visa (Single / Multiple Entry)",
+        "description": "For extended holidays, visiting relatives, and comprehensive exploration across Emirates.",
+        "icon": "🌴"
+      },
+      {
+        "name": "14 Days Express Visa",
+        "description": "Quick turnaround tourist/business visa for urgent short-duration visits.",
+        "icon": "⚡"
+      },
+      {
+        "name": "30 / 60 Days Business Visa",
+        "description": "For attending corporate events, trade exhibitions, client meetings, and investment reviews.",
+        "icon": "💼"
+      },
+      {
+        "name": "96 Hours Transit Visa",
+        "description": "For short stopovers and connecting flight layovers via Dubai/Abu Dhabi airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "ukraine": {
     "name": "Ukraine",
     "slug": "ukraine",
-    "visaType": "eVisa",
+    "visaType": "eVisa / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ua.png",
     "heroImage": "/images/Ukraine.webp",
-    "processingTime": "5 - 7 Days",
+    "processingTime": "1 - 3 Working Days",
     "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "MFA Ukraine eVisa",
+    "entryType": "Single / Double",
+    "applyThrough": "MFA Ukraine eVisa / Ukrainian Embassy or Consulate",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Ukraine eVisa application, from document verification to submission guidance.",
+    "overviewDescription": "Ukraine offers a rich mix of historic cities, cultural heritage, architectural landmarks and diverse landscapes. Indian travellers generally require a visa before travelling, with eligible Indian passport holders able to apply through the Ukraine eVisa system subject to the applicable requirements.\n\nUkraine eVisa\nThe Ukraine eVisa is available to eligible Indian passport holders for permitted travel purposes including tourism. Depending on the visa issued, travellers may receive single-entry or double-entry authorization with a permitted stay of up to 30 days.\n\nUkraine Visa Requirements\nApplicants generally need a valid passport, recent photograph, completed eVisa application, health insurance with minimum €30,000 coverage, proof of sufficient funds and documentation confirming the purpose of travel. Additional supporting documents may be requested depending on the application.\n\nUkraine eVisa Application\nEligible travellers can complete the application online through the Ukrainian Ministry of Foreign Affairs platform. Applicants should provide accurate information, upload the required documents and pay the applicable visa fee before submitting the application.\n\nUkraine Visa Processing\nThe standard Ukraine eVisa processing period is generally 3 working days, while an urgent processing option of 1 working day may be available subject to the applicable fee and requirements.\n\nUkraine Travel Insurance\nHealth insurance is mandatory for the Ukraine eVisa and must provide minimum coverage of €30,000 as required by the applicable visa conditions.\n\nUkraine Entry & Immigration\nAn approved eVisa does not automatically guarantee entry into Ukraine. Travellers should carry their printed eVisa along with their passport and other relevant travel documents. Final admission is determined by the Ukrainian border authorities.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Ukraine Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport with at least 3 months validity beyond the Intended Departure from Ukraine",
+        "At least 2 Blank Pages in the Passport",
+        "Recent Passport Photograph",
+        "Completed Ukraine eVisa Application Form",
+        "Health Insurance with Minimum €30,000 Coverage",
+        "Proof of Sufficient Funds",
+        "Document Confirming the Purpose of Travel"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Flight Reservation & Travel Itinerary",
+        "Hotel Accommodation Proof",
+        "Invitation or Supporting Document, if Required",
+        "Recent Bank Statements",
+        "Income Tax Returns (ITR), if Applicable",
+        "Salary Slips & Employment Certificate",
+        "Approved Leave Letter from Employer",
+        "Business Registration Documents, if Self-Employed",
+        "Additional Documents Requested by Ukrainian Authorities"
       ],
-      "alertText": "The MFA Ukraine eVisa may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Ukraine visa requirements may vary depending on nationality, purpose of travel and individual circumstances. The MFA or Ukrainian diplomatic mission may request additional supporting documents."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Ukraine visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Ukraine."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Ukraine consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (MFA Ukraine eVisa)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Ukraine visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Ukraine visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Ukraine",
       "subtitle": "Experience the Best of Ukraine",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Ukraine is a top destination.",
+      "desc": "Discover Ukraine's historic cities, cultural heritage, architectural landmarks and diverse landscapes while experiencing its unique local traditions and cuisine.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Ukraine.",
+        "name": "Kyiv & Historic Landmarks",
+        "desc": "Explore Kyiv's historic architecture, famous landmarks, churches and vibrant city life.",
         "image": "/images/Ukraine.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Experience Ukraine's rich cultural traditions, historic sites and architectural heritage.",
         "image": "/images/Ukraine.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Natural Landscapes",
+        "desc": "Discover Ukraine's diverse landscapes, countryside and scenic natural surroundings.",
         "image": "/images/Ukraine.webp"
       },
       "place4": {
         "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "desc": "Explore local markets and experience traditional Ukrainian dishes and regional flavours.",
         "image": "/images/Ukraine.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "May - September",
       "currency": "Ukrainian Hryvnia (UAH)",
       "language": "Ukrainian",
       "timeZone": "GMT+2"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Ukraine visa?",
-        "a": "Processing usually takes around 5 - 7 Days, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for Ukraine?",
+        "a": "Yes. Indian citizens generally require a visa to enter Ukraine. Indian passport holders are among the nationalities eligible to apply for a Ukraine eVisa, subject to the applicable requirements."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "Can Indian citizens apply for a Ukraine eVisa?",
+        "a": "Yes. Indian passport holders are included among the nationalities eligible for Ukraine's eVisa system, subject to the applicable conditions."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "How long can I stay in Ukraine on an eVisa?",
+        "a": "Ukraine eVisas can be issued for a stay of up to 30 days, subject to the conditions of the visa granted."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Is the Ukraine eVisa single or multiple entry?",
+        "a": "Ukraine currently issues eVisas for either single or double entry, depending on the visa issued."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "How long does a Ukraine eVisa take to process?",
+        "a": "The standard processing period is generally 3 working days. An urgent processing option of 1 working day may also be available, subject to the applicable fee."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (MFA Ukraine eVisa)."
+        "q": "What documents are required for a Ukraine eVisa?",
+        "a": "Applicants generally need a valid passport, recent photograph, health insurance with at least €30,000 coverage, proof of sufficient funds and a document confirming the purpose of travel."
+      },
+      {
+        "q": "Is travel insurance mandatory for Ukraine?",
+        "a": "Yes. Ukraine's eVisa requirements include health insurance providing coverage of at least €30,000."
+      },
+      {
+        "q": "How much passport validity is required for Ukraine?",
+        "a": "The passport should generally remain valid for at least 3 months after the intended date of departure from Ukraine and contain at least two blank pages."
+      },
+      {
+        "q": "Do I need proof of sufficient funds?",
+        "a": "Yes. Proof of sufficient financial means is one of the documents required for the Ukraine eVisa application."
+      },
+      {
+        "q": "Do I need confirmed flight tickets for a Ukraine eVisa?",
+        "a": "Travel itinerary and supporting documents may be requested depending on the purpose of travel. Applicants should avoid relying on non-refundable bookings before visa approval."
+      },
+      {
+        "q": "Do I need biometrics for a Ukraine eVisa?",
+        "a": "The Ukraine eVisa is an online application process and generally does not require a visit to a diplomatic mission for biometric submission. Additional identity checks may apply in individual cases."
+      },
+      {
+        "q": "Can I apply for a Ukraine eVisa online?",
+        "a": "Yes. Eligible travellers can complete the Ukraine eVisa application online through the Ukrainian Ministry of Foreign Affairs platform."
+      },
+      {
+        "q": "How will I receive my Ukraine eVisa?",
+        "a": "The approved eVisa is sent to the applicant by email in PDF format. Travellers should print the eVisa and present it together with their passport at the Ukrainian border."
+      },
+      {
+        "q": "Can Vision Visa assist with Ukraine visa applications?",
+        "a": "Yes. Vision Visa can assist with eligibility checks, document verification, application preparation and general guidance throughout the Ukraine visa process."
+      },
+      {
+        "q": "Who makes the final decision on a Ukraine visa?",
+        "a": "The Ukrainian Ministry of Foreign Affairs or the relevant Ukrainian diplomatic authority makes the final visa decision. Assistance with an application does not guarantee approval."
+      },
+      {
+        "q": "Can I apply for a Ukraine eVisa for tourism?",
+        "a": "Yes. Tourism is one of the purposes for which Ukraine's eVisa can be issued, subject to the applicable eligibility and documentation requirements."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital scan of valid passport bio-data page (min 6 months validity)",
+        "Recent digital passport-size photograph with white background",
+        "Completed Ukraine electronic visa application form"
+      ],
+      "financial": [
+        "Proof of sufficient funds (bank statement or credit card limit proof if requested by immigration)"
+      ],
+      "travel": [
+        "Confirmed return or onward flight itinerary",
+        "Confirmed hotel accommodation or host stay details in Ukraine"
+      ],
+      "additional": [
+        "Cover letter detailing purpose of visit and travel schedule",
+        "Travel health insurance (recommended for international journeys)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Ukraine.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Ukraine.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Ukraine.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Ukraine.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Ukraine.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "united-kingdom": {
     "name": "United Kingdom",
@@ -7317,117 +12043,203 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Standard Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/gb.png",
     "heroImage": "/images/United-Kingdom.webp",
-    "processingTime": "15 - 20 Days",
+    "processingTime": "3 Weeks",
     "stayDuration": "Up to 6 Months",
     "entryType": "Single / Multiple",
-    "applyThrough": "VFS UK / TLScontact",
-    "insuranceRequirement": "Mandatory (€30,000)",
+    "applyThrough": "UK Visas and Immigration (UKVI)",
+    "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your United Kingdom Standard Visitor Visa application, from document verification to submission guidance.",
+    "overviewDescription": "The UK Standard Visitor Visa allows eligible travellers to visit the United Kingdom for tourism, visiting family or friends and other permitted short-term purposes. Applicants must demonstrate that their visit is genuine, temporary and financially supported.\n\nUK Standard Visitor Visa\nThe Standard Visitor Visa generally allows eligible travellers to stay in the UK for up to 6 months. Applicants should clearly demonstrate the purpose of their visit and satisfy the requirements of the Standard Visitor route.\n\nUK Visa Requirements\nApplicants need a valid passport or travel document, completed application and evidence supporting their purpose of travel. Financial evidence is important, and applicants should demonstrate that they can reasonably cover the costs of their visit and intend to leave the UK at the end of their stay.\n\nUK Financial & Supporting Documents\nDepending on individual circumstances, applicants may provide bank statements, employment confirmation, salary slips, income tax documents, approved leave letters, business documents and evidence of accommodation or sponsorship. The exact documents required depend on the applicant's circumstances.\n\nUK Visa Application\nThe Standard Visitor Visa application is completed online through UK Visas and Immigration. Applicants then follow the instructions for identity verification, biometrics and document submission at the designated visa application centre.\n\nUK Visa Processing\nThe standard processing time for applications made outside the UK is around 3 weeks after the applicant has completed the application, proved their identity and provided the required documents. Individual applications may take longer in certain circumstances.\n\nUK Travel Insurance\nTravel insurance is not generally a mandatory requirement for a UK Standard Visitor Visa, but appropriate travel insurance is strongly recommended for international travel.\n\nUK Entry & Immigration\nA UK visa does not automatically guarantee entry. Travellers must satisfy the applicable border requirements, and the final decision on admission is made by UK Border Force and immigration authorities.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed United Kingdom Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport or Travel Document",
+        "Completed UK Standard Visitor Visa Application",
+        "Proof of Sufficient Funds for Your Trip",
+        "Evidence of Your Purpose of Visit",
+        "Evidence That You Intend to Leave the UK After Your Visit"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent Bank Statements",
+        "Employment Letter / Employer Confirmation",
+        "Salary Slips, if Applicable",
+        "Income Tax Returns (ITR), if Applicable",
+        "Approved Leave Letter from Employer",
+        "Business Registration Documents, if Self-Employed",
+        "Proof of Accommodation",
+        "Travel Itinerary",
+        "Invitation Letter and Sponsor Documents, if Applicable",
+        "Evidence of Previous Travel History, if Available",
+        "Additional Documents Supporting Your Personal Circumstances"
       ],
-      "alertText": "The VFS UK / TLScontact may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The documents required for a UK Standard Visitor Visa depend on your circumstances, purpose of travel and how you plan to fund your visit. UK Visas and Immigration may request additional evidence."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate United Kingdom visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to United Kingdom."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against United Kingdom consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (VFS UK / TLScontact)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic United Kingdom visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved United Kingdom visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
-      "title": "Discover United Kingdom",
-      "subtitle": "Experience the Best of United Kingdom",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why United Kingdom is a top destination.",
+      "title": "Discover the United Kingdom",
+      "subtitle": "Experience the Best of the UK",
+      "desc": "From historic landmarks and royal heritage to vibrant cities, scenic countryside and diverse cuisine, discover what makes the United Kingdom a popular destination.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of United Kingdom.",
+        "name": "London & Historic Landmarks",
+        "desc": "Explore iconic landmarks, royal attractions, museums and the vibrant streets of London.",
         "image": "/images/United-Kingdom.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Culture & Heritage",
+        "desc": "Discover centuries of history, historic towns, castles and cultural traditions across the UK.",
         "image": "/images/United-Kingdom.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Countryside & Landscapes",
+        "desc": "Experience beautiful countryside, coastal scenery and diverse landscapes across the United Kingdom.",
         "image": "/images/United-Kingdom.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Markets & British Cuisine",
+        "desc": "Explore local markets, traditional favourites and the UK's diverse modern food scene.",
         "image": "/images/United-Kingdom.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "March - May & September - November",
       "currency": "British Pound (GBP)",
       "language": "English",
       "timeZone": "GMT+0"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a United Kingdom visa?",
-        "a": "Processing usually takes around 15 - 20 Days, depending on embassy workload and season."
+        "q": "How long does it take to process a UK Standard Visitor Visa?",
+        "a": "The standard processing time for applications made outside the UK is around 3 weeks after you have completed your application, proved your identity and provided your documents."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Yes. Travel insurance with minimum €30,000 coverage is mandatory for Schengen visas."
+        "q": "How long can I stay in the UK on a Standard Visitor Visa?",
+        "a": "A Standard Visitor Visa generally allows you to visit the UK for up to 6 months."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Is travel insurance mandatory for a UK visitor visa?",
+        "a": "Travel insurance is not a general mandatory requirement for a UK Standard Visitor Visa. However, appropriate travel insurance is strongly recommended for international travel."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to provide biometrics for a UK visa?",
+        "a": "Applicants normally need to prove their identity and provide fingerprints and a photograph at a visa application centre unless the application process instructs them to use another identity verification method."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Do I need confirmed flight tickets before applying for a UK visa?",
+        "a": "You should provide evidence supporting your proposed travel plans, but it is generally advisable to avoid purchasing non-refundable flights before your visa has been approved."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (VFS UK / TLScontact)."
+        "q": "What financial documents are required for a UK visitor visa?",
+        "a": "You need to demonstrate that you have sufficient funds to cover the reasonable costs of your visit, including travel, accommodation and your return or onward journey. Bank statements and other evidence of your financial circumstances may be used."
+      },
+      {
+        "q": "Do I need an invitation letter to visit the UK?",
+        "a": "An invitation letter is not required for every visitor. If you are staying with or being financially supported by someone in the UK, evidence of the relationship, accommodation and financial support may be relevant to your application."
+      },
+      {
+        "q": "Can I apply for a UK visitor visa online?",
+        "a": "Yes. The Standard Visitor Visa application is submitted online through the UK government visa application service, followed by identity verification and document submission as instructed."
+      },
+      {
+        "q": "Can Vision Visa assist with UK visa applications?",
+        "a": "Yes. Vision Visa can assist with document verification, application preparation, travel-document guidance and general support throughout the UK visitor visa process."
+      },
+      {
+        "q": "Who makes the final decision on a UK visa?",
+        "a": "The final visa decision is made by UK Visas and Immigration. Assistance with your application does not guarantee visa approval."
+      },
+      {
+        "q": "What does UKVI consider when assessing a visitor visa?",
+        "a": "UKVI considers whether you are a genuine visitor, intend to leave the UK at the end of your visit, have sufficient funds for your trip and meet the requirements of the Standard Visitor route."
+      },
+      {
+        "q": "Can I visit family or friends in the UK on a Standard Visitor Visa?",
+        "a": "Yes. Visiting family and friends is one of the permitted purposes of a Standard Visitor Visa, provided you meet the visitor requirements."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Current valid passport with at least 6 months validity and a full blank page",
+        "Completed UKVI online visa application form and visa fee payment receipt",
+        "VFS Global biometric appointment confirmation letter",
+        "Passport scan and appointment submission receipt"
+      ],
+      "financial": [
+        "Original personal bank statements for the last 6 months showing regular income and healthy closing balance",
+        "Income Tax Returns (ITR) or Form 16 for the last 2 to 3 financial years",
+        "Employment letter detailing role, salary, date of joining, and approved leave from employer",
+        "Last 3 to 6 months payslips",
+        "Company registration, audited balance sheets, and company bank statements (if self-employed)"
+      ],
+      "travel": [
+        "Planned travel itinerary outlining UK stay dates and intended destinations",
+        "Proof of accommodation (hotel booking confirmation or host address details)",
+        "Provisional flight itinerary (confirmed tickets not mandatory before approval)"
+      ],
+      "additional": [
+        "Cover letter stating the purpose of trip, funding source, and ties ensuring return to India",
+        "Invitation letter, host UK passport/BRP copy, and host tenancy/council tax bill (if hosted)",
+        "Proof of ties to India such as property ownership, ongoing employment, or family commitments",
+        "Previous passports and record of previous international travels"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Standard Visitor Visa (Tourist)",
+        "description": "For tourism, holidays, sightseeing, and visiting family or friends in the UK.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Standard Visitor Visa (Business)",
+        "description": "For attending business meetings, conferences, training sessions, and corporate negotiations.",
+        "icon": "💼"
+      },
+      {
+        "name": "Student Visa (Tier 4)",
+        "description": "For pursuing undergraduate, postgraduate, or long-term courses at UK educational institutions.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Skilled Worker Visa",
+        "description": "For qualified professionals with an approved Certificate of Sponsorship (CoS) from a UK employer.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Family / Spouse Visa",
+        "description": "For joining a spouse, partner, or family member settled in the United Kingdom.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Direct Airside Transit Visa (DATV)",
+        "description": "For changing flights in the UK without passing through border control.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "usa": {
     "name": "USA",
@@ -7435,117 +12247,205 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "B1/B2 Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/us.png",
     "heroImage": "/images/USA.webp",
-    "processingTime": "3 - 5 Days post-interview",
+    "processingTime": "Varies by Interview & Administrative Processing",
     "stayDuration": "Up to 6 Months",
     "entryType": "Single / Multiple",
-    "applyThrough": "US Consulate / CGI Federal",
+    "applyThrough": "U.S. Embassy / Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your USA B1/B2 Visitor Visa application, from document verification to submission guidance.",
+    "overviewDescription": "The USA B1/B2 Visitor Visa is a nonimmigrant visa for eligible travellers visiting the United States temporarily for business, tourism, holidays or visiting family and friends. The application process focuses on the purpose of travel, individual circumstances, financial ability and intention to return after the visit.\n\nUSA B1/B2 Visitor Visa\nThe B1/B2 visa combines permitted temporary business and tourism purposes. A visitor visa generally allows eligible travellers to request admission for a temporary stay, with the period of stay determined by U.S. Customs and Border Protection at the port of entry.\n\nUSA Visa Requirements\nApplicants generally need a valid passport, completed DS-160 application, DS-160 confirmation page, visa fee payment receipt, appointment confirmation and photograph where required. Additional documents may be relevant depending on the applicant's purpose of travel and personal circumstances.\n\nUSA Financial & Supporting Documents\nApplicants should be prepared to demonstrate that they can reasonably cover the costs of their trip and have genuine ties to their home country. Depending on individual circumstances, this may include bank statements, employment records, salary information, income tax documents, business records and evidence of family or economic ties.\n\nUSA Visa Application\nApplicants must complete the DS-160 online, pay the applicable visa fee and follow the current appointment process. Most applicants are required to attend a visa appointment where identity verification and biometrics are completed and, where applicable, a consular interview is conducted.\n\nUSA Visa Processing\nThere is no single fixed processing time for a B1/B2 visa. Appointment availability varies by location and season, while some applications may require additional administrative processing after the interview.\n\nUSA Travel Insurance\nTravel insurance is not generally mandatory for a B1/B2 visitor visa, but suitable travel insurance is strongly recommended for international travel.\n\nUSA Entry & Immigration\nA U.S. visa does not guarantee entry into the United States. The visa permits a traveller to seek admission, while U.S. Customs and Border Protection determines admission and the authorised period of stay at the port of entry.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed USA Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport",
+        "Completed DS-160 Online Nonimmigrant Visa Application",
+        "DS-160 Confirmation Page",
+        "Visa Application Fee Payment Receipt",
+        "Visa Interview Appointment Confirmation",
+        "Photograph Meeting U.S. Visa Requirements, if Required"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Proof of Purpose of Travel",
+        "Recent Bank Statements / Financial Proof",
+        "Employment Letter / Employer Confirmation",
+        "Recent Salary Slips, if Applicable",
+        "Income Tax Returns (ITR), if Applicable",
+        "Approved Leave Letter from Employer",
+        "Business Registration Documents, if Self-Employed",
+        "Evidence of Family or Economic Ties in India",
+        "Previous Passports and Travel History, if Available",
+        "Proposed Travel Itinerary, if Available",
+        "Additional Documents Relevant to Your Individual Circumstances"
       ],
-      "alertText": "The US Consulate / CGI Federal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The U.S. Embassy or Consulate may request additional documents to assess your purpose of travel, ability to pay for the trip and intention to return to your home country."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate USA visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to USA."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against USA consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (US Consulate / CGI Federal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic USA visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved USA visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
-      "title": "Discover USA",
-      "subtitle": "Experience the Best of USA",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why USA is a top destination.",
+      "title": "Discover the USA",
+      "subtitle": "Experience the Best of America",
+      "desc": "From iconic cities and national parks to cultural landmarks and diverse cuisine, discover the experiences that make the USA a popular destination.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of USA.",
+        "name": "New York & Iconic Landmarks",
+        "desc": "Explore world-famous landmarks, vibrant neighbourhoods and the energy of New York City.",
         "image": "/images/USA.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Culture & Heritage",
+        "desc": "Discover museums, historic landmarks and diverse cultural experiences across the country.",
         "image": "/images/USA.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "National Parks & Landscapes",
+        "desc": "Experience spectacular national parks, mountains, coastlines and natural landscapes.",
         "image": "/images/USA.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Cities & American Cuisine",
+        "desc": "Experience vibrant city life, local markets and a diverse American food culture.",
         "image": "/images/USA.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "Spring & Autumn",
       "currency": "US Dollar (USD)",
       "language": "English",
       "timeZone": "GMT-5"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a USA visa?",
-        "a": "Processing usually takes around 3 - 5 Days post-interview, depending on embassy workload and season."
+        "q": "How long does it take to process a USA B1/B2 visa?",
+        "a": "There is no single fixed processing time. Appointment availability varies by location and season, and some applications may require additional administrative processing after the interview."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to USA."
+        "q": "What is a B1/B2 Visitor Visa?",
+        "a": "A B1/B2 visa is a nonimmigrant visitor visa used for eligible temporary business and tourism purposes, including holidays and visits to family or friends."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Do I need to complete the DS-160?",
+        "a": "Yes. Applicants for a U.S. nonimmigrant visa generally need to complete and submit the DS-160 online and bring the confirmation page as instructed."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to attend a visa interview?",
+        "a": "Interviews are generally required for U.S. visitor visa applicants, although limited exceptions may apply. A consular officer may also require an interview when an exception would otherwise apply."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance mandatory for a USA visitor visa?",
+        "a": "Travel insurance is not a general mandatory requirement for a B1/B2 visitor visa. However, suitable travel insurance is strongly recommended for international travel."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (US Consulate / CGI Federal)."
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "No. A confirmed flight ticket is not listed as a standard required document for a B1/B2 visa. It is generally advisable to avoid making non-refundable travel commitments before your visa is approved."
+      },
+      {
+        "q": "Do I need an invitation letter from someone in the USA?",
+        "a": "No. An invitation letter or Affidavit of Support is not required to apply for a visitor visa and is not a determining factor in the visa decision."
+      },
+      {
+        "q": "What financial documents should I provide?",
+        "a": "You should be able to demonstrate that you can cover the reasonable costs of your trip. Depending on your circumstances, bank statements, employment records, salary information and other financial evidence may help support your application."
+      },
+      {
+        "q": "What are strong documents for showing my intention to return to India?",
+        "a": "Employment, family relationships, financial circumstances, business commitments and other genuine ties to your home country may help demonstrate your intention to return after your temporary visit."
+      },
+      {
+        "q": "Can Vision Visa assist with my USA visa application?",
+        "a": "Yes. Vision Visa can assist with document verification, DS-160 preparation, application guidance and interview preparation. However, the final visa decision is made solely by the U.S. consular officer."
+      },
+      {
+        "q": "How is the USA visa decision made?",
+        "a": "The U.S. consular officer assesses whether the applicant qualifies for the visa based on U.S. immigration law, including the purpose of travel, circumstances and eligibility for a temporary visit."
+      },
+      {
+        "q": "What happens after the USA visa interview?",
+        "a": "The application may be approved, refused or require administrative processing. The next steps depend on the individual application and the decision of the consular officer."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original valid passport with at least 6 months validity beyond intended stay",
+        "Completed DS-160 online non-immigrant visa application confirmation page (with barcode)",
+        "US Visa MRV application fee payment receipt",
+        "VAC (Biometrics) appointment and Consular interview appointment confirmation letters",
+        "One printed photograph (2x2 inches / 51x51 mm, white background, taken within last 6 months)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 6 months showing consistent balance and source of funds",
+        "Income Tax Returns (ITR-V) for the last 3 assessment years",
+        "Salary slips for the last 3 months and current company ID card",
+        "Employment verification letter / Leave approval letter on employer letterhead",
+        "Business registration (GST / Certificate of Incorporation) and business financials (if self-employed)"
+      ],
+      "travel": [
+        "Proposed travel itinerary and tentative flight plans",
+        "Hotel reservation or host address details in the United States",
+        "Comprehensive cover letter outlining the purpose of visit and duration of stay"
+      ],
+      "additional": [
+        "Evidence of strong economic and family ties to India (property papers, investments, family dependents)",
+        "Formal invitation letter, host visa/citizenship status & financial support proof (if visiting relatives)",
+        "Corporate invitation letter and conference schedule (if travelling on business / B1 visa)",
+        "Copies of previous US visas and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "B1/B2 Visitor Visa",
+        "description": "Combined visa for tourism, holidays, family visits, business consultations, and conferences.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "B1 Business Visa",
+        "description": "For attending commercial conferences, negotiating contracts, and consulting business associates.",
+        "icon": "💼"
+      },
+      {
+        "name": "B2 Tourist & Medical Visa",
+        "description": "For vacation, visiting friends or relatives, and medical treatment in the USA.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "F1 Student Visa",
+        "description": "For academic studies at accredited US universities and colleges.",
+        "icon": "🎓"
+      },
+      {
+        "name": "H-1B / L-1 Work Visa",
+        "description": "For specialty occupation employment and intra-company transferee petitions.",
+        "icon": "🏢"
+      },
+      {
+        "name": "C-1 Transit Visa",
+        "description": "For immediate and continuous transit through the United States to another country.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "vietnam": {
     "name": "Vietnam",
@@ -7553,117 +12453,181 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "eVisa",
     "flagImage": "https://flagcdn.com/w40/vn.png",
     "heroImage": "/images/Vietnam.webp",
-    "processingTime": "3 - 5 Days",
-    "stayDuration": "Up to 30/90 Days",
+    "processingTime": "Around 3 Working Days",
+    "stayDuration": "Up to 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "Vietnam Immigration eVisa",
+    "applyThrough": "Vietnam Immigration eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Vietnam eVisa application, from document verification to submission guidance.",
+    "overviewDescription": "Vietnam offers a diverse travel experience, from historic cities and ancient heritage to dramatic landscapes, beaches and vibrant local cuisine. Eligible foreign travellers can apply for a Vietnam eVisa online before travelling.\n\nVietnam eVisa\nThe Vietnam eVisa allows eligible foreign travellers to visit Vietnam for permitted purposes for up to 90 days, depending on the validity period granted. The eVisa can be issued for either single or multiple entry.\n\nVietnam eVisa Requirements\nApplicants generally need a valid passport or international travel document, a recent portrait photograph and a clear image of the passport data page. Applicants must also provide accurate travel information, including intended entry date, length of stay and entry and exit border details.\n\nVietnam eVisa Application\nEligible travellers outside Vietnam can complete the eVisa application online through the Vietnam National Electronic Visa system. Applicants should carefully enter all information exactly as it appears in their passport and pay the applicable eVisa fee.\n\nVietnam eVisa Processing\nThe Vietnam Immigration eVisa system generally indicates a processing period of around 3 working days after the application and payment have been properly submitted. Actual processing time may vary depending on the individual application.\n\nVietnam Travel Insurance\nTravel insurance is not generally listed as a mandatory document for the Vietnam eVisa application, but appropriate travel insurance is strongly recommended for international travel.\n\nVietnam Entry Requirements\neVisa holders must enter and exit Vietnam through designated international border gates approved by the Vietnamese Government. An approved eVisa does not automatically guarantee entry, as final admission remains subject to Vietnamese immigration authorities.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Vietnam Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport or International Travel Document",
+        "Clear Copy of Passport Data Page",
+        "Recent Passport-Sized Portrait Photograph",
+        "Completed Vietnam eVisa Application",
+        "Valid Email Address",
+        "Payment of the Applicable eVisa Fee"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Travel Itinerary",
+        "Intended Date of Entry",
+        "Intended Length of Stay",
+        "Accommodation Details in Vietnam",
+        "Intended Entry and Exit Border Gate",
+        "Proof of Travel Insurance, if Applicable",
+        "Additional Documents Relevant to Your Purpose of Travel"
       ],
-      "alertText": "The Vietnam Immigration eVisa may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The Vietnam Immigration Authority may request additional information or documents depending on the applicant and purpose of travel. All information submitted in the eVisa application must be accurate and consistent with the passport."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Vietnam visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Vietnam."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Vietnam consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Vietnam Immigration eVisa)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Vietnam visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Vietnam visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Vietnam",
       "subtitle": "Experience the Best of Vietnam",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Vietnam is a top destination.",
+      "desc": "From historic cities and ancient heritage to dramatic landscapes, beaches and vibrant local food, discover the many sides of Vietnam.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Vietnam.",
+        "name": "Hanoi & Historic Landmarks",
+        "desc": "Explore Hanoi's historic streets, cultural landmarks and traditional Vietnamese character.",
         "image": "/images/Vietnam.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Culture & Heritage",
+        "desc": "Discover ancient towns, temples and cultural traditions shaped by centuries of Vietnamese history.",
         "image": "/images/Vietnam.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Beaches & Natural Landscapes",
+        "desc": "Experience spectacular coastlines, mountains, rice terraces and natural landscapes.",
         "image": "/images/Vietnam.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Markets & Vietnamese Cuisine",
+        "desc": "Explore lively markets and enjoy local favourites from street food to regional specialities.",
         "image": "/images/Vietnam.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "March - April & September - November",
       "currency": "Vietnamese Dong (VND)",
       "language": "Vietnamese",
       "timeZone": "GMT+7"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Vietnam visa?",
-        "a": "Processing usually takes around 3 - 5 Days, depending on embassy workload and season."
+        "q": "How long does a Vietnam eVisa take to process?",
+        "a": "The Vietnam Immigration eVisa system generally states a processing period of around 3 working days after the application and payment have been properly submitted. Actual processing may vary depending on the application."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Vietnam."
+        "q": "How long is a Vietnam eVisa valid?",
+        "a": "A Vietnam eVisa can be valid for up to 90 days, depending on the validity period granted."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Can a Vietnam eVisa be single or multiple entry?",
+        "a": "Yes. Vietnam eVisas can be issued for either single entry or multiple entry."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What documents are needed for a Vietnam eVisa?",
+        "a": "Applicants need a valid passport or international travel document, a recent portrait photograph and a clear image of the passport data page, along with the required application information."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Do I need to provide hotel details for a Vietnam eVisa?",
+        "a": "The Vietnam eVisa application asks for residential accommodation information in Vietnam, including the relevant address and province or city."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Vietnam Immigration eVisa)."
+        "q": "Do I need to provide my entry and exit details?",
+        "a": "Yes. The eVisa application asks for the intended date of entry, intended length of stay and intended entry and exit border gates."
+      },
+      {
+        "q": "Is travel insurance mandatory for a Vietnam eVisa?",
+        "a": "Travel insurance is not listed as a general mandatory eVisa document on the Vietnam eVisa application. However, appropriate travel insurance is strongly recommended for international travel."
+      },
+      {
+        "q": "Can I apply for a Vietnam eVisa online?",
+        "a": "Yes. Eligible foreign travellers outside Vietnam can submit their eVisa application online through the official Vietnam National Electronic Visa system."
+      },
+      {
+        "q": "Can I enter Vietnam through any border gate with an eVisa?",
+        "a": "No. Vietnam eVisa holders must enter and exit through designated international border gates approved by the Vietnamese Government."
+      },
+      {
+        "q": "Can Vision Visa assist with a Vietnam eVisa application?",
+        "a": "Yes. Vision Visa can assist with application preparation, document verification, travel-detail guidance and general eVisa support. The final decision remains with the Vietnam Immigration Authority."
+      },
+      {
+        "q": "What happens if information in my Vietnam eVisa application is incorrect?",
+        "a": "Applicants are required to provide complete, accurate and truthful information. Incorrect information can cause problems with the application or entry, so details should be carefully checked against the passport before submission."
+      },
+      {
+        "q": "How do I receive my Vietnam eVisa?",
+        "a": "The application result can be accessed online through the Vietnam eVisa system using the relevant application details and email information provided during submission."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear digital color scan of passport data page (valid at least 6 months from entry date)",
+        "Recent digital portrait photograph (4x6 cm, white background, straight look without glasses)",
+        "Completed Vietnam eVisa online application"
+      ],
+      "financial": [],
+      "travel": [
+        "Intended entry and exit border gates / international airports in Vietnam",
+        "Tentative flight schedule and travel dates",
+        "Accommodation address / hotel name for the first night in Vietnam"
+      ],
+      "additional": [
+        "Travel insurance coverage (recommended)",
+        "Business sponsor approval letter from Vietnam Immigration (for Business eVisa)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "30 Days Single Entry eVisa",
+        "description": "For short leisure trips, cultural sightseeing, and exploring Hanoi, Da Nang, and Ho Chi Minh City.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "90 Days Single / Multiple Entry eVisa",
+        "description": "For extended vacations, regional travel, and multi-entry tourism across Vietnam.",
+        "icon": "🌴"
+      },
+      {
+        "name": "Business eVisa (DN1 / DN2)",
+        "description": "For attending commercial meetings, conferences, and collaborating with Vietnamese enterprises.",
+        "icon": "💼"
+      },
+      {
+        "name": "Urgent Express eVisa",
+        "description": "Fast-track processing for applicants with upcoming immediate flight departures.",
+        "icon": "⚡"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "yemen": {
     "name": "Yemen",
@@ -7671,117 +12635,187 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ye.png",
     "heroImage": "/images/Yemen.webp",
-    "processingTime": "10 - 15 Days",
-    "stayDuration": "Up to 30 Days",
+    "processingTime": "Varies by Application",
+    "stayDuration": "Subject to Visa Approval",
     "entryType": "Single / Multiple",
-    "applyThrough": "Embassy of Yemen",
+    "applyThrough": "Embassy / Relevant Yemeni Authority",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Yemen Tourist Visa application, from document verification to submission guidance.",
+    "overviewTitle": "Yemen Visa Information",
+    "overviewDescription": "Yemen visa requirements and travel eligibility can vary depending on nationality, purpose of travel and current regulations. Indian travellers should verify both Yemeni visa requirements and any applicable Government of India travel restrictions before making travel arrangements.\n\nYemen Tourist Visa\nTravellers generally require an appropriate visa or entry authorization before travelling to Yemen. The permitted stay, number of entries and visa conditions are determined by the relevant Yemeni authority based on the individual application.\n\nYemen Visa Requirements\nApplicants should generally have a valid passport, completed visa application, recent photographs and documents supporting the purpose of travel. Depending on the visa category, applicants may also need accommodation details, travel plans, financial evidence, invitation or sponsor documents and other supporting information.\n\nYemen Travel Eligibility for Indian Citizens\nIndian citizens should verify current Government of India requirements and any applicable travel restrictions before planning travel to Yemen. A Yemeni visa alone does not override a separate travel restriction or permission requirement imposed by Indian authorities.\n\nYemen Visa Application\nApplications should be submitted through the relevant Yemeni embassy, consular authority or authorised channel. Applicants should confirm the current procedure and required permissions before submitting their application.\n\nYemen Visa Processing\nThere is no reliable universal processing period that should be treated as a guarantee. Processing can vary depending on the visa category, nationality, application circumstances and the authority handling the application.\n\nYemen Travel Insurance\nTravel insurance is recommended where travel is legally permitted. Travellers should ensure that their policy provides appropriate coverage for their circumstances and destination.\n\nYemen Entry & Immigration\nVisa approval does not automatically guarantee admission. Travellers must satisfy all applicable entry requirements, immigration procedures and any separate government travel permissions before entering Yemen.",
+    "travelAdvisory": {
+      "title": "Important Travel Restriction for Indian Citizens",
+      "message": "Indian citizens should not travel to Yemen without the required permission or exemption from the Government of India. A Government of India notification restricts travel to Yemen unless a special endorsement or exemption is granted. Please verify your eligibility and obtain the required government permission before making travel arrangements.",
+      "type": "warning"
+    },
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
+        "Valid Passport",
         "Completed Yemen Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Recent Passport Photographs",
+        "Valid Yemen Visa or Entry Authorization, Where Applicable",
+        "Required Government Travel Permission / Exemption for Indian Citizens, Where Applicable"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Proof of Purpose of Travel",
+        "Proof of Accommodation",
+        "Travel Itinerary, Where Applicable",
+        "Proof of Sufficient Funds",
+        "Employment Letter / Business Documents, if Applicable",
+        "Invitation Letter or Sponsor Documents, if Applicable",
+        "Previous Travel History, if Relevant",
+        "Additional Documents Requested by the Yemeni Authority"
       ],
-      "alertText": "The Embassy of Yemen may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Visa requirements and travel permissions for Yemen can vary depending on nationality, purpose of travel and current regulations. Additional documents or approvals may be required."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Yemen visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Yemen."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Yemen consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Embassy of Yemen)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Yemen visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Yemen visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Yemen",
-      "subtitle": "Experience the Best of Yemen",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Yemen is a top destination.",
+      "subtitle": "A Land of History & Heritage",
+      "desc": "Yemen is known for its ancient heritage, distinctive architecture, traditional markets and dramatic landscapes. Travel should only be considered after confirming current entry and government travel requirements.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Yemen.",
+        "name": "Sana'a & Historic Architecture",
+        "desc": "Discover Yemen's distinctive traditional architecture and historic urban heritage.",
         "image": "/images/Yemen.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Explore the country's long history, traditional culture and remarkable heritage.",
         "image": "/images/Yemen.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Mountains & Landscapes",
+        "desc": "Experience Yemen's dramatic mountain scenery and diverse natural landscapes.",
         "image": "/images/Yemen.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Traditional Markets & Cuisine",
+        "desc": "Discover traditional souks, local crafts and regional Yemeni cuisine.",
         "image": "/images/Yemen.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "Subject to Current Travel Conditions",
       "currency": "Yemeni Rial (YER)",
       "language": "Arabic",
       "timeZone": "GMT+3"
     },
     "faqs": [
       {
+        "q": "Can Indian citizens currently travel to Yemen?",
+        "a": "Indian citizens are subject to Government of India travel restrictions for Yemen. Travel to Yemen is restricted unless the required government permission, special endorsement or exemption is obtained. Applicants should verify their eligibility before making travel arrangements."
+      },
+      {
+        "q": "Is a Yemen visa enough for an Indian citizen to travel?",
+        "a": "No. A Yemen visa does not by itself override any travel restriction imposed by the Government of India. Indian citizens must comply with applicable Indian government travel requirements and obtain any required permission or exemption."
+      },
+      {
         "q": "How long does it take to process a Yemen visa?",
-        "a": "Processing usually takes around 10 - 15 Days, depending on embassy workload and season."
+        "a": "There is no reliable universal processing time that should be presented as a fixed guarantee. Processing can vary depending on the visa category, nationality, application and relevant authority."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Yemen."
+        "q": "Is travel insurance mandatory for Yemen?",
+        "a": "Travel insurance requirements can depend on the visa and travel circumstances. Appropriate comprehensive travel insurance is strongly recommended where travel is legally permitted."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Do I need an invitation letter for a Yemen visa?",
+        "a": "An invitation or sponsor document may be required depending on the visa category and purpose of travel. Requirements should be confirmed with the relevant Yemeni authority before applying."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Can I book flights before receiving my Yemen visa?",
+        "a": "It is advisable not to make non-refundable travel arrangements until your visa and any required government travel permissions have been confirmed."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Can Vision Visa assist with Yemen visa documentation?",
+        "a": "Yes. Vision Visa can assist with document preparation and application guidance. However, travel eligibility and visa approval remain subject to the relevant government authorities."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Embassy of Yemen)."
+        "q": "Who makes the final decision on a Yemen visa?",
+        "a": "The final visa decision is made by the relevant Yemeni immigration or consular authority. Any separate travel permission required by the Government of India is decided by the Indian authorities."
+      },
+      {
+        "q": "Are Yemen travel conditions currently subject to change?",
+        "a": "Yes. Entry rules, visa procedures and travel restrictions can change. Applicants should verify the latest requirements with the relevant authorities before travelling."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original passport with at least 6 months validity and 2 blank pages",
+        "Recent passport-size photographs per Yemen consular specifications (35x45 mm, white background)",
+        "Completed and signed Yemen visa application form",
+        "Visa fee payment receipt & appointment confirmation (where applicable)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 3 to 6 months stamped by the bank",
+        "Personal Income Tax Returns (ITR) or Form 16 for the last 2 to 3 years",
+        "Employment verification letter / Leave sanction NOC from employer",
+        "Last 3 months salary slips (or business registration for self-employed applicants)"
+      ],
+      "travel": [
+        "Round-trip flight booking / confirmed travel itinerary",
+        "Confirmed hotel bookings / accommodation proof in Yemen",
+        "Detailed day-wise travel and sightseeing plan",
+        "Travel medical insurance covering emergency medical expenses"
+      ],
+      "additional": [
+        "Personal cover letter stating travel purpose, dates, and financial sponsorship",
+        "Letter of invitation and host identification (if visiting family, friends, or business associates in Yemen)",
+        "Previous passports and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "Tourist Visa",
+        "description": "For vacations, holiday sightseeing, cultural exploration, and recreation in Yemen.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For corporate meetings, trade conferences, client discussions, and business seminars in Yemen.",
+        "icon": "💼"
+      },
+      {
+        "name": "Visitor / Family Visa",
+        "description": "For visiting family members, relatives, or personal hosts living in Yemen.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "Student Visa",
+        "description": "For university studies, academic courses, and educational stays in Yemen.",
+        "icon": "🎓"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For international flight connections and airport layovers through Yemen.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "united-states": {
     "name": "USA",
@@ -7789,235 +12823,414 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "B1/B2 Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/us.png",
     "heroImage": "/images/USA.webp",
-    "processingTime": "3 - 5 Days post-interview",
+    "processingTime": "Varies by Interview & Administrative Processing",
     "stayDuration": "Up to 6 Months",
     "entryType": "Single / Multiple",
-    "applyThrough": "US Consulate / CGI Federal",
+    "applyThrough": "U.S. Embassy / Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your USA B1/B2 Visitor Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Get complete assistance with your USA B1/B2 Visitor Visa application, from DS-160 preparation and document verification to interview guidance and application support.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed USA Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport",
+        "Completed DS-160 Online Nonimmigrant Visa Application",
+        "DS-160 Confirmation Page",
+        "Visa Application Fee Payment Receipt",
+        "Visa Interview Appointment Confirmation",
+        "Photograph Meeting U.S. Visa Requirements, if Required"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Proof of Purpose of Travel",
+        "Recent Bank Statements / Financial Proof",
+        "Employment Letter / Employer Confirmation",
+        "Recent Salary Slips, if Applicable",
+        "Income Tax Returns (ITR), if Applicable",
+        "Approved Leave Letter from Employer",
+        "Business Registration Documents, if Self-Employed",
+        "Evidence of Family or Economic Ties in India",
+        "Previous Passports and Travel History, if Available",
+        "Proposed Travel Itinerary, if Available",
+        "Additional Documents Relevant to Your Individual Circumstances"
       ],
-      "alertText": "The US Consulate / CGI Federal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "The U.S. Embassy or Consulate may request additional documents to assess your purpose of travel, ability to pay for the trip and intention to return to your home country."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate USA visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to USA."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against USA consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (US Consulate / CGI Federal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic USA visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved USA visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
-      "title": "Discover USA",
-      "subtitle": "Experience the Best of USA",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why USA is a top destination.",
+      "title": "Discover the USA",
+      "subtitle": "Experience the Best of America",
+      "desc": "From iconic cities and national parks to cultural landmarks and diverse cuisine, discover the experiences that make the USA a popular destination.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of USA.",
+        "name": "New York & Iconic Landmarks",
+        "desc": "Explore world-famous landmarks, vibrant neighbourhoods and the energy of New York City.",
         "image": "/images/USA.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Culture & Heritage",
+        "desc": "Discover museums, historic landmarks and diverse cultural experiences across the country.",
         "image": "/images/USA.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "National Parks & Landscapes",
+        "desc": "Experience spectacular national parks, mountains, coastlines and natural landscapes.",
         "image": "/images/USA.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Cities & American Cuisine",
+        "desc": "Experience vibrant city life, local markets and a diverse American food culture.",
         "image": "/images/USA.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "Spring & Autumn",
       "currency": "US Dollar (USD)",
       "language": "English",
       "timeZone": "GMT-5"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a USA visa?",
-        "a": "Processing usually takes around 3 - 5 Days post-interview, depending on embassy workload and season."
+        "q": "How long does it take to process a USA B1/B2 visa?",
+        "a": "There is no single fixed processing time. Appointment availability varies by location and season, and some applications may require additional administrative processing after the interview."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to USA."
+        "q": "What is a B1/B2 Visitor Visa?",
+        "a": "A B1/B2 visa is a nonimmigrant visitor visa used for eligible temporary business and tourism purposes, including holidays and visits to family or friends."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Do I need to complete the DS-160?",
+        "a": "Yes. Applicants for a U.S. nonimmigrant visa generally need to complete and submit the DS-160 online and bring the confirmation page to the visa interview."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "Do I need to attend a visa interview?",
+        "a": "Interviews are generally required for U.S. visitor visa applicants, although limited exceptions may apply. A consular officer may also require an interview when an exception would otherwise apply."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance mandatory for a USA visitor visa?",
+        "a": "Travel insurance is not a general mandatory requirement for a B1/B2 visitor visa. However, suitable travel insurance is strongly recommended for international travel."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (US Consulate / CGI Federal)."
+        "q": "Do I need confirmed flight tickets before applying?",
+        "a": "No. A confirmed flight ticket is not listed as a standard required document for a B1/B2 visa. It is generally advisable to avoid making non-refundable travel commitments before your visa is approved."
+      },
+      {
+        "q": "Do I need an invitation letter from someone in the USA?",
+        "a": "No. An invitation letter or Affidavit of Support is not required to apply for a visitor visa and is not a determining factor in the visa decision."
+      },
+      {
+        "q": "What financial documents should I provide?",
+        "a": "You should be able to demonstrate that you can cover the reasonable costs of your trip. Depending on your circumstances, bank statements, employment records, salary information and other financial evidence may help support your application."
+      },
+      {
+        "q": "What are strong documents for showing my intention to return to India?",
+        "a": "Employment, family relationships, financial circumstances, business commitments and other genuine ties to your home country may help demonstrate your intention to return after your temporary visit."
+      },
+      {
+        "q": "Can Vision Visa assist with my USA visa application?",
+        "a": "Yes. Vision Visa can assist with document verification, DS-160 preparation, application guidance and interview preparation. However, the final visa decision is made solely by the U.S. consular officer."
+      },
+      {
+        "q": "How is the USA visa decision made?",
+        "a": "The U.S. consular officer assesses whether the applicant qualifies for the visa based on U.S. immigration law, including the purpose of travel, circumstances and eligibility for a temporary visit."
+      },
+      {
+        "q": "What happens after the USA visa interview?",
+        "a": "The application may be approved, refused or require administrative processing. The next steps depend on the individual application and the decision of the consular officer."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Original valid passport with at least 6 months validity beyond intended stay",
+        "Completed DS-160 online non-immigrant visa application confirmation page (with barcode)",
+        "US Visa MRV application fee payment receipt",
+        "VAC (Biometrics) appointment and Consular interview appointment confirmation letters",
+        "One printed photograph (2x2 inches / 51x51 mm, white background, taken within last 6 months)"
+      ],
+      "financial": [
+        "Personal bank statements for the last 6 months showing consistent balance and source of funds",
+        "Income Tax Returns (ITR-V) for the last 3 assessment years",
+        "Salary slips for the last 3 months and current company ID card",
+        "Employment verification letter / Leave approval letter on employer letterhead",
+        "Business registration (GST / Certificate of Incorporation) and business financials (if self-employed)"
+      ],
+      "travel": [
+        "Proposed travel itinerary and tentative flight plans",
+        "Hotel reservation or host address details in the United States",
+        "Comprehensive cover letter outlining the purpose of visit and duration of stay"
+      ],
+      "additional": [
+        "Evidence of strong economic and family ties to India (property papers, investments, family dependents)",
+        "Formal invitation letter, host visa/citizenship status & financial support proof (if visiting relatives)",
+        "Corporate invitation letter and conference schedule (if travelling on business / B1 visa)",
+        "Copies of previous US visas and international travel history"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "B1/B2 Visitor Visa",
+        "description": "Combined visa for tourism, holidays, family visits, business consultations, and conferences.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "B1 Business Visa",
+        "description": "For attending commercial conferences, negotiating contracts, and consulting business associates.",
+        "icon": "💼"
+      },
+      {
+        "name": "B2 Tourist & Medical Visa",
+        "description": "For vacation, visiting friends or relatives, and medical treatment in the USA.",
+        "icon": "👨‍👩‍👧"
+      },
+      {
+        "name": "F1 Student Visa",
+        "description": "For academic studies at accredited US universities and colleges.",
+        "icon": "🎓"
+      },
+      {
+        "name": "H-1B / L-1 Work Visa",
+        "description": "For specialty occupation employment and intra-company transferee petitions.",
+        "icon": "🏢"
+      },
+      {
+        "name": "C-1 Transit Visa",
+        "description": "For immediate and continuous transit through the United States to another country.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "united-arab-emirates": {
     "name": "UAE",
     "slug": "united-arab-emirates",
-    "visaType": "Tourist eVisa",
+    "visaType": "Tourist Visa / eVisa",
     "flagImage": "https://flagcdn.com/w40/ae.png",
     "heroImage": "/images/United-Arab-Emirate-UAE-DUBAI.webp",
-    "processingTime": "24 - 48 Hours",
-    "stayDuration": "30 / 60 Days",
+    "processingTime": "Usually 2 - 4 Working Days",
+    "stayDuration": "30 / 60 / 90 Days",
     "entryType": "Single / Multiple",
-    "applyThrough": "GDRFA / ICP Dubai Portal",
-    "insuranceRequirement": "Recommended",
+    "applyThrough": "GDRFA Dubai / ICP UAE",
+    "insuranceRequirement": "Mandatory",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your UAE Tourist eVisa application, from document verification to submission guidance.",
+    "overviewDescription": "Get complete assistance with your UAE Tourist Visa application, from eligibility checks and document preparation to application submission and visa guidance.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
+        "Valid Passport with at least 6 months validity",
+        "Recent Passport Photograph with white background",
         "Completed UAE Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Return or Onward Flight Ticket",
+        "Proof of Accommodation / Hotel Booking",
+        "Valid UAE Health Insurance",
+        "Additional Documents as Required for the Visa Category"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Recent Bank Statements, if Required",
+        "Salary Certificate or Employment Proof, if Required",
+        "Approved Leave Letter from Employer, if Applicable",
+        "Invitation Letter and Host Documents, if Applicable",
+        "Relationship Proof, if Applying for a Relative or Friend Visit Visa",
+        "Valid Supporting Visa / Residence Permit, if Applying Under a Special Eligibility Route",
+        "Previous Travel History / Visas, if Applicable",
+        "Additional Documents Requested by GDRFA or ICP"
       ],
-      "alertText": "The GDRFA / ICP Dubai Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "UAE visa requirements vary by visa type, nationality, sponsor and issuing authority. GDRFA Dubai or ICP may request additional documents depending on the individual application."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate UAE visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to UAE."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against UAE consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (GDRFA / ICP Dubai Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic UAE visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved UAE visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover UAE",
       "subtitle": "Experience the Best of UAE",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why UAE is a top destination.",
+      "desc": "From Dubai's iconic skyline and Abu Dhabi's cultural landmarks to desert landscapes, luxury experiences and traditional souks, discover the many sides of the UAE.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of UAE.",
+        "name": "Dubai & Iconic Landmarks",
+        "desc": "Experience Dubai's world-famous skyline, Burj Khalifa, modern architecture and vibrant city life.",
         "image": "/images/United-Arab-Emirate-UAE-DUBAI.webp"
       },
       "place2": {
         "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "desc": "Explore traditional neighbourhoods, mosques, museums and the UAE's rich cultural heritage.",
         "image": "/images/United-Arab-Emirate-UAE-DUBAI.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Desert & Natural Landscapes",
+        "desc": "Discover desert landscapes, dunes, beaches and unique outdoor experiences across the UAE.",
         "image": "/images/United-Arab-Emirate-UAE-DUBAI.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Souks & Local Cuisine",
+        "desc": "Explore traditional souks, modern shopping destinations and authentic Emirati and regional cuisine.",
         "image": "/images/United-Arab-Emirate-UAE-DUBAI.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "November - March",
       "currency": "UAE Dirham (AED)",
-      "language": "Arabic",
+      "language": "Arabic / English",
       "timeZone": "GMT+4"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a UAE visa?",
-        "a": "Processing usually takes around 24 - 48 Hours, depending on embassy workload and season."
+        "q": "Do Indian citizens need a visa for the UAE?",
+        "a": "Indian passport holders generally require an appropriate UAE entry visa unless they qualify for a visa-free or special entry arrangement. Eligibility depends on nationality, passport type and individual circumstances."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to UAE."
+        "q": "How long can I stay in the UAE on a tourist visa?",
+        "a": "UAE tourist and visit visa categories can allow stays of 30, 60 or 90 days depending on the visa selected and the applicable conditions."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Can Indian citizens get a 60-day UAE visa?",
+        "a": "Yes. A 60-day UAE visa is available under certain visa categories. Indian ordinary passport holders may also qualify for a specific 60-day entry visa if they meet the applicable conditions, including holding a qualifying visa, residence permit or Green Card."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What supporting documents are required for the special UAE visa route for Indians?",
+        "a": "Eligible Indian applicants may need to provide their passport, photograph and a copy of the qualifying visa, residence permit or Green Card. The passport must generally be valid for at least six months."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Can I apply for a UAE tourist visa online?",
+        "a": "Depending on the visa type and emirate, applications can be submitted through official government channels or authorised tourism establishments and service providers."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (GDRFA / ICP Dubai Portal)."
+        "q": "How long does a UAE tourist visa take to process?",
+        "a": "Processing time depends on the visa category, issuing authority and application circumstances. Some UAE visa services have official completion times of around two days, while actual processing can vary."
+      },
+      {
+        "q": "Is travel insurance mandatory for a UAE tourist visa?",
+        "a": "Valid health insurance is required for applicable UAE visit and tourist visa categories. Travellers should ensure that their policy meets the requirements applicable to their visa."
+      },
+      {
+        "q": "Do I need a return ticket for a UAE tourist visa?",
+        "a": "A return or onward travel ticket may be required depending on the visa category and applicable UAE entry requirements."
+      },
+      {
+        "q": "Do I need a hotel booking for a UAE tourist visa?",
+        "a": "Proof of accommodation may be required depending on the visa type. This can include a hotel booking or other acceptable accommodation evidence."
+      },
+      {
+        "q": "Can I apply for a UAE visa without confirmed flight tickets?",
+        "a": "A return or onward ticket may be required for the relevant visa or entry category. Travellers should check the requirements before making non-refundable travel arrangements."
+      },
+      {
+        "q": "Do I need biometrics for a UAE tourist visa?",
+        "a": "Biometric requirements depend on the visa type, nationality and applicable UAE immigration procedures. Not every tourist visa application follows the same biometric process."
+      },
+      {
+        "q": "Can Vision Visa assist with UAE visa applications?",
+        "a": "Yes. Vision Visa can assist with eligibility checks, document preparation, application guidance and general support throughout the UAE visa process."
+      },
+      {
+        "q": "Who makes the final decision on a UAE visa?",
+        "a": "The relevant UAE immigration authority or authorised issuing entity makes the final decision. Assistance with an application does not guarantee visa approval."
+      },
+      {
+        "q": "How will I receive my UAE visa after approval?",
+        "a": "UAE entry visas are generally issued electronically and can be received or downloaded through the relevant application channel."
+      },
+      {
+        "q": "Can I extend my UAE tourist visa?",
+        "a": "Extension options depend on the visa category and the applicable UAE immigration rules. Some visit and tourist visas may be extendable subject to approval and applicable conditions."
+      },
+      {
+        "q": "What is the difference between GDRFA and ICP for UAE visas?",
+        "a": "GDRFA Dubai handles immigration services for Dubai, while ICP handles federal immigration and identity services for the other emirates and applicable federal visa categories. The correct authority depends on the visa and application route."
+      },
+      {
+        "q": "Can I get a multiple-entry UAE tourist visa?",
+        "a": "Yes. Multiple-entry tourist visa categories are available, but eligibility, validity and permitted stay depend on the specific visa category."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Clear color scan of passport bio-data page and address page (valid min 6 months)",
+        "Recent digital passport-size photograph with white background (clear face, no glasses)",
+        "Completed UAE visa application details"
+      ],
+      "financial": [],
+      "travel": [
+        "Confirmed round-trip flight tickets",
+        "Hotel booking confirmation or UAE resident host accommodation address details"
+      ],
+      "additional": [
+        "Valid Emirates ID copy and host visa copy (if staying with relatives or friends)",
+        "Birth certificate in English (for minor applicants travelling with parents)",
+        "PAN Card copy (for identity verification)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "30 Days Tourist Visa (Single Entry)",
+        "description": "Ideal for short vacations, family visits, and leisure holidays in Dubai and UAE.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "60 Days Tourist Visa (Single / Multiple Entry)",
+        "description": "For extended holidays, visiting relatives, and comprehensive exploration across Emirates.",
+        "icon": "🌴"
+      },
+      {
+        "name": "14 Days Express Visa",
+        "description": "Quick turnaround tourist/business visa for urgent short-duration visits.",
+        "icon": "⚡"
+      },
+      {
+        "name": "30 / 60 Days Business Visa",
+        "description": "For attending corporate events, trade exhibitions, client meetings, and investment reviews.",
+        "icon": "💼"
+      },
+      {
+        "name": "96 Hours Transit Visa",
+        "description": "For short stopovers and connecting flight layovers via Dubai/Abu Dhabi airports.",
+        "icon": "✈️"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   },
   "indonesia": {
     "name": "Indonesia",
@@ -8025,116 +13238,177 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "e-VOA / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/id.png",
     "heroImage": "/images/Indonesia-Bali-.webp",
-    "processingTime": "2 - 3 Days",
+    "processingTime": "Usually Quick Online Processing",
     "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
-    "applyThrough": "Indonesia e-VOA Portal",
+    "entryType": "Single Entry",
+    "applyThrough": "Indonesia e-VOA / e-Visa Portal",
     "insuranceRequirement": "Recommended",
-    "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Indonesia (Bali) e-VOA / Tourist Visa application, from document verification to submission guidance.",
+    "overviewTitle": "About Indonesia Visa",
+    "overviewDescription": "Planning a trip to Bali or elsewhere in Indonesia? Indian passport holders who are eligible for Indonesia's Visa on Arrival facility can apply for an electronic Visa on Arrival, known as e-VOA, before travelling. The e-VOA is commonly used for short visits such as tourism and other permitted purposes.\n\nBali is one of Indonesia's most popular destinations, known for its beaches, temples, rice terraces, waterfalls and unique Balinese culture. Whether you are planning a relaxing holiday, a cultural trip or a short getaway, having the correct entry permission and travel documents ready can make your arrival smoother.\n\nDo Indians Need a Visa for Indonesia?\nIndian travellers generally need an appropriate visa or entry permission to visit Indonesia. Eligible Indian passport holders can use the e-VOA facility for permitted short visits. The e-VOA allows an initial stay of up to 30 days from the date of arrival and can generally be extended once for another 30 days, subject to Indonesian immigration rules.\n\nIndonesia e-VOA Requirements\nThe basic e-VOA requirements include a passport that remains valid for more than six months and a return or onward ticket. Depending on the application and current immigration requirements, additional information or documents may be requested.\n\nThe e-VOA is issued electronically and should be checked carefully before travelling. The information on the e-VOA must match the traveller's passport. A visa does not automatically guarantee entry into Indonesia, as the final decision is made by immigration officials at the port of entry.\n\nIndonesia e-VOA Processing\nThe e-VOA application is completed online through the Indonesian immigration system. Applying before travel gives you the convenience of having your visa ready before arrival. Travellers should apply early enough to allow time for processing and to check that all details are correct.",
     "documents": {
       "mandatory": [
-        "Valid Passport (minimum 6 months validity)",
-        "Completed Indonesia (Bali) Visa Application Form",
-        "Recent Passport Photographs (white background)",
-        "Proof of Sufficient Funds (Bank statements for last 6 months)",
-        "Flight Reservation & Travel Itinerary",
-        "Hotel Accommodation Proof",
-        "Cover Letter stating purpose of visit"
+        "Valid Passport with more than 6 months validity",
+        "Recent Passport-Size Photograph, where Required",
+        "Return or Onward Flight Ticket",
+        "Valid Email Address",
+        "Payment Method for the Online Visa Application"
       ],
       "supporting": [
-        "Income Tax Returns (ITR for last 3 years)",
-        "Salary Slips (last 3-6 months) & Employment Letter",
-        "Leave Sanction / Approved Leave Certificate",
-        "Business Registration Documents (if self-employed)",
-        "Invitation Letter from Host / Sponsor (if applicable)",
-        "Property & Financial Asset Proofs"
+        "Hotel or Accommodation Details",
+        "Travel Itinerary",
+        "Proof of Sufficient Funds, if Requested",
+        "Additional Documents Based on the Purpose of Travel",
+        "Any Information Requested by Indonesian Immigration Authorities"
       ],
-      "alertText": "The Indonesia e-VOA Portal may request additional supporting documents depending on your travel history and individual application profile."
+      "alertText": "Indonesian immigration authorities may request additional information or documents. The e-VOA must match the traveller's passport details exactly, and issuance of an e-VOA does not guarantee entry into Indonesia."
     },
     "processSteps": [
       {
         "num": "01",
-        "title": "Choose Your Visa",
-        "desc": "Select the appropriate Indonesia (Bali) visa category based on your purpose of travel."
+        "title": "Share Your Requirements",
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Indonesia."
       },
       {
         "num": "02",
-        "title": "Prepare Documents",
-        "desc": "Collect, verify, and format all mandatory personal and financial documents."
+        "title": "Document Review & Verification",
+        "desc": "Our visa specialists review your documents against Indonesia consulate checklists to eliminate errors."
       },
       {
         "num": "03",
-        "title": "Submit Application",
-        "desc": "Submit application online or visit the authorised application center (Indonesia e-VOA Portal)."
+        "title": "Application Preparation & Submission",
+        "desc": "We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission."
       },
       {
         "num": "04",
-        "title": "Track Processing",
-        "desc": "Monitor application status while processed by embassy authority."
+        "title": "Consular / Embassy Processing",
+        "desc": "Your application is processed by the relevant embassy, consulate, or immigration authority."
       },
       {
         "num": "05",
-        "title": "Receive Passport & Visa",
-        "desc": "Collect passport or download electronic Indonesia (Bali) visa upon approval."
+        "title": "Visa Outcome & Handover",
+        "desc": "Receive your approved Indonesia visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
-      "title": "Discover Indonesia (Bali)",
-      "subtitle": "Experience the Best of Indonesia (Bali)",
-      "desc": "From landmark attractions and rich cultural heritage to pristine landscapes and local cuisine, explore why Indonesia (Bali) is a top destination.",
+      "title": "Discover Indonesia",
+      "subtitle": "Experience the Best of Bali",
+      "desc": "From peaceful beaches and ancient temples to lush rice terraces and vibrant local culture, Bali offers a mix of relaxation, adventure and unforgettable experiences.",
       "place1": {
-        "name": "Capital & Historic Landmarks",
-        "desc": "Explore the vibrant culture and iconic landmarks of Indonesia (Bali).",
+        "name": "Ubud Rice Terraces",
+        "desc": "Explore lush green rice fields, traditional villages and the artistic heart of Bali.",
         "image": "/images/Indonesia-Bali-.webp"
       },
       "place2": {
-        "name": "Cultural & Heritage Sites",
-        "desc": "Experience the rich history and architectural heritage.",
+        "name": "Uluwatu Temple",
+        "desc": "Visit the dramatic cliffside temple overlooking the Indian Ocean and enjoy spectacular sunsets.",
         "image": "/images/Indonesia-Bali-.webp"
       },
       "place3": {
-        "name": "Natural Wonders & Landscapes",
-        "desc": "Discover scenic beauty and breathtaking outdoor views.",
+        "name": "Bali Beaches",
+        "desc": "Relax on tropical beaches, enjoy water activities and experience Bali's coastal atmosphere.",
         "image": "/images/Indonesia-Bali-.webp"
       },
       "place4": {
-        "name": "Local Markets & Cuisine",
-        "desc": "Taste authentic local dishes and explore bustling city centers.",
+        "name": "Balinese Culture & Cuisine",
+        "desc": "Experience traditional temples, ceremonies, local markets and authentic Indonesian flavours.",
         "image": "/images/Indonesia-Bali-.webp"
       }
     },
     "travelInfo": {
-      "bestSeason": "Peak Travel Season",
+      "bestSeason": "April - October",
       "currency": "Indonesian Rupiah (IDR)",
       "language": "Indonesian",
       "timeZone": "GMT+8"
     },
     "faqs": [
       {
-        "q": "How long does it take to process a Indonesia (Bali) visa?",
-        "a": "Processing usually takes around 2 - 3 Days, depending on embassy workload and season."
+        "q": "Do Indians need a visa for Bali?",
+        "a": "Indian passport holders generally need an appropriate visa or entry permission to visit Indonesia. Eligible travellers can use the Indonesia e-VOA facility for permitted short visits."
       },
       {
-        "q": "Is travel insurance mandatory?",
-        "a": "Travel insurance is strongly recommended for all international travel to Indonesia (Bali)."
+        "q": "How long can I stay in Indonesia with an e-VOA?",
+        "a": "An e-VOA generally allows an initial stay of up to 30 days from the date of arrival. It can generally be extended once for another 30 days, subject to Indonesian immigration rules."
       },
       {
-        "q": "Do I need to provide biometrics?",
-        "a": "Biometrics (fingerprints & photo) may be required during the submission process depending on nationality and visa category."
+        "q": "Can I apply for an Indonesia e-VOA before travelling?",
+        "a": "Yes. Eligible travellers can apply for the electronic Visa on Arrival online before travelling to Indonesia."
       },
       {
-        "q": "Can Vision Visa assist with document verification?",
-        "a": "Yes. Our experts review your documents, help identify missing items, and assist throughout your application."
+        "q": "What documents are required for an Indonesia e-VOA?",
+        "a": "You generally need a passport valid for more than six months and a return or onward ticket. A recent photograph and other information may also be required during the online application."
       },
       {
-        "q": "Can I apply without confirmed flight tickets?",
-        "a": "Flight reservations/itineraries are usually accepted during application stage before final approval."
+        "q": "Is travel insurance mandatory for Indonesia?",
+        "a": "Travel insurance is recommended for international travel to Indonesia, although it is not the core e-VOA requirement."
       },
       {
-        "q": "How is the visa decision made?",
-        "a": "Visa approval is solely at the discretion of the embassy/consulate (Indonesia e-VOA Portal)."
+        "q": "Can I extend my Indonesia e-VOA?",
+        "a": "Yes. The e-VOA stay can generally be extended once for another 30 days, subject to the applicable Indonesian immigration rules."
+      },
+      {
+        "q": "Do I need confirmed flight tickets?",
+        "a": "A return or onward ticket is required for the e-VOA process and may be checked by immigration officials when you arrive."
+      },
+      {
+        "q": "Can I use an e-VOA for work or study?",
+        "a": "No. The e-VOA is intended for permitted short-visit purposes. Work and study require the appropriate Indonesian visa or immigration permission."
+      },
+      {
+        "q": "Does an Indonesia e-VOA guarantee entry?",
+        "a": "No. Having an e-VOA does not guarantee entry. Final entry is decided by Indonesian immigration officials at the port of entry."
+      },
+      {
+        "q": "What happens if my e-VOA details are incorrect?",
+        "a": "The information on the e-VOA should match your passport exactly. Incorrect details can make the e-VOA invalid and may require a new application."
+      },
+      {
+        "q": "Can I visit places other than Bali with an Indonesia e-VOA?",
+        "a": "Yes. The e-VOA is an Indonesian entry permission, so it is not limited to Bali. You can travel to other parts of Indonesia as permitted by your visa and immigration conditions."
+      },
+      {
+        "q": "Can additional documents be requested?",
+        "a": "Yes. Indonesian immigration authorities may request additional information or supporting documents depending on the application and circumstances."
       }
-    ]
+    ],
+    "checklist": {
+      "essential": [
+        "Valid passport scan with at least 6 months validity from arrival date",
+        "Recent digital color photograph (passport format with plain light background)",
+        "Completed official Indonesian electronic visa application"
+      ],
+      "financial": [],
+      "travel": [
+        "Confirmed return or onward international flight ticket",
+        "Hotel reservation or villa booking confirmation in Bali / Indonesia",
+        "Completed electronic Customs Declaration (e-CD) prior to arrival"
+      ],
+      "additional": [
+        "Bali Tourist Levy payment voucher (for travellers arriving in Bali)",
+        "Travel medical insurance (recommended)"
+      ]
+    },
+    "visaCategories": [
+      {
+        "name": "e-VOA (Electronic Visa on Arrival - B1)",
+        "description": "30-day tourist visa for holidays, leisure, and sightseeing in Bali, extendable once.",
+        "icon": "🏖️"
+      },
+      {
+        "name": "60 Days Tourist Visa (211A)",
+        "description": "For extended vacations, spiritual retreats, and long-stay exploration across Indonesia.",
+        "icon": "🌴"
+      },
+      {
+        "name": "Business eVisa (211B)",
+        "description": "For attending corporate seminars, business discussions, and trade exhibitions.",
+        "icon": "💼"
+      },
+      {
+        "name": "Multiple Entry Visitor Visa (D1/D2)",
+        "description": "For frequent business or leisure travel with multiple entries over 1 to 2 years.",
+        "icon": "🌐"
+      }
+    ],
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
   }
 };

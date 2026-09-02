@@ -43,8 +43,8 @@ export async function generateMetadata({ params }) {
   const data = getCountryData(slug) || getCountryData('argentina');
 
   return {
-    title: `${data.name} Visa Application, Requirements & Fees | Vision Visa`,
-    description: `Apply for your ${data.name} ${data.visaType} with complete document verification, eligibility checks, and expert visa guidance at Vision Visa.`,
+    title: `${data.name} Visa Application, Requirements & Checklist | Vision Visa`,
+    description: `Apply for your ${data.name} ${data.visaType} with verified document checklists, processing time insights, and expert visa guidance at Vision Visa.`,
   };
 }
 
@@ -54,7 +54,7 @@ export default async function CountrySlugPage({ params }) {
   const slug = String(rawSlug).toLowerCase().trim();
   const data = getCountryData(slug) || getCountryData('argentina');
 
-  // Extract short overview paragraphs (max 2)
+  // Extract concise overview paragraphs (2-3 paragraphs)
   let overviewParas = [];
   if (data.overviewDescription) {
     const raw = data.overviewDescription.split('\n\n').map(p => p.trim()).filter(Boolean);
@@ -62,28 +62,117 @@ export default async function CountrySlugPage({ params }) {
   }
   if (overviewParas.length === 0) {
     overviewParas = [
-      `Indian passport holders generally require a valid visa before travelling to ${data.name}. Vision Visa provides end-to-end document verification, form filling, and embassy submission support.`,
-      `Whether travelling for tourism, business meetings, higher studies, or visiting family, our specialists ensure your application meets all official consulate requirements.`
+      `Indian passport holders travelling to ${data.name} require a valid visa tailored to their travel purpose. Vision Visa provides end-to-end document verification, application assistance, and consular guidance.`,
+      `Whether you are travelling for leisure holidays, corporate meetings, academic study, or visiting family, our specialists ensure your file meets official immigration standards.`
     ];
   }
 
-  // Categorize documents into 4 distinct groups
+  // Structured Checklist Extraction
+  const checklistData = data.checklist || {};
   const mandatoryList = data.documents?.mandatory || [];
   const supportingList = data.documents?.supporting || [];
 
-  const identityDocs = mandatoryList.filter(d => /passport|photo|application|form/i.test(d));
-  const financialDocs = [...mandatoryList, ...supportingList].filter(d => /bank|financial|fund|income|tax|itr|salary|asset/i.test(d));
-  const travelDocs = mandatoryList.filter(d => /flight|hotel|accommodation|itinerary|ticket|reservation/i.test(d));
-  const additionalDocs = supportingList.filter(d => !/bank|financial|fund|income|tax|itr|salary|asset/i.test(d));
+  const fallbackEssential = checklistData.essential?.length
+    ? checklistData.essential
+    : mandatoryList.filter(d => /passport|photo|application|form|fee|appointment/i.test(d));
 
-  if (identityDocs.length === 0) identityDocs.push("Valid Passport (6+ months validity)", "Completed Visa Application Form", "Recent Passport Photographs");
-  if (financialDocs.length === 0) financialDocs.push("Bank Statements (Last 6 Months)", "Income Tax Returns (ITR)", "Salary Slips / Proof of Income");
-  if (travelDocs.length === 0) travelDocs.push("Confirmed Flight Reservation", "Hotel Accommodation Proof", "Detailed Travel Itinerary");
-  if (additionalDocs.length === 0) additionalDocs.push("Employment NOC / Business License", "Travel Medical Insurance", "Sponsor / Cover Letter");
+  const fallbackFinancial = checklistData.financial?.length
+    ? checklistData.financial
+    : [...mandatoryList, ...supportingList].filter(d => /bank|financial|fund|income|tax|itr|salary|asset|employment|noc/i.test(d));
+
+  const fallbackTravel = checklistData.travel?.length
+    ? checklistData.travel
+    : mandatoryList.filter(d => /flight|hotel|accommodation|itinerary|ticket|reservation|insurance/i.test(d));
+
+  const fallbackAdditional = checklistData.additional?.length
+    ? checklistData.additional
+    : supportingList.filter(d => !/bank|financial|fund|income|tax|itr|salary|asset/i.test(d));
+
+  const checklistCategories = [
+    {
+      key: 'essential',
+      title: 'Essential Documents',
+      icon: '📄',
+      themeClass: 'doc-essential',
+      items: fallbackEssential.length ? fallbackEssential : [
+        "Valid passport with at least 6 months validity",
+        "Recent passport-size photographs",
+        "Completed visa application form"
+      ]
+    },
+    {
+      key: 'financial',
+      title: 'Financial & Employment Documents',
+      icon: '💼',
+      themeClass: 'doc-financial',
+      items: fallbackFinancial
+    },
+    {
+      key: 'travel',
+      title: 'Travel Documents',
+      icon: '✈️',
+      themeClass: 'doc-travel',
+      items: fallbackTravel
+    },
+    {
+      key: 'additional',
+      title: 'Additional Documents',
+      icon: '📋',
+      themeClass: 'doc-additional',
+      items: fallbackAdditional
+    }
+  ].filter(cat => cat.items && cat.items.length > 0);
+
+  // Default Categories if not specified
+  const defaultCategories = [
+    { name: "Tourist Visa", description: `For holidays, leisure travel, and cultural sightseeing in ${data.name}.`, icon: "🏖️" },
+    { name: "Business Visa", description: `For corporate meetings, trade events, and business consultations.`, icon: "💼" },
+    { name: "Visitor Visa", description: `For visiting family members, relatives, or personal hosts in ${data.name}.`, icon: "👨‍👩‍👧" },
+    { name: "Student Visa", description: `For university degrees, academic courses, and educational stays.`, icon: "🎓" },
+    { name: "Work Visa", description: `For official employment and skilled professional job contracts.`, icon: "🏢" },
+    { name: "Transit Visa", description: `For airport layovers and flight connections through ${data.name}.`, icon: "✈️" }
+  ];
+
+  const visaCategories = (data.visaCategories && data.visaCategories.length > 0)
+    ? data.visaCategories
+    : defaultCategories;
+
+  // Default Application Process Steps
+  const defaultSteps = [
+    {
+      num: "01",
+      title: "Share Your Requirements",
+      desc: `Tell us your destination, travel purpose, and planned travel dates for ${data.name}.`
+    },
+    {
+      num: "02",
+      title: "Document Review & Verification",
+      desc: `Our visa specialists review your documents against ${data.name} consulate checklists to eliminate errors.`
+    },
+    {
+      num: "03",
+      title: "Application Preparation",
+      desc: `We prepare your application file, assist with fee payment, and handle appointment booking or online portal submission.`
+    },
+    {
+      num: "04",
+      title: "Processing",
+      desc: `The application is processed by the relevant embassy, consulate, or immigration authority.`
+    },
+    {
+      num: "05",
+      title: "Visa Outcome",
+      desc: `Receive your visa / application outcome and travel with complete documentation.`
+    }
+  ];
+
+  const processSteps = (data.processSteps && data.processSteps.length > 0)
+    ? data.processSteps
+    : defaultSteps;
 
   return (
     <main className="master-country-page">
-      {/* 1. HERO SECTION (Compact Master Hero) */}
+      {/* 1. HERO SECTION */}
       <section className="master-hero">
         <div className="hero-bg-frame">
           <img id="heroBgImg" src={getAssetPath(data.heroImage)} alt={data.name} className="hero-cover-img" />
@@ -93,7 +182,7 @@ export default async function CountrySlugPage({ params }) {
           <div className="hero-body-content">
             <h1 id="heroTitle" className="hero-heading">{data.name} Visa</h1>
             <p id="heroDesc" className="hero-lead">
-              Apply for your {data.name} visa with expert document verification, hassle-free processing, and dedicated embassy support.
+              Apply for your {data.name} visa with expert document verification, hassle-free processing, and dedicated visa specialist support.
             </p>
             <div className="hero-actions">
               <Link id="heroApplyBtn" href={`/contact?country=${data.slug}`} className="btn btn-primary">Apply Now</Link>
@@ -135,8 +224,7 @@ export default async function CountrySlugPage({ params }) {
         </div>
       </section>
 
-
-      {/* 4. PROCESSING TIME & VALIDITY DETAILS */}
+      {/* 3. PROCESSING TIME & VALIDITY DETAILS */}
       <section className="master-section proc-val-section">
         <div className="container">
           <div className="proc-val-block-grid">
@@ -144,7 +232,7 @@ export default async function CountrySlugPage({ params }) {
               <div className="pv-icon-wrap">⏱️</div>
               <div className="pv-content">
                 <h3>Processing Time</h3>
-                <p>Standard processing takes <strong>{data.processingTime}</strong> depending on embassy volume.</p>
+                <p>Standard processing takes <strong>{data.processingTime}</strong> depending on consular workload.</p>
               </div>
             </div>
             <div className="pv-info-card">
@@ -154,6 +242,47 @@ export default async function CountrySlugPage({ params }) {
                 <p>Grants stay up to <strong>{data.stayDuration}</strong> with <strong>{data.entryType}</strong> entry access.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. VISA CHECKLIST (PLACED BEFORE OVERVIEW) */}
+      <section className="master-section checklist-section" id="visaChecklist">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-label-tag">Visa Checklist</span>
+            <h2 className="section-title">Required Documents for {data.name} Visa</h2>
+            <p className="section-subtitle">
+              Prepare the right documents before you apply. Requirements vary by destination, visa type and applicant profile.
+            </p>
+          </div>
+          <div className="doc-4cards-grid">
+            {checklistCategories.map((category) => (
+              <div key={category.key} className={`doc-type-card ${category.themeClass}`}>
+                <div className="doc-header">
+                  <span className="doc-icon">{category.icon}</span>
+                  <h3>{category.title}</h3>
+                </div>
+                <ul className="doc-list">
+                  {category.items.map((doc, i) => (
+                    <li key={i}>
+                      <span className="check-mark" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </span>
+                      <span className="doc-text">{doc}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div className="doc-note-box">
+            <div className="note-icon">ℹ️</div>
+            <p>
+              <strong>Important Note:</strong> {data.alertText || "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."}
+            </p>
           </div>
         </div>
       </section>
@@ -182,43 +311,45 @@ export default async function CountrySlugPage({ params }) {
           <div className="section-header">
             <span className="section-label-tag">Visa Categories</span>
             <h2 className="section-title">Available {data.name} Visa Types</h2>
+            <p className="section-subtitle">Select the visa category tailored to your purpose of travel.</p>
           </div>
           <div className="visa-types-grid">
-            <div className="visa-category-card">
-              <div className="cat-icon">🏖️</div>
-              <h3>Tourist Visa</h3>
-              <p>For holidays, leisure travel, and cultural sightseeing.</p>
-            </div>
-            <div className="visa-category-card">
-              <div className="cat-icon">💼</div>
-              <h3>Business Visa</h3>
-              <p>For corporate meetings, trade events, and business consultations.</p>
-            </div>
-            <div className="visa-category-card">
-              <div className="cat-icon">🎓</div>
-              <h3>Student Visa</h3>
-              <p>For university degrees, academic courses, and educational stays.</p>
-            </div>
-            <div className="visa-category-card">
-              <div className="cat-icon">🏢</div>
-              <h3>Work Visa</h3>
-              <p>For official employment and skilled job contracts.</p>
-            </div>
-            <div className="visa-category-card">
-              <div className="cat-icon">👨‍👩‍👧</div>
-              <h3>Visitor Visa</h3>
-              <p>For visiting family members, relatives, or personal hosts.</p>
-            </div>
-            <div className="visa-category-card">
-              <div className="cat-icon">✈️</div>
-              <h3>Transit Visa</h3>
-              <p>For airport layovers and flight connections through {data.name}.</p>
-            </div>
+            {visaCategories.map((cat, idx) => (
+              <div key={idx} className="visa-category-card">
+                <div className="cat-icon">{cat.icon || "📄"}</div>
+                <h3>{cat.name}</h3>
+                <p>{cat.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* 7. WHY VISION VISA (REMAINING EXISTING CONTENT) */}
+      {/* 7. APPLICATION PROCESS */}
+      <section className="master-section process-section" id="applicationProcess">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-label-tag">Application Roadmap</span>
+            <h2 className="section-title">How to Apply for {data.name} Visa</h2>
+            <p className="section-subtitle">
+              A transparent, guided step-by-step process from document verification to visa outcome.
+            </p>
+          </div>
+          <div className="process-timeline-cards">
+            {processSteps.map((step, idx) => (
+              <div key={idx} className="timeline-step-item">
+                <div className="step-num-badge">{step.num || `0${idx + 1}`}</div>
+                <div className="step-content">
+                  <h3>{step.title}</h3>
+                  <p>{step.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 8. WHY VISION VISA */}
       <section className="master-section why-us-section">
         <div className="container">
           <div className="section-header">
@@ -260,7 +391,7 @@ export default async function CountrySlugPage({ params }) {
         </div>
       </section>
 
-      {/* 8. FAQs */}
+      {/* 9. FAQs */}
       <section className="master-section faq-section">
         <div className="container">
           <div className="section-header">
@@ -278,7 +409,7 @@ export default async function CountrySlugPage({ params }) {
         </div>
       </section>
 
-      {/* 9. FINAL CONVERSION CTA */}
+      {/* 10. FINAL CONVERSION CTA */}
       <section className="master-cta-section">
         <div className="container">
           <div className="cta-master-card">

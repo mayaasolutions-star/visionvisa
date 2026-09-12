@@ -1,4 +1,3 @@
-/* Vision Visa - 66 Country Dynamic Database */
 window.VISION_VISA_COUNTRIES = {
   "argentina": {
     "name": "Argentina",
@@ -6,13 +5,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ar.png",
     "heroImage": "/images/Argentina.webp",
-    "processingTime": "Not Specified",
-    "stayDuration": "90 Days",
-    "entryType": "Multiple",
+    "processingTime": "15–20 working days",
+    "stayDuration": "Up to 90 days",
+    "entryType": "Multiple entry",
     "applyThrough": "Argentine Consular Office",
     "insuranceRequirement": "Travel Insurance Required",
     "overviewTitle": "Argentina Tourist Visa",
-    "overviewDescription": "Indian passport holders travelling to Argentina for tourism, sightseeing, or visiting relatives and friends require an Argentina Tourist Visa. The visa allows a stay of up to 90 days and is valid for 3 months with multiple entry.\n\nApplicants are required to submit the visa application along with the required documents, including a valid passport, photographs, application forms, covering letter, leave letter, financial documents, confirmed flight tickets, hotel booking, and travel insurance.\n\nApplicants must personally attend the appointment for visa submission after the documents have been verified by the Consulate.",
+    "overviewDescription": "Indian passport holders travelling to Argentina require a valid entry visa issued by the Argentine Consular Office for tourism, business, or official visits.\n\nAll applicants must submit complete verified files and attend an in-person interview appointment once documents have been pre-approved by the Consulate.",
     "documents": {
       "mandatory": [
         "Original passport valid for at least 6 months",
@@ -178,7 +177,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "3 months",
+    "fee": "INR 1,390",
+    "consularNotes": "Personal Appearance Mandatory: Applicants must personally attend an appointment at the Argentine Consulate for document submission and interview. The appointment is scheduled only after documents are pre-verified by the Consulate.",
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for tourism, sightseeing, and short visits.",
+        "processingTime": "15–20 working days",
+        "validity": "3 months",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application forms (single-sided print only)",
+          "Two recent colour photographs (35x45 mm, 80% face, white background)",
+          "Personal covering letter stating travel purpose, dates, and detailed itinerary",
+          "Financial proof: personal bank statement for the last 3 months (stamped by bank) and 3 years ITR",
+          "Employment or business proof: employer leave approval letter with round seal or company registration",
+          "Confirmed round-trip flight booking and hotel accommodation as per itinerary",
+          "Comprehensive travel medical insurance covering the full flight itinerary duration"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Choose Visa Type",
+            "desc": "Confirm your tourist travel intent and review the document checklist."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Documents",
+            "desc": "Gather your passport, financial proofs, travel itinerary, and single-sided application forms."
+          },
+          {
+            "num": "03",
+            "title": "Consular Pre-Verification",
+            "desc": "Vision Visa specialists review and submit your file for consular pre-verification."
+          },
+          {
+            "num": "04",
+            "title": "Attend In-Person Submission",
+            "desc": "Personally attend your scheduled appointment at the Argentine Consulate for submission and interview."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Collect your stamped multiple-entry Argentina tourist visa upon consular approval."
+          }
+        ],
+        "notes": "Personal appearance at the Argentine Consulate is mandatory for submission and interview after preliminary document verification."
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade negotiations, and commercial visits.",
+        "processingTime": "15–20 working days",
+        "validity": "3 months",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application forms with recent photographs",
+          "Official invitation letter from host company in Argentina (certified by Argentine Notary & RENURE registered)",
+          "Company covering letter on Indian letterhead in English, accompanied by certified Spanish translation",
+          "Financial records: personal bank statements (last 3 months with bank seal) and 3 years ITR",
+          "Indian company registration certificate and corporate profile",
+          "Confirmed round-trip flight tickets, hotel booking & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Choose Visa Type",
+            "desc": "Confirm commercial activity scope and collect required corporate credentials."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Documents",
+            "desc": "Obtain the notarized RENURE invitation and draft the bilingual covering letter (English & Spanish)."
+          },
+          {
+            "num": "03",
+            "title": "Consular Pre-Verification",
+            "desc": "Our specialists submit your commercial dossier for consular pre-audit."
+          },
+          {
+            "num": "04",
+            "title": "Attend Consular Submission",
+            "desc": "Personally attend the scheduled consular interview appointment for file submission."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your approved multiple-entry business visa grant."
+          }
+        ],
+        "notes": "Invitation letters must be certified by an Argentine Public Notary and registered under RENURE. Bilingual covering letters (English and certified Spanish) are mandatory."
+      }
+    ]
   },
   "australia": {
     "name": "Australia",
@@ -186,13 +283,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/au.png",
     "heroImage": "/images/Australia.webp",
-    "processingTime": "15-30 Working Days",
-    "stayDuration": "As granted",
-    "entryType": "As granted",
+    "processingTime": "20-25 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "Australian High Commission",
     "insuranceRequirement": "Required",
     "overviewTitle": "Australia Visitor Visa",
-    "overviewDescription": "Indian passport holders require a valid visa to visit Australia. The Visitor Visa is suitable for applicants travelling to Australia for tourism, visiting family or friends, or other short-term visits.\n\nApplicants are required to provide the necessary documents along with their visa application. The visa validity and permitted stay depend on the visa granted by the Australian authorities.",
+    "overviewDescription": "Indian passport holders travelling to Australia require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Original passport valid for at least 6 months",
@@ -365,7 +462,195 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Upto 1 year",
+    "fee": "INR 12,999",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Australia for tourism, sightseeing, and short visits.",
+        "processingTime": "20-25 days",
+        "validity": "Upto 1 year",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Australia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Australia.",
+        "processingTime": "20-25 days",
+        "validity": "Upto 1 year",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Australia",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Australia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "family-visit",
+        "name": "Family Visit Visa",
+        "shortDescription": "For visiting family members, relatives, or personal sponsors residing in Australia.",
+        "processingTime": "20-25 days",
+        "validity": "Upto 1 year",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter and copy of host's passport/residence permit in Australia",
+          "Proof of family relationship (birth certificate, marriage certificate, or civil registry)",
+          "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
+          "Employment proof (leave letter from employer / business registration certificate)",
+          "Confirmed return flight itinerary, accommodation details & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Australia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "transit",
+        "name": "Transit Visa",
+        "shortDescription": "For connecting flights and international airport transit through Australia.",
+        "processingTime": "20-25 days",
+        "validity": "Upto 1 year",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed transit visa application form with recent photographs",
+          "Confirmed onward flight ticket to destination country within permitted transit window",
+          "Valid entry visa or residence permit for the final destination country",
+          "Proof of transit accommodation if layover involves an overnight stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Australia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "austria": {
     "name": "Austria",
@@ -373,13 +658,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/at.png",
     "heroImage": "/images/Austria.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global",
     "insuranceRequirement": "Mandatory, €30,000 Coverage",
     "overviewTitle": "Austria Schengen Visa",
-    "overviewDescription": "Indian passport holders travelling to Austria require a Schengen Visa. The visa is suitable for tourism, business, visiting family or friends and other short visits.\n\nA Schengen Visa allows travellers to stay in Austria for up to 90 days within a 180-day period, subject to the visa granted. Applicants must provide the required documents and travel medical insurance as part of the application.",
+    "overviewDescription": "Indian passport holders travelling to Austria require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -558,7 +843,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": "INR 7,399",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Austria for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Austria."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Austria.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Austria",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Austria."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "azerbaijan": {
     "name": "Azerbaijan",
@@ -572,7 +955,7 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "ASAN Visa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Azerbaijan Visa",
-    "overviewDescription": "Planning a trip to Azerbaijan? Indian passport holders generally need a visa before travelling to Azerbaijan. For eligible travellers, the Azerbaijan eVisa offers a convenient online option for short visits.\n\nThe standard eVisa is normally issued within 3 working days, while an urgent eVisa can be issued within 3 hours. The eVisa is valid for 90 days and allows a stay of up to 30 days in Azerbaijan. It is issued as a single-entry visa.\n\nDo Indians Need a Visa for Azerbaijan?\nYes. Indian passport holders generally require a visa to enter Azerbaijan. India is included in the list of nationalities eligible to apply for the Azerbaijan eVisa, subject to the current eligibility conditions.\n\nAzerbaijan Visa Types\nFor eligible short-term travellers, the Azerbaijan eVisa is a convenient option for tourism and other permitted purposes. Travellers who do not qualify for an eVisa or who require a different type of visa may need to apply through an Azerbaijani diplomatic mission.\n\nAzerbaijan Visa Processing Time\nA standard Azerbaijan eVisa is issued within 3 working days. An urgent eVisa is available with processing within 3 hours. Applicants should still apply in advance and carefully check the information entered in the application before submitting it.",
+    "overviewDescription": "Indian passport holders travelling to Azerbaijan require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport or travel document",
@@ -725,7 +1108,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🏛️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Azerbaijan for tourism, sightseeing, and short visits.",
+        "processingTime": "3 Working Days / 3 Hours Urgent",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 30 Days",
+        "entryType": "Single Entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Azerbaijan."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Azerbaijan.",
+        "processingTime": "3 Working Days / 3 Hours Urgent",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 30 Days",
+        "entryType": "Single Entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Azerbaijan",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Azerbaijan."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "bahrain": {
     "name": "Bahrain",
@@ -733,13 +1214,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Bahrain Visa",
     "flagImage": "https://flagcdn.com/w40/bh.png",
     "heroImage": "/images/Bahrain.webp",
-    "processingTime": "3-5 Working Days",
-    "stayDuration": "14 Days",
-    "entryType": "Multiple Entry",
+    "processingTime": "10-12 days",
+    "stayDuration": "30 days",
+    "entryType": "Single entry",
     "applyThrough": "Bahrain eVisa",
     "insuranceRequirement": "Required",
     "overviewTitle": "Bahrain Visa",
-    "overviewDescription": "Indian passport holders travelling to Bahrain require a visa. Eligible travellers can apply for a Bahrain eVisa for tourism and short visits.\n\nThe visa allows eligible visitors to stay in Bahrain for the period specified on the approved visa. Applicants need to provide the required documents and complete the online application process.",
+    "overviewDescription": "Indian passport holders travelling to Bahrain require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -888,7 +1369,59 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "1 month",
+    "fee": "INR 15,999",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Bahrain for tourism, sightseeing, and short visits.",
+        "processingTime": "10-12 days",
+        "validity": "1 month",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Bahrain."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "bangladesh": {
     "name": "Bangladesh",
@@ -896,13 +1429,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/bd.png",
     "heroImage": "/images/Bangladesh.webp",
-    "processingTime": "5-7 Working Days",
-    "stayDuration": "30 Days",
-    "entryType": "Single Entry",
+    "processingTime": "5-7 days",
+    "stayDuration": "Upto 180 days",
+    "entryType": "Single / Multiple entry",
     "applyThrough": "Bangladesh High Commission",
     "insuranceRequirement": "Not Required",
     "overviewTitle": "Bangladesh Tourist Visa",
-    "overviewDescription": "Indian citizens travelling to Bangladesh for tourism require a valid Bangladesh Tourist Visa. The visa is generally issued for a stay of up to 30 days.\n\nApplicants can complete the visa application form online and must submit the printed application along with the required documents to the Bangladesh High Commission or relevant visa office.",
+    "overviewDescription": "Indian passport holders travelling to Bangladesh require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -1064,7 +1597,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Bangladesh for tourism, sightseeing, and short visits.",
+        "processingTime": "5-7 days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Upto 180 days",
+        "entryType": "Single / Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Bangladesh."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Bangladesh.",
+        "processingTime": "5-7 days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Upto 180 days",
+        "entryType": "Single / Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Bangladesh",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Bangladesh."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "belgium": {
     "name": "Belgium",
@@ -1072,13 +1703,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/be.png",
     "heroImage": "/images/Belgium.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global",
     "insuranceRequirement": "Mandatory, €30,000 Coverage",
     "overviewTitle": "Belgium Schengen Visa",
-    "overviewDescription": "Indian passport holders travelling to Belgium require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other short-term travel.\n\nA Belgium Schengen Visa generally permits a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance as part of the application.",
+    "overviewDescription": "Indian passport holders travelling to Belgium require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -1257,7 +1888,151 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": "INR 7,599",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Belgium for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Belgium."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Belgium.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Belgium",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Belgium."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "family-visit",
+        "name": "Family Visit Visa",
+        "shortDescription": "For visiting family members, relatives, or personal sponsors residing in Belgium.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter and copy of host's passport/residence permit in Belgium",
+          "Proof of family relationship (birth certificate, marriage certificate, or civil registry)",
+          "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
+          "Employment proof (leave letter from employer / business registration certificate)",
+          "Confirmed return flight itinerary, accommodation details & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Belgium."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "brazil": {
     "name": "Brazil",
@@ -1265,13 +2040,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/br.png",
     "heroImage": "/images/Brazil.webp",
-    "processingTime": "10-15 Working Days",
+    "processingTime": "8 to 10 days",
     "stayDuration": "Up to 90 Days",
-    "entryType": "Multiple Entry",
+    "entryType": "Single entry",
     "applyThrough": "Brazilian Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Brazil Visitor Visa",
-    "overviewDescription": "Indian passport holders travelling to Brazil for tourism require a Visitor Visa. The visa allows eligible visitors to stay in Brazil for up to 90 days, subject to the visa granted.\n\nApplicants need to complete the online visa application and submit the required documents to the Brazilian Consulate. The application process includes document submission and payment of the applicable visa fee.",
+    "overviewDescription": "Indian passport holders travelling to Brazil require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with at least 6 months validity",
@@ -1435,7 +2210,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🏢"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "3 months",
+    "fee": "INR 7,499",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Brazil for tourism, sightseeing, and short visits.",
+        "processingTime": "8 to 10 days",
+        "validity": "3 months",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Brazil."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Brazil.",
+        "processingTime": "8 to 10 days",
+        "validity": "3 months",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Brazil",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Brazil."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "canada": {
     "name": "Canada",
@@ -1443,13 +2316,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/ca.png",
     "heroImage": "/images/Canada.webp",
-    "processingTime": "15-30 Working Days",
-    "stayDuration": "Up to 6 Months",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "IRCC",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Canada Visitor Visa",
-    "overviewDescription": "Indian passport holders travelling to Canada for tourism, visiting family or friends require a Canada Visitor Visa. The visa allows visitors to stay in Canada for up to 6 months, subject to the conditions granted.\n\nApplicants need to complete the visa application and provide the required documents, including financial proof, travel details and supporting documents. The application is submitted online through the IRCC portal.",
+    "overviewDescription": "Indian passport holders travelling to Canada require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -1624,7 +2497,195 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As per Embassy",
+    "fee": "INR 5500",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Canada for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "As per Embassy",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Canada."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Canada.",
+        "processingTime": "10-15 days",
+        "validity": "As per Embassy",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Canada",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Canada."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "family-visit",
+        "name": "Family Visit Visa",
+        "shortDescription": "For visiting family members, relatives, or personal sponsors residing in Canada.",
+        "processingTime": "10-15 days",
+        "validity": "As per Embassy",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter and copy of host's passport/residence permit in Canada",
+          "Proof of family relationship (birth certificate, marriage certificate, or civil registry)",
+          "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
+          "Employment proof (leave letter from employer / business registration certificate)",
+          "Confirmed return flight itinerary, accommodation details & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Canada."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "transit",
+        "name": "Transit Visa",
+        "shortDescription": "For connecting flights and international airport transit through Canada.",
+        "processingTime": "10-15 days",
+        "validity": "As per Embassy",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed transit visa application form with recent photographs",
+          "Confirmed onward flight ticket to destination country within permitted transit window",
+          "Valid entry visa or residence permit for the final destination country",
+          "Proof of transit accommodation if layover involves an overnight stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Canada."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "china": {
     "name": "China",
@@ -1638,7 +2699,7 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "Chinese Visa Application Service Centre",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "China Tourist Visa",
-    "overviewDescription": "Indian passport holders travelling to China for tourism require a Chinese Tourist Visa. The L Visa is issued for tourism purposes.\n\nThe visa validity, permitted stay and number of entries depend on the visa granted. Applicants must complete the visa application and submit the required documents through the Chinese Visa Application Service Centre.",
+    "overviewDescription": "Indian passport holders travelling to China require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -1803,7 +2864,198 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting China for tourism, sightseeing, and short visits.",
+        "processingTime": "6 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "As Granted",
+        "entryType": "Single / Double / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for China."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in China.",
+        "processingTime": "6 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "As Granted",
+        "entryType": "Single / Double / Multiple",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in China",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for China."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "family-visit",
+        "name": "Family Visit Visa",
+        "shortDescription": "For visiting family members, relatives, or personal sponsors residing in China.",
+        "processingTime": "6 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "As Granted",
+        "entryType": "Single / Double / Multiple",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter and copy of host's passport/residence permit in China",
+          "Proof of family relationship (birth certificate, marriage certificate, or civil registry)",
+          "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
+          "Employment proof (leave letter from employer / business registration certificate)",
+          "Confirmed return flight itinerary, accommodation details & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for China."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "student",
+        "name": "Student Visa",
+        "shortDescription": "Official visa category tailored for travel to China.",
+        "processingTime": "6 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "As Granted",
+        "entryType": "Single / Double / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for China."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "costa-rica": {
     "name": "Costa Rica",
@@ -1811,13 +3063,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/cr.png",
     "heroImage": "/images/Costa-Rica.webp",
-    "processingTime": "15 Working Days",
+    "processingTime": "Up to 90 days",
     "stayDuration": "90 Days",
-    "entryType": "Single Entry",
+    "entryType": "Single entry",
     "applyThrough": "Costa Rican Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Costa Rica Tourist Visa",
-    "overviewDescription": "Indian passport holders travelling to Costa Rica for tourism may require a Costa Rica Tourist Visa. Visa requirements depend on the traveller's circumstances and applicable entry rules.\n\nApplicants who require a visa need to submit the completed application along with the required documents to the Costa Rican Consulate. The visa validity and permitted stay are subject to the visa granted.",
+    "overviewDescription": "Indian passport holders travelling to Costa Rica require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -1980,7 +3232,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "30 days",
+    "fee": "INR 5,399",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Costa Rica for tourism, sightseeing, and short visits.",
+        "processingTime": "Up to 90 days",
+        "validity": "30 days",
+        "stayDuration": "90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Costa Rica."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Costa Rica.",
+        "processingTime": "Up to 90 days",
+        "validity": "30 days",
+        "stayDuration": "90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Costa Rica",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Costa Rica."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "croatia": {
     "name": "Croatia",
@@ -1988,13 +3338,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/hr.png",
     "heroImage": "/images/Croatia.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global",
     "insuranceRequirement": "Mandatory, €30,000 Coverage",
     "overviewTitle": "Croatia Schengen Visa",
-    "overviewDescription": "Indian passport holders travelling to Croatia require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other permitted short-term travel.\n\nA Croatia Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance.",
+    "overviewDescription": "Indian passport holders travelling to Croatia require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -2173,7 +3523,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As per Embassy",
+    "fee": "INR 8,999",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Croatia for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "As per Embassy",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Croatia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Croatia.",
+        "processingTime": "10-15 days",
+        "validity": "As per Embassy",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Croatia",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Croatia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "cyprus": {
     "name": "Cyprus",
@@ -2181,13 +3629,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Short-Stay Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/cy.png",
     "heroImage": "/images/Cyprus.webp",
-    "processingTime": "10 - 15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global",
     "insuranceRequirement": "Mandatory, €30,000 Coverage",
     "overviewTitle": "Cyprus Tourist Visa",
-    "overviewDescription": "Indian passport holders travelling to Cyprus for tourism require a Cyprus Short-Stay Tourist Visa. The visa allows eligible travellers to stay for up to 90 days, subject to the visa granted.\n\nApplicants need to complete the visa application and submit the required documents through the appropriate Visa Application Centre. Travel medical insurance with minimum €30,000 coverage is required.",
+    "overviewDescription": "Indian passport holders travelling to Cyprus require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -2359,7 +3807,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Cyprus for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Cyprus."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Cyprus.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Cyprus",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Cyprus."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "czech-republic": {
     "name": "Czech Republic",
@@ -2367,13 +3913,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Czech Republic Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/cz.png",
     "heroImage": "/images/Czech-Republic.webp",
-    "processingTime": "Usually Up to 15 Days",
-    "stayDuration": "Up to 90 Days in 180 Days",
-    "entryType": "Single / Multiple, as granted",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global / Czech Embassy or Consulate",
     "insuranceRequirement": "Mandatory, €30,000 Minimum",
     "overviewTitle": "About Czech Republic Visa",
-    "overviewDescription": "Planning a trip to the Czech Republic? Indian passport holders generally need a Schengen visa before travelling to Czechia for tourism, visiting family or friends, business or other permitted short stays.\n\nThe Czech Republic is part of the Schengen Area. A short-stay Schengen visa allows eligible travellers to stay for up to 90 days within any 180-day period, subject to the conditions of the visa issued.\n\nDo Indians Need a Visa for the Czech Republic?\nYes. Indian citizens generally require a Schengen visa before travelling to the Czech Republic for a short stay. If your trip includes more than one Schengen country, you should apply through the country that is your main destination according to Schengen visa rules.\n\nCzech Republic Visa Processing Time\nShort-stay Schengen visa applications are normally processed within 15 calendar days after the application is accepted. In individual cases, processing can be extended up to 45 calendar days when further examination, consultation or verification is required. Applicants in India are advised to apply well in advance of their planned journey.",
+    "overviewDescription": "Indian passport holders travelling to Czech Republic require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport meeting Schengen requirements",
@@ -2563,7 +4109,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": "INR 7,399",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Czech Republic for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Czech Republic."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Czech Republic.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Czech Republic",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Czech Republic."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "denmark": {
     "name": "Denmark",
@@ -2571,13 +4215,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/dk.png",
     "heroImage": "/images/Copenhagen-denmark.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global",
     "insuranceRequirement": "Mandatory, €30,000 Coverage",
     "overviewTitle": "Denmark Schengen Visa",
-    "overviewDescription": "Indian passport holders travelling to Denmark require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other permitted short-term travel.\n\nA Denmark Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance.",
+    "overviewDescription": "Indian passport holders travelling to Denmark require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -2762,7 +4406,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": "INR 7,699",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Denmark for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Denmark."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Denmark.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Denmark",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Denmark."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "egypt": {
     "name": "Egypt",
@@ -2770,13 +4512,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa / eVisa",
     "flagImage": "https://flagcdn.com/w40/eg.png",
     "heroImage": "/images/Egypt.webp",
-    "processingTime": "7 Working Days",
+    "processingTime": "10-15 days",
     "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
+    "entryType": "Single entry",
     "applyThrough": "Egypt eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Egypt Tourist Visa",
-    "overviewDescription": "Indian passport holders travelling to Egypt for tourism require a valid Egypt Tourist Visa. Eligible Indian travellers can apply for an Egypt eVisa online.\n\nThe eVisa application can be completed online through the official Egypt eVisa Portal. Applicants should create their application at least 7 days before departure and provide the required travel and passport details.",
+    "overviewDescription": "Indian passport holders travelling to Egypt require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with at least 6 months validity",
@@ -2934,7 +4676,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "30 days",
+    "fee": "₹6,999",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Egypt for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "30 days",
+        "stayDuration": "Up to 30 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Egypt."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Egypt.",
+        "processingTime": "10-15 days",
+        "validity": "30 days",
+        "stayDuration": "Up to 30 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Egypt",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Egypt."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "estonia": {
     "name": "Estonia",
@@ -2942,13 +4782,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/ee.png",
     "heroImage": "/images/Estonia.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global",
     "insuranceRequirement": "Mandatory, €30,000 Coverage",
     "overviewTitle": "Estonia Schengen Visa",
-    "overviewDescription": "Indian passport holders travelling to Estonia require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other permitted short-term travel.\n\nA short-stay Estonia Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance.",
+    "overviewDescription": "Indian passport holders travelling to Estonia require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -3131,7 +4971,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": "INR 7,999",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Estonia for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Estonia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Estonia.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Estonia",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Estonia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "finland": {
     "name": "Finland",
@@ -3139,13 +5077,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/fi.png",
     "heroImage": "/images/Finland.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global",
     "insuranceRequirement": "Mandatory, €30,000 Coverage",
     "overviewTitle": "Finland Schengen Visa",
-    "overviewDescription": "Indian passport holders travelling to Finland require a Schengen Visa for short visits. The visa is suitable for tourism, business, visiting family or friends and other permitted short-term travel.\n\nA Finland Schengen Visa generally allows a stay of up to 90 days within a 180-day period, subject to the visa granted. Applicants must submit the required documents and valid travel medical insurance.",
+    "overviewDescription": "Indian passport holders travelling to Finland require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -3328,7 +5266,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": "INR 7,699",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Finland for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Finland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Finland.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Finland",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Finland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "france": {
     "name": "France",
@@ -3336,13 +5372,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/fr.png",
     "heroImage": "/images/France.webp",
-    "processingTime": "15 Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "5-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "France-Visas / VFS Global",
     "insuranceRequirement": "Mandatory, €30,000 Coverage",
     "overviewTitle": "France Schengen Visa",
-    "overviewDescription": "Indian passport holders generally need a Schengen Visa to visit France for tourism, business, visiting family or friends and other permitted short stays.\n\nA France Schengen Visa allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions of the visa granted. The application starts through France-Visas and is submitted through VFS Global in India.",
+    "overviewDescription": "Indian passport holders travelling to France require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -3529,7 +5565,151 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": "INR 7199",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting France for tourism, sightseeing, and short visits.",
+        "processingTime": "5-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for France."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in France.",
+        "processingTime": "5-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in France",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for France."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "family-visit",
+        "name": "Family Visit Visa",
+        "shortDescription": "For visiting family members, relatives, or personal sponsors residing in France.",
+        "processingTime": "5-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter and copy of host's passport/residence permit in France",
+          "Proof of family relationship (birth certificate, marriage certificate, or civil registry)",
+          "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
+          "Employment proof (leave letter from employer / business registration certificate)",
+          "Confirmed return flight itinerary, accommodation details & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for France."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "georgia": {
     "name": "Georgia",
@@ -3537,13 +5717,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Georgia eVisa",
     "flagImage": "https://flagcdn.com/w40/ge.png",
     "heroImage": "/images/Georgia.webp",
-    "processingTime": "Minimum 5 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "4 to 5 days",
+    "stayDuration": "30 days",
+    "entryType": "Multiple entry",
     "applyThrough": "Georgia eVisa Portal",
     "insuranceRequirement": "Mandatory",
     "overviewTitle": "Georgia eVisa",
-    "overviewDescription": "Indian passport holders generally need a visa to travel to Georgia. Eligible Indian travellers can apply for a Georgia eVisa online for short-term visits.\n\nThe eVisa application is completed online without visiting a Georgian Embassy. Indian applicants may need to provide an eligible supporting visa or residence permit, depending on their circumstances.",
+    "overviewDescription": "Indian passport holders travelling to Georgia require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -3713,7 +5893,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "120 days",
+    "fee": "INR 2,700",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Georgia for tourism, sightseeing, and short visits.",
+        "processingTime": "4 to 5 days",
+        "validity": "120 days",
+        "stayDuration": "30 days",
+        "entryType": "Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Georgia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Georgia.",
+        "processingTime": "4 to 5 days",
+        "validity": "120 days",
+        "stayDuration": "30 days",
+        "entryType": "Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Georgia",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Georgia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "germany": {
     "name": "Germany",
@@ -3721,13 +5999,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/de.png",
     "heroImage": "/images/Germany.webp",
-    "processingTime": "15 Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global",
     "insuranceRequirement": "Mandatory, €30,000 Coverage",
     "overviewTitle": "Germany Schengen Visa",
-    "overviewDescription": "Indian passport holders generally need a Schengen Visa to travel to Germany for tourism, business, visiting family or friends and other permitted short stays.\n\nA Germany Schengen Visa generally allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions of the visa granted. Applications from India are submitted through VFS Global.",
+    "overviewDescription": "Indian passport holders travelling to Germany require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -3916,7 +6194,151 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": "INR 7,999",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Germany for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Germany."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Germany.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Germany",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Germany."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "family-visit",
+        "name": "Family Visit Visa",
+        "shortDescription": "For visiting family members, relatives, or personal sponsors residing in Germany.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter and copy of host's passport/residence permit in Germany",
+          "Proof of family relationship (birth certificate, marriage certificate, or civil registry)",
+          "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
+          "Employment proof (leave letter from employer / business registration certificate)",
+          "Confirmed return flight itinerary, accommodation details & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Germany."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "ghana": {
     "name": "Ghana",
@@ -3924,13 +6346,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Ghana Entry Visa",
     "flagImage": "https://flagcdn.com/w40/gh.png",
     "heroImage": "/images/Ghana.webp",
-    "processingTime": "Varies by Application",
+    "processingTime": "3-5 days",
     "stayDuration": "As Granted",
-    "entryType": "Single / Multiple",
+    "entryType": "Single entry",
     "applyThrough": "Ghana High Commission",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Ghana Entry Visa",
-    "overviewDescription": "Indian passport holders generally need a visa before travelling to Ghana for tourism, business, visiting family or other permitted purposes.\n\nFor tourism and short visits, applicants need to submit the required application and supporting documents through the Ghana High Commission. The visa validity, permitted stay and number of entries depend on the visa granted.",
+    "overviewDescription": "Indian passport holders travelling to Ghana require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport",
@@ -4104,7 +6526,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "3 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Ghana for tourism, sightseeing, and short visits.",
+        "processingTime": "3-5 days",
+        "validity": "3 months",
+        "stayDuration": "As Granted",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Ghana."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Ghana.",
+        "processingTime": "3-5 days",
+        "validity": "3 months",
+        "stayDuration": "As Granted",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Ghana",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Ghana."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "greece": {
     "name": "Greece",
@@ -4112,13 +6632,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Greece Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/gr.png",
     "heroImage": "/images/Greece.webp",
-    "processingTime": "Usually 15 Working Days",
-    "stayDuration": "Up to 90 Days in 180 Days",
-    "entryType": "Single / Multiple, as granted",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "Greece Visa Application Centre / Greek Embassy",
     "insuranceRequirement": "Mandatory, €30,000 Minimum",
     "overviewTitle": "About Greece Visa",
-    "overviewDescription": "Indian passport holders generally need a Schengen visa before travelling to Greece for tourism, visiting family or friends, business or other permitted short stays.\n\nGreece is part of the Schengen Area. A short-stay Schengen visa generally allows eligible travellers to stay for up to 90 days within any 180-day period, subject to the conditions of the visa issued.\n\nDo Indians Need a Visa for Greece?\nYes. Indian citizens generally require a Schengen visa before travelling to Greece for a short stay. If your trip includes multiple Schengen countries, Greece should normally be the main destination for a Greek Schengen visa application.\n\nGreece Visa Processing Time\nSchengen visa applications are generally processed within 15 calendar days after the application is considered admissible. In individual cases, processing can take longer when additional checks, documents or an interview are required. Applicants should apply well in advance of their planned travel date.",
+    "overviewDescription": "Indian passport holders travelling to Greece require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport meeting Schengen requirements",
@@ -4313,7 +6833,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Greece for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Greece."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Greece.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Greece",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Greece."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "haiti": {
     "name": "Haiti",
@@ -4322,12 +6940,12 @@ window.VISION_VISA_COUNTRIES = {
     "flagImage": "https://flagcdn.com/w40/ht.png",
     "heroImage": "/images/Haiti.webp",
     "processingTime": "No Advance Tourist Visa Required",
-    "stayDuration": "Visa-Free Tourist Entry",
-    "entryType": "Visa-Free Entry",
+    "stayDuration": "90 days",
+    "entryType": "Single entry",
     "applyThrough": "Haitian Immigration Authorities",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Haiti Travel for Indians",
-    "overviewDescription": "Planning a trip to Haiti? Indian ordinary passport holders can generally travel to Haiti without obtaining an advance tourist visa for a qualifying short visit, subject to the country's current entry requirements.\n\nHaiti offers a distinctive Caribbean experience, with tropical coastlines, historic landmarks, colourful art, music and a rich cultural heritage. Travellers should ensure they have the required documents ready before departure.\n\nDo Indians Need a Visa for Haiti?\nNo. Indian ordinary passport holders currently benefit from visa-free tourist access to Haiti. This means an eligible Indian traveller generally does not need to obtain a tourist visa before travelling to Haiti.\n\nTravellers should carry a passport with sufficient validity, return or onward travel details and accommodation information. A tourist fee may also be payable on arrival.\n\nHaiti Entry Requirements for Indian Travellers\nAlthough an advance tourist visa is generally not required, travellers should be prepared to demonstrate the purpose and duration of their visit and meet Haitian immigration requirements. Immigration authorities may request additional information or supporting documents at the port of entry.\n\nVisa-free tourist access does not automatically permit employment, study, residence or other activities requiring prior immigration authorisation. Different rules may apply depending on the purpose of travel.",
+    "overviewDescription": "Indian passport holders travelling to Haiti require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Indian passport with at least 6 months validity",
@@ -4498,7 +7116,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Haiti for tourism, sightseeing, and short visits.",
+        "processingTime": "No Advance Tourist Visa Required",
+        "validity": "As granted by consulate",
+        "stayDuration": "90 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Haiti."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Haiti.",
+        "processingTime": "No Advance Tourist Visa Required",
+        "validity": "As granted by consulate",
+        "stayDuration": "90 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Haiti",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Haiti."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "hungary": {
     "name": "Hungary",
@@ -4506,13 +7222,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Hungary Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/hu.png",
     "heroImage": "/images/Hungary.webp",
-    "processingTime": "Usually 15 Calendar Days",
-    "stayDuration": "Up to 90 Days in 180 Days",
-    "entryType": "Single / Double / Multiple, as granted",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global / Hungarian Embassy or Consulate",
     "insuranceRequirement": "Mandatory, €30,000 Minimum",
     "overviewTitle": "About Hungary Visa",
-    "overviewDescription": "Planning a trip to Hungary? Indian passport holders generally need a Schengen visa before travelling to Hungary for tourism, visiting family or friends, business or other permitted short stays.\n\nHungary is part of the Schengen Area. A short-stay Schengen visa generally allows eligible travellers to stay for up to 90 days within any 180-day period, subject to the conditions of the visa issued.\n\nDo Indians Need a Visa for Hungary?\nYes. Indian citizens generally require a valid C-type Schengen visa for a short stay in Hungary. If your trip includes several Schengen countries, you should normally apply through Hungary when it is your main destination under Schengen visa rules.\n\nHungary Visa Application in India\nHungary Schengen visa applications are submitted through VFS Global in India. The responsible Hungarian mission depends on the applicant's state of residence. Applicants should follow the current VFS appointment and document-submission instructions applicable to their jurisdiction.\n\nHungary Visa Processing Time\nThe standard processing period is 15 calendar days. In individual cases, processing can take up to 45 calendar days when additional examination or documents are required. Applicants should apply well in advance and allow extra time for appointments and document submission.",
+    "overviewDescription": "Indian passport holders travelling to Hungary require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport meeting Schengen requirements",
@@ -4716,7 +7432,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Hungary for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Hungary."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Hungary.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Hungary",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Hungary."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "iceland": {
     "name": "Iceland",
@@ -4730,7 +7544,7 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "VFS Global / Embassy of Iceland, New Delhi",
     "insuranceRequirement": "Mandatory, €30,000 Minimum",
     "overviewTitle": "About Iceland Visa",
-    "overviewDescription": "Planning a trip to Iceland? Indian passport holders generally need a Schengen visa before travelling to Iceland for tourism, visiting family or friends, business or other permitted short stays.\n\nIceland is part of the Schengen Area. A short-stay Schengen visa generally allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions of the visa issued. A Schengen visa issued by Iceland can also be used to travel to other Schengen countries, provided its validity and conditions allow it.\n\nDo Indians Need a Visa for Iceland?\nYes. Indian passport holders generally require a Schengen visa before travelling to Iceland. If you are visiting several Schengen countries, Iceland should be the country where you spend the maximum period of your trip for the Iceland Visa Application Centre to accept the application.\n\nIceland Visa Application in India\nIceland visa applications in India are submitted through VFS Global Visa Application Centres, with the Embassy of Iceland in New Delhi responsible for the visa process and decision. Applicants complete the online application, print the confirmation and submit it with the required documents at VFS Global.\n\nIceland Visa Processing Time\nThe current VFS Global India information states that processing usually takes around 15 calendar days from the time the Embassy or Consulate receives the application and all requested documents. Transportation time from the Visa Application Centre is not included. Processing may take longer when additional documents, an interview or further examination is required.",
+    "overviewDescription": "Indian passport holders travelling to Iceland require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport meeting Schengen requirements",
@@ -4934,7 +7748,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Iceland for tourism, sightseeing, and short visits.",
+        "processingTime": "Usually 15 Calendar Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 90 Days in 180 Days",
+        "entryType": "Single / Double / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Iceland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Iceland.",
+        "processingTime": "Usually 15 Calendar Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 90 Days in 180 Days",
+        "entryType": "Single / Double / Multiple",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Iceland",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Iceland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "indonesia-bali": {
     "name": "Indonesia (Bali)",
@@ -4943,12 +7855,12 @@ window.VISION_VISA_COUNTRIES = {
     "flagImage": "https://flagcdn.com/w40/id.png",
     "heroImage": "/images/Indonesia-Bali-.webp",
     "processingTime": "Usually Quick Online Processing",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single Entry",
+    "stayDuration": "30 days",
+    "entryType": "Single entry",
     "applyThrough": "Indonesia e-VOA / e-Visa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Indonesia Visa",
-    "overviewDescription": "Planning a trip to Bali or elsewhere in Indonesia? Eligible Indian passport holders can apply for Indonesia's electronic Visa on Arrival (e-VOA) for permitted short visits, including tourism.\n\nBali is one of Indonesia's most popular destinations, known for its beaches, temples, rice terraces, waterfalls and distinctive Balinese culture. Having the correct entry permission and travel documents ready can make your arrival smoother.\n\nDo Indians Need a Visa for Indonesia?\nIndian travellers generally need an appropriate visa or entry permission to visit Indonesia. Eligible Indian passport holders can use the e-VOA facility for permitted short visits. The e-VOA generally allows an initial stay of up to 30 days from the date of arrival and may generally be extended once for another 30 days, subject to Indonesian immigration rules.\n\nIndonesia e-VOA Requirements\nBasic requirements include a passport valid for more than six months and a return or onward ticket. Depending on the application and current immigration requirements, additional information or documents may be requested.\n\nThe e-VOA is issued electronically and all details should match the traveller's passport exactly. An e-VOA does not automatically guarantee entry, as the final decision is made by Indonesian immigration officials at the port of entry.\n\nIndonesia e-VOA Processing\nThe e-VOA application is completed online through the Indonesian immigration system. Applying before travel allows eligible travellers to have their visa ready before arrival. Applicants should allow sufficient time for processing and carefully verify all application details.",
+    "overviewDescription": "Indian passport holders travelling to Indonesia (Bali) require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with more than 6 months validity",
@@ -5113,7 +8025,152 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🌐"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Indonesia (Bali) for tourism, sightseeing, and short visits.",
+        "processingTime": "Usually Quick Online Processing",
+        "validity": "As granted by consulate",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Indonesia (Bali)."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Indonesia (Bali).",
+        "processingTime": "Usually Quick Online Processing",
+        "validity": "As granted by consulate",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Indonesia (Bali)",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Indonesia (Bali)."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "employment",
+        "name": "Employment Visa",
+        "shortDescription": "Official visa category tailored for travel to Indonesia (Bali).",
+        "processingTime": "Usually Quick Online Processing",
+        "validity": "As granted by consulate",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Indonesia (Bali)."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "iran": {
     "name": "Iran",
@@ -5121,13 +8178,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Iran eVisa / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ir.png",
     "heroImage": "/images/Iran.webp",
-    "processingTime": "Varies by Application",
+    "processingTime": "6 to 7 days",
     "stayDuration": "Usually Up to 30 Days",
-    "entryType": "As Granted",
+    "entryType": "Single entry",
     "applyThrough": "Iran eVisa Portal / Iranian Embassy or Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Iran Visa",
-    "overviewDescription": "Planning a trip to Iran? Indian passport holders generally need the appropriate visa before travelling to Iran. For tourism, the Iran tourist visa or electronic visa process may be available depending on the traveller's nationality, travel purpose and current entry rules.\n\nIran offers a fascinating mix of ancient Persian history, impressive architecture, traditional bazaars and diverse landscapes. From the historic cities of Isfahan and Shiraz to Tehran and the ancient ruins of Persepolis, the country offers a distinctive cultural and historical experience.\n\nDo Indians Need a Visa for Iran?\nIndian passport holders generally need a visa to visit Iran. The applicable visa type depends on the purpose of travel and the traveller's circumstances. Tourists should check their current eligibility and visa requirements before making travel arrangements.\n\nIran Tourist Visa & eVisa\nTravellers visiting Iran for tourism may apply through the applicable Iranian visa process. An electronic visa application may require personal details, passport information, a photograph and other supporting information. Depending on the application, an approval or visa reference may be required before the visa can be issued.\n\nIran Visa Requirements\nApplicants should have a valid passport and provide documents supporting their travel purpose. Depending on the visa category and individual circumstances, authorities may request travel details, accommodation information, photographs, financial information, travel insurance or other supporting documents.\n\nIran Visa Processing Time\nProcessing time varies depending on the visa category, nationality, document verification and the requirements of the Iranian authorities. Travellers should apply well before their intended travel date and avoid making non-refundable travel arrangements until the applicable visa requirements and approval are confirmed.",
+    "overviewDescription": "Indian passport holders travelling to Iran require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -5295,7 +8352,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Up to 90 days",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Iran for tourism, sightseeing, and short visits.",
+        "processingTime": "6 to 7 days",
+        "validity": "Up to 90 days",
+        "stayDuration": "Usually Up to 30 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Iran."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Iran.",
+        "processingTime": "6 to 7 days",
+        "validity": "Up to 90 days",
+        "stayDuration": "Usually Up to 30 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Iran",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Iran."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "ireland": {
     "name": "Ireland",
@@ -5303,13 +8458,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Short Stay 'C' Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ie.png",
     "heroImage": "/images/Ireland.webp",
-    "processingTime": "Usually Around 8 Weeks",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "AVATS / VFS Global / Irish Visa Office",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Ireland Visa",
-    "overviewDescription": "Planning a trip to Ireland? Indian passport holders generally need an Irish visa before travelling for tourism or other short-term purposes. For a holiday, the appropriate visa is usually the Short Stay 'C' Visit Tourist Visa.\n\nIreland is not part of the Schengen Area, so an Irish visa is separate from a Schengen visa. A Short Stay 'C' visa can allow you to visit Ireland for up to 90 days, subject to the permission granted by Irish immigration officials when you arrive.\n\nDo Indians Need a Visa for Ireland?\nYes. Indian passport holders generally need a visa to travel to Ireland. You must apply for the appropriate Irish visa before travelling and provide documents that show the purpose of your visit, your ability to support yourself during the trip and your intention to leave Ireland after your visit.\n\nIreland Tourist Visa\nFor tourism, applicants should select Short Stay 'C' and Visit Tourist when completing the AVATS online application. Single-entry visas are common, while multiple-entry visas are approved only in limited circumstances and normally require a suitable travel history or other qualifying circumstances.\n\nIreland Visa Requirements\nThe application normally requires a valid passport, application form, photographs, financial evidence, accommodation details, travel plans and documents showing your personal, professional and financial circumstances. Depending on your situation, additional documents such as an employment letter, approved leave, invitation letter or evidence of family and economic ties may be required.\n\nIreland Visa Processing Time\nIrish visa processing can take several weeks. Current Irish immigration guidance states that applicants can generally expect a decision around 8 weeks after the visa office receives the required documents, although processing times can vary. Applicants are advised to prepare their application well in advance and not purchase travel tickets before receiving a visa decision.",
+    "overviewDescription": "Indian passport holders travelling to Ireland require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -5508,7 +8663,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Ireland for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Ireland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Ireland.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Ireland",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Ireland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "israel": {
     "name": "Israel",
@@ -5516,13 +8769,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "B/2 Visitor Visa / eVisa-B2",
     "flagImage": "https://flagcdn.com/w40/il.png",
     "heroImage": "/images/Israel.webp",
-    "processingTime": "Varies by Application",
+    "processingTime": "5 to 7 days",
     "stayDuration": "Up to 90 Days",
-    "entryType": "As Granted",
+    "entryType": "Single entry",
     "applyThrough": "Israel eVisa-B2 Portal / Israeli Mission",
     "insuranceRequirement": "Required",
     "overviewTitle": "About Israel Visa",
-    "overviewDescription": "Planning a trip to Israel? Indian passport holders generally need the appropriate Israeli entry visa before travelling. For tourism, sightseeing, visiting family or friends and other permitted short visits, the B/2 Visitor Visa is the relevant visa category.\n\nIndian and Sri Lankan passport holders residing in India and Sri Lanka can apply directly for an Israel eVisa-B2 through the official online system, subject to the applicable requirements. Depending on the applicant and circumstances, the Israeli authorities may also require additional verification or documents.\n\nDo Indians Need a Visa for Israel?\nYes. Indian passport holders are currently required to obtain a visa before travelling to Israel. The ETA-IL system for visa-exempt nationalities does not currently apply to Indian passport holders, so Indian travellers should follow the standard visa process.\n\nIsrael B/2 Visitor Visa\nThe B/2 Visitor Visa is intended for short visits such as tourism, visiting relatives or friends, medical tourism, business visits and certain other permitted short-term activities. A B/2 visa does not allow the holder to work in Israel.\n\nIsrael eVisa-B2 for Indian Travellers\nThe Israeli Embassy has introduced an eVisa-B2 facility for Indian passport holders residing in India. Eligible applicants can submit their application through the official online system. The application requires accurate passport and personal details along with the documents requested by the Israeli authorities.\n\nIsrael Visa Requirements\nApplicants should generally provide a valid travel document, recent photographs, financial evidence, employment information, accommodation details, return or two-way travel details and proof of travel insurance. Additional documents may be requested depending on the applicant and purpose of travel.\n\nIsrael Visa Processing Time\nProcessing time can vary depending on the application, document verification, nationality, security checks and other requirements. Applicants should apply sufficiently in advance and avoid making non-refundable travel arrangements until the visa has been issued.",
+    "overviewDescription": "Indian passport holders travelling to Israel require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport or travel document",
@@ -5712,7 +8965,152 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Up to 90 days",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Israel for tourism, sightseeing, and short visits.",
+        "processingTime": "5 to 7 days",
+        "validity": "Up to 90 days",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Israel."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Israel.",
+        "processingTime": "5 to 7 days",
+        "validity": "Up to 90 days",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Israel",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Israel."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "student",
+        "name": "Student Visa",
+        "shortDescription": "Official visa category tailored for travel to Israel.",
+        "processingTime": "5 to 7 days",
+        "validity": "Up to 90 days",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Israel."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "italy": {
     "name": "Italy",
@@ -5720,13 +9118,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/it.png",
     "heroImage": "/images/Italy.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "5-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Italy / VMS",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Italy Schengen Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Indian passport holders travelling to Italy require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport (minimum 6 months validity)",
@@ -5903,7 +9301,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Italy for tourism, sightseeing, and short visits.",
+        "processingTime": "5-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Italy."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Italy.",
+        "processingTime": "5-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Italy",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Italy."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "japan": {
     "name": "Japan",
@@ -5911,13 +9407,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "e-Visa / Short Term Visa",
     "flagImage": "https://flagcdn.com/w40/jp.png",
     "heroImage": "/images/Japan.webp",
-    "processingTime": "5 - 7 Days",
-    "stayDuration": "Up to 15 / 30 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "6-7 days",
+    "stayDuration": "As Per Travel Date",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "Japan Visa Application Center / VFS",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Japan Visa",
-    "overviewDescription": "Planning a trip to Japan? Indian travellers may need a visa depending on their nationality, purpose of travel and current entry requirements. For short visits, eligible travellers may apply under the appropriate short-term visa category or e-Visa route. Vision Visa helps you understand the requirements, prepare your documents and complete the application process correctly.\n\nFrom Tokyo's modern cityscape and Kyoto's historic temples to Mount Fuji and Japan's unique food and culture, the country offers a mix of tradition and modern life. Preparing the right documents and providing accurate information can help make your visa application smoother.\n\nDo Indians Need a Visa for Japan?\nIndian passport holders generally need a visa before travelling to Japan for short-term visits. The exact visa category and application process depend on the purpose and circumstances of your trip. Eligible applicants may be able to use the Japan e-Visa system, while other applications may need to be submitted through the designated visa application centre or Japanese authorities.\n\nJapan Visa Types\nDepending on your purpose of travel, you may apply for a short-term visa for tourism, visiting relatives or friends, business activities or other permitted purposes. Other visa categories are available for longer stays, study, employment and specific activities. The requirements and permitted stay vary by visa category.\n\nJapan Visa Processing Time\nProcessing generally takes around 5 - 7 Days, but the actual timeframe can vary depending on the application, document verification, seasonal demand and the relevant Japanese authorities. Applying well in advance and submitting complete documents can help avoid unnecessary delays.",
+    "overviewDescription": "Indian passport holders travelling to Japan require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -6097,7 +9593,151 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Upto 90 days",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Japan for tourism, sightseeing, and short visits.",
+        "processingTime": "6-7 days",
+        "validity": "Upto 90 days",
+        "stayDuration": "As Per Travel Date",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Japan."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Japan.",
+        "processingTime": "6-7 days",
+        "validity": "Upto 90 days",
+        "stayDuration": "As Per Travel Date",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Japan",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Japan."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "family-visit",
+        "name": "Family Visit Visa",
+        "shortDescription": "For visiting family members, relatives, or personal sponsors residing in Japan.",
+        "processingTime": "6-7 days",
+        "validity": "Upto 90 days",
+        "stayDuration": "As Per Travel Date",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter and copy of host's passport/residence permit in Japan",
+          "Proof of family relationship (birth certificate, marriage certificate, or civil registry)",
+          "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
+          "Employment proof (leave letter from employer / business registration certificate)",
+          "Confirmed return flight itinerary, accommodation details & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Japan."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "kuwait": {
     "name": "Kuwait",
@@ -6105,13 +9745,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "eVisa",
     "flagImage": "https://flagcdn.com/w40/kw.png",
     "heroImage": "/images/Kuwait.webp",
-    "processingTime": "3 - 5 Days",
+    "processingTime": "3 to 4 days",
     "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "entryType": "Single entry",
     "applyThrough": "Kuwait eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Kuwait Visa",
-    "overviewDescription": "Planning a trip to Kuwait? Indian passport holders generally need a visa before travelling to Kuwait. Eligible travellers may be able to apply for a Kuwait eVisa for short visits, depending on their nationality, purpose of travel and current entry requirements. Vision Visa helps you understand the requirements, prepare your documents and complete the visa application process correctly.\n\nKuwait combines a modern Gulf lifestyle with traditional Arabian culture. From the Kuwait Towers and waterfront areas to historic markets and museums, the country offers a different experience for travellers visiting the Gulf.\n\nDo Indians Need a Visa for Kuwait?\nYes. Indian passport holders generally require a valid visa before travelling to Kuwait. Depending on your eligibility and purpose of travel, you may be able to apply for an eVisa or another appropriate visa category. Visa requirements and eligibility can change, so applicants should check the latest requirements before submitting their application.\n\nKuwait Visa Types\nVisa options depend on the purpose of your visit. Short-term travellers may apply for a visitor or tourist eVisa where eligible, while business, family visit, work and other categories have separate requirements. The permitted stay and visa conditions depend on the category approved by the Kuwaiti authorities.\n\nKuwait Visa Processing Time\nProcessing generally takes around 3 - 5 Days, although the actual timeframe can vary depending on application details, document verification and the volume of applications. Applying in advance with complete and accurate information can help avoid unnecessary delays.",
+    "overviewDescription": "Indian passport holders travelling to Kuwait require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -6278,7 +9918,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "3 months",
+    "fee": "Available on request",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Kuwait for tourism, sightseeing, and short visits.",
+        "processingTime": "3 to 4 days",
+        "validity": "3 months",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Kuwait."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Kuwait.",
+        "processingTime": "3 to 4 days",
+        "validity": "3 months",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Kuwait",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Kuwait."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "luxembourg": {
     "name": "Luxembourg",
@@ -6286,13 +10024,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/lu.png",
     "heroImage": "/images/Luxembourg.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Luxembourg",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "About Luxembourg Visa",
-    "overviewDescription": "Planning a trip to Luxembourg? Indian passport holders generally need a Schengen visa before travelling to Luxembourg for a short stay. The visa can cover tourism, visiting family or friends, business and other permitted short-term purposes. Vision Visa helps you understand the requirements, prepare your documents and complete the application process correctly.\n\nLuxembourg may be small in size, but it offers a mix of historic old towns, impressive castles, European institutions and peaceful countryside. From Luxembourg City's historic centre to the scenic Moselle Valley, the country offers a convenient destination to explore as part of a wider European trip.\n\nDo Indians Need a Visa for Luxembourg?\nYes. Indian passport holders generally require a Schengen visa before travelling to Luxembourg for a short stay. The correct application depends on your purpose of travel and your overall Schengen itinerary. If you are visiting multiple Schengen countries, the country responsible for your visa application depends on the applicable Schengen rules and your main destination.\n\nLuxembourg Schengen Visa Requirements\nApplicants generally need a valid passport, completed application form, photographs, proof of financial means, travel itinerary, accommodation details, travel medical insurance and supporting documents based on their personal and professional circumstances. Additional documents may be requested during the assessment.\n\nLuxembourg Visa Processing Time\nA short-stay Schengen visa generally takes around 15 Working Days to process, although the actual timeframe can vary depending on application volume, document verification and individual circumstances. Applying in advance with complete documents is recommended.",
+    "overviewDescription": "Indian passport holders travelling to Luxembourg require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -6474,7 +10212,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Luxembourg for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Luxembourg."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Luxembourg.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Luxembourg",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Luxembourg."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "madagascar": {
     "name": "Madagascar",
@@ -6482,13 +10318,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "eVisa / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/mg.png",
     "heroImage": "/images/Madagascar-2048x1366.webp",
-    "processingTime": "3 - 5 Days",
+    "processingTime": "3 to 4 days",
     "stayDuration": "Up to 30 / 60 Days",
-    "entryType": "Single / Multiple",
+    "entryType": "Single entry",
     "applyThrough": "eVisa Madagascar",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Madagascar Visa",
-    "overviewDescription": "Planning a trip to Madagascar? Indian passport holders generally need a visa before travelling to Madagascar. Eligible travellers may be able to apply for an eVisa for short visits, depending on the purpose and duration of their trip. Vision Visa helps you understand the visa requirements, prepare your documents and complete the visa application process correctly.\n\nMadagascar is known for its unique wildlife, beautiful beaches, tropical landscapes and distinctive culture. From the famous Avenue of the Baobabs and rainforests to the island's diverse coastal regions, it offers experiences that are very different from a typical holiday destination.\n\nDo Indians Need a Visa for Madagascar?\nYes. Indian passport holders generally require a visa to enter Madagascar. Eligible travellers can apply through the Madagascar eVisa system for suitable short-term visits. The visa category, permitted stay and applicable requirements depend on the purpose and details of your trip.\n\nMadagascar Visa Types\nTravellers visiting Madagascar for tourism can generally apply for the appropriate tourist visa or eVisa. Other travel purposes may require different visa arrangements. The permitted duration of stay and visa conditions depend on the category approved by the Malagasy authorities.\n\nMadagascar Visa Requirements\nApplicants generally need a valid passport, visa application details, recent photograph where required, travel itinerary, accommodation information and supporting financial or travel documents. Additional documents may be requested depending on the application and purpose of travel.\n\nMadagascar Visa Processing Time\nProcessing generally takes around 3 - 5 Days, although the actual timeframe can vary depending on application details, document verification and seasonal demand. Applying ahead of your planned travel date with complete information is recommended.",
+    "overviewDescription": "Indian passport holders travelling to Madagascar require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -6655,7 +10491,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "1 month",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Madagascar for tourism, sightseeing, and short visits.",
+        "processingTime": "3 to 4 days",
+        "validity": "1 month",
+        "stayDuration": "Up to 30 / 60 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Madagascar."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Madagascar.",
+        "processingTime": "3 to 4 days",
+        "validity": "1 month",
+        "stayDuration": "Up to 30 / 60 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Madagascar",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Madagascar."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "malaysia": {
     "name": "Malaysia",
@@ -6663,13 +10597,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "eVISA / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/my.png",
     "heroImage": "/images/Malaysia.webp",
-    "processingTime": "2 - 4 Days",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "24 hours",
+    "stayDuration": "30 days",
+    "entryType": "Single entry",
     "applyThrough": "Malaysia eVISA Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Malaysia Visa",
-    "overviewDescription": "Planning a trip to Malaysia? Indian travellers may need a visa depending on their nationality, travel purpose and current entry requirements. For eligible travellers, the Malaysia eVISA provides an online route for applying for a suitable tourist visa. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nMalaysia is a popular destination for its modern cities, tropical islands, cultural diversity, rainforests and food. From Kuala Lumpur's famous landmarks to Langkawi's beaches and the cultural streets of Penang, the country offers a mix of city experiences and tropical escapes.\n\nDo Indians Need a Visa for Malaysia?\nIndian citizens should check the latest Malaysia entry and visa requirements before travelling, as visa policies and permitted stay can change. Where an eVISA is required and the traveller is eligible, the application can be submitted through the Malaysia eVISA system.\n\nMalaysia Visa Types\nFor tourism, eligible travellers may apply for the appropriate Malaysia tourist eVISA. The visa type, validity, number of entries and permitted duration of stay depend on the approval issued by the Malaysian authorities.\n\nMalaysia Visa Requirements\nApplicants may need a valid passport, photograph, travel itinerary, accommodation details and proof of sufficient funds. Additional documents may be requested depending on the applicant's circumstances, travel history and purpose of visit.\n\nMalaysia Visa Processing Time\nProcessing generally takes around 2 - 4 Days, although the actual timeframe can vary depending on application volume, document verification and individual circumstances. Applying in advance is recommended to allow enough time before your planned departure.",
+    "overviewDescription": "Indian passport holders travelling to Malaysia require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -6838,7 +10772,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🏢"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "1 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Malaysia for tourism, sightseeing, and short visits.",
+        "processingTime": "24 hours",
+        "validity": "1 months",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Malaysia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Malaysia.",
+        "processingTime": "24 hours",
+        "validity": "1 months",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Malaysia",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Malaysia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "malta": {
     "name": "Malta",
@@ -6846,13 +10878,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/mt.png",
     "heroImage": "/images/Malta.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Malta",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "About Malta Visa",
-    "overviewDescription": "Planning a trip to Malta? Indian travellers visiting Malta for tourism generally need a Schengen visa before travelling. Malta is part of the Schengen Area, allowing eligible travellers to visit Malta and, subject to the visa conditions, other Schengen countries. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nMalta is known for its historic cities, Mediterranean coastline, clear blue waters, ancient architecture and rich cultural heritage. Whether you are planning a holiday, exploring historic sites or enjoying a relaxing island getaway, having the right visa is an important part of your travel preparation.\n\nDo Indians Need a Visa for Malta?\nYes. Indian passport holders generally require a valid Schengen visa to travel to Malta. The visa category and supporting documents depend on the purpose and details of your trip. Visa approval is solely at the discretion of the relevant authorities.\n\nMalta Schengen Visa\nFor short visits, the Malta Schengen Visa generally allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions stated on the visa. Depending on the visa issued, entry may be single or multiple.\n\nMalta Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photographs, proof of sufficient funds, travel itinerary, flight reservation, accommodation details and a cover letter explaining the purpose of the trip. Additional financial, employment or sponsorship documents may be required depending on the applicant's circumstances.\n\nMalta Visa Processing Time\nThe stated processing time is around 15 Working Days. Actual processing can vary depending on the embassy or visa centre workload, document verification, travel season and individual application. Applying in advance is recommended.",
+    "overviewDescription": "Indian passport holders travelling to Malta require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -7033,7 +11065,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Malta for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Malta."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Malta.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Malta",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Malta."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "morocco": {
     "name": "Morocco",
@@ -7041,13 +11171,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "eVisa / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ma.png",
     "heroImage": "/images/Morocco.webp",
-    "processingTime": "3 - 7 Days",
+    "processingTime": "3-5 days",
     "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
+    "entryType": "Single entry",
     "applyThrough": "Morocco eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Morocco Visa",
-    "overviewDescription": "Planning a trip to Morocco? Depending on your nationality, travel purpose and current entry requirements, you may need a visa before travelling. Eligible travellers may be able to apply for a Morocco eVisa through the online application system. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nMorocco is a fascinating destination known for its historic medinas, colourful souks, desert landscapes, Atlantic and Mediterranean coastlines, and distinctive blend of Arab, Berber and European influences. From Marrakech and Fes to the Sahara Desert and coastal cities, Morocco offers a wide range of experiences for travellers.\n\nDo Indians Need a Visa for Morocco?\nIndian citizens should check the latest Moroccan visa and entry requirements before planning their trip. Depending on the applicable rules and eligibility, travellers may be able to apply for an eVisa or may need to follow another visa application process. Visa approval is solely at the discretion of the Moroccan authorities.\n\nMorocco eVisa & Tourist Visa\nThe appropriate visa depends on your nationality, purpose of travel and eligibility. Tourist travellers should ensure that they apply under the correct category and provide accurate travel and personal information.\n\nMorocco Visa Requirements\nCommon documents may include a valid passport, recent photograph, travel itinerary, flight reservation, accommodation details and proof of sufficient funds. Additional financial, employment, business or invitation documents may be requested depending on the applicant's circumstances.\n\nMorocco Visa Processing Time\nThe stated processing time is around 3 - 7 Days. Actual processing can vary depending on application volume, document verification, individual circumstances and the requirements of the Moroccan authorities. Applying in advance is recommended to allow enough time before your planned departure.",
+    "overviewDescription": "Indian passport holders travelling to Morocco require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -7213,7 +11343,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Up to 90 days",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Morocco for tourism, sightseeing, and short visits.",
+        "processingTime": "3-5 days",
+        "validity": "Up to 90 days",
+        "stayDuration": "Up to 30 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Morocco."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Morocco.",
+        "processingTime": "3-5 days",
+        "validity": "Up to 90 days",
+        "stayDuration": "Up to 30 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Morocco",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Morocco."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "netherlands": {
     "name": "Netherlands",
@@ -7221,13 +11449,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/nl.png",
     "heroImage": "/images/Netherlands.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Netherlands",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "About Netherlands Visa",
-    "overviewDescription": "Planning a trip to the Netherlands? Indian passport holders generally need a Schengen visa for short visits to the country. Vision Visa helps you understand the visa requirements, organise your documents and prepare your application with greater confidence.\n\nThe Netherlands is known for its historic cities, canals, museums, tulip fields, distinctive architecture and relaxed European atmosphere. Whether you are visiting Amsterdam, exploring Dutch heritage or travelling across the Schengen region, having the right visa and documents is an important part of your travel preparation.\n\nDo Indians Need a Visa for the Netherlands?\nYes. Indian passport holders generally require a valid Schengen visa before travelling to the Netherlands for a short stay. The visa category and supporting documents depend on your purpose of travel and individual circumstances. Visa approval is solely at the discretion of the relevant authorities.\n\nNetherlands Schengen Visa\nA short-stay Netherlands Schengen Visa can allow eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions stated on the visa. Depending on the visa issued, it may allow single or multiple entries.\n\nNetherlands Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photographs, proof of sufficient funds, travel itinerary, flight reservation, accommodation details and a cover letter explaining the purpose of the trip. Employment, financial, sponsorship or other supporting documents may also be required.\n\nNetherlands Visa Processing Time\nThe stated processing time is around 15 Working Days. Actual processing may vary depending on application volume, document verification, travel season and the circumstances of the individual application. Applying well in advance is recommended.",
+    "overviewDescription": "Indian passport holders travelling to Netherlands require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -7408,7 +11636,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Netherlands for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Netherlands."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Netherlands.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Netherlands",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Netherlands."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "new-zealand": {
     "name": "New Zealand",
@@ -7416,13 +11742,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/nz.png",
     "heroImage": "/images/New-Zealand.webp",
-    "processingTime": "20 - 30 Days",
-    "stayDuration": "Up to 9 months",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "As per Embassy",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "Immigration New Zealand Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About New Zealand Visitor Visa",
-    "overviewDescription": "Planning a trip to New Zealand? Indian passport holders generally need to meet New Zealand's visitor entry requirements before travelling. The Visitor Visa is designed for travellers visiting for holidays, sightseeing, visiting family or friends, or other permitted short-term purposes. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nNew Zealand is known for its dramatic mountains, peaceful lakes, beautiful coastlines, Maori culture and outdoor experiences. From Auckland and Queenstown to the South Island's scenic landscapes, the country offers a mix of adventure, nature and cultural experiences.\n\nDo Indians Need a Visa for New Zealand?\nIndian citizens generally need a suitable visa or travel authority before travelling to New Zealand, depending on their circumstances and current immigration rules. Travellers should check their eligibility and applicable requirements before applying. Visa approval is solely at the discretion of Immigration New Zealand.\n\nNew Zealand Visitor Visa\nThe Visitor Visa can allow eligible travellers to visit New Zealand for tourism, holidays, visiting family or friends and other permitted visitor activities. The permitted duration of stay and number of entries depend on the visa granted and the conditions attached to it.\n\nNew Zealand Visa Requirements\nApplicants generally need a valid passport, completed application, recent photograph where required, proof of sufficient funds, travel plans, accommodation details and evidence of their circumstances and intention to leave New Zealand at the end of their stay. Employment, financial, sponsorship or other supporting documents may also be requested.\n\nNew Zealand Visa Processing Time\nThe stated processing time is around 20 - 30 Days. Actual processing can vary depending on application volume, document verification, individual circumstances and Immigration New Zealand processing requirements. Applying well before your intended travel date is recommended.",
+    "overviewDescription": "Indian passport holders travelling to New Zealand require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid passport with sufficient validity",
@@ -7596,7 +11922,151 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Upto 3 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting New Zealand for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "Upto 3 months",
+        "stayDuration": "As per Embassy",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for New Zealand."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in New Zealand.",
+        "processingTime": "10-15 days",
+        "validity": "Upto 3 months",
+        "stayDuration": "As per Embassy",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in New Zealand",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for New Zealand."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "family-visit",
+        "name": "Family Visit Visa",
+        "shortDescription": "For visiting family members, relatives, or personal sponsors residing in New Zealand.",
+        "processingTime": "10-15 days",
+        "validity": "Upto 3 months",
+        "stayDuration": "As per Embassy",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter and copy of host's passport/residence permit in New Zealand",
+          "Proof of family relationship (birth certificate, marriage certificate, or civil registry)",
+          "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
+          "Employment proof (leave letter from employer / business registration certificate)",
+          "Confirmed return flight itinerary, accommodation details & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for New Zealand."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "norway": {
     "name": "Norway",
@@ -7604,13 +12074,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/no.png",
     "heroImage": "/images/Norway.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global / Norwegian Embassy",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Norway? Indian passport holders need a Schengen visitor visa to travel to Norway for tourism, visiting family or friends, or other permitted short-term purposes. Vision Visa helps you understand the requirements, organise your documents and prepare your application correctly.\n\nA Norway Visitor Visa is a Schengen visa that can allow you to stay in Norway and other Schengen countries for up to 90 days within a 180-day period, subject to the conditions of your visa. If you are visiting several Schengen countries, you generally need to apply through the country that is your main destination.\n\nNorway Visa for Indians\nIndian citizens need to apply for a visitor visa before travelling to Norway. Applications from India are submitted through VFS Global and are processed by the Norwegian authorities. Applicants must register their application online before submitting their documents and attending their appointment.\n\nNorway Visa Requirements\nApplicants generally need a valid passport, completed application, photograph, proof of sufficient funds, travel itinerary, accommodation details and travel medical insurance. Employment, financial, sponsorship or other supporting documents may also be required depending on the applicant's circumstances.\n\nNorway Visa Processing Time\nThe normal processing time is around 15 working days from receipt of the application at the Embassy. During high season or in cases requiring additional assessment, processing can take longer. In some cases, applications may take up to 45 working days. Applicants from India should also allow additional time for courier transmission depending on the VFS centre.\n\nNorway Travel Medical Insurance\nTravel medical insurance is mandatory and must provide at least €30,000 coverage, including medical emergencies and repatriation. The insurance should be valid throughout the Schengen area and cover the entire planned stay.\n\nBiometrics for Norway Visa\nApplicants are generally required to appear personally at a VFS Application Centre to provide fingerprints and a photograph, unless their fingerprints have already been collected within the applicable 59-month period.",
+    "overviewDescription": "Indian passport holders travelling to Norway require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport (valid for at least 3 months after planned departure from the Schengen area)",
@@ -7797,7 +12267,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Norway for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Norway."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Norway.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Norway",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Norway."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "oman": {
     "name": "Oman",
@@ -7811,7 +12379,7 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "Royal Oman Police eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Oman? The Royal Oman Police (ROP) manages Oman's visitor visa system, with eligible travellers able to apply online through the official eVisa portal. Vision Visa helps you understand the visa requirements, organise your documents and prepare your application correctly.\n\nOman Tourist Visa for Indians\nIndian passport holders should check their eligibility through the official ROP eVisa system before travelling. Visa requirements can vary depending on nationality, visa category and individual circumstances. India is also included in Oman's list of nationalities that may benefit from specific entry arrangements when holding a valid visa from certain countries, subject to the applicable conditions.\n\nOman Visa Requirements\nApplicants should have a valid passport and provide the documents requested for their selected visa category. Depending on the application, this can include passport details, personal information, photograph and supporting travel documents. Additional documents may be requested by the Omani authorities.\n\nOman eVisa Application\nEligible travellers can register on the ROP eVisa website, select the appropriate visa type and complete the online application. The ROP system allows applicants to submit visitor visa applications electronically and check their application status online.\n\nOman Visa Processing Time\nProcessing time can vary depending on the visa category, application details and government assessment. A typical processing estimate may be around 2 - 4 working days, but applicants should allow additional time and should not make non-refundable travel arrangements based solely on the estimated processing period.\n\nOman Travel Insurance\nTravel insurance is recommended for international travel to Oman. Applicants should also check the latest entry and health requirements applicable to their nationality and planned travel dates.\n\nOman Visa Approval\nSubmitting an application does not guarantee approval or entry into Oman. The competent Omani authorities have the final decision on visa issuance and admission at the border.",
+    "overviewDescription": "Indian passport holders travelling to Oman require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport (minimum 6 months validity)",
@@ -7978,7 +12546,59 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Oman for tourism, sightseeing, and short visits.",
+        "processingTime": "2 - 4 Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 30 Days",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Oman."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "panama": {
     "name": "Panama",
@@ -7986,13 +12606,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Stamped Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/pa.png",
     "heroImage": "/images/Panama.webp",
-    "processingTime": "10 - 15 Days",
+    "processingTime": "30 to 35 days",
     "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
+    "entryType": "Single entry",
     "applyThrough": "Embassy of Panama",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance for your Panama Stamped Tourist Visa application, from document verification to submission guidance.",
+    "overviewDescription": "Indian passport holders travelling to Panama require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport (minimum 6 months validity)",
@@ -8165,7 +12785,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "30 days",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Panama for tourism, sightseeing, and short visits.",
+        "processingTime": "30 to 35 days",
+        "validity": "30 days",
+        "stayDuration": "Up to 30 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Panama."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Panama.",
+        "processingTime": "30 to 35 days",
+        "validity": "30 days",
+        "stayDuration": "Up to 30 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Panama",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Panama."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "philippines": {
     "name": "Philippines",
@@ -8179,7 +12897,7 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "Philippine Embassy / Consulate / eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to the Philippines from India? Indian nationals can currently benefit from visa-free entry for tourism and business purposes, subject to specific conditions. Eligible Indian travellers may enter for up to 14 days without a visa, provided they meet the passport, accommodation, financial capacity and onward-ticket requirements. Indian nationals holding a valid and current visa or residence permit from the United States, Japan, Australia, Canada, Schengen area, Singapore or United Kingdom may qualify for visa-free entry for up to 30 days for tourism or business purposes.\n\nPhilippines Visa for Indians\nFrom 08 June 2025, Indian nationals travelling to the Philippines for tourism or business may enter visa-free for a non-extendible and non-convertible stay of up to 14 days, subject to the applicable conditions. Travellers must have a passport valid for at least six months beyond the contemplated stay, confirmed hotel accommodation, proof of financial capacity and a return or onward ticket.\n\n30-Day Visa-Free Entry for Indians\nIndian nationals holding a valid and current American, Japanese, Australian, Canadian, Schengen, Singapore or United Kingdom visa or residence permit may qualify for visa-free entry for up to 30 days for tourism or business. A passport with at least six months validity beyond the contemplated stay and a return or onward ticket are required.\n\nPhilippines Visa Requirements\nIndian nationals who do not qualify for the applicable visa-free privileges, or who are travelling for purposes requiring a visa, may need to apply for an appropriate Philippine visa. The Temporary Visitor Visa is classified as a 9(a) visa, including 9(a-2) for tourism and leisure visitors. The Philippine authorities may request additional documents depending on the purpose of travel and individual application profile.\n\nPhilippines Visa Application\nVisa-required applicants can apply through the appropriate Philippine Embassy or Consulate. The Philippine eVisa system is also available for eligible foreign nationals and allows eligible applicants to submit applications online. The applicable application route depends on nationality, purpose of travel and visa category.\n\nPhilippines Visa Processing Time\nProcessing time depends on the visa category, application route, completeness of documents and assessment by the Philippine authorities. If a visa is required, applicants should allow sufficient time for processing and avoid making non-refundable travel arrangements before approval.\n\nPhilippines Travel Insurance\nTravel insurance is recommended for international travel to the Philippines. Applicants should also check the latest entry, health and immigration requirements before travelling.\n\nPhilippines Entry Requirements\nVisa-free entry does not guarantee admission into the Philippines. Final admission is determined by Philippine immigration authorities at the port of entry. Travellers should carry supporting documents such as accommodation confirmation, proof of financial capacity and onward or return travel as applicable.",
+    "overviewDescription": "Indian passport holders travelling to Philippines require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Indian Passport",
@@ -8354,7 +13072,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Philippines for tourism, sightseeing, and short visits.",
+        "processingTime": "Visa-Free / 5 - 10 Days if Visa Required",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 14 Days Visa-Free",
+        "entryType": "Visa-Free / Single / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Philippines."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Philippines.",
+        "processingTime": "Visa-Free / 5 - 10 Days if Visa Required",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 14 Days Visa-Free",
+        "entryType": "Visa-Free / Single / Multiple",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Philippines",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Philippines."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "poland": {
     "name": "Poland",
@@ -8362,13 +13178,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/pl.png",
     "heroImage": "/images/Poland.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Double / Multiple",
+    "processingTime": "10-14 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global / Polish Embassy",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Poland? Indian passport holders generally require a Schengen visa for short visits to Poland. A Poland C-type Schengen visa is suitable for tourism, business visits and private visits. Applicants need to prepare their travel, accommodation, financial and supporting documents carefully before submission.\n\nPoland Visa Application in India\nPoland Schengen visa applications are submitted through the designated Visa Application Centre, with applications handled according to the applicable Polish consular jurisdiction. Applicants should book an appointment and submit the completed application along with the required supporting documents.\n\nPoland Visa Requirements\nThe application generally requires a valid passport, completed visa application form, recent photographs, proof of purpose of travel, accommodation, travel itinerary, financial documents and travel medical insurance. Additional documents may be requested depending on the applicant's circumstances and purpose of travel.\n\nPoland Travel Medical Insurance\nTravel medical insurance is mandatory for a Schengen visa and must provide minimum coverage of €30,000. The insurance should cover the Schengen Area and the intended period of stay.\n\nPoland Visa Processing\nProcessing time may vary depending on the application and the workload of the consular authorities. Applicants are advised to apply well in advance of their intended travel date.\n\nPoland Visa Decision\nThe final decision on a Poland Schengen visa is made by the competent Polish consular authorities. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
+    "overviewDescription": "Indian passport holders travelling to Poland require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport",
@@ -8557,7 +13373,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Poland for tourism, sightseeing, and short visits.",
+        "processingTime": "10-14 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Poland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Poland.",
+        "processingTime": "10-14 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Poland",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Poland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "portugal": {
     "name": "Portugal",
@@ -8565,13 +13479,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/pt.png",
     "heroImage": "/images/Portugal.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Double / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global / Portuguese Embassy",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Portugal? Indian passport holders generally require a Schengen visa for short visits to Portugal. A Portugal short-stay Schengen visa is suitable for tourism and other eligible visits of less than 90 days.\n\nPortugal Schengen Visa for Indians\nA Portugal Schengen visa may allow travel within the Schengen Area, subject to the validity, number of entries and conditions stated on the visa. Applicants should ensure Portugal is the appropriate destination for their application based on their travel plans.\n\nPortugal Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photograph, proof of travel purpose, accommodation, financial means, travel itinerary and travel medical insurance. Additional documents may be requested depending on the applicant's circumstances and purpose of travel.\n\nPortugal Visa Application in India\nPortugal visa applications in India are submitted through VFS Global. Applicants need to book an appointment and submit the application, supporting documents and biometric data at the appropriate Portugal Visa Application Centre according to their applicable consular jurisdiction.\n\nPortugal Visa Processing Time\nProcessing time can vary depending on the application, season and workload of the Portuguese consular authorities. Applicants are advised to apply well in advance of their intended travel date.\n\nPortugal Travel Medical Insurance\nTravel medical insurance is compulsory for Portugal Schengen visa applications and must provide minimum coverage of €30,000, including the required medical and repatriation coverage.\n\nPortugal Visa Decision\nThe final decision on a Portugal Schengen visa is made by the competent Portuguese consular authorities. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
+    "overviewDescription": "Indian passport holders travelling to Portugal require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport",
@@ -8764,7 +13678,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Portugal for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Portugal."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Portugal.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Portugal",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Portugal."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "russia": {
     "name": "Russia",
@@ -8772,13 +13784,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Unified e-Visa",
     "flagImage": "https://flagcdn.com/w40/ru.png",
     "heroImage": "/images/Russia.webp",
-    "processingTime": "4 Calendar Days",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single Entry",
+    "processingTime": "10-12 days",
+    "stayDuration": "30 days",
+    "entryType": "Single entry",
     "applyThrough": "Russia Unified e-Visa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Russia? Eligible foreign nationals, including Indian citizens, can apply for Russia's unified electronic visa online. The unified e-Visa is designed for eligible short visits and can be applied for without visiting a Russian embassy or visa centre.\n\nRussia Unified e-Visa for Indians\nIndian citizens are eligible to apply for Russia's unified electronic visa. The e-Visa can be used for eligible travel purposes, subject to the conditions and validity stated by the Russian authorities.\n\nRussia e-Visa Requirements\nApplicants generally need a valid passport, recent photograph, completed online application and valid medical insurance covering the period of stay. Additional information or documents may be requested depending on individual circumstances.\n\nRussia e-Visa Application\nThe unified e-Visa application is completed online through the Russian Ministry of Foreign Affairs e-Visa portal. Applicants do not normally need an invitation, hotel booking confirmation or a visit to the Russian Embassy for the standard e-Visa application.\n\nRussia e-Visa Processing Time\nApplications are normally processed within 4 calendar days, excluding the day of submission. Applicants should still apply in advance to allow sufficient time before travel.\n\nRussia Travel Medical Insurance\nValid medical insurance covering the period of stay is strongly recommended when travelling to Russia, even though insurance information is not a mandatory condition for issuing the unified e-Visa.\n\nRussia e-Visa Decision\nThe final decision on a Russia unified e-Visa is made by the competent Russian authorities. Vision Visa can assist with application preparation and general e-Visa support but cannot guarantee approval.",
+    "overviewDescription": "Indian passport holders travelling to Russia require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport",
@@ -8955,7 +13967,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As per Embassy",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Russia for tourism, sightseeing, and short visits.",
+        "processingTime": "10-12 days",
+        "validity": "As per Embassy",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Russia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Russia.",
+        "processingTime": "10-12 days",
+        "validity": "As per Embassy",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Russia",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Russia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "saudi-arabia": {
     "name": "Saudi Arabia",
@@ -8963,13 +14073,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist eVisa",
     "flagImage": "https://flagcdn.com/w40/sa.png",
     "heroImage": "/images/Saudi-Arabia.webp",
-    "processingTime": "1 - 3 Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Multiple Entry",
+    "processingTime": "2 to 3 days",
+    "stayDuration": "90 Days",
+    "entryType": "Single entry",
     "applyThrough": "Saudi eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Saudi Arabia? Eligible travellers can apply online for a Saudi Tourist eVisa. The electronic visa is designed for eligible tourism-related travel and can also be used for Umrah, excluding Hajj, subject to applicable Saudi regulations.\n\nSaudi Arabia Tourist eVisa\nThe Saudi Tourist eVisa is generally a multiple-entry visa valid for one year and permits stays of up to 90 days, subject to the conditions stated on the issued visa. It can be used for tourism, events, leisure, family and relatives visits and Umrah, excluding Hajj.\n\nSaudi Arabia Visa Requirements\nApplicants need a valid passport from an eligible country, a recent photograph and accurate personal and travel information. The passport should have at least 6 months validity remaining from the date of entry into Saudi Arabia.\n\nSaudi Arabia eVisa Application\nThe application is completed online through the Saudi eVisa portal. Applicants provide the required information, complete the application and pay the applicable visa fee. If approved, the electronic visa is issued electronically.\n\nSaudi Arabia Travel Insurance\nMedical insurance is associated with the Saudi tourist visa service and the applicable insurance arrangements are reflected during the visa application process. Travellers should ensure they have appropriate medical coverage for their trip.\n\nSaudi Arabia Visa Decision\nThe final decision on a Saudi Tourist eVisa is made solely by the Saudi authorities. Vision Visa can assist with application preparation and document guidance but cannot guarantee visa approval.",
+    "overviewDescription": "Indian passport holders travelling to Saudi Arabia require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 6 months validity from date of entry",
@@ -9146,7 +14256,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🏢"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Up to 3 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Saudi Arabia for tourism, sightseeing, and short visits.",
+        "processingTime": "2 to 3 days",
+        "validity": "Up to 3 months",
+        "stayDuration": "90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Saudi Arabia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Saudi Arabia.",
+        "processingTime": "2 to 3 days",
+        "validity": "Up to 3 months",
+        "stayDuration": "90 Days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Saudi Arabia",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Saudi Arabia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "singapore": {
     "name": "Singapore",
@@ -9154,13 +14362,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Singapore Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/sg.png",
     "heroImage": "/images/Singapore.webp",
-    "processingTime": "3 - 5 Working Days",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "3-5 working days",
+    "stayDuration": "Up to 30 days",
+    "entryType": "Single / Multiple entry",
     "applyThrough": "Singapore Consulate / Authorized Visa Agents",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Singapore? Indian travellers can apply for a Singapore tourist visa by submitting the required application and supporting documents through the applicable authorised channel.\n\nSingapore Tourist Visa Requirements\nApplicants need an original passport valid for at least 6 months, recent photographs, a completed and signed visa application form, a covering letter explaining the travel details, financial documents and personal income tax documents. Additional documents may be required depending on the applicant's circumstances.\n\nFinancial Documents\nThe application requires a personal bank statement for the last 6 months with a balance above Rs. 50,000 and appropriate bank verification. Salaried applicants should also provide salary slips for the last 3 months and a detailed covering letter.\n\nSingapore Visa for Business Travellers\nBusiness applicants are required to provide an original covering letter from the Indian company, personal bank statement, business proof with personal contact details, an invitation letter from the Singapore company, confirmed flight ticket and hotel booking.\n\nSingapore Family Visit\nApplicants visiting family in Singapore may need an invitation letter from the invitee along with the invitee's passport and employment pass copy.\n\nSingapore Visa Processing\nThe stated processing time is 3 - 5 working days. The permitted stay is up to 30 days and is determined by immigration. Visa validity can be up to 2 years at the discretion of the Embassy.",
+    "overviewDescription": "Indian passport holders travelling to Singapore require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Original Valid Passport with at least 6 months validity",
@@ -9352,7 +14560,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🏢"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Up to 2 years",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Singapore for tourism, sightseeing, and short visits.",
+        "processingTime": "3-5 working days",
+        "validity": "Up to 2 years",
+        "stayDuration": "Up to 30 days",
+        "entryType": "Single / Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Singapore."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Singapore.",
+        "processingTime": "3-5 working days",
+        "validity": "Up to 2 years",
+        "stayDuration": "Up to 30 days",
+        "entryType": "Single / Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Singapore",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Singapore."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "slovakia": {
     "name": "Slovakia",
@@ -9360,13 +14666,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/sk.png",
     "heroImage": "/images/Slovakia.webp",
-    "processingTime": "15 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-14 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "BLS International / VFS Global",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Slovakia? Indian passport holders generally need a Schengen visa for short visits to Slovakia. Vision Visa helps you understand the requirements, organise your documents and prepare your application with confidence.\n\nSlovakia Schengen Visa for Indians\nA Slovakia short-stay Schengen visa allows eligible travellers to visit Slovakia and other Schengen countries for up to 90 days within the permitted period, subject to the conditions of the issued visa.\n\nSlovakia Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photograph, proof of travel purpose, accommodation, sufficient financial means, travel itinerary and valid travel medical insurance. Additional documents may be required depending on the applicant's circumstances.\n\nSlovakia Visa Application in India\nSchengen visa applications for Slovakia in India are submitted through BLS International or VFS Global, depending on the applicable centre and appointment availability. Indian applicants can submit through visa centres in Delhi, Mumbai, Bengaluru, Kolkata and Chennai.\n\nSlovakia Visa Processing Time\nThe standard processing time is 15 working days from receipt of the complete application by the Embassy. In individual cases, processing can take longer, particularly when additional scrutiny or documents are required.\n\nSlovakia Travel Medical Insurance\nTravel medical insurance is mandatory and must provide minimum coverage of €30,000 for the entire Schengen journey.\n\nSlovakia Visa Decision\nThe final decision is made by the competent Slovak consular authorities. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
+    "overviewDescription": "Indian passport holders travelling to Slovakia require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport",
@@ -9560,7 +14866,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Slovakia for tourism, sightseeing, and short visits.",
+        "processingTime": "10-14 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Slovakia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Slovakia.",
+        "processingTime": "10-14 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Slovakia",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Slovakia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "slovenia": {
     "name": "Slovenia",
@@ -9568,13 +14972,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/si.png",
     "heroImage": "/images/Slovenia.webp",
-    "processingTime": "15 Working Days",
+    "processingTime": "10-15 days",
     "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global / Embassy of Slovenia",
     "insuranceRequirement": "Mandatory",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Slovenia? Indian travellers can apply for a Slovenia Schengen tourist visa by submitting the required application and supporting documents through the applicable visa submission process.\n\nSlovenia Tourist Visa Requirements\nApplicants generally need a valid passport with at least 3 months validity from the date of return and two blank pages, a completed visa form, signed declaration, recent photographs, covering letter, hotel confirmation, personal income tax papers, bank statement, travel insurance and return air ticket.\n\nFinancial & Employment Documents\nApplicants should provide personal income tax papers for the last 3 years and a personal bank statement for the last 6 months. Salaried applicants should also provide salary slips for the last 3 months. Self-employed applicants need to provide company registration documents.\n\nSlovenia Visa Application in India\nApplications are submitted through VFS Global. TP Visa states that applications can be submitted through VFS and that passports can be submitted from across India in Mumbai. Applicants should follow the applicable appointment and submission requirements.\n\nSlovenia Visa Processing Time\nThe stated processing time for Slovenia tourist and business visas is 15 working days. Visa submission time depends on the available appointment timing.\n\nSlovenia Travel Medical Insurance\nOverseas medical insurance is required as part of the visa documentation and should correspond with the travel itinerary.\n\nSlovenia Visa Decision\nThe final visa decision is made by the competent Slovenian authorities. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
+    "overviewDescription": "Indian passport holders travelling to Slovenia require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 3 months validity from date of return",
@@ -9770,7 +15174,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "90 days",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Slovenia for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Slovenia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Slovenia.",
+        "processingTime": "10-15 days",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Slovenia",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Slovenia."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "south-africa": {
     "name": "South Africa",
@@ -9778,13 +15280,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Visitor's Visa (Section 11)",
     "flagImage": "https://flagcdn.com/w40/za.png",
     "heroImage": "/images/South-Africa.webp",
-    "processingTime": "5 - 7 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global / South African High Commission",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to South Africa? Indian travellers generally need a Visitor's Visa for tourism and other eligible short visits. The South Africa Visitor's Visa under Section 11 is used for temporary visits, including tourism and visiting family or friends.\n\nSouth Africa Visitor Visa Requirements\nApplicants generally need a valid passport, completed DHA-84 application form, recent photographs, proof of sufficient funds, bank statements, travel itinerary, accommodation details and a covering letter stating the purpose and duration of the visit.\n\nFinancial & Supporting Documents\nApplicants should provide their latest 3 months of bank statements along with relevant employment, salary, tax and leave documents where applicable. Additional documents may be required for applicants visiting family or friends or depending on their individual circumstances.\n\nSouth Africa Visa Application in India\nSouth Africa visa applications in India are submitted through VFS Global Visa Application Centres. VFS Global facilitates the submission and administrative process, while the South African High Commission or Consulate is responsible for assessing the application and making the final decision.\n\nSouth Africa Visa Processing Time\nProcessing time varies by VFS jurisdiction. Current guidance indicates a minimum of 5 working days for New Delhi and around 7 working days for several other centres. Applications may take longer depending on the circumstances of the application and the decision-making authority.\n\nSouth Africa Travel Insurance\nTravel insurance is recommended for international travel to South Africa. Applicants should ensure that their policy provides appropriate medical and travel coverage for the full duration of their trip.\n\nSouth Africa Visa Decision\nThe final decision on a South Africa Visitor's Visa is made by the South African High Commission or Consulate. Vision Visa can assist with document preparation, verification and application guidance but cannot guarantee visa approval.",
+    "overviewDescription": "Indian passport holders travelling to South Africa require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 30 days validity beyond the intended departure from South Africa",
@@ -9976,7 +15478,198 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting South Africa for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for South Africa."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in South Africa.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in South Africa",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for South Africa."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "family-visit",
+        "name": "Family Visit Visa",
+        "shortDescription": "For visiting family members, relatives, or personal sponsors residing in South Africa.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter and copy of host's passport/residence permit in South Africa",
+          "Proof of family relationship (birth certificate, marriage certificate, or civil registry)",
+          "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
+          "Employment proof (leave letter from employer / business registration certificate)",
+          "Confirmed return flight itinerary, accommodation details & travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for South Africa."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "employment",
+        "name": "Employment Visa",
+        "shortDescription": "Official visa category tailored for travel to South Africa.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for South Africa."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "south-korea": {
     "name": "South Korea",
@@ -9984,13 +15677,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "C-3-9 Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/kr.png",
     "heroImage": "/images/South-Korea.webp",
-    "processingTime": "9 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "5-10 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single entry",
     "applyThrough": "VFS Global / Korea Visa Application Center",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to South Korea? Indian passport holders generally need a C-3-9 Tourist Visa for short-term tourism. The C-3-9 category is intended for travellers visiting South Korea for tourism and leisure, with the permitted period of stay determined by the visa issued and the Korean authorities.\n\nSouth Korea Visa Requirements\nApplicants generally need a valid passport, completed visa application form, recent photograph, detailed travel plan, proof of financial capacity, employment or occupation proof and other supporting documents relevant to their circumstances.\n\nSouth Korea Visa Application in India\nVisa applications in India are submitted through the designated Korea Visa Application Centre operated by VFS Global. The appropriate application centre depends on the applicant's jurisdiction.\n\nSouth Korea Visa Processing Time\nThe stated processing time for ordinary applications is approximately 9 working days from the date of application. Additional time may be required if further documents or verification are requested.\n\nSouth Korea Travel Insurance\nTravel insurance is recommended for international travel to South Korea. Applicants should consider appropriate medical and travel coverage for the full duration of their trip.\n\nSouth Korea Visa Decision\nThe final decision is made solely by the competent Korean diplomatic or consular authority. Vision Visa can assist with document preparation and application guidance but cannot guarantee visa approval.",
+    "overviewDescription": "Indian passport holders travelling to South Korea require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 6 months remaining validity",
@@ -10176,7 +15869,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🏢"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": "2800/-rs per person",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting South Korea for tourism, sightseeing, and short visits.",
+        "processingTime": "5-10 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for South Korea."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in South Korea.",
+        "processingTime": "5-10 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in South Korea",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for South Korea."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "spain": {
     "name": "Spain",
@@ -10184,13 +15975,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/es.png",
     "heroImage": "/images/Spain.webp",
-    "processingTime": "15 Calendar Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "BLS International Spain",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Spain? Indian passport holders generally need a Schengen visa for short tourist visits. A Spain Schengen Tourist Visa allows eligible travellers to visit Spain and, subject to the visa conditions, other Schengen countries for short stays.\n\nSpain Visa Requirements\nApplicants generally need a completed Schengen visa application form, recent photograph, valid passport, travel medical insurance, proof of accommodation, round-trip flight booking, financial documents and evidence supporting the purpose of travel.\n\nSpain Visa Application in India\nSpain visa applications in India are submitted through BLS International Visa Application Centres serving the relevant Spanish Consulate jurisdiction. Applicants must submit their documents according to the checklist applicable to their location.\n\nSpain Visa Processing Time\nThe normal legal decision period for a Schengen visa is 15 calendar days from the day after submission. This may be extended up to 45 calendar days if additional documents, an interview or further examination is required.\n\nSpain Travel Medical Insurance\nTravel medical insurance is mandatory and must provide at least €30,000 coverage for medical emergencies, hospitalisation and repatriation. The policy must be valid throughout the Schengen Area and for the entire intended stay.\n\nSpain Visa Decision\nThe final visa decision is made by the competent Spanish Consulate. BLS International facilitates the application process but does not make the visa decision. Vision Visa can assist with document preparation and application guidance but cannot guarantee approval.",
+    "overviewDescription": "Indian passport holders travelling to Spain require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 2 blank pages",
@@ -10392,7 +16183,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Spain for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Spain."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Spain.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Spain",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Spain."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "sri-lanka": {
     "name": "Sri Lanka",
@@ -10400,13 +16289,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist ETA",
     "flagImage": "https://flagcdn.com/w40/lk.png",
     "heroImage": "/images/Sri-lanka.webp",
-    "processingTime": "Usually Within 24 Hours",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Double Entry",
+    "processingTime": "24 to 48 hours",
+    "stayDuration": "Upto 30 days",
+    "entryType": "Double entry",
     "applyThrough": "Sri Lanka ETA Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Planning a trip to Sri Lanka? Indian travellers can apply for a Tourist ETA online before departure. Indian nationals are currently eligible for a free tourist ETA for stays of up to 30 days. Vision Visa helps you understand the process, check your travel requirements and prepare for a smooth journey.\n\nSri Lanka Tourist ETA for Indians\nThe Tourist ETA allows eligible travellers to visit Sri Lanka for tourism for up to 30 days. The initial tourist ETA provides a double-entry facility, with the second entry permitted within the original 30-day period.\n\nSri Lanka ETA Requirements\nTravellers should have a passport valid for at least 6 months from the date of arrival, a confirmed return ticket and sufficient funds to cover their stay. The standard online ETA application does not require passport copies, documents or photographs to be uploaded.\n\nSri Lanka ETA Application\nTourist ETA applications can be submitted online through the official Sri Lanka ETA system before travelling. Applicants should provide accurate personal and passport information and retain their ETA approval for travel.\n\nSri Lanka ETA Processing\nETA applications are processed electronically. Applicants should apply in advance rather than relying on a guaranteed processing time, as some applications may receive a referral notice for further processing.\n\nSri Lanka Travel Insurance\nTravel insurance is recommended for international travel to Sri Lanka, although it is not listed as a standard ETA entry requirement.\n\nSri Lanka Entry & Immigration\nAn ETA is an authorization to travel, but final admission to Sri Lanka is decided by immigration authorities at the port of entry. Travellers should carry their valid passport, return ticket and evidence of sufficient funds.",
+    "overviewDescription": "Indian passport holders travelling to Sri Lanka require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 6 months validity from the date of arrival",
@@ -10577,7 +16466,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🏢"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Sri Lanka for tourism, sightseeing, and short visits.",
+        "processingTime": "24 to 48 hours",
+        "validity": "6 months",
+        "stayDuration": "Upto 30 days",
+        "entryType": "Double entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Sri Lanka."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Sri Lanka.",
+        "processingTime": "24 to 48 hours",
+        "validity": "6 months",
+        "stayDuration": "Upto 30 days",
+        "entryType": "Double entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Sri Lanka",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Sri Lanka."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "sweden": {
     "name": "Sweden",
@@ -10585,13 +16572,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/se.png",
     "heroImage": "/images/Sweden.webp",
-    "processingTime": "15 Calendar Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-12 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global Sweden",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Sweden is part of the Schengen Area, and Indian travellers visiting Sweden for tourism or other short-stay purposes generally require a Schengen Visa. The visa allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions stated on the visa.\n\nSweden Schengen Visa\nThe Sweden Schengen Visa is suitable for short visits such as tourism, visiting family or friends, business and other permitted purposes. Applicants should apply through the appropriate visa application centre and provide documents supporting their travel purpose.\n\nSweden Visa Requirements\nApplicants should have a valid passport, completed visa application form, recent photographs, travel medical insurance, accommodation details, travel plans and proof of sufficient financial means. Additional documents may be required depending on the applicant's employment, financial situation and purpose of travel.\n\nSweden Visa Processing\nSchengen visa applications are generally processed within 15 calendar days after the application reaches the Embassy. In individual cases, processing may take longer if additional documents, information or further examination is required.\n\nSweden Travel Insurance\nTravel medical insurance is mandatory for a Sweden Schengen Visa and must provide minimum coverage of €30,000 for the entire Schengen stay, including medical emergencies and repatriation.\n\nSweden Visa Application\nApplicants submit their application and supporting documents through the designated VFS Global visa application process in India. Biometric information is generally collected unless an applicable exemption applies.\n\nSweden Entry & Immigration\nA Schengen Visa does not guarantee entry. Travellers must meet the applicable entry requirements at the border, and the final decision on admission is made by the relevant immigration authorities.",
+    "overviewDescription": "Indian passport holders travelling to Sweden require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport or Travel Document",
@@ -10779,7 +16766,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Sweden for tourism, sightseeing, and short visits.",
+        "processingTime": "10-12 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Sweden."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Sweden.",
+        "processingTime": "10-12 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Sweden",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Sweden."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "switzerland": {
     "name": "Switzerland",
@@ -10787,13 +16872,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Schengen Visa",
     "flagImage": "https://flagcdn.com/w40/ch.png",
     "heroImage": "/images/Switzerland.webp",
-    "processingTime": "7 - 10 Calendar Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "10-15 days",
+    "stayDuration": "Upto 90 days",
+    "entryType": "Single/Multiple entry",
     "applyThrough": "VFS Global Switzerland",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Switzerland is part of the Schengen Area, and Indian travellers visiting Switzerland for tourism or other short-stay purposes generally require a Schengen Visa. The visa allows eligible travellers to stay for up to 90 days within a 180-day period, subject to the conditions stated on the visa.\n\nSwitzerland Schengen Visa\nThe Switzerland Schengen Visa is suitable for short visits including tourism, visiting family or friends, business and other permitted purposes. Applicants should apply through the appropriate visa application process and provide documents supporting their travel purpose.\n\nSwitzerland Visa Requirements\nApplicants should have a valid passport issued within the last 10 years, with at least 3 months validity beyond the planned return date and at least two blank pages. Other key requirements include the completed application form, photographs, travel medical insurance, accommodation details, travel plans and proof of sufficient financial means.\n\nSwitzerland Visa Processing\nApplications submitted in India generally take around 7 - 10 calendar days to process after submission at the relevant visa application centre. Processing may take longer in individual cases if additional documents, information or examination is required.\n\nSwitzerland Travel Insurance\nTravel medical insurance is mandatory for a Switzerland Schengen Visa and must provide minimum coverage of €30,000 for the required period of travel, including applicable medical emergencies and repatriation.\n\nSwitzerland Visa Application\nApplicants submit their application and supporting documents through the designated VFS Global Switzerland visa application process in India. Biometric information is generally required, subject to applicable exemptions and rules.\n\nSwitzerland Entry & Immigration\nA Schengen Visa does not automatically guarantee entry into Switzerland. Travellers must meet the applicable entry requirements at the border, and the final admission decision is made by the relevant Swiss authorities.",
+    "overviewDescription": "Indian passport holders travelling to Switzerland require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid National Passport issued within the last 10 years",
@@ -10991,7 +17076,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Switzerland for tourism, sightseeing, and short visits.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Switzerland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Switzerland.",
+        "processingTime": "10-15 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 90 days",
+        "entryType": "Single/Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Switzerland",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Switzerland."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "taiwan": {
     "name": "Taiwan",
@@ -11005,7 +17188,7 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "Taipei Economic and Cultural Center",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Taiwan offers a unique mix of modern cities, traditional culture, scenic mountains and vibrant local experiences. Indian travellers visiting Taiwan for tourism generally need to obtain the appropriate visa or qualify for an applicable special entry arrangement before travelling.\n\nTaiwan Visitor Visa\nThe Taiwan Visitor Visa is suitable for eligible travellers visiting for tourism and other permitted short-term purposes. The permitted period of stay and number of entries depend on the visa granted and the conditions specified by the relevant Taiwan authorities.\n\nTaiwan Visa Requirements\nApplicants should generally have a valid passport, completed visa application form, recent photographs, travel arrangements, accommodation details and evidence of sufficient funds. Additional documents may be required depending on the purpose of travel, employment status and individual circumstances.\n\nTaiwan Visa Application\nApplicants can complete the applicable online visa application form and should then follow the submission instructions provided by the relevant Taipei Economic and Cultural Center. Supporting documents and the original passport may be required depending on the visa category.\n\nTaiwan Visa Processing\nProcessing time depends on the visa type, application circumstances and the Taiwan overseas mission handling the application. Applicants should apply sufficiently in advance of their intended travel date.\n\nTaiwan Travel Insurance\nTravel insurance is recommended for travellers visiting Taiwan, although it is not generally listed as a standard mandatory requirement for a Visitor Visa.\n\nTaiwan Entry & Immigration\nA visa or other travel authorization does not automatically guarantee entry. Travellers must meet the applicable entry requirements, and final admission is determined by Taiwan immigration authorities at the port of entry.",
+    "overviewDescription": "Indian passport holders travelling to Taiwan require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 6 months validity",
@@ -11196,7 +17379,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": "Urgent Inr 6500 per pax",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Taiwan for tourism, sightseeing, and short visits.",
+        "processingTime": "5 - 7 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Taiwan."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Taiwan.",
+        "processingTime": "5 - 7 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 90 Days",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Taiwan",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Taiwan."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "thailand": {
     "name": "Thailand",
@@ -11210,7 +17491,7 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "Thailand e-Visa / Royal Thai Embassy or Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Thailand offers a combination of vibrant cities, historic temples, tropical islands and rich culinary traditions. Indian travellers should first check whether they qualify for Thailand's current visa exemption scheme or need to obtain a visa before travelling.\n\nThailand Tourist Visa & Visa Exemption\nIndian ordinary passport holders are currently eligible for Thailand's visa exemption scheme for tourism and certain short-term business activities, allowing eligible travellers to stay for up to 60 days, subject to the applicable conditions. Travellers who do not qualify for the exemption or require another type of entry permission may need to apply for the appropriate Thai visa.\n\nThailand Visa Requirements\nTravellers should have a valid passport, travel itinerary, accommodation information and evidence of sufficient funds. Additional documents may be required when applying for a Tourist Visa depending on the applicant's circumstances and visa category.\n\nThailand e-Visa\nTravellers who require a Thai visa can use the Thailand e-Visa system where eligible. Applicants should complete the online application, upload the required documents and follow the instructions provided by the relevant Thai authorities.\n\nThailand Visa Processing\nProcessing times can vary depending on the Thai mission, application volume, visa category and individual circumstances. Applications requiring additional documents or checks may take longer.\n\nThailand Travel Insurance\nTravel insurance is recommended for travellers visiting Thailand. Specific insurance requirements may vary depending on the applicable entry rules and visa category.\n\nThailand Entry Requirements\nTravellers should check the latest entry requirements before departure, including any Thailand Digital Arrival Card requirements that may apply. Visa exemption, visa approval or other travel authorization does not automatically guarantee entry, as final admission is determined by Thai immigration authorities.",
+    "overviewDescription": "Indian passport holders travelling to Thailand require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 6 months validity",
@@ -11406,7 +17687,149 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Thailand for tourism, sightseeing, and short visits.",
+        "processingTime": "3 - 5 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 60 Days",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Thailand."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Thailand.",
+        "processingTime": "3 - 5 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 60 Days",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Thailand",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Thailand."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "transit",
+        "name": "Transit Visa",
+        "shortDescription": "For connecting flights and international airport transit through Thailand.",
+        "processingTime": "3 - 5 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 60 Days",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed transit visa application form with recent photographs",
+          "Confirmed onward flight ticket to destination country within permitted transit window",
+          "Valid entry visa or residence permit for the final destination country",
+          "Proof of transit accommodation if layover involves an overnight stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Thailand."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "turkey": {
     "name": "Turkey",
@@ -11414,13 +17837,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "e-Visa / Sticker Visa",
     "flagImage": "https://flagcdn.com/w40/tr.png",
     "heroImage": "/images/Turkey.webp",
-    "processingTime": "2 - 5 Working Days",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single Entry",
+    "processingTime": "3-5 days",
+    "stayDuration": "Upto 30 days",
+    "entryType": "Single entry",
     "applyThrough": "Türkiye e-Visa Portal / Turkish Embassy or Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Turkey offers a fascinating combination of historic landmarks, vibrant cities, ancient heritage, dramatic landscapes and Mediterranean coastlines. Indian travellers generally require a visa before travelling, with eligible applicants able to use the e-Visa route subject to specific conditions.\n\nTurkey e-Visa for Indian Citizens\nEligible Indian ordinary passport holders may obtain a 30-day single-entry e-Visa if they satisfy the applicable requirements. This includes holding a valid supporting visa or residence permit from a qualifying country or region and meeting the other conditions specified by Turkish authorities.\n\nTurkey Sticker Visa\nApplicants who do not qualify for the e-Visa route may need to apply for a sticker visa through the relevant Turkish Embassy or Consulate. The required documents and application procedure can vary depending on the applicant and purpose of travel.\n\nTurkey Visa Requirements\nTypical requirements include a valid passport, recent photograph, travel itinerary, accommodation details and proof of sufficient financial means. Additional documents may be requested depending on the visa category and individual circumstances.\n\nTurkey Visa Processing\nEligible e-Visa applicants can complete the application electronically. Processing requirements and timelines can vary, so applicants should apply sufficiently in advance of their intended travel date.\n\nTurkey Travel Insurance\nTravel insurance is recommended for travellers visiting Turkey. Specific insurance requirements may vary according to the visa type and individual application.\n\nTurkey Visa Application\nEligible travellers can apply online through the official Türkiye e-Visa system. Applicants who are not eligible for an e-Visa may need to follow the sticker visa application process through a Turkish diplomatic mission.\n\nTurkey Entry & Immigration\nA visa or e-Visa does not automatically guarantee entry into Turkey. Travellers must satisfy the applicable entry requirements, and final admission is determined by Turkish immigration authorities at the port of entry.",
+    "overviewDescription": "Indian passport holders travelling to Turkey require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with Required Validity Beyond the Intended Stay",
@@ -11619,7 +18042,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🏢"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "6 months",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Turkey for tourism, sightseeing, and short visits.",
+        "processingTime": "3-5 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Turkey."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Turkey.",
+        "processingTime": "3-5 days",
+        "validity": "6 months",
+        "stayDuration": "Upto 30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Turkey",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Turkey."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "uae": {
     "name": "UAE",
@@ -11633,7 +18154,7 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "GDRFA Dubai / ICP UAE",
     "insuranceRequirement": "Mandatory",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "The UAE is a popular destination for Indian travellers, offering iconic cities, cultural attractions, desert landscapes and world-class experiences. Indian passport holders generally require an appropriate UAE entry visa unless they qualify for a visa-free or special entry arrangement.\n\nUAE Tourist Visa\nUAE tourist and visit visas are available in different categories, with permitted stays commonly including 30, 60 or 90 days depending on the visa selected and applicable conditions. Multiple-entry options are also available under certain visa categories.\n\nUAE Visa Requirements\nApplicants should generally have a passport valid for at least 6 months, a recent photograph, completed application details, return or onward travel arrangements, accommodation information and valid UAE health insurance. Additional documents may be requested depending on the visa category, nationality, sponsor and individual circumstances.\n\nUAE Visa for Indian Citizens\nCertain special entry routes may be available to eligible Indian passport holders who meet specific conditions, such as holding a qualifying visa, residence permit or Green Card. Applicants should verify their eligibility before selecting the relevant visa route.\n\nUAE Visa Application\nDepending on the visa type and emirate, applications can be submitted through the relevant UAE government authority or an authorised tourism establishment or service provider. Dubai immigration services are handled by GDRFA Dubai, while ICP manages applicable federal immigration and identity services.\n\nUAE Visa Processing\nProcessing times depend on the visa category, issuing authority and individual application. Some UAE visa services may have official completion times of around two days, while actual processing can vary.\n\nUAE Travel Insurance\nValid health insurance is required for applicable UAE visit and tourist visa categories. Travellers should ensure their insurance policy satisfies the requirements applicable to their specific visa.\n\nUAE Entry & Immigration\nA UAE entry visa does not automatically guarantee admission. Travellers must meet the applicable entry requirements at the border, and final admission is determined by the relevant UAE immigration authorities.",
+    "overviewDescription": "Indian passport holders travelling to UAE require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 6 months validity",
@@ -11828,7 +18349,59 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting UAE for tourism, sightseeing, and short visits.",
+        "processingTime": "Usually 2 - 4 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "30 / 60 / 90 Days",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for UAE."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "ukraine": {
     "name": "Ukraine",
@@ -11836,13 +18409,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "eVisa / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ua.png",
     "heroImage": "/images/Ukraine.webp",
-    "processingTime": "1 - 3 Working Days",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single / Double",
+    "processingTime": "10-30 days",
+    "stayDuration": "90 days",
+    "entryType": "Single entry",
     "applyThrough": "MFA Ukraine eVisa / Ukrainian Embassy or Consulate",
     "insuranceRequirement": "Mandatory (€30,000)",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Ukraine offers a rich mix of historic cities, cultural heritage, architectural landmarks and diverse landscapes. Indian travellers generally require a visa before travelling, with eligible Indian passport holders able to apply through the Ukraine eVisa system subject to the applicable requirements.\n\nUkraine eVisa\nThe Ukraine eVisa is available to eligible Indian passport holders for permitted travel purposes including tourism. Depending on the visa issued, travellers may receive single-entry or double-entry authorization with a permitted stay of up to 30 days.\n\nUkraine Visa Requirements\nApplicants generally need a valid passport, recent photograph, completed eVisa application, health insurance with minimum €30,000 coverage, proof of sufficient funds and documentation confirming the purpose of travel. Additional supporting documents may be requested depending on the application.\n\nUkraine eVisa Application\nEligible travellers can complete the application online through the Ukrainian Ministry of Foreign Affairs platform. Applicants should provide accurate information, upload the required documents and pay the applicable visa fee before submitting the application.\n\nUkraine Visa Processing\nThe standard Ukraine eVisa processing period is generally 3 working days, while an urgent processing option of 1 working day may be available subject to the applicable fee and requirements.\n\nUkraine Travel Insurance\nHealth insurance is mandatory for the Ukraine eVisa and must provide minimum coverage of €30,000 as required by the applicable visa conditions.\n\nUkraine Entry & Immigration\nAn approved eVisa does not automatically guarantee entry into Ukraine. Travellers should carry their printed eVisa along with their passport and other relevant travel documents. Final admission is determined by the Ukrainian border authorities.",
+    "overviewDescription": "Indian passport holders travelling to Ukraine require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 3 months validity beyond the Intended Departure from Ukraine",
@@ -12035,7 +18608,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "180 days",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Ukraine for tourism, sightseeing, and short visits.",
+        "processingTime": "10-30 days",
+        "validity": "180 days",
+        "stayDuration": "90 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Ukraine."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Ukraine.",
+        "processingTime": "10-30 days",
+        "validity": "180 days",
+        "stayDuration": "90 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Ukraine",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Ukraine."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "united-kingdom": {
     "name": "United Kingdom",
@@ -12049,7 +18720,7 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "UK Visas and Immigration (UKVI)",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "The UK Standard Visitor Visa allows eligible travellers to visit the United Kingdom for tourism, visiting family or friends and other permitted short-term purposes. Applicants must demonstrate that their visit is genuine, temporary and financially supported.\n\nUK Standard Visitor Visa\nThe Standard Visitor Visa generally allows eligible travellers to stay in the UK for up to 6 months. Applicants should clearly demonstrate the purpose of their visit and satisfy the requirements of the Standard Visitor route.\n\nUK Visa Requirements\nApplicants need a valid passport or travel document, completed application and evidence supporting their purpose of travel. Financial evidence is important, and applicants should demonstrate that they can reasonably cover the costs of their visit and intend to leave the UK at the end of their stay.\n\nUK Financial & Supporting Documents\nDepending on individual circumstances, applicants may provide bank statements, employment confirmation, salary slips, income tax documents, approved leave letters, business documents and evidence of accommodation or sponsorship. The exact documents required depend on the applicant's circumstances.\n\nUK Visa Application\nThe Standard Visitor Visa application is completed online through UK Visas and Immigration. Applicants then follow the instructions for identity verification, biometrics and document submission at the designated visa application centre.\n\nUK Visa Processing\nThe standard processing time for applications made outside the UK is around 3 weeks after the applicant has completed the application, proved their identity and provided the required documents. Individual applications may take longer in certain circumstances.\n\nUK Travel Insurance\nTravel insurance is not generally a mandatory requirement for a UK Standard Visitor Visa, but appropriate travel insurance is strongly recommended for international travel.\n\nUK Entry & Immigration\nA UK visa does not automatically guarantee entry. Travellers must satisfy the applicable border requirements, and the final decision on admission is made by UK Border Force and immigration authorities.",
+    "overviewDescription": "Indian passport holders travelling to United Kingdom require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport or Travel Document",
@@ -12239,7 +18910,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": "For updated visa fees please log on to www.visa4uk.fco.gov.uk",
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting United Kingdom for tourism, sightseeing, and short visits.",
+        "processingTime": "3 Weeks",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 6 Months",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for United Kingdom."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in United Kingdom.",
+        "processingTime": "3 Weeks",
+        "validity": "As granted by consulate",
+        "stayDuration": "Up to 6 Months",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in United Kingdom",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for United Kingdom."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "usa": {
     "name": "USA",
@@ -12247,13 +19016,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "B1/B2 Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/us.png",
     "heroImage": "/images/USA.webp",
-    "processingTime": "Varies by Interview & Administrative Processing",
-    "stayDuration": "Up to 6 Months",
-    "entryType": "Single / Multiple",
+    "processingTime": "3-4 days after interview",
+    "stayDuration": "Up to 6 months",
+    "entryType": "Multiple entry",
     "applyThrough": "U.S. Embassy / Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "The USA B1/B2 Visitor Visa is a nonimmigrant visa for eligible travellers visiting the United States temporarily for business, tourism, holidays or visiting family and friends. The application process focuses on the purpose of travel, individual circumstances, financial ability and intention to return after the visit.\n\nUSA B1/B2 Visitor Visa\nThe B1/B2 visa combines permitted temporary business and tourism purposes. A visitor visa generally allows eligible travellers to request admission for a temporary stay, with the period of stay determined by U.S. Customs and Border Protection at the port of entry.\n\nUSA Visa Requirements\nApplicants generally need a valid passport, completed DS-160 application, DS-160 confirmation page, visa fee payment receipt, appointment confirmation and photograph where required. Additional documents may be relevant depending on the applicant's purpose of travel and personal circumstances.\n\nUSA Financial & Supporting Documents\nApplicants should be prepared to demonstrate that they can reasonably cover the costs of their trip and have genuine ties to their home country. Depending on individual circumstances, this may include bank statements, employment records, salary information, income tax documents, business records and evidence of family or economic ties.\n\nUSA Visa Application\nApplicants must complete the DS-160 online, pay the applicable visa fee and follow the current appointment process. Most applicants are required to attend a visa appointment where identity verification and biometrics are completed and, where applicable, a consular interview is conducted.\n\nUSA Visa Processing\nThere is no single fixed processing time for a B1/B2 visa. Appointment availability varies by location and season, while some applications may require additional administrative processing after the interview.\n\nUSA Travel Insurance\nTravel insurance is not generally mandatory for a B1/B2 visitor visa, but suitable travel insurance is strongly recommended for international travel.\n\nUSA Entry & Immigration\nA U.S. visa does not guarantee entry into the United States. The visa permits a traveller to seek admission, while U.S. Customs and Border Protection determines admission and the authorised period of stay at the port of entry.",
+    "overviewDescription": "Indian passport holders travelling to USA require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport",
@@ -12445,7 +19214,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Up to 10 years",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting USA for tourism, sightseeing, and short visits.",
+        "processingTime": "3-4 days after interview",
+        "validity": "Up to 10 years",
+        "stayDuration": "Up to 6 months",
+        "entryType": "Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for USA."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in USA.",
+        "processingTime": "3-4 days after interview",
+        "validity": "Up to 10 years",
+        "stayDuration": "Up to 6 months",
+        "entryType": "Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in USA",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for USA."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "vietnam": {
     "name": "Vietnam",
@@ -12453,13 +19320,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "eVisa",
     "flagImage": "https://flagcdn.com/w40/vn.png",
     "heroImage": "/images/Vietnam.webp",
-    "processingTime": "Around 3 Working Days",
-    "stayDuration": "Up to 90 Days",
-    "entryType": "Single / Multiple",
+    "processingTime": "4-5 days",
+    "stayDuration": "30 days",
+    "entryType": "Single entry",
     "applyThrough": "Vietnam Immigration eVisa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Vietnam offers a diverse travel experience, from historic cities and ancient heritage to dramatic landscapes, beaches and vibrant local cuisine. Eligible foreign travellers can apply for a Vietnam eVisa online before travelling.\n\nVietnam eVisa\nThe Vietnam eVisa allows eligible foreign travellers to visit Vietnam for permitted purposes for up to 90 days, depending on the validity period granted. The eVisa can be issued for either single or multiple entry.\n\nVietnam eVisa Requirements\nApplicants generally need a valid passport or international travel document, a recent portrait photograph and a clear image of the passport data page. Applicants must also provide accurate travel information, including intended entry date, length of stay and entry and exit border details.\n\nVietnam eVisa Application\nEligible travellers outside Vietnam can complete the eVisa application online through the Vietnam National Electronic Visa system. Applicants should carefully enter all information exactly as it appears in their passport and pay the applicable eVisa fee.\n\nVietnam eVisa Processing\nThe Vietnam Immigration eVisa system generally indicates a processing period of around 3 working days after the application and payment have been properly submitted. Actual processing time may vary depending on the individual application.\n\nVietnam Travel Insurance\nTravel insurance is not generally listed as a mandatory document for the Vietnam eVisa application, but appropriate travel insurance is strongly recommended for international travel.\n\nVietnam Entry Requirements\neVisa holders must enter and exit Vietnam through designated international border gates approved by the Vietnamese Government. An approved eVisa does not automatically guarantee entry, as final admission remains subject to Vietnamese immigration authorities.",
+    "overviewDescription": "Indian passport holders travelling to Vietnam require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport or International Travel Document",
@@ -12627,7 +19494,105 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "⚡"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "30 days",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Vietnam for tourism, sightseeing, and short visits.",
+        "processingTime": "4-5 days",
+        "validity": "30 days",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Vietnam."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Vietnam.",
+        "processingTime": "4-5 days",
+        "validity": "30 days",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Vietnam",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Vietnam."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "yemen": {
     "name": "Yemen",
@@ -12635,13 +19600,13 @@ window.VISION_VISA_COUNTRIES = {
     "visaType": "Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/ye.png",
     "heroImage": "/images/Yemen.webp",
-    "processingTime": "Varies by Application",
+    "processingTime": "6 to 7 days",
     "stayDuration": "Subject to Visa Approval",
-    "entryType": "Single / Multiple",
+    "entryType": "Single entry",
     "applyThrough": "Embassy / Relevant Yemeni Authority",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Yemen Visa Information",
-    "overviewDescription": "Yemen visa requirements and travel eligibility can vary depending on nationality, purpose of travel and current regulations. Indian travellers should verify both Yemeni visa requirements and any applicable Government of India travel restrictions before making travel arrangements.\n\nYemen Tourist Visa\nTravellers generally require an appropriate visa or entry authorization before travelling to Yemen. The permitted stay, number of entries and visa conditions are determined by the relevant Yemeni authority based on the individual application.\n\nYemen Visa Requirements\nApplicants should generally have a valid passport, completed visa application, recent photographs and documents supporting the purpose of travel. Depending on the visa category, applicants may also need accommodation details, travel plans, financial evidence, invitation or sponsor documents and other supporting information.\n\nYemen Travel Eligibility for Indian Citizens\nIndian citizens should verify current Government of India requirements and any applicable travel restrictions before planning travel to Yemen. A Yemeni visa alone does not override a separate travel restriction or permission requirement imposed by Indian authorities.\n\nYemen Visa Application\nApplications should be submitted through the relevant Yemeni embassy, consular authority or authorised channel. Applicants should confirm the current procedure and required permissions before submitting their application.\n\nYemen Visa Processing\nThere is no reliable universal processing period that should be treated as a guarantee. Processing can vary depending on the visa category, nationality, application circumstances and the authority handling the application.\n\nYemen Travel Insurance\nTravel insurance is recommended where travel is legally permitted. Travellers should ensure that their policy provides appropriate coverage for their circumstances and destination.\n\nYemen Entry & Immigration\nVisa approval does not automatically guarantee admission. Travellers must satisfy all applicable entry requirements, immigration procedures and any separate government travel permissions before entering Yemen.",
+    "overviewDescription": "Indian passport holders travelling to Yemen require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "travelAdvisory": {
       "title": "Important Travel Restriction for Indian Citizens",
       "message": "Indian citizens should not travel to Yemen without the required permission or exemption from the Government of India. A Government of India notification restricts travel to Yemen unless a special endorsement or exemption is granted. Please verify your eligibility and obtain the required government permission before making travel arrangements.",
@@ -12815,21 +19780,119 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "30 days",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Yemen for tourism, sightseeing, and short visits.",
+        "processingTime": "6 to 7 days",
+        "validity": "30 days",
+        "stayDuration": "Subject to Visa Approval",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Yemen."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Yemen.",
+        "processingTime": "6 to 7 days",
+        "validity": "30 days",
+        "stayDuration": "Subject to Visa Approval",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Yemen",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Yemen."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "united-states": {
     "name": "USA",
-    "slug": "united-states",
+    "slug": "usa",
     "visaType": "B1/B2 Visitor Visa",
     "flagImage": "https://flagcdn.com/w40/us.png",
     "heroImage": "/images/USA.webp",
-    "processingTime": "Varies by Interview & Administrative Processing",
-    "stayDuration": "Up to 6 Months",
-    "entryType": "Single / Multiple",
+    "processingTime": "3-4 days after interview",
+    "stayDuration": "Up to 6 months",
+    "entryType": "Multiple entry",
     "applyThrough": "U.S. Embassy / Consulate",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance with your USA B1/B2 Visitor Visa application, from DS-160 preparation and document verification to interview guidance and application support.",
+    "overviewDescription": "Indian passport holders travelling to USA require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport",
@@ -12923,7 +19986,7 @@ window.VISION_VISA_COUNTRIES = {
       },
       {
         "q": "Do I need to complete the DS-160?",
-        "a": "Yes. Applicants for a U.S. nonimmigrant visa generally need to complete and submit the DS-160 online and bring the confirmation page to the visa interview."
+        "a": "Yes. Applicants for a U.S. nonimmigrant visa generally need to complete and submit the DS-160 online and bring the confirmation page as instructed."
       },
       {
         "q": "Do I need to attend a visa interview?",
@@ -13021,11 +20084,109 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "Up to 10 years",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting USA for tourism, sightseeing, and short visits.",
+        "processingTime": "3-4 days after interview",
+        "validity": "Up to 10 years",
+        "stayDuration": "Up to 6 months",
+        "entryType": "Multiple entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for USA."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in USA.",
+        "processingTime": "3-4 days after interview",
+        "validity": "Up to 10 years",
+        "stayDuration": "Up to 6 months",
+        "entryType": "Multiple entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in USA",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for USA."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "united-arab-emirates": {
     "name": "UAE",
-    "slug": "united-arab-emirates",
+    "slug": "uae",
     "visaType": "Tourist Visa / eVisa",
     "flagImage": "https://flagcdn.com/w40/ae.png",
     "heroImage": "/images/United-Arab-Emirate-UAE-DUBAI.webp",
@@ -13035,11 +20196,11 @@ window.VISION_VISA_COUNTRIES = {
     "applyThrough": "GDRFA Dubai / ICP UAE",
     "insuranceRequirement": "Mandatory",
     "overviewTitle": "Everything You Need Before You Apply",
-    "overviewDescription": "Get complete assistance with your UAE Tourist Visa application, from eligibility checks and document preparation to application submission and visa guidance.",
+    "overviewDescription": "Indian passport holders travelling to UAE require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
         "Valid Passport with at least 6 months validity",
-        "Recent Passport Photograph with white background",
+        "Recent Passport Photograph with White Background",
         "Completed UAE Visa Application Form",
         "Return or Onward Flight Ticket",
         "Proof of Accommodation / Hotel Booking",
@@ -13123,11 +20284,11 @@ window.VISION_VISA_COUNTRIES = {
       },
       {
         "q": "How long can I stay in the UAE on a tourist visa?",
-        "a": "UAE tourist and visit visa categories can allow stays of 30, 60 or 90 days depending on the visa selected and the applicable conditions."
+        "a": "UAE tourist and visit visa categories can allow stays of 30, 60 or 90 days depending on the visa selected and applicable conditions."
       },
       {
         "q": "Can Indian citizens get a 60-day UAE visa?",
-        "a": "Yes. A 60-day UAE visa is available under certain visa categories. Indian ordinary passport holders may also qualify for a specific 60-day entry visa if they meet the applicable conditions, including holding a qualifying visa, residence permit or Green Card."
+        "a": "Yes. A 60-day UAE visa is available under certain visa categories. Eligible Indian ordinary passport holders may also qualify for a specific 60-day entry visa if they meet the applicable conditions, including holding a qualifying visa, residence permit or Green Card."
       },
       {
         "q": "What supporting documents are required for the special UAE visa route for Indians?",
@@ -13175,7 +20336,7 @@ window.VISION_VISA_COUNTRIES = {
       },
       {
         "q": "Can I extend my UAE tourist visa?",
-        "a": "Extension options depend on the visa category and the applicable UAE immigration rules. Some visit and tourist visas may be extendable subject to approval and applicable conditions."
+        "a": "Extension options depend on the visa category and applicable UAE immigration rules. Some visit and tourist visas may be extendable subject to approval and applicable conditions."
       },
       {
         "q": "What is the difference between GDRFA and ICP for UAE visas?",
@@ -13230,35 +20391,87 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "✈️"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting UAE for tourism, sightseeing, and short visits.",
+        "processingTime": "Usually 2 - 4 Working Days",
+        "validity": "As granted by consulate",
+        "stayDuration": "30 / 60 / 90 Days",
+        "entryType": "Single / Multiple",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for UAE."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   },
   "indonesia": {
-    "name": "Indonesia",
-    "slug": "indonesia",
+    "name": "Indonesia (Bali)",
+    "slug": "indonesia-bali",
     "visaType": "e-VOA / Tourist Visa",
     "flagImage": "https://flagcdn.com/w40/id.png",
     "heroImage": "/images/Indonesia-Bali-.webp",
     "processingTime": "Usually Quick Online Processing",
-    "stayDuration": "Up to 30 Days",
-    "entryType": "Single Entry",
+    "stayDuration": "30 days",
+    "entryType": "Single entry",
     "applyThrough": "Indonesia e-VOA / e-Visa Portal",
     "insuranceRequirement": "Recommended",
     "overviewTitle": "About Indonesia Visa",
-    "overviewDescription": "Planning a trip to Bali or elsewhere in Indonesia? Indian passport holders who are eligible for Indonesia's Visa on Arrival facility can apply for an electronic Visa on Arrival, known as e-VOA, before travelling. The e-VOA is commonly used for short visits such as tourism and other permitted purposes.\n\nBali is one of Indonesia's most popular destinations, known for its beaches, temples, rice terraces, waterfalls and unique Balinese culture. Whether you are planning a relaxing holiday, a cultural trip or a short getaway, having the correct entry permission and travel documents ready can make your arrival smoother.\n\nDo Indians Need a Visa for Indonesia?\nIndian travellers generally need an appropriate visa or entry permission to visit Indonesia. Eligible Indian passport holders can use the e-VOA facility for permitted short visits. The e-VOA allows an initial stay of up to 30 days from the date of arrival and can generally be extended once for another 30 days, subject to Indonesian immigration rules.\n\nIndonesia e-VOA Requirements\nThe basic e-VOA requirements include a passport that remains valid for more than six months and a return or onward ticket. Depending on the application and current immigration requirements, additional information or documents may be requested.\n\nThe e-VOA is issued electronically and should be checked carefully before travelling. The information on the e-VOA must match the traveller's passport. A visa does not automatically guarantee entry into Indonesia, as the final decision is made by immigration officials at the port of entry.\n\nIndonesia e-VOA Processing\nThe e-VOA application is completed online through the Indonesian immigration system. Applying before travel gives you the convenience of having your visa ready before arrival. Travellers should apply early enough to allow time for processing and to check that all details are correct.",
+    "overviewDescription": "Indian passport holders travelling to Indonesia (Bali) require a valid visa tailored to their travel purpose. Vision Visa provides complete document verification, consular appointment assistance, and expert filing support.\n\nProcessing timelines, validities, and permitted stays vary based on the specific visa category and applicant profile.",
     "documents": {
       "mandatory": [
-        "Valid Passport with more than 6 months validity",
-        "Recent Passport-Size Photograph, where Required",
-        "Return or Onward Flight Ticket",
-        "Valid Email Address",
-        "Payment Method for the Online Visa Application"
+        "Valid passport with more than 6 months validity",
+        "Recent passport-size photograph, where required",
+        "Return or onward flight ticket",
+        "Valid email address",
+        "Payment method for the online visa application"
       ],
       "supporting": [
-        "Hotel or Accommodation Details",
-        "Travel Itinerary",
-        "Proof of Sufficient Funds, if Requested",
-        "Additional Documents Based on the Purpose of Travel",
-        "Any Information Requested by Indonesian Immigration Authorities"
+        "Hotel or accommodation details",
+        "Travel itinerary",
+        "Proof of sufficient funds, if requested",
+        "Additional documents based on the purpose of travel",
+        "Any information requested by Indonesian immigration authorities"
       ],
       "alertText": "Indonesian immigration authorities may request additional information or documents. The e-VOA must match the traveller's passport details exactly, and issuance of an e-VOA does not guarantee entry into Indonesia."
     },
@@ -13266,12 +20479,12 @@ window.VISION_VISA_COUNTRIES = {
       {
         "num": "01",
         "title": "Share Your Requirements",
-        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Indonesia."
+        "desc": "Tell us your destination, travel purpose, and planned dates for travelling to Indonesia (Bali)."
       },
       {
         "num": "02",
         "title": "Document Review & Verification",
-        "desc": "Our visa specialists review your documents against Indonesia consulate checklists to eliminate errors."
+        "desc": "Our visa specialists review your documents against Indonesia (Bali) consulate checklists to eliminate errors."
       },
       {
         "num": "03",
@@ -13286,13 +20499,13 @@ window.VISION_VISA_COUNTRIES = {
       {
         "num": "05",
         "title": "Visa Outcome & Handover",
-        "desc": "Receive your approved Indonesia visa and travel documents with complete pre-departure guidance."
+        "desc": "Receive your approved Indonesia (Bali) visa and travel documents with complete pre-departure guidance."
       }
     ],
     "explore": {
       "title": "Discover Indonesia",
       "subtitle": "Experience the Best of Bali",
-      "desc": "From peaceful beaches and ancient temples to lush rice terraces and vibrant local culture, Bali offers a mix of relaxation, adventure and unforgettable experiences.",
+      "desc": "From peaceful beaches and ancient temples to lush rice terraces and vibrant local culture, Bali offers a memorable mix of relaxation, adventure and cultural experiences.",
       "place1": {
         "name": "Ubud Rice Terraces",
         "desc": "Explore lush green rice fields, traditional villages and the artistic heart of Bali.",
@@ -13346,7 +20559,7 @@ window.VISION_VISA_COUNTRIES = {
         "a": "Yes. The e-VOA stay can generally be extended once for another 30 days, subject to the applicable Indonesian immigration rules."
       },
       {
-        "q": "Do I need confirmed flight tickets?",
+        "q": "Do I need a confirmed flight ticket?",
         "a": "A return or onward ticket is required for the e-VOA process and may be checked by immigration officials when you arrive."
       },
       {
@@ -13363,7 +20576,7 @@ window.VISION_VISA_COUNTRIES = {
       },
       {
         "q": "Can I visit places other than Bali with an Indonesia e-VOA?",
-        "a": "Yes. The e-VOA is an Indonesian entry permission, so it is not limited to Bali. You can travel to other parts of Indonesia as permitted by your visa and immigration conditions."
+        "a": "Yes. The e-VOA is an Indonesian entry permission and is not limited to Bali. You can travel to other parts of Indonesia as permitted by your visa and immigration conditions."
       },
       {
         "q": "Can additional documents be requested?",
@@ -13409,6 +20622,151 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🌐"
       }
     ],
-    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority."
+    "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
+    "validity": "As granted by consulate",
+    "fee": null,
+    "consularNotes": null,
+    "visaTypes": [
+      {
+        "id": "tourist",
+        "name": "Tourist Visa",
+        "shortDescription": "Suitable for Indian travellers visiting Indonesia (Bali) for tourism, sightseeing, and short visits.",
+        "processingTime": "Usually Quick Online Processing",
+        "validity": "As granted by consulate",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Indonesia (Bali)."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "business",
+        "name": "Business Visa",
+        "shortDescription": "For corporate meetings, trade events, and business consultations in Indonesia (Bali).",
+        "processingTime": "Usually Quick Online Processing",
+        "validity": "As granted by consulate",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Original passport valid for at least 6 months with minimum 2 blank pages",
+          "Completed and signed visa application form with recent passport photographs",
+          "Formal invitation letter from host company/organization in Indonesia (Bali)",
+          "Indian employer covering letter on business letterhead stating purpose and financial undertaking",
+          "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
+          "Indian company registration certificate or incorporation proof",
+          "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Indonesia (Bali)."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "employment",
+        "name": "Employment Visa",
+        "shortDescription": "Official visa category tailored for travel to Indonesia (Bali).",
+        "processingTime": "Usually Quick Online Processing",
+        "validity": "As granted by consulate",
+        "stayDuration": "30 days",
+        "entryType": "Single entry",
+        "requirements": [
+          "Valid passport with at least 6 months validity and minimum 2 blank pages",
+          "Completed and signed visa application form",
+          "Recent passport-size photographs matching official consular specifications",
+          "Personal covering letter detailing travel purpose, dates, and itinerary",
+          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
+          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
+          "Confirmed round-trip flight booking and hotel accommodation details",
+          "Overseas travel medical insurance covering the full duration of stay"
+        ],
+        "applicationSteps": [
+          {
+            "num": "01",
+            "title": "Select Visa Category",
+            "desc": "Choose the visa type matching your travel purpose for Indonesia (Bali)."
+          },
+          {
+            "num": "02",
+            "title": "Prepare Required Documents",
+            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
+          },
+          {
+            "num": "03",
+            "title": "File Application & Verify",
+            "desc": "Vision Visa specialists review your file and complete the official submission."
+          },
+          {
+            "num": "04",
+            "title": "Biometrics / Consular Review",
+            "desc": "Complete appointment or biometric requirements, where applicable."
+          },
+          {
+            "num": "05",
+            "title": "Receive Visa Decision",
+            "desc": "Receive your visa grant or stamped passport with full travel readiness."
+          }
+        ],
+        "notes": null
+      }
+    ]
   }
 };

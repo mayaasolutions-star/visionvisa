@@ -1,13 +1,23 @@
 /* Reveal Animations */
 .reveal {
     opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(24px);
+    transition: opacity 0.65s cubic-bezier(0.4, 0, 0.2, 1), transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: opacity, transform;
+    animation: fallbackReveal 0.01s ease 1.2s forwards;
+}
+
+@keyframes fallbackReveal {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .reveal.active {
     opacity: 1;
     transform: translateY(0);
+    animation: none;
 }
 
 .reveal-delay-1 { transition-delay: 0.1s; }

@@ -13,21 +13,43 @@ export default function ClientInit() {
       setTimeout(() => window.lucide.createIcons(), 100);
     }
 
-    // 2. Intersection Observer for Reveal Animations
+    // 2. Intersection Observer for Reveal Animations (with immediate viewport check & failsafe)
     const initObserver = () => {
       const revealElements = document.querySelectorAll('.reveal');
-      const revealObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('active');
-          }
-        });
-      }, { threshold: 0.05 });
+      if (!revealElements.length) return;
 
-      revealElements.forEach(el => revealObserver.observe(el));
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('active');
+            }
+          });
+        },
+        { threshold: 0.02, rootMargin: '0px 0px 80px 0px' }
+      );
+
+      revealElements.forEach((el) => {
+        // If element is already in or near viewport, activate immediately
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight + 100 && rect.bottom > -50) {
+          el.classList.add('active');
+        }
+        revealObserver.observe(el);
+      });
     };
 
     initObserver();
+    const timer1 = setTimeout(initObserver, 60);
+    const timer2 = setTimeout(initObserver, 250);
+    const timer3 = setTimeout(initObserver, 600);
+
+    // Safety fallback: ensure no content remains permanently blank/hidden if observer is delayed
+    const safetyTimer = setTimeout(() => {
+      document.querySelectorAll('.reveal:not(.active)').forEach((el) => {
+        el.classList.add('active');
+      });
+    }, 1200);
 
     // 3. Magnetic Buttons
     const magneticButtons = document.querySelectorAll('.magnetic');
@@ -59,6 +81,13 @@ export default function ClientInit() {
       setTimeout(initObserver, 100);
       setTimeout(initObserver, 500);
     }
+
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      clearTimeout(timer3);
+      clearTimeout(safetyTimer);
+    };
   }, [pathname]);
 
   return null;

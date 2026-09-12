@@ -28,6 +28,7 @@
     }
 
     function renderCountryPage() {
+        if (document.querySelector('.master-country-page')) return;
         const slug = getCountrySlug();
         const db = window.VISION_VISA_COUNTRIES || {};
         const data = db[slug] || db['australia'] || Object.values(db)[0];

@@ -143,7 +143,7 @@ export default function Footer() {
 
               <div className="footer-contact-item">
                 <i data-lucide="clock" className="contact-icon"></i>
-                <span>Mon – Sat: 10:00 AM – 7:00 PM</span>
+                <span>Mon to Sat: 10:00 AM to 7:00 PM</span>
               </div>
             </div>
           </div>

@@ -1065,12 +1065,12 @@
 /* 1. COMPACT MASTER HERO (~300-340px desktop, ~250-280px mobile) */
 .master-hero {
     position: relative;
-    min-height: 310px;
+    min-height: 330px;
     display: flex;
     align-items: center;
     color: #fff;
-    padding-top: 104px; /* 80px fixed navbar clearance + 24px comfortable spacing */
-    padding-bottom: 28px;
+    padding-top: 124px; /* 80px navbar clearance + 44px comfortable breathing room */
+    padding-bottom: 32px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -1316,11 +1316,24 @@
 }
 
 /* 2. VISA TYPE SELECTOR TABS (IMMEDIATELY AFTER HERO) */
+/* 2. VISA TYPE SELECTOR CARDS (LIGHT & POLISHED DESIGN) */
 .visa-selector-section {
-    padding: 26px 0 28px;
-    background: #FFFFFF;
-    border-bottom: 1px solid var(--light-gray, #E2E8F0);
+    padding: 20px 0;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
     text-align: center;
+}
+
+/* STRICT ZERO FONT GLOW / TEXT SHADOW RULE FOR ENTIRE SELECTOR */
+.visa-selector-section,
+.visa-selector-section *,
+.visa-type-card-btn,
+.visa-type-card-btn *,
+.visa-type-card-btn.active,
+.visa-type-card-btn.active * {
+    text-shadow: none !important;
+    filter: none !important;
+    -webkit-text-stroke: 0 !important;
 }
 
 .visa-selector-inner {
@@ -1328,324 +1341,471 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 800px;
+    max-width: 1180px;
     margin: 0 auto;
-}
-
-.visa-selector-eyebrow {
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--accent-orange, #F97316);
-    margin-bottom: 6px;
-    display: inline-block;
+    width: 100%;
 }
 
 .visa-selector-heading {
     font-family: var(--font-heading);
-    font-size: clamp(1.25rem, 2.2vw, 1.5rem);
+    font-size: clamp(1.35rem, 2.5vw, 1.75rem);
     font-weight: 700;
-    color: var(--slate-900, #0F172A);
+    color: #0F172A;
     line-height: 1.25;
-    margin: 0 0 6px 0;
+    margin: 0 0 16px 0;
 }
 
-.visa-selector-sub {
-    font-size: 0.90625rem;
-    color: var(--slate-500, #64748B);
-    margin: 0 0 18px 0;
-    line-height: 1.45;
+/* VISA CARDS GRID: 4 EQUAL COLUMNS IN ONE SINGLE ROW ON DESKTOP (NO WRAPPING) */
+.visa-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.visa-tabs-container {
-    display: inline-flex;
+.visa-type-card-btn {
+    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 6px;
-    background: #F8FAFC;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 18px;
     border-radius: 14px;
-    border: 1px solid #E2E8F0;
-    max-width: 100%;
-    flex-wrap: wrap;
+    background: #FFFFFF;
+    border: 2px solid #E2E8F0;
+    cursor: pointer;
+    font-family: inherit;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    text-align: left;
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
 }
 
-.visa-type-tab-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 20px;
+.visa-type-card-btn:hover {
+    border-color: #0A192F;
+    background: #FFFFFF;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+/* SOLID BRAND BLUE ACTIVE STATE (CRISP SOLID WHITE TYPOGRAPHY, NO SHADOW/GLOW) */
+.visa-type-card-btn.active {
+    background: #0A192F !important;
+    border-color: #0A192F !important;
+    color: #FFFFFF !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(10, 25, 47, 0.22) !important;
+}
+
+.visa-card-icon-wrap {
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
-    font-size: 0.90625rem;
-    font-weight: 600;
-    color: var(--slate-700, #334155);
-    background: #FFFFFF;
-    border: 1.5px solid #E2E8F0;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: all 180ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-family: inherit;
-    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+    background: #F1F5F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 200ms ease;
 }
 
-.visa-type-tab-btn:hover {
-    color: var(--slate-900, #0F172A);
-    border-color: #94A3B8;
-    background: #FFFFFF;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.07);
-}
-
-.visa-type-tab-btn.active {
-    background: var(--primary, #1D4ED8);
-    border-color: var(--primary, #1D4ED8);
-    color: #FFFFFF;
-    font-weight: 700;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 14px rgba(29, 78, 216, 0.28);
-}
-
-.visa-type-tab-btn .tab-icon {
-    font-size: 1.1rem;
+.card-icon {
+    font-size: 1.25rem;
     line-height: 1;
 }
 
-.visa-type-tab-btn.active .tab-icon {
-    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+.visa-type-card-btn.active .visa-card-icon-wrap {
+    background: rgba(255, 255, 255, 0.15);
+    color: #FFFFFF;
 }
 
-/* 3. SELECTED VISA SECTION */
-.selected-visa-section {
-    padding: 36px 0 54px !important;
-    background: #fff;
+.visa-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.visa-type-card-btn .card-title {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #0F172A;
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* SOLID CRISP WHITE TEXT FOR SELECTED CARD */
+.visa-type-card-btn.active .card-title {
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+}
+
+.visa-type-card-btn .card-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #64748B;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.visa-type-card-btn.active .card-badge {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.card-select-indicator {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #94A3B8;
+}
+
+.visa-type-card-btn.active .card-select-indicator {
+    color: #FF5722;
+}
+
+/* =========================================================
+   3. COUNTRY CONTENT SECTION (DESKTOP 2-COLUMN: LEFT REQUIREMENTS / RIGHT SIDEBAR)
+   ========================================================= */
+.country-content-section {
+    padding: 32px 0 64px !important;
+    background: #F8FAFC;
 }
 
 .selected-visa-header {
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 .visa-title-wrap {
-  text-align: center;
+    text-align: center;
 }
 
 .visa-main-title {
     font-size: clamp(1.75rem, 3.5vw, 2.25rem);
     font-weight: 700;
-    color: var(--slate-900);
-    margin: 4px 0 6px;
+    color: #0F172A;
+    margin: 6px 0 8px;
     line-height: 1.2;
 }
 
 .visa-short-desc {
     font-size: 1.05rem;
     line-height: 1.6;
-    color: var(--slate-600);
-  margin: 0 auto;
+    color: #475569;
+    margin: 0 auto;
     max-width: 760px;
 }
 
-/* 3.1 VISA QUICK FACTS (COMPACT 4-CARD ROW - NO FEES) */
-.visa-quick-facts-row {
+/* DESKTOP 2-COLUMN GRID (LEFT 68% / RIGHT 32%) */
+.country-main-layout-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    margin: 24px 0 40px;
+    grid-template-columns: 1fr 340px;
+    gap: 32px;
+    align-items: start;
 }
 
-.fact-card {
-    background: #F8FAFC;
-    border: 1px solid #E2E8F0;
-    border-radius: 14px;
-    padding: 16px 20px;
+/* LEFT COLUMN: PRIMARY KEY REQUIREMENTS CARD */
+.primary-content-col {
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
-    border-top: 3px solid var(--primary, #1D4ED8);
-    transition: transform 180ms ease, box-shadow 180ms ease;
+    gap: 28px;
 }
 
-.fact-card:nth-child(2) { border-top-color: #059669; }
-.fact-card:nth-child(3) { border-top-color: #EA580C; }
-.fact-card:nth-child(4) { border-top-color: #7C3AED; }
-
-.fact-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
-}
-
-.fact-label {
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--slate-400, #94A3B8);
-}
-
-.fact-val {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--slate-900);
-    line-height: 1.35;
-}
-
-/* 3.2 KEY REQUIREMENTS (ONE CLEAN COMPACT SECTION) */
-.key-requirements-section {
-    margin-bottom: 44px;
+.key-requirements-card-left {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 20px;
+    padding: 36px 38px;
+    box-shadow: 0 4px 24px rgba(15, 23, 42, 0.04);
 }
 
 .requirements-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F1F5F9;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
-.section-subheading {
-    font-size: 1.35rem;
-    font-weight: 700;
-    color: var(--slate-900);
-    margin: 0;
+.req-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 14px;
 }
 
-.req-count-badge {
+.req-passport-icon-badge {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(10, 25, 47, 0.07);
+    color: #0A192F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid rgba(10, 25, 47, 0.12);
+}
+
+.req-sub-label {
     font-size: 0.8125rem;
-    font-weight: 600;
-    color: var(--primary, #1D4ED8);
-    background: rgba(29, 78, 216, 0.08);
-    padding: 4px 12px;
-    border-radius: 100px;
+    color: #64748B;
+    margin: 2px 0 0;
 }
 
-.requirements-card {
-    background: #FFFFFF;
-    border: 1px solid #E2E8F0;
-    border-radius: 16px;
-    padding: 24px 28px;
-    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.03);
-}
-
-.requirements-list {
+.requirements-list-single-col {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 14px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
-.requirement-item {
+.requirement-item-row {
     display: flex;
     align-items: flex-start;
-    gap: 12px;
-    font-size: 0.9375rem;
-    line-height: 1.55;
-    color: var(--slate-700);
+    gap: 16px;
+    padding: 16px 20px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #1E293B;
+    transition: background 150ms ease, border-color 150ms ease, transform 150ms ease;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.02);
 }
 
-.req-check {
+.requirement-item-row:hover {
+    background: #F8FAFC;
+    border-color: #CBD5E1;
+    transform: translateX(2px);
+}
+
+.req-check-icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: rgba(5, 150, 105, 0.12);
     color: #059669;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
-    margin-top: 3px;
-    display: inline-flex;
+    margin-top: 1px;
 }
 
-.req-text {
+.req-text-content {
     flex: 1;
     word-break: break-word;
+    font-weight: 500;
 }
 
-/* 3.3 HOW TO APPLY (CONCISE STEPS) */
-.how-to-apply-section {
-    margin-bottom: 40px;
+/* RIGHT COLUMN: SECONDARY VISA INFORMATION SIDEBAR */
+.secondary-sidebar-col {
+    position: relative;
 }
 
-.compact-steps-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 14px;
-    margin-top: 16px;
-}
-
-.step-card {
-    background: #F8FAFC;
+.visa-sidebar-card {
+    position: sticky;
+    top: 100px;
+    background: #FFFFFF;
     border: 1px solid #E2E8F0;
-    border-radius: 14px;
-    padding: 18px 16px;
+    border-radius: 20px;
+    padding: 22px;
+    box-shadow: 0 4px 24px rgba(15, 23, 42, 0.04);
+}
+
+.sidebar-header {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #F1F5F9;
+    margin-bottom: 14px;
+}
+
+.sidebar-flag-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 3px 9px;
+    border-radius: 100px;
+    background: #F1F5F9;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 8px;
+    border: 1px solid #E2E8F0;
+}
+
+.sidebar-flag-badge .flag-img {
+    width: 16px;
+    height: 11px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.sidebar-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #0F172A;
+    margin: 0 0 2px;
+}
+
+.sidebar-subtitle {
+    font-size: 0.75rem;
+    color: #64748B;
+}
+
+.sidebar-param-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.sidebar-param-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    background: #F8FAFC;
+    border: 1px solid #F1F5F9;
+    border-radius: 10px;
+    border-left: 3px solid #0A192F;
+}
+
+.sidebar-param-row:nth-child(2) { border-left-color: #059669; }
+.sidebar-param-row:nth-child(3) { border-left-color: #EA580C; }
+.sidebar-param-row:nth-child(4) { border-left-color: #7C3AED; }
+
+.param-icon-box {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0F172A;
+    flex-shrink: 0;
+}
+
+.param-data {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.param-label {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748B;
+}
+
+.param-value {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #0F172A;
+}
+
+.sidebar-action-wrap {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
-.step-card:hover {
+/* PROMINENT INSTAGRAM SIDEBAR BUTTON */
+.instagram-sidebar-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 14px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #FDF2F8 0%, #FFF7ED 100%);
+    border: 1px solid #FBCFE8;
+    color: #9D174D;
+    text-decoration: none;
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 600;
+    font-size: 0.8125rem;
+}
+
+.instagram-sidebar-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.05);
-    border-color: rgba(29, 78, 216, 0.3);
+    box-shadow: 0 6px 18px rgba(157, 23, 77, 0.12);
+    border-color: #F472B6;
+    color: #831843;
 }
 
-.step-badge {
+.insta-btn-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.insta-icon-box {
     width: 28px;
     height: 28px;
-    border-radius: 50%;
-    background: var(--accent-orange, #EA580C);
-    color: #fff;
-    font-size: 0.75rem;
-    font-weight: 700;
+    border-radius: 6px;
+    background: #BE185D;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
 }
 
-.step-title {
-    font-size: 0.9375rem;
+.insta-arrow {
+    color: #BE185D;
+    transition: transform 150ms ease;
+}
+
+.instagram-sidebar-btn:hover .insta-arrow {
+    transform: translateX(3px);
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+/* SMALL SUBTLE SIDEBAR NOTE AT VERY BOTTOM OF CARD */
+.sidebar-note-block {
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid #E2E8F0;
+}
+
+.sidebar-note-title {
+    display: block;
+    font-size: 0.75rem;
     font-weight: 700;
-    color: var(--slate-900);
-    margin: 0 0 4px;
-    line-height: 1.35;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
 }
 
-.step-desc {
-    font-size: 0.8125rem;
-    line-height: 1.5;
-    color: var(--slate-600);
-    margin: 0;
-}
-
-/* 3.4 IMPORTANT TO KNOW (OPTIONAL) */
-.important-to-know-box {
-    background: #FFF7ED;
-    border-left: 4px solid var(--accent-orange, #EA580C);
-    border-radius: 12px;
-    padding: 16px 20px;
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
-    margin-bottom: 32px;
-    box-shadow: 0 2px 8px rgba(234, 88, 12, 0.04);
-}
-
-.important-to-know-box .box-icon {
-    font-size: 1.25rem;
-    line-height: 1;
-    margin-top: 2px;
-    flex-shrink: 0;
-}
-
-.important-to-know-box .box-title {
-    font-size: 0.9375rem;
-    font-weight: 700;
-    color: var(--slate-900);
-    margin: 0 0 4px;
-}
-
-.important-to-know-box .box-text {
-    font-size: 0.90625rem;
-    line-height: 1.55;
-    color: var(--slate-700);
+.sidebar-note-text {
+    font-size: 0.75rem;
+    line-height: 1.45;
+    color: #64748B;
     margin: 0;
 }
 
@@ -2197,27 +2357,38 @@
 }
 
 /* RESPONSIVE DESIGN SYSTEM BREAKPOINTS */
+@media (max-width: 1024px) {
+    .country-main-layout-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .visa-sidebar-card {
+        position: static;
+    }
+}
+
+@media (max-width: 640px) {
+    .key-requirements-card-left {
+        padding: 24px 20px;
+    }
+    .visa-sidebar-card {
+        padding: 22px 20px;
+    }
+    .visa-type-card-btn {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 1199px) {
     .master-hero {
         min-height: 300px;
-    }
-    .compact-steps-grid {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 991px) {
     .master-country-page {
         --section-space: 40px;
-    }
-    .visa-quick-facts-row {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .requirements-list {
-        grid-template-columns: 1fr;
-    }
-    .compact-steps-grid {
-        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -5976,5 +6147,222 @@
   }
   .ti-cta-actions .btn {
     width: 100%;
+  }
+}
+
+/* =========================================================
+   COUNTRY VISA DETAIL PAGE - MOBILE RESPONSIVENESS
+   ========================================================= */
+@media (max-width: 991px) {
+  .country-main-layout-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  .visa-sidebar-card {
+    position: static !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* HERO MOBILE RESPONSIVENESS */
+  .master-hero {
+    padding-top: 110px !important;
+    padding-bottom: 32px !important;
+    min-height: auto !important;
+  }
+
+  .hero-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .hero-heading {
+    font-size: clamp(1.75rem, 6.5vw, 2.25rem) !important;
+    line-height: 1.2 !important;
+  }
+
+  .hero-lead {
+    font-size: 0.9375rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 20px !important;
+  }
+
+  .hero-actions {
+    width: 100% !important;
+  }
+
+  .hero-actions .btn {
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  /* VISA SELECTOR SECTION - 1 COLUMN & ALWAYS VISIBLE VISA NAMES */
+  .visa-selector-section {
+    padding: 20px 0 !important;
+  }
+
+  .visa-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  .visa-type-card-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+    padding: 14px 16px !important;
+    border-radius: 12px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    min-height: auto !important;
+  }
+
+  .visa-card-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    flex: 1 !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+
+  .visa-type-card-btn .card-title {
+    display: block !important;
+    font-size: 0.9375rem !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    word-break: break-word !important;
+  }
+
+  .visa-type-card-btn .card-badge {
+    font-size: 0.75rem !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  .card-select-indicator {
+    width: 22px !important;
+    height: 22px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* KEY REQUIREMENTS CARD MOBILE */
+  .country-content-section {
+    padding: 24px 0 48px !important;
+  }
+
+  .key-requirements-card-left {
+    padding: 20px 16px !important;
+    border-radius: 16px !important;
+    box-shadow: 0 2px 12px rgba(15, 23, 42, 0.03) !important;
+  }
+
+  .requirements-header {
+    padding-bottom: 14px !important;
+    margin-bottom: 16px !important;
+    gap: 10px !important;
+  }
+
+  .req-passport-icon-badge {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+  }
+
+  .requirements-list-single-col {
+    gap: 10px !important;
+  }
+
+  .requirement-item-row {
+    padding: 12px 14px !important;
+    gap: 12px !important;
+    border-radius: 10px !important;
+  }
+
+  .req-text-content {
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+  }
+
+  .req-check-icon {
+    width: 22px !important;
+    height: 22px !important;
+    margin-top: 1px !important;
+  }
+
+  /* SIDEBAR CARD MOBILE */
+  .visa-sidebar-card {
+    padding: 20px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .sidebar-param-list {
+    gap: 8px !important;
+  }
+
+  .sidebar-param-row {
+    padding: 10px 12px !important;
+    gap: 10px !important;
+  }
+
+  .param-value {
+    font-size: 0.875rem !important;
+  }
+
+  .instagram-sidebar-btn {
+    padding: 12px 14px !important;
+    font-size: 0.8125rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .sidebar-note-block {
+    margin-top: 14px !important;
+    padding-top: 12px !important;
+  }
+
+  .sidebar-note-title {
+    font-size: 0.75rem !important;
+  }
+
+  .sidebar-note-text {
+    font-size: 0.75rem !important;
+    line-height: 1.45 !important;
+  }
+
+  /* FAQ SECTION MOBILE */
+  .faq-section {
+    padding: 36px 0 48px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .master-hero {
+    padding-top: 100px !important;
+    padding-bottom: 28px !important;
+  }
+
+  .hero-heading {
+    font-size: 1.65rem !important;
+  }
+
+  .visa-type-card-btn {
+    padding: 12px 14px !important;
+  }
+
+  .visa-type-card-btn .card-title {
+    font-size: 0.875rem !important;
   }
 }

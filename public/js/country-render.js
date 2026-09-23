@@ -195,22 +195,11 @@
             docAlertText.textContent = data.documents.alertText;
         }
 
-        // 5. VISA PROCESS
-        const processHeading = document.getElementById('docProcessHeading');
-        if (processHeading) processHeading.textContent = `${data.name} Visa Application Process`;
-
+        // 5. REMOVE HOW TO APPLY IF PRESENT
+        const howToApplySec = document.getElementById('howToApply');
+        if (howToApplySec) howToApplySec.remove();
         const processStepsContainer = document.getElementById('processStepsContainer');
-        if (processStepsContainer && data.processSteps) {
-            processStepsContainer.innerHTML = data.processSteps.map((step, idx) => `
-                <div class="process-step reveal ${idx > 0 ? 'reveal-delay-' + (idx % 4) : ''}">
-                    <span>${step.num}</span>
-                    <div>
-                        <h3>${step.title}</h3>
-                        <p>${step.desc}</p>
-                    </div>
-                </div>
-            `).join('');
-        }
+        if (processStepsContainer) processStepsContainer.innerHTML = '';
 
         // 6. EXPLORE COUNTRY
         const exploreLabel = document.getElementById('exploreLabel');

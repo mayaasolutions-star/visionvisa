@@ -18,7 +18,30 @@ export default function CountryDetailView({ data }) {
           validity: data.validity || 'As granted',
           stayDuration: data.stayDuration || 'Up to 90 days',
           entryType: data.entryType || 'Single / Multiple entry',
-          requirements: [
+          requirements: Array.isArray(data.documents?.mandatory) && data.documents.mandatory.length > 0
+            ? data.documents.mandatory
+            : [
+                'Valid passport with at least 6 months validity and minimum 2 blank pages',
+                'Completed and signed visa application form',
+                'Recent passport-size photographs matching official specifications',
+                'Personal covering letter outlining planned travel itinerary and dates',
+                'Financial proof, including recent stamped bank statements and Income Tax Returns (ITR)',
+                'Employment or business proof (leave approval letter for employees / registration for self-employed)',
+                'Confirmed round-trip flight booking and hotel accommodation details',
+                'Overseas travel medical insurance covering the full duration of stay'
+              ]
+        }
+      ];
+
+  const [activeVisaId, setActiveVisaId] = useState(visaTypes[0].id);
+  const activeVisa = visaTypes.find(v => v.id === activeVisaId) || visaTypes[0];
+
+  // Requirements list (from active visa or fallback)
+  const requirementsList = Array.isArray(activeVisa.requirements) && activeVisa.requirements.length > 0
+    ? activeVisa.requirements
+    : (Array.isArray(data.documents?.mandatory) && data.documents.mandatory.length > 0
+        ? data.documents.mandatory
+        : [
             'Valid passport with at least 6 months validity and minimum 2 blank pages',
             'Completed and signed visa application form',
             'Recent passport-size photographs matching official specifications',
@@ -27,53 +50,16 @@ export default function CountryDetailView({ data }) {
             'Employment or business proof (leave approval letter for employees / registration for self-employed)',
             'Confirmed round-trip flight booking and hotel accommodation details',
             'Overseas travel medical insurance covering the full duration of stay'
-          ],
-          applicationSteps: [
-            { num: "01", title: "Choose Visa Type", desc: `Select the visa category matching your travel purpose for ${data.name}.` },
-            { num: "02", title: "Prepare Documents", desc: "Organize required personal, financial, and travel documents." },
-            { num: "03", title: "Submit Application", desc: "Complete consular forms and verify file completeness." },
-            { num: "04", title: "Biometrics / Interview", desc: "Attend appointment or biometric verification, if required." },
-            { num: "05", title: "Receive Decision", desc: "Receive your approved visa grant or stamped passport." }
-          ]
-        }
-      ];
+          ]);
 
-  const [activeVisaId, setActiveVisaId] = useState(visaTypes[0].id);
-  const activeVisa = visaTypes.find(v => v.id === activeVisaId) || visaTypes[0];
+  // Important notes (only if present)
+  const importantNote = activeVisa.notes || data.consularNotes || data.alertText || data.documents?.alertText;
 
-  // Requirements list (6-10 concise bullets)
-  const requirementsList = Array.isArray(activeVisa.requirements) && activeVisa.requirements.length > 0
-    ? activeVisa.requirements
-    : [
-        'Valid passport with at least 6 months validity and minimum 2 blank pages',
-        'Completed and signed visa application form',
-        'Recent passport-size photographs matching official specifications',
-        'Personal covering letter outlining planned travel itinerary and dates',
-        'Financial proof, including recent stamped bank statements and Income Tax Returns (ITR)',
-        'Employment or business proof (leave approval letter for employees / registration for self-employed)',
-        'Confirmed round-trip flight booking and hotel accommodation details',
-        'Overseas travel medical insurance covering the full duration of stay'
-      ];
-
-  // Application steps (4-5 concise steps)
-  const stepsList = Array.isArray(activeVisa.applicationSteps) && activeVisa.applicationSteps.length > 0
-    ? activeVisa.applicationSteps
-    : [
-        { num: "01", title: "Choose Visa Type", desc: `Select the visa category matching your travel purpose for ${data.name}.` },
-        { num: "02", title: "Prepare Documents", desc: "Organize required personal, financial, and travel documents." },
-        { num: "03", title: "Submit Application", desc: "Complete consular forms and verify file completeness." },
-        { num: "04", title: "Biometrics / Interview", desc: "Attend appointment or biometric verification, if required." },
-        { num: "05", title: "Receive Decision", desc: "Receive your approved visa grant or stamped passport." }
-      ];
-
-  // Important notes (only if genuinely present)
-  const importantNote = activeVisa.notes || data.consularNotes || data.alertText;
-
-  const hasMultipleCategories = visaTypes.length > 1;
+  const showSelector = visaTypes.length > 1;
 
   return (
     <main className="master-country-page">
-      {/* 1. SHORT HERO (~280-320px desktop, ~220-250px mobile) */}
+      {/* 1. HERO SECTION */}
       <section className="master-hero">
         <div className="hero-bg-frame">
           <img
@@ -110,18 +96,12 @@ export default function CountryDetailView({ data }) {
         </div>
       </section>
 
-      {/* 2. VISA CATEGORY SELECTOR (IMMEDIATELY AFTER HERO) */}
-      {hasMultipleCategories && (
+      {/* 2. VISA TYPE SELECTOR (IMMEDIATELY AFTER HERO) */}
+      {showSelector && (
         <section className="visa-selector-section" aria-label="Visa Category Selection">
           <div className="container">
             <div className="visa-selector-inner">
-              <span className="visa-selector-eyebrow">Visa Categories</span>
-              <h2 className="visa-selector-heading">Choose your visa type</h2>
-              <p className="visa-selector-sub">
-                Select a category to view its requirements and visa details.
-              </p>
-
-              <div className="visa-tabs-container" role="tablist" aria-label="Visa Categories">
+              <div className="visa-cards-grid" role="tablist" aria-label="Visa Categories">
                 {visaTypes.map((vType) => {
                   const isActive = vType.id === activeVisaId;
                   const icon = vType.id.includes('biz') || vType.id.includes('business')
@@ -143,10 +123,26 @@ export default function CountryDetailView({ data }) {
                       role="tab"
                       aria-selected={isActive}
                       onClick={() => setActiveVisaId(vType.id)}
-                      className={`visa-type-tab-btn ${isActive ? 'active' : ''}`}
+                      className={`visa-type-card-btn ${isActive ? 'active' : ''}`}
                     >
-                      <span className="tab-icon">{icon}</span>
-                      <span className="tab-label">{vType.name}</span>
+                      <div className="visa-card-icon-wrap">
+                        <span className="card-icon">{icon}</span>
+                      </div>
+                      <div className="visa-card-content">
+                        <span className="card-title">{vType.name}</span>
+                        <span className="card-badge">{vType.stayDuration || vType.validity || 'Available'}</span>
+                      </div>
+                      <div className="card-select-indicator" aria-hidden="true">
+                        {isActive ? (
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                          </svg>
+                        ) : (
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                          </svg>
+                        )}
+                      </div>
                     </button>
                   );
                 })}
@@ -156,92 +152,166 @@ export default function CountryDetailView({ data }) {
         </section>
       )}
 
-      {/* 3. SELECTED VISA TYPE + QUICK FACTS */}
-      <section className="master-section selected-visa-section" id="visaDetails">
+      {/* 3. MAIN CONTENT AREA: LEFT (PRIMARY KEY REQUIREMENTS) | RIGHT (VISA INFORMATION SIDEBAR & INSTAGRAM CTA) */}
+      <section className="master-section country-content-section" id="visaDetails">
         <div className="container">
-          <div className="selected-visa-header">
-            <div className="visa-title-wrap">
-              <span className="section-label-tag">{data.name} Visa Guidance</span>
-              <h2 className="visa-main-title">{data.name} {activeVisa.name}</h2>
-              <p className="visa-short-desc">
-                {activeVisa.shortDescription || `Suitable for ${activeVisa.name.toLowerCase()} travel to ${data.name}.`}
-              </p>
-            </div>
-          </div>
-
-          {/* VISA QUICK FACTS (COMPACT 4-CARD ROW — NO FEES) */}
-          <div className="visa-quick-facts-row">
-            <div className="fact-card">
-              <span className="fact-label">Processing</span>
-              <strong className="fact-val">{activeVisa.processingTime || '10–15 working days'}</strong>
-            </div>
-            <div className="fact-card">
-              <span className="fact-label">Validity</span>
-              <strong className="fact-val">{activeVisa.validity || 'As granted'}</strong>
-            </div>
-            <div className="fact-card">
-              <span className="fact-label">Stay</span>
-              <strong className="fact-val">{activeVisa.stayDuration || 'Up to 90 days'}</strong>
-            </div>
-            <div className="fact-card">
-              <span className="fact-label">Entry</span>
-              <strong className="fact-val">{activeVisa.entryType || 'Multiple entry'}</strong>
-            </div>
-          </div>
-
-          {/* 4. KEY REQUIREMENTS (ONE CLEAN COMPACT SECTION) */}
-          <div className="key-requirements-section">
-            <div className="requirements-header">
-              <h3 className="section-subheading">Key Requirements</h3>
-              <span className="req-count-badge">{requirementsList.length} Items</span>
-            </div>
-
-            <div className="requirements-card">
-              <ul className="requirements-list">
-                {requirementsList.map((req, idx) => (
-                  <li key={idx} className="requirement-item">
-                    <span className="req-check" aria-hidden="true">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <polyline points="20 6 9 17 4 12"></polyline>
+          <div className="country-main-layout-grid">
+            {/* PRIMARY CONTENT: KEY REQUIREMENTS CARD (LEFT COLUMN - SINGLE CONTINUOUS VERTICAL LIST - NO COUNT BADGE) */}
+            <div className="primary-content-col">
+              <div className="key-requirements-card-left">
+                <div className="requirements-header">
+                  <div className="req-title-wrap">
+                    <div className="req-passport-icon-badge">
+                      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+                        <circle cx="12" cy="10" r="3.5"></circle>
+                        <path d="M7 18c0-2.5 2.2-4.5 5-4.5s5 2 5 4.5"></path>
+                        <line x1="16" y1="6" x2="18" y2="6"></line>
                       </svg>
-                    </span>
-                    <span className="req-text">{req}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* 5. HOW TO APPLY (CONCISE 4-5 STEPS) */}
-          <div className="how-to-apply-section" id="howToApply">
-            <h3 className="section-subheading">How to Apply</h3>
-            <div className="compact-steps-grid">
-              {stepsList.map((step, idx) => (
-                <div key={idx} className="step-card">
-                  <div className="step-badge">{step.num || `0${idx + 1}`}</div>
-                  <div className="step-body">
-                    <h4 className="step-title">{step.title}</h4>
-                    <p className="step-desc">{step.desc}</p>
+                    </div>
+                    <div>
+                      <h3 className="section-subheading mb-0">Key Requirements</h3>
+                      <p className="req-sub-label">Mandatory document checklist for Indian passport holders</p>
+                    </div>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
 
-          {/* 6. IMPORTANT TO KNOW (OPTIONAL — ONLY IF IMPORTANT NOTE EXISTS) */}
-          {importantNote && (
-            <div className="important-to-know-box">
-              <div className="box-icon">ℹ️</div>
-              <div className="box-body">
-                <h4 className="box-title">Important to Know</h4>
-                <p className="box-text">{importantNote}</p>
+                <div className="requirements-body">
+                  <ul className="requirements-list-single-col">
+                    {requirementsList.map((req, idx) => (
+                      <li key={idx} className="requirement-item-row">
+                        <span className="req-check-icon" aria-hidden="true">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                          </svg>
+                        </span>
+                        <span className="req-text-content">{req}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
-          )}
+
+            {/* SECONDARY SIDEBAR: VISA INFORMATION CARD (RIGHT COLUMN) */}
+            <div className="secondary-sidebar-col">
+              <div className="visa-sidebar-card">
+                <div className="sidebar-header">
+                  <div className="sidebar-flag-badge">
+                    {data.flagImage && (
+                      <img src={data.flagImage} alt={`${data.name} Flag`} className="flag-img" />
+                    )}
+                    <span className="country-name-tag">{data.name}</span>
+                  </div>
+                  <h3 className="sidebar-title">Visa Information</h3>
+                  <span className="sidebar-subtitle">Key application parameters</span>
+                </div>
+
+                <div className="sidebar-param-list">
+                  <div className="sidebar-param-row">
+                    <div className="param-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                      </svg>
+                    </div>
+                    <div className="param-data">
+                      <span className="param-label">Processing Time</span>
+                      <strong className="param-value">{activeVisa.processingTime || data.processingTime || '10–15 working days'}</strong>
+                    </div>
+                  </div>
+
+                  <div className="sidebar-param-row">
+                    <div className="param-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                      </svg>
+                    </div>
+                    <div className="param-data">
+                      <span className="param-label">Validity</span>
+                      <strong className="param-value">{activeVisa.validity || data.validity || 'As granted'}</strong>
+                    </div>
+                  </div>
+
+                  <div className="sidebar-param-row">
+                    <div className="param-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <div className="param-data">
+                      <span className="param-label">Stay Duration</span>
+                      <strong className="param-value">{activeVisa.stayDuration || data.stayDuration || 'Up to 90 days'}</strong>
+                    </div>
+                  </div>
+
+                  <div className="sidebar-param-row">
+                    <div className="param-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <polyline points="9 21 3 21 3 15"></polyline>
+                        <line x1="21" y1="3" x2="14" y2="10"></line>
+                        <line x1="3" y1="21" x2="10" y2="14"></line>
+                      </svg>
+                    </div>
+                    <div className="param-data">
+                      <span className="param-label">Entry Type</span>
+                      <strong className="param-value">{activeVisa.entryType || data.entryType || 'Single / Multiple entry'}</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="sidebar-action-wrap">
+                  <Link
+                    href={`/contact?country=${data.slug}&visa=${activeVisa.id}`}
+                    className="btn btn-primary btn-block"
+                  >
+                    Apply for {activeVisa.name}
+                  </Link>
+
+                  {/* PROMINENT INSTAGRAM CTA BUTTON */}
+                  <a
+                    href="https://www.instagram.com/visionvisa.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="instagram-sidebar-btn"
+                    aria-label="Visit Vision Visa on Instagram"
+                  >
+                    <div className="insta-btn-left">
+                      <div className="insta-icon-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                          <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                        </svg>
+                      </div>
+                      <span className="insta-btn-text">Visas We've Processed</span>
+                    </div>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="insta-arrow">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </a>
+                </div>
+
+                {/* SMALL SUBTLE NOTE AT VERY BOTTOM OF SIDEBAR CARD */}
+                {importantNote && (
+                  <div className="sidebar-note-block">
+                    <span className="sidebar-note-title">Important to Know</span>
+                    <p className="sidebar-note-text">{importantNote}</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* 7. FAQs AT THE BOTTOM */}
+      {/* 4. FAQs SECTION */}
       {data.faqs && data.faqs.length > 0 && (
         <section className="master-section faq-section" id="countryFaqs">
           <div className="container">
@@ -265,7 +335,7 @@ export default function CountryDetailView({ data }) {
         </section>
       )}
 
-      {/* 8. APPLICATION CTA BANNER */}
+      {/* 5. APPLICATION CTA BANNER */}
       <section className="master-cta-section">
         <div className="container">
           <div className="cta-master-card">

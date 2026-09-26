@@ -299,14 +299,12 @@ export default function CountryDetailView({ data }) {
                   <div className="mini-item">✓ Travel medical insurance</div>
                 </div>
 
-                <a
-                  href={whatsappUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href={`/contact/?country=${data.slug}&visa=${activeVisa?.id || 'tourist'}`}
                   className="vv-summary-wa-btn"
                 >
-                  Need Assistance? Chat on WhatsApp
-                </a>
+                  Need Assistance? Contact Us
+                </Link>
               </div>
             </aside>
 

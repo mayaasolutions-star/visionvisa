@@ -92,9 +92,10 @@ export default function HomePage() {
     
     {/*  Hero & Search Section  */}
     <section className="hero-section">
-        {/*  Light Travel Background & Animated Flight Canvas  */}
+        {/*  Light Travel Background & Soft Radial Protective Overlay  */}
         <div className="hero-bg-canvas" aria-hidden="true">
             <div className="hero-bg-image-layer"></div>
+            <div className="hero-center-radial-overlay"></div>
 
             {/* Single Animated Airplane along curved travel route */}
             <svg className="hero-flight-route-canvas" viewBox="0 0 1717 916" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
@@ -141,11 +142,12 @@ export default function HomePage() {
         <div className="container hero-content-wrapper">
             <div className="hero-header reveal">
                 <span className="section-label">
-                    VISA & TRAVEL SERVICES
+                    VISA &amp; TRAVEL SERVICES
                 </span>
 
                 <h1 className="hero-main-title">
-                    Your Journey Starts With the Right Visa.
+                    Your Journey Starts With{' '}
+                    <span className="hero-title-emphasize">the Right Visa.</span>
                 </h1>
 
                 <p className="hero-sub-title">
@@ -153,16 +155,7 @@ export default function HomePage() {
                     travel insurance, forex and air tickets under one roof.
                 </p>
 
-                <div
-                    style={{
-                        "display": "flex",
-                        "gap": "16px",
-                        "justifyContent": "center",
-                        "alignItems": "center",
-                        "flexWrap": "wrap",
-                        "marginBottom": "8px"
-                    }}
-                >
+                <div className="hero-cta-buttons">
                     <Link href="/contact" className="btn btn-primary">
                         Apply Now
                     </Link>

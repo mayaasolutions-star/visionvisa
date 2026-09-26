@@ -372,35 +372,31 @@ window.VISION_VISA_COUNTRIES = {
     "faqs": [
       {
         "q": "Do Indian citizens need a visa for Australia?",
-        "a": "Yes. Indian passport holders require a valid Australian visa before travelling to Australia."
+        "a": "Yes. Indian passport holders need a valid Australian visa before travelling to Australia."
       },
       {
         "q": "Which visa is suitable for tourism in Australia?",
-        "a": "The Visitor Visa is commonly used for applicants travelling to Australia for tourism or visiting family and friends."
+        "a": "For tourism and short visits, the appropriate Australian visitor visa depends on the traveller’s purpose, circumstances and applicable visa requirements."
       },
       {
         "q": "How long can I stay in Australia on a Visitor Visa?",
-        "a": "The permitted stay depends on the visa granted by the Australian authorities."
+        "a": "The permitted stay depends on the visa granted and its conditions. Travellers should check the conditions stated on their visa grant."
       },
       {
         "q": "What documents are required for an Australia Visitor Visa?",
-        "a": "Common requirements include a valid passport, photographs, completed application form, financial documents, covering letter, travel details, accommodation and travel insurance."
+        "a": "Requirements can vary depending on the applicant and visa type. Common supporting documents may include a valid passport, financial documents, travel details, accommodation information and other supporting documents."
       },
       {
         "q": "How long does an Australia Visitor Visa take to process?",
-        "a": "Processing generally takes around 15 to 30 working days, depending on the application and document assessment."
+        "a": "Processing times can vary depending on the visa type, application circumstances and application volumes. Applicants should check the latest applicable processing information before applying."
       },
       {
         "q": "Is travel insurance required for an Australia Visitor Visa?",
-        "a": "Yes. Travel insurance is required as part of the visa documentation."
+        "a": "Travel insurance requirements can depend on the visa and individual circumstances. Applicants should check the applicable requirements and arrange appropriate insurance where needed."
       },
       {
-        "q": "Can additional documents be requested?",
-        "a": "Yes. The Australian authorities may request additional documents or information during the visa assessment."
-      },
-      {
-        "q": "Does submitting all documents guarantee visa approval?",
-        "a": "No. The final decision on the visa application rests with the Australian authorities."
+        "q": "Can additional documents or information be requested after applying?",
+        "a": "Yes. The Australian authorities may request additional documents, information or clarification during the visa assessment process."
       }
     ],
     "checklist": {

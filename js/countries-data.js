@@ -402,31 +402,27 @@ window.VISION_VISA_COUNTRIES = {
     },
     {
       "q": "Which visa is suitable for tourism in Australia?",
-      "a": "The Visitor Visa is commonly used for tourism and short visits to family or friends in Australia."
+      "a": "For tourism and short visits, the appropriate Australian visitor visa depends on the traveller’s purpose, circumstances and applicable visa requirements."
     },
     {
       "q": "How long can I stay in Australia on a Visitor Visa?",
-      "a": "The permitted stay depends on the visa granted by the Australian authorities."
+      "a": "The permitted stay depends on the visa granted and its conditions. Travellers should check the conditions stated on their visa grant."
     },
     {
       "q": "What documents are required for an Australia Visitor Visa?",
-      "a": "Common documents include a valid passport, photographs, application form, financial documents, covering letter, travel details, accommodation details, and travel insurance."
+      "a": "Requirements can vary depending on the applicant and visa type. Common supporting documents may include a valid passport, financial documents, travel details, accommodation information and other supporting documents."
     },
     {
       "q": "How long does an Australia Visitor Visa take to process?",
-      "a": "The expected processing time is around 20–25 working days, depending on the application and assessment."
+      "a": "Processing times can vary depending on the visa type, application circumstances and application volumes. Applicants should check the latest applicable processing information before applying."
     },
     {
       "q": "Is travel insurance required for an Australia Visitor Visa?",
-      "a": "Yes. Travel insurance is listed as a requirement for the Australia Visitor Visa."
+      "a": "Travel insurance requirements can depend on the visa and individual circumstances. Applicants should check the applicable requirements and arrange appropriate insurance where needed."
     },
     {
-      "q": "Can the Australian authorities request additional documents?",
-      "a": "Yes. Additional documents or information may be requested during the visa assessment."
-    },
-    {
-      "q": "Does submitting all documents guarantee visa approval?",
-      "a": "No. The final decision on your visa application is made by the Australian authorities."
+      "q": "Can additional documents or information be requested after applying?",
+      "a": "Yes. The Australian authorities may request additional documents, information or clarification during the visa assessment process."
     }
   ],
 

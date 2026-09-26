@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="stylesheet" href={getAssetPath('/css/reset.css')} />
-        <link rel="stylesheet" href={getAssetPath('/css/main.css')} />
-        <link rel="stylesheet" href={getAssetPath('/css/components.css')} />
-        <link rel="stylesheet" href={getAssetPath('/css/animations.css')} />
-        <link rel="stylesheet" href={getAssetPath('/css/editorial-hero.css')} />
+        <link rel="stylesheet" href={`${getAssetPath('/css/reset.css')}?v=20260926_v12`} />
+        <link rel="stylesheet" href={`${getAssetPath('/css/main.css')}?v=20260926_v12`} />
+        <link rel="stylesheet" href={`${getAssetPath('/css/components.css')}?v=20260926_v21`} />
+        <link rel="stylesheet" href={`${getAssetPath('/css/animations.css')}?v=20260926_v12`} />
+        <link rel="stylesheet" href={`${getAssetPath('/css/editorial-hero.css')}?v=20260926_v12`} />
         <Script src="https://unpkg.com/lucide@latest" strategy="beforeInteractive" />
         <Script src={getAssetPath('/js/countries-data.js')} strategy="beforeInteractive" />
       </head>

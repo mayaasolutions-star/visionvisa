@@ -1,7 +1,7 @@
 
 
 /* =========================================================
-   LIGHT HERO TRAVEL BACKGROUND & ANIMATED FLIGHT SYSTEM
+   LIGHT HERO TRAVEL BACKGROUND & SOFT RADIAL OVERLAY SYSTEM
    ========================================================= */
 .hero-section {
     position: relative;
@@ -20,15 +20,28 @@
     overflow: hidden;
 }
 
-/* Light Watermark Travel Layer (90% Clean Space, 10% Faint Artwork) */
+/* Original Light Watermark Travel Background Layer */
 .hero-bg-image-layer {
     position: absolute;
     inset: 0;
-    background-image: url('../images/home-hero-bg-base.webp'), url('../images/home-hero-bg-base.png'), url('../images/home-hero-bg.webp');
+    background-image: url('../images/home-hero-bg.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    opacity: 0.38;
+    opacity: 0.70;
+}
+
+/* Concentrated Central Protective Radial Overlay (Fades gracefully to edges) */
+.hero-center-radial-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.92) 0%, rgba(255, 255, 255, 0.65) 45%, rgba(255, 255, 255, 0) 75%);
+    pointer-events: none;
+    z-index: 2;
 }
 
 /* SVG Flight Route & Single Flying Airplane Canvas */
@@ -38,7 +51,7 @@
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: 2;
+    z-index: 3;
 }
 
 .hero-route-stroke {
@@ -58,13 +71,92 @@
     filter: drop-shadow(0 2px 6px rgba(30, 115, 220, 0.35));
 }
 
+/* =========================================================
+   COMPACT & PREMIUM HERO SECTION (BALANCED 2-LINE HEADLINE & SUBTITLE)
+   ========================================================= */
+.hero-header {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.hero-main-title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.25rem, 3.6vw, 3.15rem);
+    font-weight: 750;
+    color: var(--slate-900);
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin-bottom: 14px;
+    text-align: center;
+    max-width: 580px; /* Controlled width for balanced two-line desktop wrapping */
+}
+
+.hero-title-emphasize {
+    color: #1E73DC;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+}
+
+.hero-title-emphasize::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #FF7A00;
+    border-radius: 2px;
+}
+
+.hero-sub-title {
+    font-family: var(--font-body);
+    font-size: clamp(1rem, 1.2vw, 1.125rem);
+    font-weight: 450;
+    color: var(--slate-600);
+    line-height: 1.5;
+    margin: 0 auto 24px;
+    text-align: center;
+    max-width: 560px; /* Controlled width for balanced two-line subtitle wrapping */
+}
+
+/* Floating Search Bar - Focal Point */
+.search-container {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.hero-content-wrapper {
+    position: relative;
+    z-index: 5;
+}
+
 @media (max-width: 1024px) {
     .hero-section {
         padding-top: 105px;
         padding-bottom: 24px;
     }
     .hero-bg-image-layer {
-        opacity: 0.32;
+        opacity: 0.62;
+    }
+    .hero-center-radial-overlay {
+        width: 70%;
+    }
+    .hero-main-title {
+        max-width: 520px;
+    }
+    .hero-sub-title {
+        max-width: 520px;
     }
 }
 
@@ -74,7 +166,22 @@
         padding-bottom: 20px;
     }
     .hero-bg-image-layer {
-        opacity: 0.25;
+        opacity: 0.45;
+    }
+    .hero-center-radial-overlay {
+        width: 88%;
+        background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.75) 55%, rgba(255, 255, 255, 0) 85%);
+    }
+    .hero-main-title {
+        max-width: 100%;
+        font-size: 1.85rem;
+        line-height: 1.25;
+    }
+    .hero-title-emphasize {
+        white-space: normal;
+    }
+    .hero-sub-title {
+        max-width: 100%;
     }
 }
 
@@ -86,42 +193,6 @@
     .hero-flying-plane-group animate {
         display: none !important;
     }
-}
-
-/* =========================================================
-   COMPACT & PREMIUM HERO SECTION (TIGHT VERTICAL RHYTHM)
-   ========================================================= */
-
-.hero-header {
-    text-align: center;
-    max-width: 840px;
-    margin: 0 auto 28px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hero-main-title {
-    font-family: var(--font-heading);
-    font-size: clamp(2.25rem, 3.8vw, 3.25rem);
-    font-weight: 700;
-    color: var(--slate-900);
-    letter-spacing: -0.025em;
-    line-height: 1.15;
-    margin-bottom: 14px;
-    text-align: center;
-    max-width: 800px;
-}
-
-.hero-sub-title {
-    font-family: var(--font-body);
-    font-size: clamp(1rem, 1.2vw, 1.125rem);
-    font-weight: 450;
-    color: var(--slate-600);
-    line-height: 1.5;
-    margin: 0 auto 24px;
-    text-align: center;
-    max-width: 740px;
 }
 
 /* Floating Search Bar - Focal Point */
@@ -2240,7 +2311,7 @@
 /* 10. FINAL CONVERSION CTA */
 .master-cta-section {
     background: #fff;
-    padding: 60px 0;
+    padding: 60px 0 75px;
 }
 
 .cta-master-card {
@@ -2390,6 +2461,9 @@
     .master-country-page {
         --section-space: 40px;
     }
+    .master-cta-section {
+        padding: 48px 0 60px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -2444,6 +2518,9 @@
     }
     .compact-steps-grid {
         grid-template-columns: 1fr;
+    }
+    .master-cta-section {
+        padding: 36px 0 44px;
     }
     .cta-master-card {
         padding: 32px 20px;
@@ -6364,5 +6441,1718 @@
 
   .visa-type-card-btn .card-title {
     font-size: 0.875rem !important;
+  }
+}
+
+const fs = require('fs');
+const path = './css/components.css';
+let content = fs.readFileSync(path, 'utf8');
+
+const marker = '/* ==========================================================================\n   VISION VISA REDESIGNED COUNTRY DETAIL PAGE STYLES';
+const markerCRLF = '/* ==========================================================================\r\n   VISION VISA REDESIGNED COUNTRY DETAIL PAGE STYLES';
+
+let cutIdx = content.indexOf(marker);
+if (cutIdx === -1) cutIdx = content.indexOf(markerCRLF);
+if (cutIdx === -1) cutIdx = content.indexOf('/* ==========================================================================\n   VV COUNTRY PAGE');
+if (cutIdx === -1) cutIdx = content.indexOf('/* ==========================================================================\r\n   VV COUNTRY PAGE');
+
+if (cutIdx !== -1) {
+  content = content.substring(0, cutIdx).trimEnd();
+}
+
+const cleanStyles = `
+
+const fs = require('fs');
+
+const cleanCSS = `
+
+const fs = require('fs');
+
+const cleanCSS = `/* ==========================================================================
+   VISION VISA REBUILT COUNTRY DETAIL PAGE STYLES
+   ========================================================================== */
+
+.vv-rebuilt-page {
+  padding-top: 104px;
+  padding-bottom: 60px;
+  background: #F8FAFC;
+  min-height: 100vh;
+  color: #071A3D;
+  font-family: var(--font-body, 'Inter', sans-serif);
+}
+
+.vv-page-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ==========================================================================
+   1. HERO & VISA INFORMATION (BALANCED TWO-COLUMN ROW)
+   ========================================================================== */
+.vv-hero-row {
+  width: 100%;
+}
+
+.vv-hero-grid {
+  display: grid;
+  grid-template-columns: 1.85fr 1fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* LEFT IMAGE CARD */
+.vv-hero-image-card {
+  position: relative;
+  height: 100%;
+  min-height: 380px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(7, 26, 61, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.vv-hero-img-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vv-hero-img-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(7, 26, 61, 0.02) 0%, rgba(7, 26, 61, 0.85) 100%);
+}
+
+.vv-hero-img-overlay {
+  position: relative;
+  z-index: 2;
+  padding: 28px;
+  color: #ffffff;
+}
+
+.vv-hero-flag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.vv-flag-img {
+  width: 20px;
+  height: 14px;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.vv-hero-title {
+  font-family: var(--font-heading, 'Plus Jakarta Sans', sans-serif);
+  font-size: clamp(1.65rem, 3.2vw, 2.25rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+.vv-hero-desc {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0;
+  line-height: 1.5;
+  max-width: 580px;
+}
+
+/* RIGHT VISA INFORMATION PANEL */
+.vv-hero-info-panel {
+  background: #ffffff;
+  border: 1px solid rgba(7, 26, 61, 0.08);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(7, 26, 61, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.vv-panel-header {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f1f5f9;
+  margin-bottom: 12px;
+}
+
+.vv-panel-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #F47B20;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+
+.vv-panel-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #071A3D;
+  margin: 0;
+}
+
+.vv-panel-params {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.vv-param-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background: #f8fafc;
+  border-radius: 10px;
+  border: 1px solid #f1f5f9;
+}
+
+.param-lbl {
+  font-size: 0.78rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.param-val {
+  font-size: 0.86rem;
+  color: #071A3D;
+  font-weight: 700;
+  text-align: right;
+}
+
+.vv-panel-ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.vv-cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 180ms ease;
+  cursor: pointer;
+}
+
+.vv-cta-whatsapp {
+  background: #25D366;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
+}
+
+.vv-cta-whatsapp:hover {
+  background: #20bd5a;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.vv-cta-insta {
+  background: #ffffff;
+  color: #071A3D;
+  border: 1px solid #e2e8f0;
+}
+
+.vv-cta-insta:hover {
+  border-color: #071A3D;
+  background: #f8fafc;
+}
+
+/* ==========================================================================
+   2. VISA TYPE SELECTOR (COMPACT SEGMENTED BAR DIRECTLY BELOW HERO)
+   ========================================================================== */
+.vv-selector-row {
+  width: 100%;
+}
+
+.vv-segmented-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px;
+  background: #ffffff;
+  border: 1px solid rgba(7, 26, 61, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(7, 26, 61, 0.03);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.vv-segmented-control::-webkit-scrollbar {
+  display: none;
+}
+
+.vv-segmented-btn {
+  flex: 1;
+  min-width: 130px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  color: #64748B;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 180ms ease;
+}
+
+.vv-segmented-btn:hover {
+  color: #071A3D;
+  background: #F1F5F9;
+}
+
+.vv-segmented-btn.active {
+  background: #071A3D;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(7, 26, 61, 0.15);
+}
+
+/* ==========================================================================
+   3. KEY REQUIREMENTS (MAIN LAYOUT: LEFT 68% + RIGHT 32%)
+   ========================================================================== */
+.vv-requirements-row {
+  width: 100%;
+}
+
+.vv-main-layout-grid {
+  display: grid;
+  grid-template-columns: 1.85fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.vv-req-card {
+  background: #ffffff;
+  border: 1px solid rgba(7, 26, 61, 0.08);
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(7, 26, 61, 0.04);
+}
+
+.vv-req-header {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.vv-req-tag-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.vv-req-tag {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #F47B20;
+  letter-spacing: 0.08em;
+}
+
+.vv-req-count {
+  padding: 2px 8px;
+  background: #f1f5f9;
+  color: #475569;
+  border-radius: 100px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.vv-req-title {
+  font-family: var(--font-heading, 'Plus Jakarta Sans', sans-serif);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #071A3D;
+  margin: 0 0 4px 0;
+  letter-spacing: -0.01em;
+}
+
+.vv-req-subtitle {
+  font-size: 0.88rem;
+  color: #64748B;
+  margin: 0;
+}
+
+.vv-req-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vv-req-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #F8FAFC;
+  border-radius: 10px;
+  border: 1px solid #F1F5F9;
+}
+
+.vv-req-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #10B981;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.vv-req-text {
+  font-size: 0.9rem;
+  color: #1E293B;
+  line-height: 1.45;
+  font-weight: 500;
+}
+
+.vv-req-toggle-wrap {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.vv-req-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 18px;
+  background: #F1F5F9;
+  color: #1E73DC;
+  border: 1px solid #E2E8F0;
+  border-radius: 100px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 180ms ease;
+}
+
+.vv-req-toggle-btn:hover {
+  background: #1E73DC;
+  color: #ffffff;
+  border-color: #1E73DC;
+}
+
+/* SIDEBAR COLUMN */
+.vv-sidebar-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vv-sidebar-card {
+  background: #ffffff;
+  border: 1px solid rgba(7, 26, 61, 0.08);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(7, 26, 61, 0.04);
+}
+
+.vv-sidebar-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f5f9;
+  margin-bottom: 12px;
+}
+
+.vv-sidebar-heading {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #071A3D;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+.vv-sidebar-link {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #1E73DC;
+  text-decoration: none;
+}
+
+.vv-related-countries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.vv-related-country-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 12px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #f1f5f9;
+  color: #071A3D;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 150ms ease;
+}
+
+.vv-related-country-item:hover {
+  background: #071A3D;
+  color: #ffffff;
+  border-color: #071A3D;
+}
+
+.country-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag-emoji {
+  font-size: 1.05rem;
+}
+
+.arrow-icon {
+  font-size: 0.88rem;
+  transition: transform 150ms ease;
+}
+
+.vv-related-country-item:hover .arrow-icon {
+  transform: translateX(3px);
+}
+
+.vv-sidebar-help-box {
+  background: #ffffff;
+  border: 1px solid rgba(7, 26, 61, 0.08);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(7, 26, 61, 0.04);
+}
+
+.help-title {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #071A3D;
+  margin: 0 0 6px 0;
+}
+
+.help-desc {
+  font-size: 0.82rem;
+  color: #64748B;
+  margin: 0 0 14px 0;
+  line-height: 1.45;
+}
+
+.vv-sidebar-wa-btn {
+  display: block;
+  text-align: center;
+  padding: 10px 14px;
+  background: #25D366;
+  color: #ffffff;
+  font-size: 0.84rem;
+  font-weight: 700;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 150ms ease;
+}
+
+.vv-sidebar-wa-btn:hover {
+  background: #20bd5a;
+}
+
+/* ==========================================================================
+   4. ADDITIONAL VISA INFORMATION & DESTINATION INFO
+   ========================================================================== */
+.vv-additional-info-row {
+  width: 100%;
+}
+
+.vv-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.vv-info-card {
+  background: #ffffff;
+  border: 1px solid rgba(7, 26, 61, 0.08);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(7, 26, 61, 0.04);
+}
+
+.vv-info-heading {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #071A3D;
+  letter-spacing: 0.06em;
+  margin: 0 0 14px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.vv-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vv-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #f1f5f9;
+}
+
+.vv-info-item .lbl {
+  font-size: 0.82rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.vv-info-item .val {
+  font-size: 0.86rem;
+  color: #071A3D;
+  font-weight: 700;
+  text-align: right;
+}
+
+.vv-consular-note {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: #fffbeb;
+  border: 1px solid #fef3c7;
+  border-radius: 8px;
+  font-size: 0.8125rem;
+  color: #92400e;
+}
+
+.vv-consular-note strong {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  color: #b45309;
+}
+
+.vv-consular-note p {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.vv-info-grid-2x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.vv-dest-box {
+  padding: 12px 14px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #f1f5f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.vv-dest-box .lbl {
+  font-size: 0.7rem;
+  color: #64748b;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 3px;
+}
+
+.vv-dest-box .val {
+  font-size: 0.86rem;
+  color: #071A3D;
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   5. FAQS SECTION
+   ========================================================================== */
+.vv-faqs-row {
+  width: 100%;
+}
+
+.vv-faqs-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.vv-faqs-header {
+  margin-bottom: 20px;
+}
+
+.vv-faqs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vv-faq-item {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 150ms ease;
+}
+
+.vv-faq-item[open] {
+  border-color: #071A3D;
+}
+
+.vv-faq-item summary {
+  padding: 16px 20px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #071A3D;
+  cursor: pointer;
+  user-select: none;
+}
+
+.vv-faq-item summary:hover {
+  color: #1E73DC;
+}
+
+.vv-faq-item p {
+  padding: 0 20px 18px 20px;
+  font-size: 0.875rem;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ==========================================================================
+   RESPONSIVE LAYOUT
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .vv-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .vv-hero-image-card {
+    min-height: 320px;
+  }
+
+  .vv-main-layout-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .vv-rebuilt-page {
+    padding-top: 84px;
+  }
+
+  .vv-info-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .vv-req-card {
+    padding: 20px;
+  }
+
+  .vv-hero-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .vv-info-grid-2x2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   VISION VISA EDITORIAL COUNTRY DETAIL PAGE STYLES
+   ========================================================================== */
+
+.vv-editorial-page {
+  background-color: #F8FAFC;
+  color: #0F172A;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  margin-top: 0 !important;
+  padding-top: 104px;
+  padding-bottom: 64px;
+}
+
+.vv-editorial-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px !important;
+  display: flow-root !important;
+}
+
+/* RESET ALL UNINTENDED SECTION PADDING OVERRIDES */
+.vv-editorial-page section:not(.vv-info-spread-section):not(.master-cta-section):not(.faq-section) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.vv-editorial-page .master-cta-section {
+  padding-top: 60px !important;
+  padding-bottom: 36px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.vv-editorial-page .faq-section {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 991px) {
+  .vv-editorial-page .master-cta-section {
+    padding-top: 48px !important;
+    padding-bottom: 32px !important;
+  }
+  .vv-editorial-page .faq-section {
+    padding-top: 50px !important;
+    padding-bottom: 48px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .vv-editorial-page .master-cta-section {
+    padding-top: 36px !important;
+    padding-bottom: 28px !important;
+  }
+  .vv-editorial-page .faq-section {
+    padding-top: 44px !important;
+    padding-bottom: 36px !important;
+  }
+}
+
+/* 1. HERO ROW: ZERO MARGIN-TOP TO PREVENT COLLAPSE / DOUBLE SPACING */
+.vv-editorial-hero-row {
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.vv-hero-layout-grid {
+  display: grid;
+  grid-template-columns: 68% 32%;
+  gap: 20px;
+  align-items: stretch;
+}
+
+/* Left Hero: Cinematic Destination Image */
+.vv-hero-cinema-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 32px 36px;
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.1);
+}
+
+.vv-hero-cinema-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.vv-hero-cinema-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(7, 26, 61, 0.15) 0%, rgba(7, 26, 61, 0.7) 60%, rgba(7, 26, 61, 0.95) 100%);
+  z-index: 2;
+}
+
+.vv-hero-cinema-content {
+  position: relative;
+  z-index: 3;
+  color: #FFFFFF;
+}
+
+.vv-hero-meta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.vv-flag-icon {
+  width: 18px;
+  height: 13px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.vv-hero-meta-badge .dot {
+  opacity: 0.5;
+}
+
+.vv-hero-main-heading {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #FFFFFF;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.02em;
+}
+
+.vv-hero-sub-text {
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+  max-width: 600px;
+}
+
+/* Right Hero: Editorial Panel */
+.vv-hero-editorial-panel {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 24px 22px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vv-panel-top-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #1E73DC;
+  margin-bottom: 4px;
+}
+
+.vv-panel-main-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #071A3D;
+  margin: 0 0 16px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #F1F5F9;
+}
+
+.vv-editorial-params {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vv-param-row-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.vv-param-row-item .lbl {
+  color: #64748B;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}
+
+.vv-param-row-item .val {
+  color: #071A3D;
+  font-weight: 700;
+  text-align: right;
+}
+
+.vv-panel-action-stack {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vv-action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.vv-action-whatsapp {
+  background: #25D366;
+  color: #FFFFFF;
+}
+
+.vv-action-whatsapp:hover {
+  background: #20bd5a;
+  transform: translateY(-1px);
+}
+
+.vv-action-insta {
+  background: #F8FAFC;
+  color: #0F172A;
+  border: 1px solid #E2E8F0;
+}
+
+.vv-action-insta:hover {
+  background: #F1F5F9;
+  border-color: #CBD5E1;
+}
+
+/* 2. VISA TYPE NAVIGATION SELECTOR */
+.vv-nav-segmented-row {
+  margin-bottom: 36px !important;
+}
+
+.vv-segmented-track {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #FFFFFF;
+  padding: 8px;
+  border-radius: 14px;
+  border: 1px solid #CBD5E1;
+  box-shadow: 0 4px 16px rgba(7, 26, 61, 0.06);
+  min-height: 64px;
+  overflow-x: auto;
+}
+
+.vv-segmented-item {
+  position: relative;
+  flex: 1;
+  min-width: 140px;
+  height: 48px;
+  padding: 0 24px;
+  border: 1px solid #E2E8F0;
+  background: #FFFFFF;
+  color: #334155;
+  font-size: 14.5px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.vv-segmented-item:hover {
+  color: #071A3D;
+  background: #F8FAFC;
+  border-color: #94A3B8;
+}
+
+.vv-segmented-item.active {
+  color: #1E73DC;
+  background: #EFF6FF;
+  border: 2px solid #1E73DC;
+  font-weight: 700;
+  box-shadow: 0 3px 10px rgba(30, 115, 220, 0.12);
+}
+
+.vv-segmented-item .active-underline {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 3px;
+  background: #1E73DC;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* 3. KEY REQUIREMENTS */
+.vv-requirements-editorial-row {
+  margin-bottom: 40px !important;
+}
+
+.vv-req-editorial-grid {
+  display: grid;
+  grid-template-columns: 68% 32%;
+  gap: 24px;
+  align-items: start;
+}
+
+.vv-req-content-box {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 32px 32px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.vv-section-tag-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.vv-tag-badge {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #1E73DC;
+  background: #EFF6FF;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.vv-tag-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748B;
+}
+
+.vv-section-heading {
+  font-size: 24px;
+  font-weight: 800;
+  color: #071A3D;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.01em;
+}
+
+.vv-section-subheading {
+  font-size: 14px;
+  color: #64748B;
+  margin: 0 0 24px 0;
+}
+
+.vv-numbered-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vv-check-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 14px 18px;
+  background: #F8FAFC;
+  border-radius: 10px;
+  border: 1px solid #F1F5F9;
+  transition: border-color 0.2s ease;
+}
+
+.vv-check-row:hover {
+  border-color: #CBD5E1;
+  background: #FFFFFF;
+}
+
+.vv-check-row .num-col {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #1E73DC;
+  background: #EFF6FF;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.vv-check-row .text-col {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1E293B;
+  font-weight: 500;
+  padding-top: 3px;
+}
+
+.vv-expand-trigger-row {
+  margin-top: 14px;
+  text-align: center;
+}
+
+.vv-expand-btn {
+  background: none;
+  border: none;
+  color: #1E73DC;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 8px 18px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.vv-expand-btn:hover {
+  background: #EFF6FF;
+}
+
+.vv-req-fallback-text {
+  font-size: 14px;
+  color: #64748B;
+  font-style: italic;
+}
+
+/* Requirements Right Summary */
+.vv-req-summary-aside {
+  position: sticky;
+  top: 100px;
+}
+
+.vv-summary-hero-card {
+  background: linear-gradient(135deg, #071A3D 0%, #0F2854 100%);
+  border-radius: 16px;
+  padding: 26px 22px;
+  color: #FFFFFF;
+  box-shadow: 0 8px 24px rgba(7, 26, 61, 0.15);
+}
+
+.summary-number-badge {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 800;
+  color: #22C55E;
+  margin-bottom: 4px;
+}
+
+.summary-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 18px;
+}
+
+.summary-checklist-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.summary-checklist-mini .mini-item {
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.4;
+}
+
+.vv-summary-wa-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #25D366;
+  color: #FFFFFF;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.vv-summary-wa-btn:hover {
+  opacity: 0.92;
+}
+
+/* 4. VISA DETAILS & DESTINATION AT A GLANCE (EDITORIAL PANEL - ZERO INTERNAL DIVIDERS) */
+.vv-info-spread-section {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 30px 36px;
+  border: 1px solid #E2E8F0;
+  margin-bottom: 40px !important;
+  box-shadow: 0 4px 20px rgba(7, 26, 61, 0.035);
+}
+
+.vv-info-spread-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 52px;
+  align-items: stretch;
+}
+
+.visa-details-panel {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0;
+}
+
+.australia-glance-panel {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0;
+  border-left: none;
+  border-top: none;
+}
+
+.visa-panel-heading {
+  margin-bottom: 22px;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.visa-panel-kicker {
+  display: block;
+  margin-bottom: 4px;
+  color: #1E73DC;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.visa-panel-title {
+  margin: 0;
+  color: #071A3D;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+/* LEFT SIDE: Compact Editorial Cards Stack */
+.visa-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.visa-detail-item {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  min-height: 64px;
+  padding: 12px 16px;
+  border: 1px solid #E2E8F0;
+  border-left: 3.5px solid #1E73DC;
+  border-radius: 10px;
+  background: #F8FAFC;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.visa-detail-item:hover {
+  background: #F1F5F9;
+  border-color: #CBD5E1;
+}
+
+.visa-detail-label {
+  color: #64748B;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.visa-detail-value {
+  overflow-wrap: anywhere;
+  color: #071A3D;
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* RIGHT SIDE: 2x2 Grid Stretched to Equal Content Height */
+.glance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  flex: 1;
+  height: 100%;
+}
+
+.glance-card {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 14px;
+  height: 100%;
+  padding: 14px 16px;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px rgba(7, 26, 61, 0.02);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glance-card:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 4px 12px rgba(7, 26, 61, 0.05);
+}
+
+.glance-icon {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #EFF6FF;
+  color: #1E73DC;
+}
+
+.glance-icon svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.glance-card-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.glance-label {
+  color: #64748B;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.glance-value {
+  overflow-wrap: anywhere;
+  color: #071A3D;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* 5. EXPLORE MORE VISA OPTIONS */
+.vv-explore-visas-section {
+  margin-bottom: 48px !important;
+}
+
+.vv-explore-header {
+  margin-bottom: 24px;
+}
+
+.vv-explore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.vv-explore-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 16px 20px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.vv-explore-card:hover {
+  border-color: #1E73DC;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 115, 220, 0.08);
+}
+
+.explore-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.explore-left .flag-emoji {
+  font-size: 20px;
+}
+
+.explore-left .country-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #071A3D;
+}
+
+.arrow-link {
+  font-size: 16px;
+  color: #1E73DC;
+  font-weight: 700;
+}
+
+/* 6. HUMAN SUPPORT BANNER */
+.vv-support-banner-section {
+  margin-bottom: 48px !important;
+}
+
+.vv-support-card {
+  background: linear-gradient(135deg, #071A3D 0%, #1E3A8A 100%);
+  border-radius: 20px;
+  padding: 40px 48px;
+  color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(7, 26, 61, 0.15);
+}
+
+.support-heading {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  color: #FFFFFF;
+}
+
+.support-desc {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0 0 24px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.support-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.vv-social-proof-link {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13.5px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.vv-social-proof-link:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+/* 7. FREQUENTLY ASKED QUESTIONS */
+.vv-faqs-editorial-section {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 36px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  margin-bottom: 48px !important;
+}
+
+.vv-faqs-editorial-header {
+  margin-bottom: 24px;
+}
+
+.vv-faqs-editorial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vv-faq-editorial-item {
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 16px 20px;
+  transition: background 0.2s ease;
+}
+
+.vv-faq-editorial-item[open] {
+  background: #F8FAFC;
+}
+
+.vv-faq-editorial-item summary {
+  font-size: 15px;
+  font-weight: 700;
+  color: #071A3D;
+  cursor: pointer;
+  outline: none;
+}
+
+.vv-faq-editorial-item p {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #475569;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+  .vv-hero-layout-grid,
+  .vv-req-editorial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vv-explore-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vv-hero-cinema-card {
+    min-height: 320px;
+    padding: 24px;
+  }
+
+  .vv-hero-main-heading {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .vv-info-spread-section {
+    padding: 24px 28px;
+  }
+
+  .vv-info-spread-grid {
+    gap: 36px;
+  }
+
+  .visa-details-panel,
+  .australia-glance-panel {
+    padding: 0;
+    border: none;
+  }
+
+  .glance-grid {
+    gap: 12px;
+  }
+
+  .glance-card {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .glance-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .vv-editorial-hero-row {
+    margin-top: 0 !important;
+    margin-bottom: 14px !important;
+  }
+
+  .vv-nav-segmented-row {
+    margin-bottom: 24px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .vv-editorial-page {
+    padding-top: 92px;
+  }
+}
+
+@media (max-width: 640px) {
+  .vv-info-spread-section {
+    padding: 20px;
+  }
+
+  .vv-info-spread-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .visa-details-panel,
+  .australia-glance-panel {
+    padding: 0;
+    margin-top: 0;
+    border: none !important;
+    background: transparent;
+  }
+
+  .glance-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .vv-explore-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vv-support-card {
+    padding: 28px 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .vv-info-spread-section {
+    padding: 18px;
+  }
+
+  .glance-grid {
+    grid-template-columns: 1fr;
   }
 }

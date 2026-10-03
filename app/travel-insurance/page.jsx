@@ -40,19 +40,72 @@ export const metadata = {
     type: 'website',
     siteName: 'Vision Visa',
     url: 'https://www.visionvisa.in/travel-insurance',
-    locale: 'en_IN'
+    locale: 'en_IN',
+    images: [
+      {
+        url: 'https://www.visionvisa.in/images/travelinsurance-hero.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Vision Visa Travel Insurance Guidance'
+      }
+    ]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Travel Insurance | International Travel Cover | Vision Visa',
     description:
-      'Explore international travel insurance options from established partners with Vision Visa guidance.'
+      'Explore international travel insurance options from established partners with Vision Visa guidance.',
+    images: ['https://www.visionvisa.in/images/travelinsurance-hero.webp']
   }
 };
 
 export default function TravelInsurancePage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+          {
+            '@type': 'ListItem',
+            'position': 1,
+            'name': 'Home',
+            'item': 'https://www.visionvisa.in'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 2,
+            'name': 'Services',
+            'item': 'https://www.visionvisa.in/visas'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 3,
+            'name': 'Travel Insurance',
+            'item': 'https://www.visionvisa.in/travel-insurance'
+          }
+        ]
+      },
+      {
+        '@type': 'Service',
+        'name': 'International Travel Insurance',
+        'provider': {
+          '@type': 'TravelAgency',
+          'name': 'Vision Visa',
+          'url': 'https://www.visionvisa.in'
+        },
+        'serviceType': 'Travel Insurance Assistance',
+        'description': 'Comprehensive international travel insurance assistance covering medical emergencies, trip cancellation, baggage loss, and Schengen visa compliance.'
+      }
+    ]
+  };
+
   return (
     <main className="ti-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* =========================================================
           SECTION 1: HERO SECTION
           ========================================================= */}

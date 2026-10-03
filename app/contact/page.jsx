@@ -39,29 +39,29 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "YOUR-VISION-VISA-DOMAIN/contact"
+        canonical: "https://www.visionvisa.in/contact"
     },
 
     openGraph: {
         title: "Contact Vision Visa | Visa & Travel Services",
 
         description:
-            "Get in touch with Vision Visa for visa assistance, travel insurance, forex and domestic and international air ticket services.",
+            "Get in touch with Vision Visa for visa assistance, travel insurance, forex, and air ticket services.",
 
         type: "website",
 
         siteName: "Vision Visa",
 
-        url: "YOUR-VISION-VISA-DOMAIN/contact",
+        url: "https://www.visionvisa.in/contact",
 
         locale: "en_IN",
 
         images: [
             {
-                url: "YOUR-VISION-VISA-DOMAIN/images/vision-visa-contact-og.jpg",
+                url: "https://www.visionvisa.in/images/businessvisa-hero.webp",
                 width: 1200,
                 height: 630,
-                alt: "Contact Vision Visa for travel services"
+                alt: "Contact Vision Visa Travel Desk"
             }
         ]
     },
@@ -72,17 +72,36 @@ export const metadata = {
         title: "Contact Vision Visa | Visa & Travel Services",
 
         description:
-            "Contact Vision Visa for visa, travel insurance, forex and air ticket assistance.",
+            "Contact Vision Visa for visa, travel insurance, forex, and air ticket assistance.",
 
         images: [
-            "YOUR-VISION-VISA-DOMAIN/images/vision-visa-contact-og.jpg"
+            "https://www.visionvisa.in/images/businessvisa-hero.webp"
         ]
     }
 };
 
 export default function CONTACT_Page() {
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.visionvisa.in" },
+            { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.visionvisa.in/contact" }
+        ]
+    };
+
+    const contactSchema = {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Vision Visa",
+        "url": "https://www.visionvisa.in/contact",
+        "description": "Contact Vision Visa for visa assistance, travel insurance, forex, and air ticket inquiries."
+    };
+
     return (
     <main>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
     <section className="inner-hero inner-hero-soft">
         <div className="hero-pattern-dots"></div>
         <div className="container">
@@ -144,9 +163,9 @@ export default function CONTACT_Page() {
         </div>
     </section>
 
-        <section style={{ padding: "80px 0" }}>
+        <section className="contact-section" style={{ padding: "80px 0" }}>
             <div className="container">
-                <div style={{
+                <div className="contact-main-grid" style={{
                     display: "grid",
                     gridTemplateColumns: "1fr 1fr",
                     gap: "60px",
@@ -229,7 +248,7 @@ export default function CONTACT_Page() {
 
                     {/* Right Column: Contact Form */}
                     <div className="reveal reveal-delay-1">
-                        <div style={{
+                        <div className="contact-form-card" style={{
                             background: "var(--white)",
                             padding: "40px",
                             borderRadius: "24px",
@@ -240,22 +259,22 @@ export default function CONTACT_Page() {
                             <form id="contactForm">
                                 <div className="form-group" style={{ marginBottom: "20px" }}>
                                     <label htmlFor="name" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Full Name</label>
-                                    <input type="text" className="form-input" id="name" placeholder="Enter your full name" required style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0" }} />
+                                    <input type="text" className="form-input" id="name" placeholder="Enter your full name" required style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }} />
                                 </div>
 
                                 <div className="form-group" style={{ marginBottom: "20px" }}>
                                     <label htmlFor="email" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Email Address</label>
-                                    <input type="email" className="form-input" id="email" placeholder="name@example.com" required style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0" }} />
+                                    <input type="email" className="form-input" id="email" placeholder="name@example.com" required style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }} />
                                 </div>
 
                                 <div className="form-group" style={{ marginBottom: "20px" }}>
                                     <label htmlFor="phone" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Phone Number</label>
-                                    <input type="tel" className="form-input" id="phone" placeholder="+91 98765 43210" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0" }} />
+                                    <input type="tel" className="form-input" id="phone" placeholder="+91 98765 43210" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }} />
                                 </div>
 
                                 <div className="form-group" style={{ marginBottom: "20px" }}>
                                     <label htmlFor="service" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Service Required</label>
-                                    <select className="form-input" id="service" required defaultValue="" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
+                                    <select className="form-input" id="service" required defaultValue="" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }}>
                                         <option value="" disabled>Select Service</option>
                                         <option value="tourist">Tourist Visa</option>
                                         <option value="business">Business Visa</option>
@@ -269,10 +288,13 @@ export default function CONTACT_Page() {
 
                                 <div className="form-group" style={{ marginBottom: "24px" }}>
                                     <label htmlFor="message" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Your Message</label>
-                                    <textarea className="form-input" id="message" rows={4} placeholder="How can we help you?" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0" }}></textarea>
+                                    <textarea className="form-input" id="message" rows={4} placeholder="How can we help you?" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }}></textarea>
                                 </div>
 
                                 <button type="submit" className="btn btn-primary magnetic" style={{ width: "100%" }}>Send Message</button>
+                                <p style={{ marginTop: '14px', fontSize: '0.75rem', color: '#64748b', textAlign: 'center', lineHeight: '1.4' }}>
+                                  By submitting, you agree to our <Link href="/privacy-policy" style={{ color: '#1E73DC', textDecoration: 'underline' }}>Privacy Policy</Link> &amp; <Link href="/terms" style={{ color: '#1E73DC', textDecoration: 'underline' }}>Terms</Link>. Vision Visa is an independent consultancy; visa issuance is subject to government approval.
+                                </p>
                             </form>
                         </div>
                     </div>

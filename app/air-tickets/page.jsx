@@ -38,26 +38,26 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "YOUR-VISION-VISA-DOMAIN/air-tickets"
+        canonical: "https://www.visionvisa.in/air-tickets"
     },
 
     openGraph: {
         title: "Air Tickets | Domestic & International Flight Booking | Vision Visa",
 
         description:
-            "Flight booking assistance from Vision Visa. Find and book domestic and international air tickets for travel, study and business.",
+            "Flight booking assistance from Vision Visa. Find and book domestic and international air tickets for travel, study, and business trips.",
 
         type: "website",
 
         siteName: "Vision Visa",
 
-        url: "YOUR-VISION-VISA-DOMAIN/air-tickets",
+        url: "https://www.visionvisa.in/air-tickets",
 
         locale: "en_IN",
 
         images: [
             {
-                url: "YOUR-VISION-VISA-DOMAIN/images/vision-visa-air-tickets-og.jpg",
+                url: "https://www.visionvisa.in/images/airtickets-bookingassistance.webp",
                 width: 1200,
                 height: 630,
                 alt: "Vision Visa Air Tickets | Flight Booking Assistance"
@@ -74,14 +74,33 @@ export const metadata = {
             "Book domestic and international flights with guidance from Vision Visa.",
 
         images: [
-            "YOUR-VISION-VISA-DOMAIN/images/vision-visa-air-tickets-og.jpg"
+            "https://www.visionvisa.in/images/airtickets-bookingassistance.webp"
         ]
     }
 };
 
 export default function AIR_TICKETS_Page() {
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.visionvisa.in" },
+            { "@type": "ListItem", "position": 2, "name": "Air Tickets", "item": "https://www.visionvisa.in/air-tickets" }
+        ]
+    };
+
+    const serviceSchema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Air Ticket Booking Assistance",
+        "provider": { "@type": "TravelAgency", "name": "Vision Visa", "url": "https://www.visionvisa.in" },
+        "description": "Domestic and international flight ticket booking assistance for leisure, business, and student travel."
+    };
+
     return (
     <main>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       {/*  Navigation  */}
         {/*  Navigation  */}
     
@@ -376,11 +395,12 @@ export default function AIR_TICKETS_Page() {
                 <img
                     src={getAssetPath("/images/airtickets-bookingassistance.webp")}
                     alt="Air ticket booking assistance for domestic and international flights"
+                    loading="lazy"
                     style={{
                         "width": "100%",
-                        "height": "500px",
+                        "maxHeight": "440px",
                         "objectFit": "cover",
-                        "borderRadius": "40px"
+                        "borderRadius": "24px"
                     }}
                 />
             </div>

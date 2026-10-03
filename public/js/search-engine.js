@@ -70,30 +70,27 @@
                    data-name="${c.name}"
                    data-index="${idx}">
                     <div class="search-item-left">
-                        <img src="${c.flagImage}" alt="${c.name}" class="search-flag">
+                        <img src="${c.flagImage}" alt="${c.name}" class="search-flag" loading="lazy">
                         <span class="search-country-name">${highlightMatch(c.name, trimmed)}</span>
                     </div>
                 </a>
             `).join('');
 
             destDropdown.classList.add('show');
-
-            // Attach click listeners to items
-            const items = destDropdown.querySelectorAll('.search-dropdown-item');
-            items.forEach(item => {
-                item.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    destInput.value = item.getAttribute('data-name');
-                    selectedCountrySlug = item.getAttribute('data-slug');
-                    destDropdown.classList.remove('show');
-                    if (errorMsg) errorMsg.style.display = 'none';
-                    
-                    // Navigate to country page
-                    const targetUrl = item.getAttribute('href');
-                    window.location.href = targetUrl;
-                });
-            });
         }
+
+        // Delegated click listener on destDropdown
+        destDropdown.addEventListener('click', (e) => {
+            const item = e.target.closest('.search-dropdown-item');
+            if (!item) return;
+            e.preventDefault();
+            destInput.value = item.getAttribute('data-name');
+            selectedCountrySlug = item.getAttribute('data-slug');
+            destDropdown.classList.remove('show');
+            if (errorMsg) errorMsg.style.display = 'none';
+            const targetUrl = item.getAttribute('href');
+            if (targetUrl) window.location.href = targetUrl;
+        });
 
         // Input Event Listener for Destination
         destInput.addEventListener('input', () => {

@@ -360,8 +360,14 @@
     "flagImage": "https://flagcdn.com/w40/tr.png"
   },
   {
-    "name": "UAE",
+    "name": "Dubai (UAE)",
     "slug": "uae",
+    "visaType": "Tourist Visa / eVisa",
+    "flagImage": "https://flagcdn.com/w40/ae.png"
+  },
+  {
+    "name": "Dubai (UAE)",
+    "slug": "dubai",
     "visaType": "Tourist Visa / eVisa",
     "flagImage": "https://flagcdn.com/w40/ae.png"
   },
@@ -402,7 +408,7 @@
     "flagImage": "https://flagcdn.com/w40/us.png"
   },
   {
-    "name": "UAE",
+    "name": "Dubai (UAE)",
     "slug": "united-arab-emirates",
     "visaType": "Tourist / Business Visa",
     "flagImage": "https://flagcdn.com/w40/ae.png"

@@ -104,6 +104,8 @@ export default function AboutPage() {
                 <img
                   src={getAssetPath('/images/about-hero.webp')}
                   alt="International traveller map, passport, and voyage planning essentials"
+                  loading="eager"
+                  fetchPriority="high"
                 />
 
                 <div className="about-hero-floating-card">
@@ -136,6 +138,7 @@ export default function AboutPage() {
                 <img
                   src={getAssetPath('/images/visas-choosewithconfidence.webp')}
                   alt="World map representing international destinations"
+                  loading="lazy"
                 />
               </div>
 

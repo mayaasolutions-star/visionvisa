@@ -40,7 +40,7 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "YOUR-VISION-VISA-DOMAIN/visas/business-visa"
+        canonical: "https://www.visionvisa.in/business-visa"
     },
 
     openGraph: {
@@ -53,13 +53,13 @@ export const metadata = {
 
         siteName: "Vision Visa",
 
-        url: "YOUR-VISION-VISA-DOMAIN/visas/business-visa",
+        url: "https://www.visionvisa.in/business-visa",
 
         locale: "en_IN",
 
         images: [
             {
-                url: "YOUR-VISION-VISA-DOMAIN/images/vision-visa-business-visa-og.jpg",
+                url: "https://www.visionvisa.in/images/businessvisa-hero.webp",
                 width: 1200,
                 height: 630,
                 alt: "Vision Visa Business Visa Assistance"
@@ -76,14 +76,58 @@ export const metadata = {
             "Get guidance on business visa requirements, documents and applications for international meetings, conferences and business travel.",
 
         images: [
-            "YOUR-VISION-VISA-DOMAIN/images/vision-visa-business-visa-og.jpg"
+            "https://www.visionvisa.in/images/businessvisa-hero.webp"
         ]
     }
 };
 
 export default function BUSINESS_VISA_Page() {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.visionvisa.in"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Visas",
+                        "item": "https://www.visionvisa.in/visas"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Business Visa",
+                        "item": "https://www.visionvisa.in/business-visa"
+                    }
+                ]
+            },
+            {
+                "@type": "Service",
+                "name": "Business Visa Assistance",
+                "provider": {
+                    "@type": "TravelAgency",
+                    "name": "Vision Visa",
+                    "url": "https://www.visionvisa.in"
+                },
+                "serviceType": "Business Visa Guidance & Processing Assistance",
+                "description": "Professional visa support for corporate travel, business delegations, trade shows, partner meetings, and international conferences."
+            }
+        ]
+    };
+
     return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/*  Navigation  */}
         {/*  Navigation  */}
     

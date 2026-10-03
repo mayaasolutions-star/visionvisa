@@ -20181,8 +20181,8 @@ window.VISION_VISA_COUNTRIES = {
     ]
   },
   "united-arab-emirates": {
-    "name": "UAE",
-    "slug": "uae",
+    "name": "Dubai (UAE)",
+    "slug": "united-arab-emirates",
     "visaType": "Tourist Visa / eVisa",
     "flagImage": "https://flagcdn.com/w40/ae.png",
     "heroImage": "/images/United-Arab-Emirate-UAE-DUBAI.webp",

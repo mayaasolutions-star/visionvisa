@@ -1024,3 +1024,58 @@ p {
         gap: 20px;
     }
 }
+
+/* =========================================================
+   GLOBAL ACCESSIBILITY & USABILITY ENHANCEMENTS
+   ========================================================= */
+
+/* High-contrast visible focus indicators for keyboard navigation */
+:focus-visible {
+    outline: 2px solid var(--accent-blue, #1E73DC) !important;
+    outline-offset: 3px !important;
+    border-radius: 6px !important;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid var(--accent-blue, #1E73DC) !important;
+    outline-offset: 2px !important;
+}
+
+/* Screen-reader only class */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border-width: 0 !important;
+}
+
+/* Accessible touch targets on touch/mobile viewports */
+@media (max-width: 768px) {
+    .mobile-toggle,
+    .mobile-dropdown-arrow-btn,
+    .footer-social-link,
+    .nav-link,
+    .mobile-nav-link {
+        min-height: 44px;
+        min-width: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button, 
+    a.btn,
+    input[type="submit"] {
+        min-height: 44px;
+    }
+}
+

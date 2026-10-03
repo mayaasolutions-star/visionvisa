@@ -5,7 +5,10 @@ import Link from 'next/link';
 export const metadata = {
   title: "Tourist & Visitor Visa | Vision Visa Premium Services",
   description: "Apply for your international tourist visa with complete document assistance, expert guidance and end-to-end application support at Vision Visa.",
-  
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function COUNTRY_TEMPLATE_Page() {
@@ -44,7 +47,7 @@ export default function COUNTRY_TEMPLATE_Page() {
                 </div>
             </div>
             <div className="hero-buttons reveal reveal-delay-3">
-                <a id="heroApplyBtn" href="contact.html" className="btn btn-primary">Apply Now</a>
+                <a id="heroApplyBtn" href="contact.html" className="btn btn-primary">Contact Us</a>
                 <a href="https://wa.me/918010152621" target="_blank" rel="noopener" className="btn btn-secondary">Talk to Expert</a>
             </div>
         </div>
@@ -248,7 +251,7 @@ export default function COUNTRY_TEMPLATE_Page() {
                 <h2 id="ctaTitle">Ready to Apply for Your Visa?</h2>
                 <p>Let our visa experts guide you through every step—from document verification to successful submission.</p>
                 <div className="cta-buttons">
-                    <a id="ctaApplyBtn" href="contact.html" className="btn btn-primary">Apply Now</a>
+                    <a id="ctaApplyBtn" href="contact.html" className="btn btn-primary">Contact Us</a>
                     <a href="https://wa.me/918010152621" target="_blank" rel="noopener" className="btn btn-secondary">Chat on WhatsApp</a>
                 </div>
             </div>

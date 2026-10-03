@@ -41,7 +41,7 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "YOUR-VISION-VISA-DOMAIN/visas/visitor-visa"
+        canonical: "https://www.visionvisa.in/visitor-visa"
     },
 
     openGraph: {
@@ -54,13 +54,13 @@ export const metadata = {
 
         siteName: "Vision Visa",
 
-        url: "YOUR-VISION-VISA-DOMAIN/visas/visitor-visa",
+        url: "https://www.visionvisa.in/visitor-visa",
 
         locale: "en_IN",
 
         images: [
             {
-                url: "YOUR-VISION-VISA-DOMAIN/images/vision-visa-visitor-visa-og.jpg",
+                url: "https://www.visionvisa.in/images/visitorvisa-hero.webp",
                 width: 1200,
                 height: 630,
                 alt: "Vision Visa Visitor Visa Assistance"
@@ -77,14 +77,58 @@ export const metadata = {
             "Get guidance on visitor visa requirements, documents and applications for visiting family, friends or travelling abroad.",
 
         images: [
-            "YOUR-VISION-VISA-DOMAIN/images/vision-visa-visitor-visa-og.jpg"
+            "https://www.visionvisa.in/images/visitorvisa-hero.webp"
         ]
     }
 };
 
 export default function VISITOR_VISA_Page() {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.visionvisa.in"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Visas",
+                        "item": "https://www.visionvisa.in/visas"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Visitor Visa",
+                        "item": "https://www.visionvisa.in/visitor-visa"
+                    }
+                ]
+            },
+            {
+                "@type": "Service",
+                "name": "Visitor Visa Assistance",
+                "provider": {
+                    "@type": "TravelAgency",
+                    "name": "Vision Visa",
+                    "url": "https://www.visionvisa.in"
+                },
+                "serviceType": "Short-Stay Visitor Visa Guidance",
+                "description": "Guidance for short-stay visitor visas, invitation letter validation, sponsorship verification, and visa application submission."
+            }
+        ]
+    };
+
     return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/*  Navigation  */}
         {/*  Navigation  */}
     

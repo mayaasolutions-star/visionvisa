@@ -10,15 +10,14 @@ export async function generateMetadata({ params }) {
   const primaryVisa = data.visaTypes?.[0]?.name || data.visaType || 'Tourist Visa';
 
   return {
-    title: `${data.name} Visa Application, Requirements & Checklist | Vision Visa`,
-    description: `Apply for your ${data.name} ${primaryVisa} with verified document checklists, processing time insights, and expert visa guidance at Vision Visa.`,
-    alternates: {
-      canonical: `https://www.visionvisa.in/country/${data.slug}/`,
+    title: `Country Visas & Destinations | Vision Visa`,
+    description: `Explore country visa requirements, document checklists, and application guidance for over 50 destinations worldwide.`,
+    robots: {
+      index: false,
+      follow: true,
     },
-    openGraph: {
-      title: `${data.name} Visa Application & Requirements | Vision Visa`,
-      description: `Official requirements, document checklist, processing time, and visa assistance for ${data.name}.`,
-      images: [data.heroImage || '/images/Argentina.webp'],
+    alternates: {
+      canonical: `https://www.visionvisa.in/visas`,
     },
   };
 }

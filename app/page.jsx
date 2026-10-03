@@ -5,10 +5,10 @@ import HeroSearchForm from '../components/HeroSearchForm';
 import JourneyCTA from '../components/JourneyCTA';
 
 export const metadata = {
-    title: "Vision Visa | Visa Assistance for International Travel",
+    title: "Vision Visa | Trusted Visa Assistance & International Travel Services",
 
     description:
-        "Vision Visa provides visa assistance for tourist, visitor, business, study and work visas, along with travel insurance, forex and international air ticket services.",
+        "Vision Visa provides expert visa assistance for tourist, business, study, work, and family visas, alongside travel insurance, forex, and air tickets.",
 
     keywords: [
         "Vision Visa",
@@ -42,29 +42,29 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "YOUR-VISION-VISA-DOMAIN/"
+        canonical: "https://www.visionvisa.in/"
     },
 
     openGraph: {
-        title: "Vision Visa | Visa Assistance for International Travel",
+        title: "Vision Visa | Trusted Visa Assistance & International Travel Services",
 
         description:
-            "Get guidance for tourist, visitor, business, study and work visa applications, with travel insurance, forex and international air ticket services.",
+            "Get expert guidance for tourist, business, study, and work visa applications, with travel insurance, forex, and air ticket services under one roof.",
 
         type: "website",
 
         siteName: "Vision Visa",
 
-        url: "YOUR-VISION-VISA-DOMAIN/",
+        url: "https://www.visionvisa.in/",
 
         locale: "en_IN",
 
         images: [
             {
-                url: "YOUR-VISION-VISA-DOMAIN/images/vision-visa-home-og.jpg",
+                url: "https://www.visionvisa.in/images/visionvisa-name-dark.webp",
                 width: 1200,
                 height: 630,
-                alt: "Vision Visa - Visa and International Travel Services"
+                alt: "Vision Visa - Trusted Visa & Travel Consultants"
             }
         ]
     },
@@ -72,20 +72,64 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
 
-        title: "Vision Visa | Visa Assistance for International Travel",
+        title: "Vision Visa | Trusted Visa Assistance & Travel Services",
 
         description:
-            "Visa assistance for international travel, including tourist, visitor, business, study and work visas, plus travel insurance, forex and air tickets.",
+            "Visa assistance for international travel, including tourist, visitor, business, study, and work visas, plus travel insurance, forex, and air tickets.",
 
         images: [
-            "YOUR-VISION-VISA-DOMAIN/images/vision-visa-home-og.jpg"
+            "https://www.visionvisa.in/images/visionvisa-name-dark.webp"
         ]
     }
 };
 
 export default function HomePage() {
+    const jsonLdOrg = {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Vision Visa",
+        "url": "https://www.visionvisa.in",
+        "logo": "https://www.visionvisa.in/images/vision-visa-logo-symbol.webp",
+        "image": "https://www.visionvisa.in/images/visionvisa-name-dark.webp",
+        "description": "Trusted visa assistance, document verification, travel insurance, forex, and air tickets under one roof.",
+        "telephone": "+918010152621",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Shop No. 12, Sanskriti Arcade, Kaspate Wasti, Wakad",
+            "addressLocality": "Pimpri-Chinchwad",
+            "addressRegion": "Maharashtra",
+            "postalCode": "411057",
+            "addressCountry": "IN"
+        },
+        "priceRange": "$$",
+        "openingHours": "Mo-Sa 10:00-19:00",
+        "sameAs": [
+            "https://www.instagram.com/visionvisa.in/"
+        ]
+    };
+
+    const jsonLdWebsite = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Vision Visa",
+        "url": "https://www.visionvisa.in",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.visionvisa.in/country/{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    };
+
     return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrg) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebsite) }}
+      />
       {/*  Navigation  */}
         {/*  Navigation  */}
         {/*  Navigation  */}
@@ -157,7 +201,7 @@ export default function HomePage() {
 
                 <div className="hero-cta-buttons">
                     <Link href="/contact" className="btn btn-primary">
-                        Apply Now
+                        Contact Us
                     </Link>
 
                     <Link href="/contact" className="btn btn-secondary">

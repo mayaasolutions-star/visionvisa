@@ -6,7 +6,7 @@ export default function JourneyCTA({
   title = "Not Sure Where to",
   titleHighlight = "Start?",
   description = "Tell us where you want to go. We'll help you understand the visa requirements and next steps.",
-  primaryBtnText = "Apply Now",
+  primaryBtnText = "Contact Us",
   primaryBtnLink = "/contact",
   secondaryBtnText = "Talk to Our Team",
   secondaryBtnLink = "/contact"
@@ -73,7 +73,7 @@ export default function JourneyCTA({
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F47B20" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span>100% Free Initial Assessment</span>
+                  <span>Free Initial Assessment</span>
                 </div>
                 <div className="trust-pill">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F47B20" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">

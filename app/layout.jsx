@@ -1,8 +1,10 @@
 import { getAssetPath } from '@/lib/asset-path';
 import Script from 'next/script';
+import React, { Suspense } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ClientInit from '../components/ClientInit';
+import GoogleAnalytics from '../components/GoogleAnalytics';
 
 const baseIconPath = getAssetPath('/images/vision-visa-logo-symbol.webp');
 
@@ -25,15 +27,19 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" />
         <link rel="stylesheet" href={`${getAssetPath('/css/reset.css')}?v=20260926_v12`} />
         <link rel="stylesheet" href={`${getAssetPath('/css/main.css')}?v=20260926_v12`} />
         <link rel="stylesheet" href={`${getAssetPath('/css/components.css')}?v=20260926_v21`} />
         <link rel="stylesheet" href={`${getAssetPath('/css/animations.css')}?v=20260926_v12`} />
         <link rel="stylesheet" href={`${getAssetPath('/css/editorial-hero.css')}?v=20260926_v12`} />
-        <Script src="https://unpkg.com/lucide@latest" strategy="beforeInteractive" />
         <Script src={getAssetPath('/js/countries-data.js')} strategy="beforeInteractive" />
+        <Script src="https://unpkg.com/lucide@latest" strategy="afterInteractive" />
       </head>
       <body suppressHydrationWarning>
+        <Suspense fallback={null}>
+          <GoogleAnalytics />
+        </Suspense>
         <Navbar />
         {children}
         <Footer />

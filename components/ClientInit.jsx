@@ -30,7 +30,6 @@ export default function ClientInit() {
       );
 
       revealElements.forEach((el) => {
-        // If element is already in or near viewport, activate immediately
         const rect = el.getBoundingClientRect();
         if (rect.top < window.innerHeight + 100 && rect.bottom > -50) {
           el.classList.add('active');
@@ -40,34 +39,34 @@ export default function ClientInit() {
     };
 
     initObserver();
-    const timer1 = setTimeout(initObserver, 60);
-    const timer2 = setTimeout(initObserver, 250);
-    const timer3 = setTimeout(initObserver, 600);
+    const timer1 = requestAnimationFrame(() => initObserver());
+    const timer2 = setTimeout(initObserver, 200);
 
-    // Safety fallback: ensure no content remains permanently blank/hidden if observer is delayed
     const safetyTimer = setTimeout(() => {
       document.querySelectorAll('.reveal:not(.active)').forEach((el) => {
         el.classList.add('active');
       });
-    }, 1200);
+    }, 1000);
 
-    // 3. Magnetic Buttons
-    const magneticButtons = document.querySelectorAll('.magnetic');
-    magneticButtons.forEach(btn => {
-      const handleMouseMove = (e) => {
-        const rect = btn.getBoundingClientRect();
-        const x = e.clientX - rect.left - rect.width / 2;
-        const y = e.clientY - rect.top - rect.height / 2;
-        btn.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
-      };
+    // 3. Magnetic Buttons (Only attached on desktop pointers to conserve mobile main thread)
+    if (typeof window !== 'undefined' && window.matchMedia('(pointer: fine)').matches) {
+      const magneticButtons = document.querySelectorAll('.magnetic');
+      magneticButtons.forEach(btn => {
+        const handleMouseMove = (e) => {
+          const rect = btn.getBoundingClientRect();
+          const x = e.clientX - rect.left - rect.width / 2;
+          const y = e.clientY - rect.top - rect.height / 2;
+          btn.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
+        };
 
-      const handleMouseLeave = () => {
-        btn.style.transform = 'translate(0px, 0px)';
-      };
+        const handleMouseLeave = () => {
+          btn.style.transform = 'translate(0px, 0px)';
+        };
 
-      btn.addEventListener('mousemove', handleMouseMove);
-      btn.addEventListener('mouseleave', handleMouseLeave);
-    });
+        btn.addEventListener('mousemove', handleMouseMove);
+        btn.addEventListener('mouseleave', handleMouseLeave);
+      });
+    }
 
     // 4. Trigger Search Engine if on home page or search present
     if (typeof window !== 'undefined' && window.VISION_VISA_INIT_SEARCH) {
@@ -77,15 +76,12 @@ export default function ClientInit() {
     // 5. Trigger Country Render if on country page
     if (typeof window !== 'undefined' && window.VISION_VISA_RENDER_COUNTRY) {
       window.VISION_VISA_RENDER_COUNTRY();
-      // Re-run observer after country render
       setTimeout(initObserver, 100);
-      setTimeout(initObserver, 500);
     }
 
     return () => {
-      clearTimeout(timer1);
+      cancelAnimationFrame(timer1);
       clearTimeout(timer2);
-      clearTimeout(timer3);
       clearTimeout(safetyTimer);
     };
   }, [pathname]);

@@ -40,7 +40,7 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "YOUR-VISION-VISA-DOMAIN/visas/work-visa"
+        canonical: "https://www.visionvisa.in/work-visa"
     },
 
     openGraph: {
@@ -52,13 +52,13 @@ export const metadata = {
         type: "website",
         siteName: "Vision Visa",
 
-        url: "YOUR-VISION-VISA-DOMAIN/visas/work-visa",
+        url: "https://www.visionvisa.in/work-visa",
 
         locale: "en_IN",
 
         images: [
             {
-                url: "YOUR-VISION-VISA-DOMAIN/images/vision-visa-work-visa-og.jpg",
+                url: "https://www.visionvisa.in/images/workvisa-hero.webp",
                 width: 1200,
                 height: 630,
                 alt: "Vision Visa Work Visa Assistance"
@@ -75,14 +75,58 @@ export const metadata = {
             "Get guidance on work visa requirements, documents and applications for working abroad with Vision Visa.",
 
         images: [
-            "YOUR-VISION-VISA-DOMAIN/images/vision-visa-work-visa-og.jpg"
+            "https://www.visionvisa.in/images/workvisa-hero.webp"
         ]
     }
 };
 
 export default function WORK_VISA_Page() {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.visionvisa.in"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Visas",
+                        "item": "https://www.visionvisa.in/visas"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Work Visa",
+                        "item": "https://www.visionvisa.in/work-visa"
+                    }
+                ]
+            },
+            {
+                "@type": "Service",
+                "name": "Work Visa Assistance",
+                "provider": {
+                    "@type": "TravelAgency",
+                    "name": "Vision Visa",
+                    "url": "https://www.visionvisa.in"
+                },
+                "serviceType": "Employment Visa Guidance",
+                "description": "Professional guidance for overseas employment visas, work permits, sponsor letter validation, and application filing assistance."
+            }
+        ]
+    };
+
     return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/*  Navigation  */}
         {/*  Navigation  */}
     

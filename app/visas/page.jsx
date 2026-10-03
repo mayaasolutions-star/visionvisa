@@ -40,7 +40,7 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "YOUR-VISION-VISA-DOMAIN/visas"
+        canonical: "https://www.visionvisa.in/visas"
     },
 
     openGraph: {
@@ -53,13 +53,13 @@ export const metadata = {
 
         siteName: "Vision Visa",
 
-        url: "YOUR-VISION-VISA-DOMAIN/visas",
+        url: "https://www.visionvisa.in/visas",
 
         locale: "en_IN",
 
         images: [
             {
-                url: "YOUR-VISION-VISA-DOMAIN/images/vision-visa-services-og.jpg",
+                url: "https://www.visionvisa.in/images/visas-choosewithconfidence.webp",
                 width: 1200,
                 height: 630,
                 alt: "Vision Visa Services | Visa Application Guidance"
@@ -76,14 +76,52 @@ export const metadata = {
             "Explore visa options for tourism, business, education and work with Vision Visa.",
 
         images: [
-            "YOUR-VISION-VISA-DOMAIN/images/vision-visa-services-og.jpg"
+            "https://www.visionvisa.in/images/visas-choosewithconfidence.webp"
         ]
     }
 };
 
 export default function SERVICES_Page() {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.visionvisa.in"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Visas",
+                        "item": "https://www.visionvisa.in/visas"
+                    }
+                ]
+            },
+            {
+                "@type": "Service",
+                "name": "Visa Application & Guidance Services",
+                "provider": {
+                    "@type": "TravelAgency",
+                    "name": "Vision Visa",
+                    "url": "https://www.visionvisa.in"
+                },
+                "serviceType": "Visa Consultation & Processing Assistance",
+                "description": "Comprehensive visa assistance services for tourist, business, study, work, family, and visitor travel across 70+ international destinations."
+            }
+        ]
+    };
+
     return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/*  Navigation  */}
         {/*  Navigation  */}
     
@@ -94,7 +132,7 @@ export default function SERVICES_Page() {
             <div className="visas-hero-grid">
                 {/* IMAGE LEFT */}
                 <div className="visas-hero-frame reveal">
-                    <img src={getAssetPath("/images/visas-choosewithconfidence.webp")} alt="Visa Assistance & Application Guidance" className="hero-frame-img" />
+                    <img src={getAssetPath("/images/visas-choosewithconfidence.webp")} alt="Visa Assistance & Application Guidance" className="hero-frame-img" loading="eager" fetchPriority="high" />
                     <div className="editorial-image-overlay"></div>
 
                     {/* Integrated Subtle Visa Journey Route Animation */}
@@ -432,11 +470,12 @@ export default function SERVICES_Page() {
                 <img
                     src={getAssetPath("/images/visas-beforeyouapply.webp")}
                     alt="Visa application documents and travel planning"
+                    loading="lazy"
                     style={{
                         "width": "100%",
-                        "height": "500px",
+                        "maxHeight": "440px",
                         "objectFit": "cover",
-                        "borderRadius": "40px"
+                        "borderRadius": "24px"
                     }}
                 />
 
@@ -464,11 +503,12 @@ export default function SERVICES_Page() {
                 <img
                     src={getAssetPath("/images/visas-visaapplication.webp")}
                     alt="Visa application and travel documents"
+                    loading="lazy"
                     style={{
                         "width": "100%",
-                        "height": "500px",
+                        "maxHeight": "440px",
                         "objectFit": "cover",
-                        "borderRadius": "40px"
+                        "borderRadius": "24px"
                     }}
                 />
 

@@ -41,7 +41,7 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "YOUR-VISION-VISA-DOMAIN/visas/family-visa"
+        canonical: "https://www.visionvisa.in/family-visa"
     },
 
     openGraph: {
@@ -54,13 +54,13 @@ export const metadata = {
 
         siteName: "Vision Visa",
 
-        url: "YOUR-VISION-VISA-DOMAIN/visas/family-visa",
+        url: "https://www.visionvisa.in/family-visa",
 
         locale: "en_IN",
 
         images: [
             {
-                url: "YOUR-VISION-VISA-DOMAIN/images/vision-visa-family-visa-og.jpg",
+                url: "https://www.visionvisa.in/images/familyvisa-hero.webp",
                 width: 1200,
                 height: 630,
                 alt: "Vision Visa Family Visa Assistance"
@@ -77,14 +77,58 @@ export const metadata = {
             "Get guidance on family, spouse and dependent visa requirements, documents and applications with Vision Visa.",
 
         images: [
-            "YOUR-VISION-VISA-DOMAIN/images/vision-visa-family-visa-og.jpg"
+            "https://www.visionvisa.in/images/familyvisa-hero.webp"
         ]
     }
 };
 
 export default function FAMILY_VISA_Page() {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.visionvisa.in"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Visas",
+                        "item": "https://www.visionvisa.in/visas"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Family Visa",
+                        "item": "https://www.visionvisa.in/family-visa"
+                    }
+                ]
+            },
+            {
+                "@type": "Service",
+                "name": "Family & Dependent Visa Assistance",
+                "provider": {
+                    "@type": "TravelAgency",
+                    "name": "Vision Visa",
+                    "url": "https://www.visionvisa.in"
+                },
+                "serviceType": "Family Reunification & Dependent Visa Guidance",
+                "description": "Expert assistance for spouse, children, and dependent parent visa applications for family reunification abroad."
+            }
+        ]
+    };
+
     return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/*  Navigation  */}
         {/*  Navigation  */}
     

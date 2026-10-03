@@ -33,9 +33,9 @@ export const metadata = {
     locale: 'en_IN',
     images: [
       {
-        url: 'https://www.visionvisa.in/images/vision-visa-logo-symbol.webp',
-        width: 800,
-        height: 600,
+        url: 'https://www.visionvisa.in/images/forex-hero.webp',
+        width: 1200,
+        height: 630,
         alt: 'Vision Visa Forex Services with Splendid Forex'
       }
     ]
@@ -45,13 +45,57 @@ export const metadata = {
     title: 'Forex Services with Splendid Forex | Vision Visa',
     description:
       'Arrange foreign currency, multi-currency cards and international remittance through Splendid Forex with Vision Visa guidance.',
-    images: ['https://www.visionvisa.in/images/vision-visa-logo-symbol.webp']
+    images: ['https://www.visionvisa.in/images/forex-hero.webp']
   }
 };
 
 export default function ForexPage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+          {
+            '@type': 'ListItem',
+            'position': 1,
+            'name': 'Home',
+            'item': 'https://www.visionvisa.in'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 2,
+            'name': 'Services',
+            'item': 'https://www.visionvisa.in/visas'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 3,
+            'name': 'Forex',
+            'item': 'https://www.visionvisa.in/forex'
+          }
+        ]
+      },
+      {
+        '@type': 'Service',
+        'name': 'Foreign Exchange & Travel Money Services',
+        'provider': {
+          '@type': 'TravelAgency',
+          'name': 'Vision Visa',
+          'url': 'https://www.visionvisa.in'
+        },
+        'serviceType': 'Forex & Remittance Guidance',
+        'description': 'Foreign currency exchange, prepaid multi-currency travel cards, and international money transfers in partnership with Splendid Forex.'
+      }
+    ]
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* =========================================================
           SECTION 1: HERO SECTION
           Balanced two-column: Left = message + CTA, Right = visual

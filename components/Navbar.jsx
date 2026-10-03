@@ -146,6 +146,18 @@ export default function Navbar() {
     setIsMobileVisasOpen(false);
   }, [pathname]);
 
+  // Prevent background body scroll when mobile menu is open
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      document.body.style.overflow = isMobileOpen ? 'hidden' : '';
+    }
+    return () => {
+      if (typeof document !== 'undefined') {
+        document.body.style.overflow = '';
+      }
+    };
+  }, [isMobileOpen]);
+
   useEffect(() => {
     if (typeof window !== 'undefined' && window.lucide) {
       window.lucide.createIcons();
@@ -362,23 +374,42 @@ export default function Navbar() {
             href="/contact"
             className="nav-cta magnetic"
           >
-            Apply Now
+            Contact Us
           </Link>
 
           <button
             className="mobile-toggle"
-            aria-label="Toggle Navigation"
+            aria-label="Toggle navigation menu"
             aria-expanded={isMobileOpen}
+            aria-controls="mobile-nav-menu"
             onClick={toggleMobile}
           >
-            <i data-lucide={isMobileOpen ? 'x' : 'menu'}></i>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              {isMobileOpen ? (
+                <>
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </>
+              ) : (
+                <>
+                  <line x1="4" y1="6" x2="20" y2="6" />
+                  <line x1="4" y1="12" x2="20" y2="12" />
+                  <line x1="4" y1="18" x2="20" y2="18" />
+                </>
+              )}
+            </svg>
           </button>
 
         </div>
       </div>
 
       {/* Mobile Menu */}
-      <div className={`mobile-menu ${isMobileOpen ? 'active' : ''}`}>
+      <div
+        id="mobile-nav-menu"
+        className={`mobile-menu ${isMobileOpen ? 'active' : ''}`}
+        role="navigation"
+        aria-label="Mobile Navigation"
+      >
 
         <Link
           href="/"
@@ -407,6 +438,7 @@ export default function Navbar() {
               className="mobile-dropdown-arrow-btn"
               aria-label="Toggle Visa Subcategories"
               aria-expanded={isMobileVisasOpen}
+              aria-controls="mobile-visas-sublist"
               onClick={(e) => {
                 e.preventDefault();
                 e.stopPropagation();
@@ -430,7 +462,10 @@ export default function Navbar() {
             </button>
           </div>
 
-          <div className={`mobile-dropdown-sublist ${isMobileVisasOpen ? 'open' : ''}`}>
+          <div
+            id="mobile-visas-sublist"
+            className={`mobile-dropdown-sublist ${isMobileVisasOpen ? 'open' : ''}`}
+          >
             {visaCategories.map((item) => {
               const active = isVisaSubpageActive(item.href);
               return (
@@ -495,7 +530,7 @@ export default function Navbar() {
           className="mobile-nav-cta"
           onClick={closeMobile}
         >
-          Apply Now
+          Contact Us
         </Link>
 
       </div>

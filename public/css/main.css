@@ -484,22 +484,28 @@ p {
 /* Mobile Navigation */
 .mobile-toggle {
     display: none;
-    background: transparent;
-    border: none;
-    color: var(--primary);
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    color: #071A3D;
     cursor: pointer;
-    padding: 8px;
-    border-radius: 8px;
-    transition: background 0.2s ease;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .mobile-toggle:hover {
-    background: var(--off-white);
+    background: #EFF6FF;
+    border-color: #BFDBFE;
+    color: #1E73DC;
 }
 
 .mobile-toggle svg {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     display: block;
 }
 
@@ -507,47 +513,54 @@ p {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 80px;
+    top: 64px;
     left: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.98);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    padding: 24px 32px 36px;
-    gap: 8px;
-    border-bottom: 1px solid var(--light-gray);
-    box-shadow: 0 20px 40px rgba(10, 17, 40, 0.08);
-    z-index: 999;
+    height: calc(100vh - 64px);
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: #FFFFFF;
+    padding: 20px 16px 36px;
+    gap: 4px;
+    border-bottom: 1px solid #E2E8F0;
+    box-shadow: 0 20px 45px rgba(7, 26, 61, 0.15);
+    z-index: 999999 !important;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-10px);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(-8px);
+    transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
+    box-sizing: border-box;
 }
 
 .mobile-menu.active {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-    pointer-events: auto;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
+    pointer-events: auto !important;
 }
 
 .mobile-nav-link {
-    font-family: var(--font-heading);
-    font-size: 1.0625rem;
+    font-family: var(--font-heading, 'Outfit', sans-serif);
+    font-size: 1rem;
     font-weight: 600;
-    color: var(--slate-800);
+    color: #071A3D;
     text-decoration: none;
-    padding: 12px 16px;
+    min-height: 46px;
+    padding: 10px 14px;
     border-radius: 12px;
+    display: flex;
+    align-items: center;
     transition: all 0.2s ease;
 }
 
 .mobile-nav-link:hover,
 .mobile-nav-link.active {
-    background: var(--off-white);
-    color: var(--accent-blue);
-    padding-left: 20px;
+    background: #EFF6FF;
+    color: #1E73DC;
+    border-left: 3px solid #F47B20;
+    font-weight: 700;
 }
 
 /* Mobile Visas Accordion */
@@ -836,6 +849,10 @@ p {
     gap: 12px;
 }
 
+.footer-socials-mobile-row {
+    display: none;
+}
+
 .footer-social-link {
     display: inline-flex;
     align-items: center;
@@ -995,6 +1012,10 @@ p {
 }
 
 @media (max-width: 991px) {
+    .navbar,
+    .navbar.scrolled {
+        height: 64px;
+    }
     .nav-links,
     .nav-cta {
         display: none !important;
@@ -1002,18 +1023,64 @@ p {
     .mobile-toggle {
         display: flex !important;
     }
+    .mobile-menu {
+        top: 64px;
+        height: calc(100vh - 64px);
+        max-height: calc(100vh - 64px);
+    }
 }
 
 @media (max-width: 768px) {
     .container {
         padding: 0 16px;
     }
-    .navbar {
-        height: 72px;
+    .navbar,
+    .navbar.scrolled {
+        height: 64px;
     }
     .mobile-menu {
-        top: 72px;
-        padding: 20px 20px;
+        top: 64px;
+        height: calc(100vh - 64px);
+        max-height: calc(100vh - 64px);
+        padding: 16px 16px 32px;
+    }
+    .footer-socials-desktop {
+        display: none !important;
+    }
+    .footer-socials-mobile-row {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        margin: 24px 0 20px;
+        width: 100%;
+    }
+    .footer-contact-item.contact-link {
+        word-break: break-word;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-symbol {
+        height: 30px;
+    }
+    .logo-name {
+        height: 19px;
+    }
+}
+
+@media (max-width: 360px) {
+    .logo-brand {
+        gap: 6px !important;
+    }
+    .logo-symbol {
+        height: 26px;
+    }
+    .logo-name {
+        height: 16px;
     }
 }
 
@@ -1039,3 +1106,58 @@ p {
         text-align: center;
     }
 }
+
+/* =========================================================
+   GLOBAL ACCESSIBILITY & USABILITY ENHANCEMENTS
+   ========================================================= */
+
+/* High-contrast visible focus indicators for keyboard navigation */
+:focus-visible {
+    outline: 2px solid var(--accent-blue, #1E73DC) !important;
+    outline-offset: 3px !important;
+    border-radius: 6px !important;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid var(--accent-blue, #1E73DC) !important;
+    outline-offset: 2px !important;
+}
+
+/* Screen-reader only class */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border-width: 0 !important;
+}
+
+/* Accessible touch targets on touch/mobile viewports */
+@media (max-width: 768px) {
+    .mobile-toggle,
+    .mobile-dropdown-arrow-btn,
+    .footer-social-link,
+    .nav-link,
+    .mobile-nav-link {
+        min-height: 44px;
+        min-width: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button, 
+    a.btn,
+    input[type="submit"] {
+        min-height: 44px;
+    }
+}
+

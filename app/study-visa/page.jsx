@@ -40,7 +40,7 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "YOUR-VISION-VISA-DOMAIN/visas/study-visa"
+        canonical: "https://www.visionvisa.in/study-visa"
     },
 
     openGraph: {
@@ -53,13 +53,13 @@ export const metadata = {
 
         siteName: "Vision Visa",
 
-        url: "YOUR-VISION-VISA-DOMAIN/visas/study-visa",
+        url: "https://www.visionvisa.in/study-visa",
 
         locale: "en_IN",
 
         images: [
             {
-                url: "YOUR-VISION-VISA-DOMAIN/images/vision-visa-study-visa-og.jpg",
+                url: "https://www.visionvisa.in/images/studyvisa-hero.webp",
                 width: 1200,
                 height: 630,
                 alt: "Vision Visa Study Visa Assistance"
@@ -76,14 +76,58 @@ export const metadata = {
             "Get guidance on student visa requirements, documents and applications for studying abroad with Vision Visa.",
 
         images: [
-            "YOUR-VISION-VISA-DOMAIN/images/vision-visa-study-visa-og.jpg"
+            "https://www.visionvisa.in/images/studyvisa-hero.webp"
         ]
     }
 };
 
 export default function STUDY_VISA_Page() {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.visionvisa.in"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Visas",
+                        "item": "https://www.visionvisa.in/visas"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Study Visa",
+                        "item": "https://www.visionvisa.in/study-visa"
+                    }
+                ]
+            },
+            {
+                "@type": "Service",
+                "name": "Study Visa Assistance",
+                "provider": {
+                    "@type": "TravelAgency",
+                    "name": "Vision Visa",
+                    "url": "https://www.visionvisa.in"
+                },
+                "serviceType": "Student Visa Guidance",
+                "description": "Comprehensive student visa guidance including admission proof verification, financial documentation checklist, and visa interview preparation for study abroad."
+            }
+        ]
+    };
+
     return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/*  Navigation  */}
         {/*  Navigation  */}
     

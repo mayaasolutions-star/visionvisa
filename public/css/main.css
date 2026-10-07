@@ -37,10 +37,11 @@
     --slate-200: #E2E8F0;
     --slate-100: #F1F5F9;
     
-    /* Typography */
+    /* Typography - Standardized to single font family (Plus Jakarta Sans) */
     --font-heading: 'Plus Jakarta Sans', sans-serif;
-    --font-body: 'Inter', sans-serif;
-    --font-accent: 'Manrope', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --font-accent: 'Plus Jakarta Sans', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
     
     /* Spacing & Layout */
     --container-max: 1280px;
@@ -59,7 +60,7 @@
     --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -542,7 +543,7 @@ p {
 }
 
 .mobile-nav-link {
-    font-family: var(--font-heading, 'Outfit', sans-serif);
+    font-family: var(--font-heading);
     font-size: 1rem;
     font-weight: 600;
     color: #071A3D;

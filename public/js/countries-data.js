@@ -162,11 +162,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "💼"
       },
       {
-        "name": "Technical / Work Visa",
-        "description": "For carrying out specialized technical work or professional services under local contract.",
-        "icon": "🏢"
-      },
-      {
         "name": "Student Visa",
         "description": "For academic courses and university exchange programs at Argentine institutions.",
         "icon": "🎓"
@@ -446,11 +441,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student Visa (Subclass 500)",
         "description": "For full-time registered study at Australian universities and vocational colleges.",
         "icon": "🎓"
-      },
-      {
-        "name": "Temporary Work Visa (Subclass 482 / 400)",
-        "description": "For skilled employment and specialized short-term work assignments in Australia.",
-        "icon": "🏢"
       },
       {
         "name": "Transit Visa (Subclass 771)",
@@ -827,11 +817,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Austria.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -1874,11 +1859,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Belgium.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -2199,11 +2179,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Temporary Student Visa (VITEM IV)",
         "description": "For higher education degrees and exchange programs in Brazil.",
         "icon": "🎓"
-      },
-      {
-        "name": "Temporary Work Visa (VITEM V)",
-        "description": "For foreign professionals with approved employment authorization from the Ministry of Labour.",
-        "icon": "🏢"
       }
     ],
     "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
@@ -2481,11 +2456,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Study Permit",
         "description": "For enrolled students at Designated Learning Institutions (DLI) in Canada.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work Permit",
-        "description": "For professionals with valid LMIA-approved job offers or intra-company transfers.",
-        "icon": "🏢"
       },
       {
         "name": "Transit Visa",
@@ -3509,11 +3479,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Croatia.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -4095,11 +4060,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Czech Republic.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -4390,11 +4350,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Denmark.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -4957,11 +4912,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Estonia.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -5250,11 +5200,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Finland.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -5549,11 +5494,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in France.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -6178,11 +6118,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Germany.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -6819,11 +6754,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Greece.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -7418,11 +7348,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Hungary.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -7732,11 +7657,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Iceland.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -8089,53 +8009,6 @@ window.VISION_VISA_COUNTRIES = {
           "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
           "Indian company registration certificate or incorporation proof",
           "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
-        ],
-        "applicationSteps": [
-          {
-            "num": "01",
-            "title": "Select Visa Category",
-            "desc": "Choose the visa type matching your travel purpose for Indonesia (Bali)."
-          },
-          {
-            "num": "02",
-            "title": "Prepare Required Documents",
-            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
-          },
-          {
-            "num": "03",
-            "title": "File Application & Verify",
-            "desc": "Vision Visa specialists review your file and complete the official submission."
-          },
-          {
-            "num": "04",
-            "title": "Biometrics / Consular Review",
-            "desc": "Complete appointment or biometric requirements, where applicable."
-          },
-          {
-            "num": "05",
-            "title": "Receive Visa Decision",
-            "desc": "Receive your visa grant or stamped passport with full travel readiness."
-          }
-        ],
-        "notes": null
-      },
-      {
-        "id": "employment",
-        "name": "Employment Visa",
-        "shortDescription": "Official visa category tailored for travel to Indonesia (Bali).",
-        "processingTime": "Usually Quick Online Processing",
-        "validity": "As granted by consulate",
-        "stayDuration": "30 days",
-        "entryType": "Single entry",
-        "requirements": [
-          "Valid passport with at least 6 months validity and minimum 2 blank pages",
-          "Completed and signed visa application form",
-          "Recent passport-size photographs matching official consular specifications",
-          "Personal covering letter detailing travel purpose, dates, and itinerary",
-          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
-          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
-          "Confirmed round-trip flight booking and hotel accommodation details",
-          "Overseas travel medical insurance covering the full duration of stay"
         ],
         "applicationSteps": [
           {
@@ -9287,11 +9160,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Italy.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -9577,11 +9445,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student Visa",
         "description": "For long-term study at Japanese universities, language schools, and vocational colleges.",
         "icon": "🎓"
-      },
-      {
-        "name": "Highly Skilled / Work Visa",
-        "description": "For specialized employment holding a Certificate of Eligibility (COE).",
-        "icon": "🏢"
       },
       {
         "name": "Transit Visa",
@@ -10198,11 +10061,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Luxembourg.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -10761,11 +10619,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student Visa (VAL)",
         "description": "With Visa Approval Letter from Education Malaysia Global Services (EMGS).",
         "icon": "🎓"
-      },
-      {
-        "name": "Employment Pass (EP)",
-        "description": "For skilled expatriates employed by authorized companies in Malaysia.",
-        "icon": "🏢"
       }
     ],
     "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
@@ -11049,11 +10902,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Malta.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -11622,11 +11470,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Netherlands.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -11906,11 +11749,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student Visa",
         "description": "For pursuing full-time academic courses at New Zealand universities and institutes.",
         "icon": "🎓"
-      },
-      {
-        "name": "Accredited Employer Work Visa",
-        "description": "For professionals working with an accredited New Zealand employer.",
-        "icon": "🏢"
       },
       {
         "name": "Transit Visa",
@@ -12251,11 +12089,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Norway.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -13359,11 +13192,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Poland.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -13662,11 +13490,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Portugal.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -14245,11 +14068,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Family Visit Visa",
         "description": "For visiting immediate family members residing in the Kingdom of Saudi Arabia.",
         "icon": "👨‍👩‍👧"
-      },
-      {
-        "name": "Employment Visa",
-        "description": "For long-term contractual employment approved by the Ministry of Human Resources.",
-        "icon": "🏢"
       }
     ],
     "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
@@ -14549,11 +14367,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student Pass",
         "description": "For pursuing full-time education at recognized institutions in Singapore.",
         "icon": "🎓"
-      },
-      {
-        "name": "Employment Pass / S Pass",
-        "description": "For foreign professionals and executives employed by Singapore companies.",
-        "icon": "🏢"
       }
     ],
     "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
@@ -14850,11 +14663,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Slovakia.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -15160,11 +14968,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Slovenia.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -15464,11 +15267,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Critical Skills Work Visa",
-        "description": "For qualified professionals falling under South Africa's critical skills list.",
-        "icon": "🏢"
-      },
-      {
         "name": "Transit Visa",
         "description": "For transiting through South African airports to neighboring African nations.",
         "icon": "✈️"
@@ -15588,53 +15386,6 @@ window.VISION_VISA_COUNTRIES = {
           "Financial proof: personal stamped bank statements (3–6 months) and recent Income Tax Returns",
           "Employment proof (leave letter from employer / business registration certificate)",
           "Confirmed return flight itinerary, accommodation details & travel medical insurance"
-        ],
-        "applicationSteps": [
-          {
-            "num": "01",
-            "title": "Select Visa Category",
-            "desc": "Choose the visa type matching your travel purpose for South Africa."
-          },
-          {
-            "num": "02",
-            "title": "Prepare Required Documents",
-            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
-          },
-          {
-            "num": "03",
-            "title": "File Application & Verify",
-            "desc": "Vision Visa specialists review your file and complete the official submission."
-          },
-          {
-            "num": "04",
-            "title": "Biometrics / Consular Review",
-            "desc": "Complete appointment or biometric requirements, where applicable."
-          },
-          {
-            "num": "05",
-            "title": "Receive Visa Decision",
-            "desc": "Receive your visa grant or stamped passport with full travel readiness."
-          }
-        ],
-        "notes": null
-      },
-      {
-        "id": "employment",
-        "name": "Employment Visa",
-        "shortDescription": "Official visa category tailored for travel to South Africa.",
-        "processingTime": "10-15 days",
-        "validity": "6 months",
-        "stayDuration": "Upto 90 days",
-        "entryType": "Single/Multiple entry",
-        "requirements": [
-          "Valid passport with at least 6 months validity and minimum 2 blank pages",
-          "Completed and signed visa application form",
-          "Recent passport-size photographs matching official consular specifications",
-          "Personal covering letter detailing travel purpose, dates, and itinerary",
-          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
-          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
-          "Confirmed round-trip flight booking and hotel accommodation details",
-          "Overseas travel medical insurance covering the full duration of stay"
         ],
         "applicationSteps": [
           {
@@ -15858,11 +15609,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student Visa (D-2 / D-4)",
         "description": "For degree courses and language training at Korean universities.",
         "icon": "🎓"
-      },
-      {
-        "name": "Short-Term Employment Visa (C-4)",
-        "description": "For temporary specialized contracts, performances, and technical installations.",
-        "icon": "🏢"
       }
     ],
     "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
@@ -16167,11 +15913,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Spain.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -16752,11 +16493,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Sweden.",
-        "icon": "🏢"
-      },
-      {
         "name": "Airport Transit Visa (Type A)",
         "description": "For connecting flights through international transit zones of Schengen airports.",
         "icon": "✈️"
@@ -17060,11 +16796,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Study Visa",
         "description": "For university degree programs, exchange semesters, and academic courses.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work / Employment Visa",
-        "description": "For official long-term employment contracts with a registered employer in Switzerland.",
-        "icon": "🏢"
       },
       {
         "name": "Airport Transit Visa (Type A)",
@@ -18031,11 +17762,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "Student / Education Visa",
         "description": "For study programs at accredited Turkish universities and higher education academies.",
         "icon": "🎓"
-      },
-      {
-        "name": "Work Visa",
-        "description": "For official employment with a Turkish employer with Ministry of Labour approval.",
-        "icon": "🏢"
       }
     ],
     "alertText": "Document requirements can vary based on visa category, nationality, travel purpose and applicant profile. Additional documents may be requested by the relevant embassy or visa authority.",
@@ -18891,11 +18617,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "Skilled Worker Visa",
-        "description": "For qualified professionals with an approved Certificate of Sponsorship (CoS) from a UK employer.",
-        "icon": "🏢"
-      },
-      {
         "name": "Family / Spouse Visa",
         "description": "For joining a spouse, partner, or family member settled in the United Kingdom.",
         "icon": "👨‍👩‍👧"
@@ -19198,11 +18919,6 @@ window.VISION_VISA_COUNTRIES = {
         "name": "F1 Student Visa",
         "description": "For academic studies at accredited US universities and colleges.",
         "icon": "🎓"
-      },
-      {
-        "name": "H-1B / L-1 Work Visa",
-        "description": "For specialty occupation employment and intra-company transferee petitions.",
-        "icon": "🏢"
       },
       {
         "name": "C-1 Transit Visa",
@@ -20070,11 +19786,6 @@ window.VISION_VISA_COUNTRIES = {
         "icon": "🎓"
       },
       {
-        "name": "H-1B / L-1 Work Visa",
-        "description": "For specialty occupation employment and intra-company transferee petitions.",
-        "icon": "🏢"
-      },
-      {
         "name": "C-1 Transit Visa",
         "description": "For immediate and continuous transit through the United States to another country.",
         "icon": "✈️"
@@ -20686,53 +20397,6 @@ window.VISION_VISA_COUNTRIES = {
           "Financial proof: company and personal bank statements (last 3–6 months) and recent ITR",
           "Indian company registration certificate or incorporation proof",
           "Confirmed flight booking, hotel reservation & overseas travel medical insurance"
-        ],
-        "applicationSteps": [
-          {
-            "num": "01",
-            "title": "Select Visa Category",
-            "desc": "Choose the visa type matching your travel purpose for Indonesia (Bali)."
-          },
-          {
-            "num": "02",
-            "title": "Prepare Required Documents",
-            "desc": "Assemble your passport, financial proofs, itinerary, and supporting papers."
-          },
-          {
-            "num": "03",
-            "title": "File Application & Verify",
-            "desc": "Vision Visa specialists review your file and complete the official submission."
-          },
-          {
-            "num": "04",
-            "title": "Biometrics / Consular Review",
-            "desc": "Complete appointment or biometric requirements, where applicable."
-          },
-          {
-            "num": "05",
-            "title": "Receive Visa Decision",
-            "desc": "Receive your visa grant or stamped passport with full travel readiness."
-          }
-        ],
-        "notes": null
-      },
-      {
-        "id": "employment",
-        "name": "Employment Visa",
-        "shortDescription": "Official visa category tailored for travel to Indonesia (Bali).",
-        "processingTime": "Usually Quick Online Processing",
-        "validity": "As granted by consulate",
-        "stayDuration": "30 days",
-        "entryType": "Single entry",
-        "requirements": [
-          "Valid passport with at least 6 months validity and minimum 2 blank pages",
-          "Completed and signed visa application form",
-          "Recent passport-size photographs matching official consular specifications",
-          "Personal covering letter detailing travel purpose, dates, and itinerary",
-          "Financial proof, including recent stamped bank statements (3–6 months) and Income Tax Returns",
-          "Employment or business proof (leave approval letter for employees / registration for self-employed)",
-          "Confirmed round-trip flight booking and hotel accommodation details",
-          "Overseas travel medical insurance covering the full duration of stay"
         ],
         "applicationSteps": [
           {

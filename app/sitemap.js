@@ -13,7 +13,6 @@ export default async function sitemap() {
     '/tourist-visa',
     '/business-visa',
     '/study-visa',
-    '/work-visa',
     '/visitor-visa',
     '/family-visa',
     '/travel-insurance',

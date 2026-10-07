@@ -8,7 +8,7 @@ export const metadata = {
     title: "Vision Visa | Trusted Visa Assistance & International Travel Services",
 
     description:
-        "Vision Visa provides expert visa assistance for tourist, business, study, work, and family visas, alongside travel insurance, forex, and air tickets.",
+        "Vision Visa provides expert visa assistance for tourist, business, study, and family visas, alongside travel insurance, forex, and air tickets.",
 
     keywords: [
         "Vision Visa",
@@ -20,7 +20,6 @@ export const metadata = {
         "business visa",
         "study visa",
         "student visa",
-        "work visa",
         "visa application assistance",
         "visa requirements",
         "travel insurance",
@@ -49,7 +48,7 @@ export const metadata = {
         title: "Vision Visa | Trusted Visa Assistance & International Travel Services",
 
         description:
-            "Get expert guidance for tourist, business, study, and work visa applications, with travel insurance, forex, and air ticket services under one roof.",
+            "Get expert guidance for tourist, business, and study visa applications, with travel insurance, forex, and air ticket services under one roof.",
 
         type: "website",
 
@@ -75,7 +74,7 @@ export const metadata = {
         title: "Vision Visa | Trusted Visa Assistance & Travel Services",
 
         description:
-            "Visa assistance for international travel, including tourist, visitor, business, study, and work visas, plus travel insurance, forex, and air tickets.",
+            "Visa assistance for international travel, including tourist, visitor, business, and study visas, plus travel insurance, forex, and air tickets.",
 
         images: [
             "https://www.visionvisa.in/images/visionvisa-name-dark.webp"
@@ -195,7 +194,7 @@ export default function HomePage() {
                 </h1>
 
                 <p className="hero-sub-title">
-                    Visa assistance for travel, study, work and business, with
+                    Visa assistance for travel, study and business, with
                     travel insurance, forex and air tickets under one roof.
                 </p>
 
@@ -1166,7 +1165,7 @@ export default function HomePage() {
                     </h3>
 
                     <p>
-                        Assistance for tourist, visitor, business, study and work visas.
+                        Assistance for tourist, visitor, business and study visas.
                     </p>
 
                 </div>

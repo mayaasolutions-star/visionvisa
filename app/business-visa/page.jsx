@@ -156,7 +156,7 @@ export default function BUSINESS_VISA_Page() {
 
             <p className="body-large">
                 Travelling abroad for meetings, conferences, business visits
-                or professional work? Vision Visa helps you understand the
+                or professional engagements? Vision Visa helps you understand the
                 business visa requirements, prepare your documents and
                 navigate the application process.
             </p>

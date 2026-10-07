@@ -279,7 +279,6 @@ export default function CONTACT_Page() {
                                         <option value="tourist">Tourist Visa</option>
                                         <option value="business">Business Visa</option>
                                         <option value="study">Study Visa</option>
-                                        <option value="work">Work Visa</option>
                                         <option value="insurance">Travel Insurance</option>
                                         <option value="forex">Forex Services</option>
                                         <option value="tickets">Air Tickets</option>
@@ -298,6 +297,177 @@ export default function CONTACT_Page() {
                             </form>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        {/* =========================================================
+            OUR BRANCHES SECTION (PUNE & PCMC LOCATIONS)
+            ========================================================= */}
+        <section className="contact-branches-section" aria-labelledby="branches-heading">
+            <div className="container">
+                <div className="branches-header reveal">
+                    <span className="section-label">OUR BRANCHES</span>
+                    <h2 id="branches-heading" className="display-text branches-title">
+                        Visit Us at a Branch Near You
+                    </h2>
+                    <p className="body-large branches-subtitle">
+                        Connect with our team at any of our Pune and Pimpri-Chinchwad branches.
+                    </p>
+                </div>
+
+                <div className="branches-grid">
+                    {/* BRANCH 01 - WAKAD */}
+                    <article className="branch-card reveal">
+                        <div className="branch-card-header">
+                            <span className="branch-card-num">01</span>
+                            <h3 className="branch-card-title">WAKAD</h3>
+                        </div>
+
+                        <div className="branch-card-body">
+                            <div className="branch-info-row branch-info-address">
+                                <span className="branch-info-icon" aria-hidden="true">
+                                    <i data-lucide="map-pin"></i>
+                                </span>
+                                <address className="branch-address-text">
+                                    SHOP NO 12 GROUND FLOOR, Sanskriti Arcade, Kaspate Wasti, Wakad, Pimpri-Chinchwad, Maharashtra 411057
+                                </address>
+                            </div>
+
+                            <div className="branch-info-row branch-info-phone">
+                                <span className="branch-info-icon" aria-hidden="true">
+                                    <i data-lucide="phone"></i>
+                                </span>
+                                <div className="branch-phone-content">
+                                    <span className="branch-phone-label">Direct Contact</span>
+                                    <a href="tel:7500690019" className="branch-phone-link">
+                                        7500690019
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="branch-card-footer">
+                            <a
+                                href="https://share.google/XUDKxSnCjG1uxg3gJ"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-secondary branch-map-btn"
+                            >
+                                <i data-lucide="external-link" aria-hidden="true"></i>
+                                <span>View on Map</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    {/* BRANCH 02 - NIGDI */}
+                    <article className="branch-card reveal reveal-delay-1">
+                        <div className="branch-card-header">
+                            <span className="branch-card-num">02</span>
+                            <h3 className="branch-card-title">NIGDI</h3>
+                        </div>
+
+                        <div className="branch-card-body">
+                            <div className="branch-info-row branch-info-address">
+                                <span className="branch-info-icon" aria-hidden="true">
+                                    <i data-lucide="map-pin"></i>
+                                </span>
+                                <address className="branch-address-text">
+                                    Office No 107, Ashish Plaza, Sector 27A, Pradhikaran, Nigdi, Pimpri-Chinchwad, Maharashtra 411044
+                                </address>
+                            </div>
+
+                            <div className="branch-info-row branch-info-phone">
+                                <span className="branch-info-icon" aria-hidden="true">
+                                    <i data-lucide="phone"></i>
+                                </span>
+                                <div className="branch-phone-content">
+                                    <span className="branch-phone-label">Direct Contact</span>
+                                    <a href="tel:8805504110" className="branch-phone-link">
+                                        8805504110
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="branch-card-footer">
+                            <a
+                                href="https://share.google/MrcfAnwmai1pAHCf0"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-secondary branch-map-btn"
+                            >
+                                <i data-lucide="external-link" aria-hidden="true"></i>
+                                <span>View on Map</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    {/* BRANCH 03 - FC ROAD */}
+                    <article className="branch-card reveal reveal-delay-2">
+                        <div className="branch-card-header">
+                            <span className="branch-card-num">03</span>
+                            <h3 className="branch-card-title">FC ROAD</h3>
+                        </div>
+
+                        <div className="branch-card-body">
+                            <div className="branch-info-row branch-info-address">
+                                <span className="branch-info-icon" aria-hidden="true">
+                                    <i data-lucide="map-pin"></i>
+                                </span>
+                                <address className="branch-address-text">
+                                    Laxmi Niwas, Tukaram Paduka Chowk, 926, Ferguson College Rd, Shivajinagar, Pune, Maharashtra 411004
+                                </address>
+                            </div>
+
+                            <div className="branch-info-row branch-info-phone">
+                                <span className="branch-info-icon" aria-hidden="true">
+                                    <i data-lucide="phone"></i>
+                                </span>
+                                <div className="branch-phone-content">
+                                    <span className="branch-phone-label">Direct Contact</span>
+                                    <a href="tel:+919970101101" className="branch-phone-link">
+                                        +91 99701 01101
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="branch-card-footer branch-card-footer-empty"></div>
+                    </article>
+
+                    {/* BRANCH 04 - DHANORI */}
+                    <article className="branch-card reveal reveal-delay-3">
+                        <div className="branch-card-header">
+                            <span className="branch-card-num">04</span>
+                            <h3 className="branch-card-title">DHANORI</h3>
+                        </div>
+
+                        <div className="branch-card-body">
+                            <div className="branch-info-row branch-info-address">
+                                <span className="branch-info-icon" aria-hidden="true">
+                                    <i data-lucide="map-pin"></i>
+                                </span>
+                                <address className="branch-address-text">
+                                    Shop - S, Ranpur Darshan, 111/1, Plot 27, Tank Rd, Dhanori, Pune, Maharashtra 411006
+                                </address>
+                            </div>
+
+                            <div className="branch-info-row branch-info-phone">
+                                <span className="branch-info-icon" aria-hidden="true">
+                                    <i data-lucide="phone"></i>
+                                </span>
+                                <div className="branch-phone-content">
+                                    <span className="branch-phone-label">Direct Contact</span>
+                                    <a href="tel:09370927624" className="branch-phone-link">
+                                        093709 27624
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="branch-card-footer branch-card-footer-empty"></div>
+                    </article>
                 </div>
             </div>
         </section>

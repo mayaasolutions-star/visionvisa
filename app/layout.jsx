@@ -10,8 +10,8 @@ const baseIconPath = getAssetPath('/images/vision-visa-logo-symbol.webp');
 
 export const metadata = {
   title: 'Vision Visa | Trusted Visa Consultants for International Travel',
-  description: 'Apply for tourist, business, study, and work visas with Vision Visa. Get expert visa guidance, document verification, travel insurance, forex, and air ticket assistance.',
-  keywords: 'Visa Consultant, Tourist Visa, Business Visa, Study Visa, Work Visa, Travel Insurance, Forex Services, Air Tickets, Visa Assistance, Visa Processing, International Travel',
+  description: 'Apply for tourist, business, and study visas with Vision Visa. Get expert visa guidance, document verification, travel insurance, forex, and air ticket assistance.',
+  keywords: 'Visa Consultant, Tourist Visa, Business Visa, Study Visa, Travel Insurance, Forex Services, Air Tickets, Visa Assistance, Visa Processing, International Travel',
   metadataBase: new URL('https://www.visionvisa.in'),
   alternates: {
     canonical: 'https://www.visionvisa.in/',
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" />
         <link rel="stylesheet" href={`${getAssetPath('/css/reset.css')}?v=20260926_v12`} />
         <link rel="stylesheet" href={`${getAssetPath('/css/main.css')}?v=20260926_v12`} />
         <link rel="stylesheet" href={`${getAssetPath('/css/components.css')}?v=20260926_v21`} />

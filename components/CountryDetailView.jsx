@@ -3,8 +3,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { getAssetPath } from '@/lib/asset-path';
-import { Ban, ShieldAlert, Info } from 'lucide-react';
-import { getVisaRules } from '@/lib/visa-rules-data';
 import CountryTravelGuideCarousel from '@/components/CountryTravelGuideCarousel';
 import {
   trackVisaSelect,
@@ -14,6 +12,7 @@ import {
   trackInstagramClick,
   trackCTAClick,
 } from '@/lib/analytics';
+import { INSTAGRAM_PROFILE, INSTAGRAM_POSTS } from '@/data/instagramPosts';
 
 const POPULAR_COUNTRIES = [
   { name: 'Dubai (UAE)', visa: 'Dubai (UAE) Visa', slug: 'united-arab-emirates', flag: '🇦🇪' },
@@ -25,22 +24,6 @@ const POPULAR_COUNTRIES = [
   { name: 'Thailand', visa: 'Thailand Visa', slug: 'thailand', flag: '🇹🇭' },
   { name: 'Vietnam', visa: 'Vietnam Visa', slug: 'vietnam', flag: '🇻🇳' },
 ];
-
-// Helper to format point strings with bold keywords before colon
-function formatPoint(text) {
-  if (!text) return null;
-  const colonIdx = text.indexOf(':');
-  if (colonIdx > 0 && colonIdx < 35) {
-    const label = text.substring(0, colonIdx).trim();
-    const rest = text.substring(colonIdx + 1).trim();
-    return (
-      <>
-        <strong>{label}:</strong> {rest}
-      </>
-    );
-  }
-  return text;
-}
 
 export default function CountryDetailView({ data }) {
   if (!data) return null;
@@ -77,7 +60,6 @@ export default function CountryDetailView({ data }) {
   const [showAllReqs, setShowAllReqs] = useState(false);
 
   const activeVisa = visaTypes.find(v => v.id === activeVisaId) || visaTypes[0];
-  const visaRules = getVisaRules(data.slug, activeVisa);
 
   // Purpose text helper
   const getVisaPurpose = (v) => {
@@ -86,7 +68,6 @@ export default function CountryDetailView({ data }) {
     const idLower = (v.id || '').toLowerCase();
     if (idLower.includes('biz') || nameLower.includes('business')) return 'Business Meetings, Trade & Consultations';
     if (idLower.includes('student') || idLower.includes('study') || nameLower.includes('student') || nameLower.includes('study')) return 'Full-time Academic Studies & Courses';
-    if (idLower.includes('work') || idLower.includes('employ') || nameLower.includes('work') || nameLower.includes('employment')) return 'Employment, Jobs & Skilled Work';
     if (idLower.includes('transit') || nameLower.includes('transit')) return 'Airport Transit & Short Stopovers';
     if (idLower.includes('family') || nameLower.includes('family')) return 'Visit Family, Friends & Relatives';
     return 'Tourism, Holidays, Leisure & Family Visit';
@@ -300,93 +281,190 @@ export default function CountryDetailView({ data }) {
                   <span>Chat on WhatsApp</span>
                 </a>
 
-                <a
-                  href="https://www.instagram.com/visionvisa.in/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href={`/contact/?country=${data.slug}&visa=${activeVisa?.id || 'tourist'}#contactForm`}
                   className="vv-action-btn vv-action-insta"
-                  onClick={() => trackInstagramClick('country_sidebar')}
+                  onClick={() => trackCTAClick('talk_to_visa_team', data.name, activeVisa?.name)}
+                  aria-label="Talk to Our Visa Team - Go to Contact Form"
                 >
                   <div className="vv-insta-left-wrap">
                     <div className="vv-insta-icon-box">
-                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                      </svg>
+                    </div>
+                    <span className="vv-insta-label">Talk to Our Visa Team</span>
+                  </div>
+                  <svg className="vv-insta-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+
+            {/* 2. INSTAGRAM SHOWCASE CARD (REAL VISION VISA PROFILE & POSTS) */}
+            <aside className="vv-insta-showcase-card" aria-label="Visas We've Processed - Vision Visa on Instagram">
+              {/* Subtle Instagram-inspired Top Accent Line */}
+              <div className="vv-insta-top-accent" aria-hidden="true"></div>
+
+              {/* Primary Showcase Title: Visas We've Processed */}
+              <div className="vv-insta-section-heading">
+                <div className="vv-insta-heading-row">
+                  <span className="vv-insta-heading-icon" aria-hidden="true">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                    </svg>
+                  </span>
+                  <h3 className="vv-insta-heading-title">Visas We've Processed</h3>
+                </div>
+                <p className="vv-insta-heading-subtitle">Real client approvals & daily consular updates from our official feed</p>
+              </div>
+
+              {/* Clean Divider */}
+              <div className="vv-insta-divider"></div>
+
+              {/* Profile Header */}
+              <div className="vv-insta-header">
+                <a
+                  href={INSTAGRAM_PROFILE.profileUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="vv-insta-profile"
+                  onClick={() => trackInstagramClick('country_sidebar_profile')}
+                  aria-label="Vision Visa Instagram Profile"
+                >
+                  <div className="vv-insta-avatar-ring">
+                    <div className="vv-insta-avatar">
+                      <img
+                        src={getAssetPath(INSTAGRAM_PROFILE.avatarUrl)}
+                        alt="Vision Visa"
+                        className="vv-insta-avatar-img"
+                      />
+                    </div>
+                  </div>
+                  <div className="vv-insta-profile-meta">
+                    <div className="vv-insta-brand-title">
+                      <span>{INSTAGRAM_PROFILE.fullName}</span>
+                      <svg className="vv-insta-verified" width="14" height="14" viewBox="0 0 24 24" fill="#1E73DC" aria-hidden="true">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                      </svg>
+                    </div>
+                    <div className="vv-insta-brand-subtitle">
+                      <span className="vv-insta-handle-text">{INSTAGRAM_PROFILE.handle}</span>
+                      <span className="vv-insta-dot">•</span>
+                      <span>{INSTAGRAM_PROFILE.stats.followers} followers</span>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href={INSTAGRAM_PROFILE.profileUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="vv-insta-follow-btn"
+                  onClick={() => trackInstagramClick('country_sidebar_follow_btn')}
+                  aria-label="Follow @visionvisa.in on Instagram"
+                >
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                  </svg>
+                  <span>Follow</span>
+                </a>
+              </div>
+
+              {/* Clean Divider */}
+              <div className="vv-insta-divider"></div>
+
+              {/* Feed Header */}
+              <div className="vv-insta-feed-header">
+                <div className="vv-insta-feed-title-wrap">
+                  <span className="vv-insta-feed-icon-wrap" aria-hidden="true">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                    </svg>
+                  </span>
+                  <span className="vv-insta-feed-title">Latest Visa Approvals & Guidance</span>
+                </div>
+                <span className="vv-insta-feed-count">{INSTAGRAM_PROFILE.stats.posts} posts</span>
+              </div>
+
+              {/* 3-Column Real Published Instagram Posts Grid */}
+              <div className="vv-insta-preview-grid">
+                {INSTAGRAM_POSTS.slice(0, 9).map((post, idx) => (
+                  <a
+                    key={post.code}
+                    href={post.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="vv-insta-tile"
+                    onClick={() => trackInstagramClick(`country_sidebar_post_${idx + 1}`)}
+                    title={post.title}
+                    aria-label={`${post.title} - View post on Instagram`}
+                  >
+                    <img
+                      src={getAssetPath(post.image)}
+                      alt={post.title}
+                      className="vv-insta-tile-img"
+                      loading="lazy"
+                    />
+                    {post.type === 'video' && (
+                      <span className="vv-insta-tile-badge" aria-label="Reel video">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor">
+                          <polygon points="5 3 19 12 5 21 5 3"/>
+                        </svg>
+                      </span>
+                    )}
+                    <div className="vv-insta-tile-overlay">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                         <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
                         <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
                         <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
                       </svg>
                     </div>
-                    <span className="vv-insta-label">Visas We've Processed</span>
-                  </div>
-                  <svg className="vv-insta-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="9 18 15 12 9 6" />
+                  </a>
+                ))}
+              </div>
+
+              {/* Bottom Subtle Footer Row */}
+              <div className="vv-insta-footer">
+                <a
+                  href={INSTAGRAM_PROFILE.profileUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="vv-insta-pill"
+                  onClick={() => trackInstagramClick('country_sidebar_handle')}
+                  aria-label="Instagram handle @visionvisa.in"
+                >
+                  <svg className="vv-insta-pill-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
                   </svg>
+                  <span className="vv-insta-pill-handle">{INSTAGRAM_PROFILE.handle}</span>
+                </a>
+
+                <a
+                  href={INSTAGRAM_PROFILE.profileUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="vv-insta-cta-btn"
+                  onClick={() => trackInstagramClick('country_sidebar_footer_link')}
+                >
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                  </svg>
+                  <span>View Instagram</span>
+                  <span className="vv-insta-arrow" aria-hidden="true">→</span>
                 </a>
               </div>
-            </div>
-
-            {/* 2. DYNAMIC VISA INFORMATION CARDS (RESTRICTIONS, CONDITIONS, GOOD TO KNOW) */}
-            <aside className="vv-sidebar-info-stack">
-
-              {/* CARD 1: IMPORTANT RESTRICTIONS */}
-              {visaRules.importantRestrictions && visaRules.importantRestrictions.length > 0 && (
-                <div className="vv-sidebar-card vv-card-restrictions">
-                  <div className="vv-sidebar-card-header">
-                    <span className="vv-sidebar-icon vv-icon-restrictions" aria-hidden="true">
-                      <Ban size={14} />
-                    </span>
-                    <h4 className="vv-sidebar-card-title">IMPORTANT RESTRICTIONS</h4>
-                  </div>
-                  <ul className="vv-sidebar-list">
-                    {visaRules.importantRestrictions.slice(0, 3).map((item, idx) => (
-                      <li key={idx} className="vv-sidebar-list-item">
-                        <span className="bullet-dot bullet-danger">•</span>
-                        <span>{formatPoint(item)}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {/* CARD 2: SPECIAL CONDITIONS */}
-              {visaRules.specialConditions && visaRules.specialConditions.length > 0 && (
-                <div className="vv-sidebar-card vv-card-conditions">
-                  <div className="vv-sidebar-card-header">
-                    <span className="vv-sidebar-icon vv-icon-conditions" aria-hidden="true">
-                      <ShieldAlert size={14} />
-                    </span>
-                    <h4 className="vv-sidebar-card-title">SPECIAL CONDITIONS</h4>
-                  </div>
-                  <ul className="vv-sidebar-list">
-                    {visaRules.specialConditions.slice(0, 3).map((item, idx) => (
-                      <li key={idx} className="vv-sidebar-list-item">
-                        <span className="bullet-dot bullet-warning">•</span>
-                        <span>{formatPoint(item)}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {/* CARD 3: GOOD TO KNOW */}
-              {visaRules.goodToKnow && visaRules.goodToKnow.length > 0 && (
-                <div className="vv-sidebar-card vv-card-good-to-know">
-                  <div className="vv-sidebar-card-header">
-                    <span className="vv-sidebar-icon vv-icon-good-to-know" aria-hidden="true">
-                      <Info size={14} />
-                    </span>
-                    <h4 className="vv-sidebar-card-title">GOOD TO KNOW</h4>
-                  </div>
-                  <ul className="vv-sidebar-list">
-                    {visaRules.goodToKnow.slice(0, 3).map((item, idx) => (
-                      <li key={idx} className="vv-sidebar-list-item">
-                        <span className="bullet-dot bullet-info">•</span>
-                        <span>{formatPoint(item)}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
             </aside>
 
           </div>

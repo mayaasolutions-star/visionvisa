@@ -5,10 +5,10 @@ import HeroSection from '../../components/HeroSection';
 import JourneyCTA from '../../components/JourneyCTA';
 
 export const metadata = {
-    title: "Visa Services | Tourist, Business, Study & Work Visas | Vision Visa",
+    title: "Visa Services | Tourist, Business & Study Visas | Vision Visa",
 
     description:
-        "Explore Vision Visa for tourist, visitor, business, study, family and work visa assistance. Get clear guidance on visa requirements, documents and the application process.",
+        "Explore Vision Visa for tourist, visitor, business, study, and family visa assistance. Get clear guidance on visa requirements, documents and the application process.",
 
     keywords: [
         "Vision Visa",
@@ -19,7 +19,6 @@ export const metadata = {
         "business visa",
         "study visa",
         "family visa",
-        "work visa",
         "visa requirements",
         "visa documents",
         "visa application",
@@ -44,10 +43,10 @@ export const metadata = {
     },
 
     openGraph: {
-        title: "Visa Services | Tourist, Business, Study & Work Visas | Vision Visa",
+        title: "Visa Services | Tourist, Business & Study Visas | Vision Visa",
 
         description:
-            "Visa assistance for tourist, business, study, family and work travel. Vision Visa helps Indian passport holders with clear requirements and application steps.",
+            "Visa assistance for tourist, business, study, and family travel. Vision Visa helps Indian passport holders with clear requirements and application steps.",
 
         type: "website",
 
@@ -70,10 +69,10 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
 
-        title: "Visa Services | Tourist, Business, Study & Work Visas | Vision Visa",
+        title: "Visa Services | Tourist, Business & Study Visas | Vision Visa",
 
         description:
-            "Explore visa options for tourism, business, education and work with Vision Visa.",
+            "Explore visa options for tourism, business, and education with Vision Visa.",
 
         images: [
             "https://www.visionvisa.in/images/visas-choosewithconfidence.webp"
@@ -111,7 +110,7 @@ export default function SERVICES_Page() {
                     "url": "https://www.visionvisa.in"
                 },
                 "serviceType": "Visa Consultation & Processing Assistance",
-                "description": "Comprehensive visa assistance services for tourist, business, study, work, family, and visitor travel across 70+ international destinations."
+                "description": "Comprehensive visa assistance services for tourist, business, study, family, and visitor travel across 70+ international destinations."
             }
         ]
     };
@@ -324,32 +323,6 @@ export default function SERVICES_Page() {
 
                 <div className="category-card-cta">
                     <span>Explore Visitor Visa</span>
-                    <i data-lucide="arrow-right"></i>
-                </div>
-            </Link>
-
-
-            {/* Work Visa */}
-
-            <Link
-                href="/work-visa"
-                className="category-card reveal reveal-delay-2"
-            >
-                <div className="category-icon">
-                    <i data-lucide="building-2"></i>
-                </div>
-
-                <h3 className="mb-24">
-                    Work Visa
-                </h3>
-
-                <p className="body-base">
-                    Moving abroad for work? Understand your work visa
-                    requirements, documents and application steps.
-                </p>
-
-                <div className="category-card-cta">
-                    <span>Explore Work Visa</span>
                     <i data-lucide="arrow-right"></i>
                 </div>
             </Link>
@@ -796,7 +769,7 @@ export default function SERVICES_Page() {
                             className="text-accent"
                         ></i>
 
-                        Business and Work Visas
+                        Business Visa
                     </li>
 
                     <li

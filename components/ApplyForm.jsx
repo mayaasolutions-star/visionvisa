@@ -85,7 +85,6 @@ export default function ApplyForm() {
                             <option value="tourist">Tourist Visa</option>
                             <option value="business">Business Visa</option>
                             <option value="study">Study Visa</option>
-                            <option value="work">Work Visa</option>
                             <option value="insurance">Travel Insurance</option>
                             <option value="forex">Forex &amp; Currency Card</option>
                             <option value="tickets">Air Tickets</option>

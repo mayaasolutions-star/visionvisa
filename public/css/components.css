@@ -121,9 +121,24 @@
     font-weight: 450;
     color: var(--slate-600);
     line-height: 1.5;
-    margin: 0 auto 24px;
+    margin: 0 auto 20px;
     text-align: center;
     max-width: 560px; /* Controlled width for balanced two-line subtitle wrapping */
+}
+
+.hero-cta-buttons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 0 auto 28px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero-cta-buttons .btn {
+    min-height: 46px;
+    padding: 12px 24px;
 }
 
 /* Floating Search Bar - Focal Point */
@@ -718,7 +733,7 @@
     margin-top: 8px;
     margin-bottom: 18px;
     font-size: clamp(1.75rem, 2.5vw, 2.25rem);
-    white-space: nowrap;
+    line-height: 1.25;
 }
 
 .category-grid {
@@ -5425,22 +5440,33 @@
   }
 
   .journey-side-btn {
-    top: 185px !important;
-    width: 40px !important;
-    height: 40px !important;
+    top: auto !important;
+    bottom: 8px !important;
+    transform: none !important;
+    width: 44px !important;
+    height: 44px !important;
     border-radius: 50% !important;
     background: #FFFFFF !important;
-    border: 1px solid #E2E8F0 !important;
-    box-shadow: 0 4px 14px rgba(7, 26, 61, 0.15) !important;
-    z-index: 15 !important;
+    border: 1px solid #CBD5E1 !important;
+    box-shadow: 0 4px 14px rgba(7, 26, 61, 0.12) !important;
+    z-index: 25 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
 
   .journey-side-prev {
-    left: 4px !important;
+    left: calc(50% - 52px) !important;
+    right: auto !important;
   }
 
   .journey-side-next {
-    right: 4px !important;
+    left: auto !important;
+    right: calc(50% - 52px) !important;
+  }
+
+  .journey-3d-stage-wrapper {
+    padding-bottom: 60px !important;
   }
 
   /* ABOUT TYPOGRAPHIC PILLARS */
@@ -9503,7 +9529,8 @@ const cleanCSS = `/* ===========================================================
   }
 
   .country-guide-card {
-    width: 90vw !important;
+    max-width: calc(100vw - 32px) !important;
+    width: 88vw !important;
     padding: 20px 20px !important;
     border-radius: 16px !important;
   }
@@ -9527,20 +9554,23 @@ const cleanCSS = `/* ===========================================================
 
 /* ==========================================================================
    SYSTEMATIC MOBILE-FIRST & RESPONSIVE DESIGN ENHANCEMENTS
-   Breakpoints: 320px | 360px | 375px | 390px | 414px | 430px | 480px | 768px | 1024px | 1280px
+   Breakpoints: Mobile (<= 480px) | Large Mobile (481-767px) | Tablet (768-1023px) | Desktop (>= 1024px)
    ========================================================================== */
 
 /* 1. GLOBAL OVERFLOW & CONTAINER SAFETY */
 html, body {
-  max-width: 100vw;
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
+  position: relative;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-img, svg, video {
+img, svg, video, canvas {
   max-width: 100%;
   height: auto;
 }
@@ -9548,14 +9578,20 @@ img, svg, video {
 .container {
   width: 100%;
   max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-inline: auto;
+  padding-left: 24px;
+  padding-right: 24px;
   box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 640px) {
   .container {
     padding-left: 16px;
     padding-right: 16px;
@@ -9564,34 +9600,44 @@ img, svg, video {
 
 @media (max-width: 360px) {
   .container {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
   }
 }
 
 /* 2. RESPONSIVE TYPOGRAPHY & TOUCH TARGETS */
-h1, .h1 {
-  font-size: clamp(1.75rem, 5.5vw, 3rem);
+h1, .h1, .hero-main-title, .display-text {
+  font-size: clamp(1.8rem, 5.5vw, 3.25rem);
   line-height: 1.2;
   letter-spacing: -0.02em;
-  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 h2, .h2 {
-  font-size: clamp(1.4rem, 4.2vw, 2.25rem);
+  font-size: clamp(1.45rem, 4vw, 2.25rem);
   line-height: 1.25;
   letter-spacing: -0.015em;
-  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 h3, .h3 {
-  font-size: clamp(1.15rem, 3.2vw, 1.6rem);
+  font-size: clamp(1.15rem, 3vw, 1.6rem);
   line-height: 1.3;
-  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
-p {
-  word-break: break-word;
+p, .body-large, .body-base {
+  overflow-wrap: break-word;
+}
+
+.body-large {
+  font-size: clamp(0.95rem, 2.5vw, 1.125rem);
+  line-height: 1.6;
+}
+
+.body-base {
+  font-size: clamp(0.875rem, 2vw, 1rem);
+  line-height: 1.55;
 }
 
 button, a, input, select, textarea {
@@ -9599,137 +9645,387 @@ button, a, input, select, textarea {
 }
 
 /* 3. HERO & SEARCH RESPONSIVENESS */
+.hero-content-wrapper {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .hero-section {
+    padding-top: 110px !important;
+    padding-bottom: 40px !important;
+  }
+  .hero-header {
+    margin-bottom: 28px !important;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-section {
-    padding-top: 88px !important;
-    padding-bottom: 24px !important;
+    padding-top: 84px !important;
+    padding-bottom: 28px !important;
   }
 
   .hero-header {
     margin-bottom: 20px !important;
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .hero-header .section-label {
+    display: inline-block !important;
+    margin-bottom: 12px !important;
+    font-size: 0.75rem !important;
+    padding: 6px 14px !important;
   }
 
   .hero-main-title {
-    font-size: clamp(1.65rem, 6.5vw, 2.25rem) !important;
-    line-height: 1.22 !important;
+    font-size: clamp(1.65rem, 6.5vw, 2.35rem) !important;
+    line-height: 1.2 !important;
     max-width: 100% !important;
     margin-bottom: 12px !important;
+    letter-spacing: -0.02em !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
   }
 
   .hero-title-emphasize {
     white-space: normal !important;
+    display: inline-block !important;
   }
 
   .hero-sub-title {
-    font-size: clamp(0.9rem, 3.5vw, 1rem) !important;
+    font-size: clamp(0.9rem, 3.2vw, 1.05rem) !important;
     line-height: 1.5 !important;
     max-width: 100% !important;
     margin-bottom: 20px !important;
+    margin-inline: auto !important;
+    color: var(--slate-600) !important;
   }
 
   .hero-cta-buttons {
+    display: flex !important;
     flex-direction: column !important;
     width: 100% !important;
+    max-width: 100% !important;
     gap: 10px !important;
+    margin-bottom: 22px !important;
+    margin-inline: auto !important;
+    box-sizing: border-box !important;
   }
 
   .hero-cta-buttons .btn {
     width: 100% !important;
-    min-height: 46px !important;
+    max-width: 100% !important;
+    min-height: 48px !important;
     font-size: 0.9375rem !important;
+    font-weight: 600 !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     text-align: center !important;
     border-radius: 12px !important;
-  }
-
-  .search-container {
-    max-width: 100% !important;
-    width: 100% !important;
-    padding: 0 !important;
-  }
-
-  .search-bar {
-    padding: 8px 12px 8px 16px !important;
-    gap: 10px !important;
-    border-radius: 100px !important;
-  }
-
-  .search-input {
-    font-size: 0.875rem !important;
-  }
-
-  .search-btn {
-    width: 42px !important;
-    height: 42px !important;
-    flex-shrink: 0 !important;
+    box-sizing: border-box !important;
+    padding: 12px 20px !important;
   }
 }
 
 @media (max-width: 360px) {
   .hero-main-title {
-    font-size: 1.55rem !important;
+    font-size: 1.5rem !important;
   }
-
-  .search-bar {
-    padding: 6px 10px 6px 14px !important;
-    border-radius: 14px !important;
-  }
-
-  .search-btn {
-    width: 38px !important;
-    height: 38px !important;
+  .hero-sub-title {
+    font-size: 0.875rem !important;
   }
 }
 
-/* 4. DESTINATION GRID RESPONSIVENESS - HORIZONTAL TOUCH SWIPE CAROUSEL */
-@media (max-width: 768px) {
+/* SEARCH COMPONENT (FLUID STACKED ON MOBILE, HORIZONTAL ON DESKTOP) */
+@media (min-width: 641px) {
+  .search-container {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px 18px 10px 24px;
+    border-radius: 100px;
+    box-shadow: 0 16px 36px rgba(10, 17, 40, 0.08);
+    border: 1px solid var(--light-gray);
+    gap: 14px;
+    position: relative;
+    z-index: 101;
+  }
+
+  .search-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .search-btn {
+    width: 48px;
+    height: 48px;
+    background: var(--primary);
+    color: #ffffff;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .mobile-search-btn-text {
+    display: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .search-container {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+    z-index: 100 !important;
+  }
+
+  .search-bar {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    background: #ffffff !important;
+    padding: 16px !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 30px rgba(10, 17, 40, 0.08) !important;
+    border: 1px solid var(--light-gray) !important;
+    gap: 12px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+    z-index: 101 !important;
+  }
+
+  .search-item {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+    position: relative !important;
+  }
+
+  .search-label {
+    font-size: 0.72rem !important;
+    font-weight: 700 !important;
+    color: var(--slate-400) !important;
+    letter-spacing: 0.06em !important;
+    text-transform: uppercase !important;
+  }
+
+  .search-input {
+    width: 100% !important;
+    border: none !important;
+    border-bottom: 1.5px solid var(--slate-200) !important;
+    border-radius: 0 !important;
+    padding: 8px 0 !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: var(--slate-900) !important;
+    background: transparent !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+    transition: border-color 0.2s ease !important;
+  }
+
+  .search-input:focus {
+    border-bottom-color: var(--primary-blue) !important;
+  }
+
+  .search-btn {
+    width: 100% !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    border-radius: 12px !important;
+    background: var(--primary) !important;
+    color: #ffffff !important;
+    border: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    flex-shrink: 0 !important;
+    cursor: pointer !important;
+    box-sizing: border-box !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .search-btn:active {
+    transform: scale(0.98) !important;
+    background: #080E24 !important;
+  }
+
+  .mobile-search-btn-text {
+    display: inline !important;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+  }
+
+  .search-dropdown {
+    position: absolute !important;
+    top: calc(100% + 6px) !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-height: 240px !important;
+    border-radius: 14px !important;
+    background: #ffffff !important;
+    box-shadow: 0 16px 36px rgba(10, 17, 40, 0.16) !important;
+    border: 1px solid var(--slate-200) !important;
+    z-index: 1000 !important;
+    overflow-y: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .search-dropdown-item {
+    padding: 12px 14px !important;
+    min-height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .search-error-msg {
+    margin-top: 6px !important;
+    font-size: 0.8rem !important;
+    color: #DC2626 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+  }
+}
+
+/* 4. DESTINATION GRID RESPONSIVENESS (1 COLUMN ON MOBILE, 2 COLUMNS ON TABLET, 4 COLUMNS ON DESKTOP) */
+@media (min-width: 1024px) {
+  .destination-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-auto-rows: 240px !important;
+    grid-auto-flow: dense !important;
+    gap: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  .card-wide,
+  .card-large {
+    grid-column: span 2 !important;
+    grid-row: span 1 !important;
+  }
+  .card-tall {
+    grid-column: span 1 !important;
+    grid-row: span 2 !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1023px) {
+  .destinations {
+    padding-top: 32px !important;
+    padding-bottom: 48px !important;
+  }
+  .destination-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-auto-rows: 210px !important;
+    gap: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  .destination-grid .card {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    border-radius: 18px !important;
+  }
+  .card-wide,
+  .card-large,
+  .card-tall {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+  }
+}
+
+@media (max-width: 640px) {
   .destinations {
     padding-top: 24px !important;
-    padding-bottom: 36px !important;
-    overflow: hidden !important;
+    padding-bottom: 40px !important;
+    overflow: visible !important;
   }
 
   .destination-grid {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important;
-    scroll-snap-type: x mandatory !important;
-    -webkit-overflow-scrolling: touch !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-auto-rows: auto !important;
     gap: 14px !important;
-    padding: 4px 16px 16px 16px !important;
-    margin-left: -16px !important;
-    margin-right: -16px !important;
-    scrollbar-width: none !important; /* Firefox */
-    -ms-overflow-style: none !important; /* IE 10+ */
-  }
-
-  .destination-grid::-webkit-scrollbar {
-    display: none !important; /* Chrome / Safari */
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    box-sizing: border-box !important;
   }
 
   .destination-grid .card {
-    flex: 0 0 84% !important;
-    max-width: 84% !important;
-    width: 84% !important;
-    height: 260px !important;
-    min-height: 260px !important;
-    scroll-snap-align: start !important;
-    border-radius: 20px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 210px !important;
+    min-height: 210px !important;
+    border-radius: 18px !important;
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+    flex: none !important;
+    margin: 0 !important;
     position: relative !important;
     overflow: hidden !important;
-    grid-column: auto !important;
-    grid-row: auto !important;
+    display: block !important;
   }
 
-  .card-overlay {
+  .card-wide,
+  .card-large,
+  .card-tall {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+  }
+
+  .destination-grid .card-img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .destination-grid .card-overlay {
     padding: 18px 20px !important;
+    inset: 0 !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: flex-end !important;
-    background: linear-gradient(180deg, rgba(7, 26, 61, 0) 25%, rgba(7, 26, 61, 0.88) 100%) !important;
   }
 
   .card-title {
@@ -9763,16 +10059,13 @@ button, a, input, select, textarea {
 
 @media (max-width: 360px) {
   .destination-grid .card {
-    flex: 0 0 86% !important;
-    max-width: 86% !important;
-    width: 86% !important;
-    height: 240px !important;
-    min-height: 240px !important;
+    height: 195px !important;
+    min-height: 195px !important;
   }
 }
 
 /* 5. CATEGORY & GUIDANCE GRIDS RESPONSIVENESS */
-@media (max-width: 991px) {
+@media (min-width: 641px) and (max-width: 1023px) {
   .category-grid {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 16px !important;
@@ -9788,53 +10081,101 @@ button, a, input, select, textarea {
 }
 
 @media (max-width: 640px) {
-  .category-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 12px !important;
+  .guidance-section {
+    padding: 44px 0 36px !important;
   }
-  .category-card {
-    padding: 20px 16px 18px !important;
-    border-radius: 16px !important;
-  }
-  .category-card h3 {
-    font-size: 1.1rem !important;
-    margin-bottom: 6px !important;
-  }
-  .category-card p {
-    font-size: 0.85rem !important;
-    line-height: 1.45 !important;
-  }
-  .category-card-cta {
-    padding-top: 10px !important;
-    font-size: 0.8125rem !important;
-    min-height: 44px !important;
-  }
+
   .guidance-grid {
     grid-template-columns: 1fr !important;
     gap: 12px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
+
   .guidance-card {
-    padding: 16px 16px !important;
+    padding: 18px 16px !important;
     gap: 14px !important;
     border-radius: 16px !important;
+    min-height: auto !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
   }
+
   .guidance-icon-box {
-    width: 48px !important;
-    height: 48px !important;
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    flex-shrink: 0 !important;
   }
+
   .guidance-icon-box svg {
-    width: 24px !important;
-    height: 24px !important;
+    width: 22px !important;
+    height: 22px !important;
   }
+
   .guidance-title {
-    font-size: 1.1rem !important;
+    font-size: 1.05rem !important;
+    margin-bottom: 4px !important;
   }
+
   .guidance-desc {
-    font-size: 0.875rem !important;
+    font-size: 0.85rem !important;
+    line-height: 1.5 !important;
   }
-  .timeline {
+
+  .services-section {
+    padding: 40px 0 44px !important;
+  }
+
+  .services-header {
+    margin-bottom: 24px !important;
+    text-align: center !important;
+  }
+
+  .services-header h2 {
+    font-size: clamp(1.4rem, 5.2vw, 1.85rem) !important;
+    margin-bottom: 10px !important;
+  }
+
+  .category-grid {
     grid-template-columns: 1fr !important;
     gap: 12px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .category-card {
+    padding: 22px 18px !important;
+    border-radius: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .category-card-content {
+    margin-bottom: 14px !important;
+  }
+
+  .category-card h3 {
+    font-size: 1.15rem !important;
+    margin-bottom: 6px !important;
+  }
+
+  .category-card p {
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .category-card-cta {
+    padding-top: 10px !important;
+    font-size: 0.85rem !important;
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  .timeline {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
   }
   .timeline-step {
     padding: 20px 16px !important;
@@ -9842,63 +10183,126 @@ button, a, input, select, textarea {
   }
 }
 
-@media (max-width: 390px) {
-  .category-grid {
-    grid-template-columns: 1fr !important;
-    gap: 12px !important;
-  }
-}
-
 /* 6. JOURNEY CTA BANNER */
 @media (max-width: 768px) {
   .journey-cta-section {
-    margin-bottom: 40px !important;
+    padding: 40px 0 48px !important;
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .journey-cta-card {
-    padding: 28px 18px !important;
+    padding: 28px 18px 24px !important;
     border-radius: 20px !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
-  .journey-cta-inner h2 {
-    font-size: clamp(1.35rem, 5vw, 1.75rem) !important;
+  .journey-cta-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0 !important;
+    gap: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
-  .journey-cta-inner p {
+  .journey-cta-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+  }
+
+  .journey-cta-eyebrow {
+    margin-inline: auto !important;
+  }
+
+  .journey-cta-inner h2,
+  .journey-cta-title {
+    font-size: clamp(1.4rem, 5.2vw, 1.85rem) !important;
+    line-height: 1.25 !important;
+    margin-bottom: 12px !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .journey-cta-inner p,
+  .journey-cta-desc {
     font-size: 0.9rem !important;
-    line-height: 1.5 !important;
+    line-height: 1.55 !important;
     margin-bottom: 20px !important;
+    margin-inline: auto !important;
+    max-width: 100% !important;
   }
 
   .journey-cta-actions {
+    display: flex !important;
     flex-direction: column !important;
     width: 100% !important;
     gap: 10px !important;
+    margin-bottom: 20px !important;
+    box-sizing: border-box !important;
   }
 
   .journey-cta-actions .btn,
   .btn-cta-primary,
   .btn-cta-secondary {
     width: 100% !important;
+    max-width: 100% !important;
     min-height: 48px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     border-radius: 12px !important;
+    font-size: 0.9375rem !important;
+    font-weight: 600 !important;
+    box-sizing: border-box !important;
+    padding: 12px 20px !important;
+  }
+
+  .journey-cta-trust {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  .trust-pill {
+    padding: 6px 12px !important;
+    font-size: 0.78rem !important;
+    box-sizing: border-box !important;
+  }
+
+  .journey-cta-visual {
+    margin-top: 6px !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
   }
 
   .travel-composition-stage {
-    transform: scale(0.8) !important;
-    transform-origin: center center !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    height: 260px !important;
     margin: 0 auto !important;
+    position: relative !important;
   }
 }
 
 /* 7. FOOTER RESPONSIVENESS */
-@media (max-width: 991px) {
+@media (min-width: 641px) and (max-width: 1023px) {
   .footer-grid {
     grid-template-columns: repeat(2, 1fr) !important;
-    gap: 28px 20px !important;
+    gap: 32px 24px !important;
+  }
+  .footer-col-brand {
+    grid-column: span 2 !important;
   }
 }
 
@@ -9913,31 +10317,39 @@ button, a, input, select, textarea {
   }
 
   .footer-col-brand {
+    grid-column: span 1 !important;
     text-align: left !important;
   }
 
   .footer-bottom {
     flex-direction: column !important;
-    gap: 8px !important;
+    gap: 10px !important;
     text-align: center !important;
     padding-top: 20px !important;
   }
-}
 
-/* 8. INSTAGRAM CTA TRUNCATION FOR SMALL SCREENS */
-@media (max-width: 360px) {
-  .vv-insta-label {
-    max-width: 160px !important;
-    white-space: nowrap !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-    font-size: 12px !important;
+  .footer-socials-desktop {
+    display: none !important;
+  }
+
+  .footer-socials-mobile-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 14px !important;
+    margin: 20px 0 !important;
+    width: 100% !important;
+  }
+
+  .footer-contact-item.contact-link {
+    word-break: break-word !important;
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
   }
 }
 
-/* ==========================================================================
-   9. APPLY / VISA ENQUIRY FORM FLOW RESPONSIVE DESIGN
-   ========================================================================== */
+/* 8. FORMS & INPUTS RESPONSIVENESS */
 @media (max-width: 991px) {
   .contact-main-grid {
     display: flex !important;
@@ -10002,7 +10414,7 @@ button, a, input, select, textarea {
     height: 48px !important;
     min-height: 48px !important;
     padding: 12px 16px !important;
-    font-size: 16px !important; /* 16px font-size prevents iOS Safari auto-zoom */
+    font-size: 16px !important; /* 16px prevents iOS Safari auto-zoom */
     width: 100% !important;
     box-sizing: border-box !important;
     border-radius: 12px !important;
@@ -10074,6 +10486,81 @@ button, a, input, select, textarea {
 
   #successPopup h2 {
     font-size: 1.75rem !important;
+  }
+}
+
+/* 9. CAROUSEL & 3D WIDGET HORIZONTAL OVERFLOW PREVENTION */
+.journey-3d-viewport,
+.country-guide-viewport {
+  overflow: hidden !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 768px) {
+  .journey-3d-card,
+  .country-guide-card {
+    max-width: calc(100vw - 32px) !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* 10. INSURANCE PARTNER SHOWCASE */
+.insurance-showcase-box {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 24px;
+  padding: 32px 28px;
+  box-shadow: 0 16px 40px rgba(7, 26, 61, 0.05);
+  margin-top: 24px;
+  box-sizing: border-box;
+}
+
+.insurance-showcase-tabs {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.insurance-showcase-tab {
+  padding: 10px 18px;
+  border-radius: 12px;
+  border: 1px solid #CBD5E1;
+  background: #FFFFFF;
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: #071A3D;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 44px;
+}
+
+.insurance-showcase-tab.active {
+  background: #071A3D;
+  color: #FFFFFF;
+  border-color: #071A3D;
+}
+
+.showcase-highlights-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .insurance-showcase-box {
+    padding: 22px 18px;
+    border-radius: 18px;
+  }
+  .showcase-highlights-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 
@@ -10315,55 +10802,1535 @@ button, a, input, select, textarea {
 /* Mobile Breakpoint (max-width: 640px): 1 column */
 @media (max-width: 640px) {
   .contact-branches-section {
-    padding: 44px 0 60px;
+    padding: 40px 0 48px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .branches-header {
-    margin-bottom: 28px;
-    text-align: left;
+    margin-bottom: 24px !important;
+    text-align: left !important;
   }
 
   .branches-title {
-    font-size: 1.65rem;
-    line-height: 1.25;
-    margin-bottom: 10px;
+    font-size: clamp(1.45rem, 5.2vw, 1.85rem) !important;
+    line-height: 1.25 !important;
+    margin-bottom: 8px !important;
   }
 
   .branches-subtitle {
-    font-size: 0.9375rem;
-    line-height: 1.5;
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
   }
 
   .branches-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .branch-card {
-    padding: 20px 18px 18px;
-    border-radius: 16px;
+    padding: 18px 16px 16px !important;
+    border-radius: 16px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .branch-card-header {
-    margin-bottom: 16px;
-    padding-bottom: 12px;
+    margin-bottom: 14px !important;
+    padding-bottom: 10px !important;
   }
 
   .branch-card-title {
-    font-size: 1.15rem;
+    font-size: 1.15rem !important;
   }
 
   .branch-address-text {
-    font-size: 0.84rem;
-    line-height: 1.5;
+    font-size: 0.85rem !important;
+    line-height: 1.5 !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
   }
 
   .branch-phone-link {
-    font-size: 0.9375rem;
+    font-size: 0.9375rem !important;
+    min-height: 38px !important;
+    display: inline-flex !important;
+    align-items: center !important;
   }
 
   .branch-map-btn {
-    min-height: 44px; /* Accessible touch target */
-    font-size: 0.85rem;
+    min-height: 44px !important; /* Accessible touch target */
+    font-size: 0.85rem !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
   }
+}
+
+/* ==========================================================================
+   11. UNIVERSAL INNER-PAGE RESPONSIVE ENGINE (MOBILE, TABLET & DESKTOP)
+   Ensures all visa categories (Tourist, Business, Study, Family, Visitor),
+   service pages (Air Tickets, Travel Insurance, Forex, About, Apply Now),
+   and inner layouts adapt cleanly without element truncation or horizontal overflow.
+   ========================================================================== */
+
+/* TABLET SYSTEM (641px - 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* 1. Multi-column grids adapt to 2 balanced columns */
+  [style*="repeat(4"],
+  [style*="repeat(3"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+  }
+
+  [style*="1.5fr 1fr"] {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 28px !important;
+  }
+
+  [style*="gap: 80px"],
+  [style*="gap:80px"],
+  [style*="gap: 60px"],
+  [style*="gap:60px"] {
+    gap: 28px !important;
+  }
+
+  /* 2. Feature & Hero Images on Tablet */
+  [style*="grid-template-columns"] img,
+  [style*="gridTemplateColumns"] img {
+    max-height: 300px !important;
+    object-fit: cover !important;
+    border-radius: 20px !important;
+  }
+
+  /* 3. Category & Service Cards on Tablet */
+  .category-card {
+    padding: 26px 20px !important;
+    border-radius: 18px !important;
+  }
+
+  /* 4. Service Grids */
+  .forex-services-grid,
+  .forex-usecases-grid,
+  .forex-process-grid,
+  .ti-why-grid,
+  .ti-coverage-grid,
+  .ti-partners-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+  }
+}
+
+/* MOBILE SYSTEM (<= 640px) */
+@media (max-width: 640px) {
+  /* 1. Universal Grid Collapse: stack all multi-column grids into a single fluid column */
+  [style*="grid-template-columns"],
+  [style*="gridTemplateColumns"] {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .container[style*="grid-template-columns"],
+  .container[style*="gridTemplateColumns"],
+  .container > div[style*="grid-template-columns"],
+  .container > div[style*="gridTemplateColumns"] {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 2. Responsive Hero Padding & Spacing */
+  section[style*="padding-top:140px"],
+  section[style*="padding-top: 140px"],
+  section[style*="paddingTop:140px"],
+  section[style*="paddingTop: 140px"] {
+    padding-top: 86px !important;
+    padding-bottom: 32px !important;
+  }
+
+  section[style*="padding-bottom:100px"],
+  section[style*="padding-bottom: 100px"],
+  section[style*="paddingBottom:100px"],
+  section[style*="paddingBottom: 100px"],
+  section[style*="paddingBottom: 80px"],
+  section[style*="paddingBottom:80px"] {
+    padding-bottom: 36px !important;
+  }
+
+  section[style*="padding: 80px"],
+  section[style*="padding:80px"],
+  section[style*="padding: 80px 0"],
+  section[style*="padding:80px 0"],
+  section[style*="padding: '80px 0'"] {
+    padding: 38px 0 !important;
+  }
+
+  section[style*="padding-top:60px"],
+  section[style*="paddingTop:60px"],
+  section[style*="padding-top: 60px"],
+  section[style*="paddingTop: 60px"] {
+    padding-top: 32px !important;
+  }
+
+  /* 3. Hero & Feature Images inside Stacked Grids */
+  [style*="grid-template-columns"] img,
+  [style*="gridTemplateColumns"] img,
+  .container img[style*="height:400px"],
+  .container img[style*="height: 400px"],
+  .container img[style*="height:500px"],
+  .container img[style*="height: 500px"],
+  .container img[style*="maxHeight:440px"],
+  .container img[style*="maxHeight: 440px"] {
+    height: 215px !important;
+    max-height: 215px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    border-radius: 16px !important;
+  }
+
+  /* 4. Side CTA Card (Planning a holiday / business / study trip) */
+  div[style*="background:var(--primary)"][style*="padding:40px"],
+  div[style*="background: var(--primary)"][style*="padding: 40px"],
+  div[style*="background:var(--primary)"][style*="padding: 40px"],
+  div[style*="background: var(--primary)"][style*="padding:40px"],
+  div[style*="background: #1E73DC"][style*="padding:40px"] {
+    padding: 24px 18px !important;
+    border-radius: 18px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  div[style*="background:var(--primary)"] .btn,
+  div[style*="background: var(--primary)"] .btn {
+    width: 100% !important;
+    min-height: 48px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  /* 5. Category Cards & Feature Items */
+  .category-card {
+    padding: 20px 16px !important;
+    border-radius: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .category-icon {
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 12px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .category-card h3 {
+    font-size: 1.15rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .category-card p {
+    font-size: 0.88rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .category-card-cta {
+    font-size: 0.85rem !important;
+    margin-top: 14px !important;
+  }
+
+  /* 6. Document & Requirements Checklists */
+  ul[style*="flex-direction: column"] li,
+  ul[style*="flexDirection: column"] li,
+  ul[style*="flex-direction:column"] li,
+  ul[style*="flexDirection:column"] li {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    font-size: 0.9rem !important;
+    line-height: 1.45 !important;
+  }
+
+  ul[style*="flex-direction: column"] li i,
+  ul[style*="flexDirection: column"] li i,
+  ul[style*="flex-direction:column"] li i,
+  ul[style*="flexDirection:column"] li i {
+    flex-shrink: 0 !important;
+    margin-top: 2px !important;
+  }
+
+  /* 7. Application Form Card & Controls */
+  .apply-form-card {
+    padding: 24px 18px !important;
+    border-radius: 18px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .apply-form-card input,
+  .apply-form-card select,
+  .apply-form-card textarea {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    font-size: 16px !important; /* Prevents auto-zoom on iOS */
+    min-height: 48px !important;
+  }
+
+  .apply-form-card textarea {
+    min-height: 100px !important;
+  }
+
+  .apply-form-card .btn {
+    width: 100% !important;
+    min-height: 48px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* 8. Air Tickets Banner & Controls */
+  .hero-img-banner {
+    min-height: auto !important;
+    background-position: 80% top !important;
+    padding: 86px 0 44px !important;
+  }
+
+  .hero-img-banner-content {
+    max-width: 100% !important;
+    padding: 24px 18px !important;
+    border-radius: 16px !important;
+    background: rgba(255, 255, 255, 0.94) !important;
+  }
+
+  /* 9. Forex Services, Usecases, Process Grids & CTA */
+  .forex-services-grid,
+  .forex-usecases-grid,
+  .forex-process-grid {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+    width: 100% !important;
+  }
+
+  .forex-service-card,
+  .forex-usecase-card,
+  .forex-process-card {
+    padding: 20px 16px !important;
+    border-radius: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .forex-cta-section {
+    padding: 44px 0 54px !important;
+  }
+
+  .forex-cta-card {
+    padding: 34px 20px !important;
+    border-radius: 20px !important;
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .forex-visual-stage {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: 185px !important;
+    margin: 0 auto !important;
+  }
+
+  .forex-card-mock {
+    width: 230px !important;
+    height: 135px !important;
+    padding: 12px 14px !important;
+    border-radius: 14px !important;
+  }
+
+  .forex-ticket-mock {
+    width: 220px !important;
+    height: 115px !important;
+    padding: 10px 12px !important;
+    border-radius: 12px !important;
+  }
+
+  .forex-faq-item summary {
+    min-height: 48px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+  }
+
+  /* 10. Travel Insurance Components */
+  .ti-why-grid,
+  .ti-coverage-grid,
+  .ti-partners-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .ti-passport-card {
+    padding: 20px 16px !important;
+    border-radius: 18px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .ti-cta-card {
+    padding: 32px 18px !important;
+    border-radius: 18px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 11. Fluid Inner Typography */
+  .display-text,
+  h1.display-text {
+    font-size: clamp(1.7rem, 6.2vw, 2.3rem) !important;
+    line-height: 1.22 !important;
+    letter-spacing: -0.015em !important;
+    margin-bottom: 12px !important;
+  }
+
+  .section-heading h2,
+  section h2 {
+    font-size: clamp(1.45rem, 5.2vw, 1.95rem) !important;
+    line-height: 1.25 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .body-large {
+    font-size: 0.93rem !important;
+    line-height: 1.55 !important;
+    margin-bottom: 18px !important;
+  }
+
+  .body-base {
+    font-size: 0.88rem !important;
+    line-height: 1.5 !important;
+  }
+
+  /* 12. CTA Button Rows */
+  div[style*="display: flex"][style*="justifyContent: center"],
+  div[style*="display:flex"][style*="justify-content:center"] {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 10px !important;
+  }
+
+  div[style*="display: flex"][style*="justifyContent: center"] .btn,
+  div[style*="display:flex"][style*="justify-content:center"] .btn {
+    width: 100% !important;
+    min-height: 48px !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+}
+
+/* SMALL PHONES (<= 480px) */
+@media (max-width: 480px) {
+  section[style*="padding-top:140px"],
+  section[style*="padding-top: 140px"],
+  section[style*="paddingTop:140px"],
+  section[style*="paddingTop: 140px"] {
+    padding-top: 80px !important;
+    padding-bottom: 26px !important;
+  }
+
+  [style*="grid-template-columns"] img,
+  [style*="gridTemplateColumns"] img,
+  .container img[style*="height:400px"],
+  .container img[style*="height: 400px"],
+  .container img[style*="height:500px"],
+  .container img[style*="height: 500px"],
+  .container img[style*="maxHeight:440px"],
+  .container img[style*="maxHeight: 440px"] {
+    height: 195px !important;
+    max-height: 195px !important;
+    border-radius: 14px !important;
+  }
+
+  .category-card {
+    padding: 18px 14px !important;
+    border-radius: 14px !important;
+  }
+
+  .category-icon {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .category-card h3 {
+    font-size: 1.08rem !important;
+    margin-bottom: 6px !important;
+  }
+
+  div[style*="background:var(--primary)"][style*="padding:40px"],
+  div[style*="background: var(--primary)"][style*="padding: 40px"],
+  div[style*="background:var(--primary)"][style*="padding: 40px"],
+  div[style*="background: var(--primary)"][style*="padding:40px"] {
+    padding: 20px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .apply-form-card {
+    padding: 20px 15px !important;
+    border-radius: 16px !important;
+  }
+
+  .forex-cta-card {
+    padding: 28px 16px !important;
+    border-radius: 18px !important;
+  }
+
+  .forex-visual-stage {
+    max-width: 310px !important;
+    height: 215px !important;
+    transform: none !important;
+  }
+
+  .travel-composition-stage {
+    max-width: 320px !important;
+    height: 260px !important;
+    transform: none !important;
+  }
+}
+
+/* EXTRA SMALL PHONES (<= 360px) */
+@media (max-width: 360px) {
+  section[style*="padding-top:140px"],
+  section[style*="padding-top: 140px"],
+  section[style*="paddingTop:140px"],
+  section[style*="paddingTop: 140px"] {
+    padding-top: 74px !important;
+    padding-bottom: 22px !important;
+  }
+
+  [style*="grid-template-columns"] img,
+  [style*="gridTemplateColumns"] img,
+  .container img[style*="height:400px"],
+  .container img[style*="height: 400px"] {
+    height: 175px !important;
+    max-height: 175px !important;
+  }
+
+  .category-card {
+    padding: 16px 12px !important;
+    border-radius: 12px !important;
+  }
+
+  .apply-form-card {
+    padding: 16px 12px !important;
+    border-radius: 14px !important;
+  }
+
+  div[style*="background:var(--primary)"][style*="padding:40px"],
+  div[style*="background: var(--primary)"][style*="padding: 40px"],
+  div[style*="background:var(--primary)"][style*="padding: 40px"],
+  div[style*="background: var(--primary)"][style*="padding:40px"] {
+    padding: 18px 12px !important;
+    border-radius: 14px !important;
+  }
+
+  .forex-cta-card {
+    padding: 22px 12px !important;
+    border-radius: 14px !important;
+  }
+
+  .forex-visual-stage {
+    max-width: 280px !important;
+    height: 195px !important;
+    transform: none !important;
+  }
+
+  .travel-composition-stage {
+    max-width: 290px !important;
+    height: 240px !important;
+    transform: none !important;
+  }
+}
+
+/* LEGAL PAGES & COUNTRY GUIDE CARDS MOBILE POLISH */
+@media (max-width: 640px) {
+  .legal-content-card {
+    padding: 22px 18px !important;
+    border-radius: 16px !important;
+  }
+
+  .country-guide-card {
+    padding: 20px 18px !important;
+    border-radius: 18px !important;
+  }
+}
+
+/* ==========================================================================
+   12. INTERACTIVE CONTROLS, ACCORDIONS, MODALS & FORM RESPONSIVE SYSTEM
+   Ensures forms, inputs, selects, search autocomplete, accordions, modals,
+   and interactive buttons operate flawlessly across all mobile & desktop screens.
+   ========================================================================== */
+
+/* 1. UNIVERSAL INPUT & FORM CONTROL FOUNDATION (DESKTOP & MOBILE) */
+.form-input,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select.form-input,
+select,
+textarea.form-input,
+textarea {
+  font-family: inherit !important;
+  font-size: 16px !important; /* 16px prevents automatic iOS Safari zoom */
+  min-height: 48px !important;
+  padding: 12px 16px !important;
+  border-radius: 12px !important;
+  border: 1.5px solid #CBD5E1 !important;
+  background-color: #FFFFFF !important;
+  color: #071A3D !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+
+/* Custom dropdown arrow for native selects */
+select.form-input,
+select {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 14px center !important;
+  background-size: 16px 16px !important;
+  padding-right: 40px !important;
+  cursor: pointer !important;
+}
+
+/* Phone input numeric clarity */
+input[type="tel"] {
+  font-variant-numeric: tabular-nums !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* Textarea height & ergonomics */
+textarea.form-input,
+textarea {
+  min-height: 110px !important;
+  resize: vertical !important;
+  line-height: 1.55 !important;
+}
+
+/* Input Focus States */
+.form-input:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select.form-input:focus,
+select:focus,
+textarea.form-input:focus,
+textarea:focus {
+  border-color: #1E73DC !important;
+  box-shadow: 0 0 0 3px rgba(30, 115, 220, 0.18) !important;
+  outline: none !important;
+}
+
+/* Input Disabled States */
+.form-input:disabled,
+input:disabled,
+select:disabled,
+textarea:disabled {
+  background-color: #F8FAFC !important;
+  color: #94A3B8 !important;
+  cursor: not-allowed !important;
+  border-color: #E2E8F0 !important;
+}
+
+/* Form Group & Label Styling */
+.form-group {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  margin-bottom: 20px !important;
+}
+
+.form-label,
+label {
+  display: block !important;
+  margin-bottom: 8px !important;
+  font-weight: 600 !important;
+  font-size: 0.88rem !important;
+  color: #071A3D !important;
+  line-height: 1.4 !important;
+}
+
+/* 2. SUCCESS POPUP MODAL ARCHITECTURE */
+#successPopup {
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(7, 26, 61, 0.72) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  z-index: 999999 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 24px 16px !important;
+  box-sizing: border-box !important;
+}
+
+#successPopup .reveal {
+  background: #FFFFFF !important;
+  border-radius: 24px !important;
+  padding: 40px 32px !important;
+  max-width: 440px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  text-align: center !important;
+  box-shadow: 0 24px 60px rgba(7, 26, 61, 0.3) !important;
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
+}
+
+#successPopup h2 {
+  font-size: 2rem !important;
+  margin-bottom: 12px !important;
+  color: #071A3D !important;
+}
+
+#successPopup p {
+  color: #475569 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+}
+
+/* 3. ACCORDIONS & FAQ ITEMS (UNIVERSAL & MOBILE) */
+.faq-accordion-item,
+.forex-faq-item {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 16px !important;
+  margin-bottom: 12px !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.faq-accordion-item:hover,
+.forex-faq-item:hover {
+  border-color: #CBD5E1 !important;
+}
+
+.faq-accordion-item[open],
+.forex-faq-item[open] {
+  border-color: #BFDBFE !important;
+  box-shadow: 0 4px 16px rgba(30, 115, 220, 0.06) !important;
+}
+
+.faq-accordion-item summary,
+.forex-faq-question {
+  min-height: 48px !important;
+  padding: 16px 20px !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  font-family: inherit !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: #071A3D !important;
+  line-height: 1.45 !important;
+  word-break: break-word !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+  box-sizing: border-box !important;
+}
+
+.faq-accordion-item summary::-webkit-details-marker,
+.forex-faq-question::-webkit-details-marker {
+  display: none !important;
+}
+
+.faq-accordion-item p,
+.forex-faq-answer {
+  padding: 0 20px 18px !important;
+  font-size: 0.92rem !important;
+  line-height: 1.6 !important;
+  color: #475569 !important;
+  margin: 0 !important;
+  word-break: break-word !important;
+  box-sizing: border-box !important;
+}
+
+/* 4. SEARCH AUTOCOMPLETE & DESTINATION DROPDOWN */
+.search-dropdown {
+  z-index: 1050 !important;
+}
+
+.search-dropdown-item {
+  min-height: 48px !important;
+  padding: 12px 16px !important;
+  box-sizing: border-box !important;
+}
+
+.search-dropdown-item .search-country-name {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+}
+
+.search-error-msg {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: 1.4 !important;
+}
+
+/* 5. MOBILE FORMS, ACCORDIONS & MODALS (<= 640px) */
+@media (max-width: 640px) {
+  .contact-form-card,
+  .apply-form-card {
+    padding: 24px 18px !important;
+    border-radius: 18px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .form-group {
+    margin-bottom: 18px !important;
+  }
+
+  .faq-accordion-item summary {
+    padding: 16px 44px 16px 16px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .forex-faq-question {
+    padding: 16px 16px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .faq-accordion-item p,
+  .forex-faq-answer {
+    padding: 0 16px 16px !important;
+    font-size: 0.88rem !important;
+  }
+
+  #successPopup {
+    padding: 20px 16px !important;
+  }
+
+  #successPopup .reveal {
+    padding: 32px 20px !important;
+    border-radius: 20px !important;
+  }
+
+  #successPopup h2 {
+    font-size: 1.65rem !important;
+  }
+}
+
+/* SMALL PHONES (<= 480px) */
+@media (max-width: 480px) {
+  .contact-form-card,
+  .apply-form-card {
+    padding: 20px 15px !important;
+    border-radius: 16px !important;
+  }
+
+  #successPopup .reveal {
+    padding: 28px 18px !important;
+    border-radius: 18px !important;
+  }
+
+  #successPopup h2 {
+    font-size: 1.45rem !important;
+  }
+}
+
+/* EXTRA SMALL PHONES (<= 360px) */
+@media (max-width: 360px) {
+  .contact-form-card,
+  .apply-form-card {
+    padding: 16px 12px !important;
+    border-radius: 14px !important;
+  }
+
+  .form-input,
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select.form-input,
+  select {
+    padding: 10px 12px !important;
+  }
+
+  .faq-accordion-item summary {
+    padding: 14px 38px 14px 14px !important;
+    font-size: 0.9rem !important;
+  }
+
+  .forex-faq-question {
+    padding: 14px 14px !important;
+    font-size: 0.9rem !important;
+  }
+
+  .faq-accordion-item p,
+  .forex-faq-answer {
+    padding: 0 14px 14px !important;
+    font-size: 0.85rem !important;
+  }
+
+  #successPopup .reveal {
+    padding: 24px 14px !important;
+    border-radius: 16px !important;
+  }
+}
+
+/* ==========================================================================
+   13. MOBILE VISUAL POLISH & COMPLEX VISUAL STAGES ARCHITECTURE
+   Art-directed internal compositions for 3D viewports, travel compositions,
+   forex stages, image focal points, CTA button stacking & icon alignments.
+   ========================================================================== */
+
+/* 1. TRAVEL COMPOSITION STAGE INTERNAL COMPOSITION (JourneyCTA) */
+@media (max-width: 768px) {
+  .travel-composition-stage {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    height: 260px !important;
+    margin: 0 auto !important;
+    transform: none !important;
+  }
+
+  .travel-composition-stage .visual-radar-ring.ring-outer {
+    width: 260px !important;
+    height: 260px !important;
+  }
+
+  .travel-composition-stage .visual-radar-ring.ring-inner {
+    width: 170px !important;
+    height: 170px !important;
+  }
+
+  .travel-composition-stage .passport-card {
+    position: absolute !important;
+    top: 15px !important;
+    left: 8px !important;
+    width: 142px !important;
+    height: 195px !important;
+    padding: 12px 10px !important;
+    border-radius: 14px !important;
+    transform: rotate(-8deg) !important;
+  }
+
+  .travel-composition-stage .passport-header {
+    font-size: 0.68rem !important;
+    gap: 4px !important;
+  }
+
+  .travel-composition-stage .passport-header svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  .travel-composition-stage .passport-body {
+    margin-top: 18px !important;
+  }
+
+  .travel-composition-stage .passport-gold-crest {
+    margin-bottom: 8px !important;
+  }
+
+  .travel-composition-stage .passport-gold-crest svg {
+    width: 26px !important;
+    height: 26px !important;
+  }
+
+  .travel-composition-stage .passport-sub {
+    font-size: 0.5rem !important;
+    letter-spacing: 0.05em !important;
+    line-height: 1.25 !important;
+  }
+
+  .travel-composition-stage .passport-chip {
+    width: 22px !important;
+    height: 15px !important;
+    bottom: 12px !important;
+    left: 10px !important;
+  }
+
+  .travel-composition-stage .boarding-pass-card {
+    position: absolute !important;
+    top: 38px !important;
+    right: 8px !important;
+    width: 185px !important;
+    padding: 12px 14px !important;
+    border-radius: 14px !important;
+    transform: rotate(5deg) !important;
+  }
+
+  .travel-composition-stage .boarding-header {
+    padding-bottom: 8px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .travel-composition-stage .airline-brand {
+    font-size: 0.68rem !important;
+  }
+
+  .travel-composition-stage .flight-badge {
+    font-size: 0.625rem !important;
+    padding: 2px 5px !important;
+  }
+
+  .travel-composition-stage .boarding-route {
+    margin-bottom: 8px !important;
+  }
+
+  .travel-composition-stage .city-code {
+    font-size: 1.1rem !important;
+  }
+
+  .travel-composition-stage .city-name {
+    font-size: 0.625rem !important;
+  }
+
+  .travel-composition-stage .boarding-footer {
+    padding-top: 8px !important;
+  }
+
+  .travel-composition-stage .status-label {
+    font-size: 0.5rem !important;
+  }
+
+  .travel-composition-stage .status-val.text-green {
+    font-size: 0.625rem !important;
+  }
+
+  .travel-composition-stage .barcode-mock {
+    height: 14px !important;
+  }
+
+  .travel-composition-stage .floating-airplane-wrap {
+    top: 0px !important;
+    right: 26px !important;
+  }
+
+  .travel-composition-stage .airplane-badge {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .travel-composition-stage .airplane-badge svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .travel-composition-stage .floating-pin-badge {
+    bottom: 10px !important;
+    left: 24px !important;
+    padding: 5px 10px !important;
+    font-size: 0.72rem !important;
+  }
+
+  .travel-composition-stage .floating-pin-badge svg {
+    width: 13px !important;
+    height: 13px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .travel-composition-stage {
+    max-width: 290px !important;
+    height: 240px !important;
+  }
+
+  .travel-composition-stage .visual-radar-ring.ring-outer {
+    width: 220px !important;
+    height: 220px !important;
+  }
+
+  .travel-composition-stage .visual-radar-ring.ring-inner {
+    width: 145px !important;
+    height: 145px !important;
+  }
+
+  .travel-composition-stage .passport-card {
+    width: 128px !important;
+    height: 175px !important;
+    left: 4px !important;
+    top: 12px !important;
+    padding: 10px 8px !important;
+  }
+
+  .travel-composition-stage .boarding-pass-card {
+    width: 168px !important;
+    right: 4px !important;
+    top: 32px !important;
+    padding: 10px 12px !important;
+  }
+
+  .travel-composition-stage .city-code {
+    font-size: 1rem !important;
+  }
+}
+
+/* 2. FOREX VISUAL STAGE INTERNAL COMPOSITION */
+@media (max-width: 768px) {
+  .forex-visual-stage {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 310px !important;
+    height: 215px !important;
+    margin: 0 auto !important;
+    transform: none !important;
+  }
+
+  .forex-ticket-mock {
+    position: absolute !important;
+    width: 235px !important;
+    height: 125px !important;
+    top: 6px !important;
+    left: 8px !important;
+    padding: 12px 14px !important;
+    border-radius: 14px !important;
+    transform: rotate(-5deg) !important;
+    box-sizing: border-box !important;
+  }
+
+  .forex-ticket-header {
+    font-size: 10px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .forex-ticket-route {
+    font-size: 14px !important;
+    gap: 8px !important;
+  }
+
+  .forex-ticket-route svg {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .forex-ticket-badge {
+    margin-top: 10px !important;
+    font-size: 9px !important;
+    padding: 2px 6px !important;
+  }
+
+  .forex-card-mock {
+    position: absolute !important;
+    width: 245px !important;
+    height: 145px !important;
+    bottom: 6px !important;
+    right: 8px !important;
+    padding: 14px 16px !important;
+    border-radius: 14px !important;
+    box-sizing: border-box !important;
+  }
+
+  .forex-card-chip {
+    width: 28px !important;
+    height: 20px !important;
+  }
+
+  .forex-card-contactless svg {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .forex-card-currencies {
+    display: flex !important;
+    gap: 4px !important;
+  }
+
+  .forex-card-currency-pill {
+    font-size: 9px !important;
+    padding: 2px 7px !important;
+  }
+
+  .forex-card-label {
+    font-size: 8px !important;
+  }
+
+  .forex-card-brand {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .forex-visual-stage {
+    max-width: 280px !important;
+    height: 195px !important;
+    transform: none !important;
+  }
+
+  .forex-ticket-mock {
+    width: 210px !important;
+    height: 115px !important;
+    left: 4px !important;
+    top: 4px !important;
+    padding: 10px 12px !important;
+  }
+
+  .forex-card-mock {
+    width: 220px !important;
+    height: 135px !important;
+    right: 4px !important;
+    bottom: 4px !important;
+    padding: 12px 14px !important;
+  }
+}
+
+/* 3. COUNTRY GUIDE 3D CAROUSEL CONTROLS HARMONIZATION */
+@media (max-width: 768px) {
+  .country-guide-stage-wrapper {
+    padding-bottom: 56px !important;
+    position: relative !important;
+  }
+
+  .country-guide-side-btn {
+    top: auto !important;
+    bottom: 4px !important;
+    transform: none !important;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50% !important;
+    background: #FFFFFF !important;
+    border: 1px solid #CBD5E1 !important;
+    box-shadow: 0 4px 14px rgba(7, 26, 61, 0.12) !important;
+    z-index: 25 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .country-guide-side-btn.journey-side-prev {
+    left: calc(50% - 52px) !important;
+    right: auto !important;
+  }
+
+  .country-guide-side-btn.journey-side-next {
+    left: auto !important;
+    right: calc(50% - 52px) !important;
+  }
+}
+
+/* 4. IMAGE FOCAL POINTS & SUBJECT CROPPING PROTECTION */
+img[src*="touristvisa-hero"],
+img[src*="businessvisa-hero"],
+img[src*="studyvisa-hero"],
+img[src*="familyvisa-hero"],
+img[src*="visitorvisa-hero"],
+img[src*="about-hero"],
+img[src*="visas-choosewithconfidence"] {
+  object-fit: cover !important;
+  object-position: center 25% !important;
+}
+
+.card-img,
+.destination-grid .card-img {
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+/* 5. ICON AND BADGE VERTICAL CENTERING HARMONIZATION */
+.category-icon,
+.guidance-icon-box {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+}
+
+.category-icon svg,
+.guidance-icon-box svg {
+  display: block !important;
+  margin: auto !important;
+}
+
+/* 6. EDITORIAL AND JOURNEY CTA BUTTONS FULL-WIDTH STACKING */
+@media (max-width: 768px) {
+  .editorial-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 10px !important;
+  }
+
+  .editorial-actions .btn,
+  .journey-cta-actions .btn,
+  .btn-cta-primary,
+  .btn-cta-secondary {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 48px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* 7. DECORATIVE FRAMES STRICT OVERFLOW CONTAINMENT */
+.hero-pattern-dots,
+.visas-hero-frame,
+.insurance-hero-frame,
+.forex-hero-frame,
+.tickets-hero-frame {
+  overflow: hidden !important;
+}
+
+/* ==========================================================================
+   14. TABLET & DESKTOP REGRESSION HARDENING ARCHITECTURE
+   Guarantees intended multi-column layouts, horizontal action rows,
+   full-scale desktop visual stages, and unhindered large monitor proportions.
+   ========================================================================== */
+
+/* 1. TABLET/DESKTOP HORIZONTAL SEARCH BAR & ACTIONS PRESERVATION */
+@media (min-width: 641px) {
+  .search-bar {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .editorial-actions {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 14px !important;
+    width: auto !important;
+  }
+
+  .editorial-actions .btn,
+  .journey-cta-actions .btn {
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  .travel-composition-stage {
+    width: 380px !important;
+    height: 320px !important;
+    max-width: 380px !important;
+    transform: none !important;
+  }
+
+  .forex-visual-stage {
+    width: 360px !important;
+    height: 250px !important;
+    max-width: 360px !important;
+    transform: none !important;
+  }
+}
+
+/* 2. TABLET UNSTICK SIDEBAR HARDENING */
+@media (max-width: 991px) {
+  .visa-sidebar-card,
+  .vv-req-summary-aside {
+    position: static !important;
+  }
+}
+
+/* 3. TABLET & DESKTOP MULTI-COLUMN STRICT ENFORCEMENT */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .destination-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .guidance-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .branches-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .destination-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+  .category-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+  .guidance-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .branches-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+/* ==========================================================================
+   15. DEVICE COMPATIBILITY & BOUNDARY STABILIZATION ARCHITECTURE
+   iOS dynamic viewports, safe-area insets, touch-safe hover states,
+   landscape mobile accessibility & sub-320px micro-viewport resilience.
+   ========================================================================== */
+
+/* 1. iOS DYNAMIC VIEWPORT & SAFE-AREA INSET SUPPORT */
+.mobile-menu {
+  height: calc(100vh - 64px);
+  height: calc(100dvh - 64px);
+  max-height: calc(100vh - 64px);
+  max-height: calc(100dvh - 64px);
+  padding-bottom: calc(36px + env(safe-area-inset-bottom, 0px)) !important;
+}
+
+#successPopup {
+  padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px)) !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+#successPopup .reveal {
+  max-height: calc(100dvh - 32px) !important;
+  overflow-y: auto !important;
+}
+
+/* 2. TOUCH-SAFE HOVER MEDIA QUERY (PREVENTS STICKY HOVER ON TAP) */
+@media (hover: none) {
+  .card:hover,
+  .branch-card:hover,
+  .category-card:hover,
+  .guidance-card:hover,
+  .timeline-step:hover {
+    transform: none !important;
+  }
+  .card:hover .card-img {
+    transform: none !important;
+  }
+}
+
+/* 3. LANDSCAPE MOBILE ORIENTATION BREATHING SPACE */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero-section {
+    padding-top: 80px !important;
+    padding-bottom: 24px !important;
+  }
+  .mobile-menu {
+    padding-top: 10px !important;
+    padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+}
+
+/* 4. MICRO-VIEWPORT RESILIENCE (319px - 320px) */
+@media (max-width: 320px) {
+  .hero-main-title {
+    font-size: 1.65rem !important;
+  }
+  .logo-brand {
+    gap: 6px !important;
+  }
+  .logo-symbol {
+    height: 28px !important;
+  }
+  .logo-name {
+    height: 18px !important;
+  }
+  .search-bar {
+    padding: 12px 10px !important;
+  }
+  .search-input {
+    font-size: 15px !important;
+  }
+  .branch-address-text {
+    font-size: 0.8125rem !important;
+  }
+}
+
+/* ==========================================================================
+   16. GLOBAL DESIGN SYSTEM HARMONIZATION & FINAL POLISH
+   Unified eyebrow/badge hierarchy, text accent continuity, card shadows,
+   form labels, and button proportions across all 92 static routes.
+   ========================================================================== */
+
+/* 1. UNIFIED EYEBROW, BADGE & SECTION LABEL PILL SYSTEM */
+.eyebrow,
+.section-label,
+.editorial-tag {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  font-family: var(--font-heading) !important;
+  font-size: 0.8125rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: #1E73DC !important;
+  background: #EDF5FF !important;
+  padding: 6px 14px !important;
+  border-radius: 9999px !important;
+  border: 1px solid rgba(30, 115, 220, 0.2) !important;
+  margin-bottom: 14px !important;
+  box-sizing: border-box !important;
+  line-height: 1 !important;
+}
+
+.eyebrow::before,
+.section-label::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #F47B20;
+  box-shadow: 0 0 6px rgba(244, 123, 32, 0.6);
+  flex-shrink: 0;
+}
+
+/* 2. TEXT ACCENT BRAND CONTINUITY */
+.text-accent {
+  color: #1E73DC !important;
+}
+
+.text-accent-orange {
+  color: #F47B20 !important;
+}
+
+/* 3. CARD BORDER & SOFT LUXURY SHADOW HARMONIZATION */
+.card,
+.branch-card,
+.guidance-card,
+.category-card,
+.timeline-step,
+.country-guide-card {
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 4px 20px rgba(7, 26, 61, 0.04) !important;
+}
+
+/* 4. FORM LABEL ALIGNMENT & TYPOGRAPHY */
+.form-label {
+  display: block !important;
+  font-family: var(--font-heading) !important;
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+  color: #071A3D !important;
+  margin-bottom: 8px !important;
+}
+
+/* 5. BUTTON ICON SPACING & ALIGNMENT */
+.btn i,
+.btn svg,
+.btn-cta-primary svg,
+.btn-cta-secondary svg {
+  flex-shrink: 0;
+  vertical-align: middle;
 }

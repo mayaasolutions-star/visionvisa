@@ -207,14 +207,7 @@ export default function Footer() {
         </div>
 
         {/* Concise Disclaimer */}
-        <div className="footer-disclaimer" style={{
-          borderTop: '1px solid rgba(255, 255, 255, 0.1)',
-          paddingTop: '16px',
-          marginTop: '24px',
-          fontSize: '0.8rem',
-          color: 'rgba(255, 255, 255, 0.55)',
-          lineHeight: '1.5'
-        }}>
+        <div className="footer-disclaimer">
           <strong>Disclaimer:</strong> Vision Visa is an independent visa documentation consultancy. We are not affiliated with any government, embassy, or consulate. Visa approval, fees, processing times, and entry requirements are determined solely by the respective issuing government authorities.
         </div>
 

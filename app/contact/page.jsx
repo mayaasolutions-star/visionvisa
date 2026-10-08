@@ -163,144 +163,6 @@ export default function CONTACT_Page() {
         </div>
     </section>
 
-        <section className="contact-section" style={{ padding: "80px 0" }}>
-            <div className="container">
-                <div className="contact-main-grid" style={{
-                    display: "grid",
-                    gridTemplateColumns: "1fr 1fr",
-                    gap: "60px",
-                    alignItems: "start"
-                }}>
-                    {/* Left Column: Contact Info & Support */}
-                    <div className="reveal">
-                        <span className="eyebrow">REACH US</span>
-                        <h2 className="display-text mb-24" style={{ fontSize: "2.25rem" }}>
-                            We'd love to hear from you.
-                        </h2>
-                        <p className="body-large mb-32" style={{ color: "var(--slate-600)" }}>
-                            Have questions about visa applications, travel insurance, forex rates, or flight tickets? Fill out the form or reach out to us directly.
-                        </p>
-
-                        <div style={{ display: "flex", flexDirection: "column", gap: "20px", marginBottom: "36px" }}>
-                            <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-                                <div style={{ width: "44px", height: "44px", borderRadius: "12px", background: "rgba(10, 37, 64, 0.06)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                                    <i data-lucide="mail" style={{ color: "var(--navy)", width: "20px", height: "20px" }}></i>
-                                </div>
-                                <div>
-                                    <p className="caption text-muted" style={{ marginBottom: "2px" }}>Email Us</p>
-                                    <a href="mailto:info@visionvisa.in" className="body-base fw-bold" style={{ color: "var(--navy)" }}>info@visionvisa.in</a>
-                                </div>
-                            </div>
-
-                            <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-                                <div style={{ width: "44px", height: "44px", borderRadius: "12px", background: "rgba(10, 37, 64, 0.06)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                                    <i data-lucide="phone" style={{ color: "var(--navy)", width: "20px", height: "20px" }}></i>
-                                </div>
-                                <div>
-                                    <p className="caption text-muted" style={{ marginBottom: "2px" }}>Call Us</p>
-                                    <a href="tel:+918010152621" className="body-base fw-bold" style={{ color: "var(--navy)" }}>+91 80101 52621</a>
-                                </div>
-                            </div>
-
-                            <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-                                <div style={{ width: "44px", height: "44px", borderRadius: "12px", background: "rgba(10, 37, 64, 0.06)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                                    <i data-lucide="map-pin" style={{ color: "var(--navy)", width: "20px", height: "20px" }}></i>
-                                </div>
-                                <div>
-                                    <p className="caption text-muted" style={{ marginBottom: "2px" }}>Office Location</p>
-                                    <p className="body-base fw-bold" style={{ color: "var(--navy)", margin: 0 }}>Wakad, Pune, Maharashtra, India</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Minimal & Meaningful Consultation Commitment Block to fill vertical space */}
-                        <div style={{
-                            background: "var(--off-white)",
-                            padding: "28px",
-                            borderRadius: "20px",
-                            border: "1px solid var(--light-gray)"
-                        }}>
-                            <h4 style={{ fontSize: "1.1rem", fontWeight: 700, marginBottom: "16px", color: "var(--navy)" }}>
-                                What Happens Next?
-                            </h4>
-                            <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-                                <div style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
-                                    <span style={{ background: "var(--navy)", color: "#fff", width: "22px", height: "22px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.75rem", fontWeight: 700, flexShrink: 0 }}>1</span>
-                                    <p style={{ margin: 0, fontSize: "0.88rem", color: "var(--slate-700)", lineHeight: 1.5 }}>
-                                        <strong>Document Evaluation:</strong> We verify your eligibility and consulate requirements.
-                                    </p>
-                                </div>
-                                <div style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
-                                    <span style={{ background: "var(--navy)", color: "#fff", width: "22px", height: "22px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.75rem", fontWeight: 700, flexShrink: 0 }}>2</span>
-                                    <p style={{ margin: 0, fontSize: "0.88rem", color: "var(--slate-700)", lineHeight: 1.5 }}>
-                                        <strong>Personal Guidance:</strong> Clear instructions on checklists, forms, and submission dates.
-                                    </p>
-                                </div>
-                                <div style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
-                                    <span style={{ background: "var(--navy)", color: "#fff", width: "22px", height: "22px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.75rem", fontWeight: 700, flexShrink: 0 }}>3</span>
-                                    <p style={{ margin: 0, fontSize: "0.88rem", color: "var(--slate-700)", lineHeight: 1.5 }}>
-                                        <strong>Application Filing:</strong> Careful review and submission for smooth processing.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Right Column: Contact Form */}
-                    <div className="reveal reveal-delay-1">
-                        <div className="contact-form-card" style={{
-                            background: "var(--white)",
-                            padding: "40px",
-                            borderRadius: "24px",
-                            boxShadow: "0 20px 40px rgba(0, 0, 0, 0.08)",
-                            border: "1px solid rgba(0, 0, 0, 0.06)"
-                        }}>
-                            <h3 className="mb-24" style={{ fontSize: "1.5rem", fontWeight: 700 }}>Send a Message</h3>
-                            <form id="contactForm">
-                                <div className="form-group" style={{ marginBottom: "20px" }}>
-                                    <label htmlFor="name" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Full Name</label>
-                                    <input type="text" className="form-input" id="name" placeholder="Enter your full name" required style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }} />
-                                </div>
-
-                                <div className="form-group" style={{ marginBottom: "20px" }}>
-                                    <label htmlFor="email" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Email Address</label>
-                                    <input type="email" className="form-input" id="email" placeholder="name@example.com" required style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }} />
-                                </div>
-
-                                <div className="form-group" style={{ marginBottom: "20px" }}>
-                                    <label htmlFor="phone" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Phone Number</label>
-                                    <input type="tel" className="form-input" id="phone" placeholder="+91 98765 43210" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }} />
-                                </div>
-
-                                <div className="form-group" style={{ marginBottom: "20px" }}>
-                                    <label htmlFor="service" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Service Required</label>
-                                    <select className="form-input" id="service" required defaultValue="" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }}>
-                                        <option value="" disabled>Select Service</option>
-                                        <option value="tourist">Tourist Visa</option>
-                                        <option value="business">Business Visa</option>
-                                        <option value="study">Study Visa</option>
-                                        <option value="insurance">Travel Insurance</option>
-                                        <option value="forex">Forex Services</option>
-                                        <option value="tickets">Air Tickets</option>
-                                    </select>
-                                </div>
-
-                                <div className="form-group" style={{ marginBottom: "24px" }}>
-                                    <label htmlFor="message" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Your Message</label>
-                                    <textarea className="form-input" id="message" rows={4} placeholder="How can we help you?" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }}></textarea>
-                                </div>
-
-                                <button type="submit" className="btn btn-primary magnetic" style={{ width: "100%" }}>Send Message</button>
-                                <p style={{ marginTop: '14px', fontSize: '0.75rem', color: '#64748b', textAlign: 'center', lineHeight: '1.4' }}>
-                                  By submitting, you agree to our <Link href="/privacy-policy" style={{ color: '#1E73DC', textDecoration: 'underline' }}>Privacy Policy</Link> &amp; <Link href="/terms" style={{ color: '#1E73DC', textDecoration: 'underline' }}>Terms</Link>. Vision Visa is an independent consultancy; visa issuance is subject to government approval.
-                                </p>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         {/* =========================================================
             OUR BRANCHES SECTION (PUNE & PCMC LOCATIONS)
             ========================================================= */}
@@ -468,6 +330,144 @@ export default function CONTACT_Page() {
 
                         <div className="branch-card-footer branch-card-footer-empty"></div>
                     </article>
+                </div>
+            </div>
+        </section>
+
+        <section className="contact-section" style={{ padding: "80px 0" }}>
+            <div className="container">
+                <div className="contact-main-grid" style={{
+                    display: "grid",
+                    gridTemplateColumns: "1fr 1fr",
+                    gap: "60px",
+                    alignItems: "start"
+                }}>
+                    {/* Left Column: Contact Info & Support */}
+                    <div className="reveal">
+                        <span className="eyebrow">REACH US</span>
+                        <h2 className="display-text mb-24" style={{ fontSize: "2.25rem" }}>
+                            We'd love to hear from you.
+                        </h2>
+                        <p className="body-large mb-32" style={{ color: "var(--slate-600)" }}>
+                            Have questions about visa applications, travel insurance, forex rates, or flight tickets? Fill out the form or reach out to us directly.
+                        </p>
+
+                        <div style={{ display: "flex", flexDirection: "column", gap: "20px", marginBottom: "36px" }}>
+                            <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
+                                <div style={{ width: "44px", height: "44px", borderRadius: "12px", background: "rgba(10, 37, 64, 0.06)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                                    <i data-lucide="mail" style={{ color: "var(--navy)", width: "20px", height: "20px" }}></i>
+                                </div>
+                                <div>
+                                    <p className="caption text-muted" style={{ marginBottom: "2px" }}>Email Us</p>
+                                    <a href="mailto:info@visionvisa.in" className="body-base fw-bold" style={{ color: "var(--navy)" }}>info@visionvisa.in</a>
+                                </div>
+                            </div>
+
+                            <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
+                                <div style={{ width: "44px", height: "44px", borderRadius: "12px", background: "rgba(10, 37, 64, 0.06)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                                    <i data-lucide="phone" style={{ color: "var(--navy)", width: "20px", height: "20px" }}></i>
+                                </div>
+                                <div>
+                                    <p className="caption text-muted" style={{ marginBottom: "2px" }}>Call Us</p>
+                                    <a href="tel:+918010152621" className="body-base fw-bold" style={{ color: "var(--navy)" }}>+91 80101 52621</a>
+                                </div>
+                            </div>
+
+                            <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
+                                <div style={{ width: "44px", height: "44px", borderRadius: "12px", background: "rgba(10, 37, 64, 0.06)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                                    <i data-lucide="map-pin" style={{ color: "var(--navy)", width: "20px", height: "20px" }}></i>
+                                </div>
+                                <div>
+                                    <p className="caption text-muted" style={{ marginBottom: "2px" }}>Office Location</p>
+                                    <p className="body-base fw-bold" style={{ color: "var(--navy)", margin: 0 }}>Wakad, Pune, Maharashtra, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Minimal & Meaningful Consultation Commitment Block to fill vertical space */}
+                        <div style={{
+                            background: "var(--off-white)",
+                            padding: "28px",
+                            borderRadius: "20px",
+                            border: "1px solid var(--light-gray)"
+                        }}>
+                            <h4 style={{ fontSize: "1.1rem", fontWeight: 700, marginBottom: "16px", color: "var(--navy)" }}>
+                                What Happens Next?
+                            </h4>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+                                <div style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
+                                    <span style={{ background: "var(--navy)", color: "#fff", width: "22px", height: "22px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.75rem", fontWeight: 700, flexShrink: 0 }}>1</span>
+                                    <p style={{ margin: 0, fontSize: "0.88rem", color: "var(--slate-700)", lineHeight: 1.5 }}>
+                                        <strong>Document Evaluation:</strong> We verify your eligibility and consulate requirements.
+                                    </p>
+                                </div>
+                                <div style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
+                                    <span style={{ background: "var(--navy)", color: "#fff", width: "22px", height: "22px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.75rem", fontWeight: 700, flexShrink: 0 }}>2</span>
+                                    <p style={{ margin: 0, fontSize: "0.88rem", color: "var(--slate-700)", lineHeight: 1.5 }}>
+                                        <strong>Personal Guidance:</strong> Clear instructions on checklists, forms, and submission dates.
+                                    </p>
+                                </div>
+                                <div style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
+                                    <span style={{ background: "var(--navy)", color: "#fff", width: "22px", height: "22px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.75rem", fontWeight: 700, flexShrink: 0 }}>3</span>
+                                    <p style={{ margin: 0, fontSize: "0.88rem", color: "var(--slate-700)", lineHeight: 1.5 }}>
+                                        <strong>Application Filing:</strong> Careful review and submission for smooth processing.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Right Column: Contact Form */}
+                    <div className="reveal reveal-delay-1">
+                        <div className="contact-form-card" style={{
+                            background: "var(--white)",
+                            padding: "40px",
+                            borderRadius: "24px",
+                            boxShadow: "0 20px 40px rgba(0, 0, 0, 0.08)",
+                            border: "1px solid rgba(0, 0, 0, 0.06)"
+                        }}>
+                            <h3 className="mb-24" style={{ fontSize: "1.5rem", fontWeight: 700 }}>Send a Message</h3>
+                            <form id="contactForm">
+                                <div className="form-group" style={{ marginBottom: "20px" }}>
+                                    <label htmlFor="name" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Full Name</label>
+                                    <input type="text" className="form-input" id="name" placeholder="Enter your full name" required style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }} />
+                                </div>
+
+                                <div className="form-group" style={{ marginBottom: "20px" }}>
+                                    <label htmlFor="email" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Email Address</label>
+                                    <input type="email" className="form-input" id="email" placeholder="name@example.com" required style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }} />
+                                </div>
+
+                                <div className="form-group" style={{ marginBottom: "20px" }}>
+                                    <label htmlFor="phone" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Phone Number</label>
+                                    <input type="tel" className="form-input" id="phone" placeholder="+91 98765 43210" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }} />
+                                </div>
+
+                                <div className="form-group" style={{ marginBottom: "20px" }}>
+                                    <label htmlFor="service" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Service Required</label>
+                                    <select className="form-input" id="service" required defaultValue="" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }}>
+                                        <option value="" disabled>Select Service</option>
+                                        <option value="tourist">Tourist Visa</option>
+                                        <option value="business">Business Visa</option>
+                                        <option value="study">Study Visa</option>
+                                        <option value="insurance">Travel Insurance</option>
+                                        <option value="forex">Forex Services</option>
+                                        <option value="tickets">Air Tickets</option>
+                                    </select>
+                                </div>
+
+                                <div className="form-group" style={{ marginBottom: "24px" }}>
+                                    <label htmlFor="message" className="form-label" style={{ display: "block", marginBottom: "8px", fontWeight: 600, fontSize: "0.9rem", color: "var(--navy)" }}>Your Message</label>
+                                    <textarea className="form-input" id="message" rows={4} placeholder="How can we help you?" style={{ width: "100%", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0", fontSize: "16px" }}></textarea>
+                                </div>
+
+                                <button type="submit" className="btn btn-primary magnetic" style={{ width: "100%" }}>Send Message</button>
+                                <p style={{ marginTop: '14px', fontSize: '0.75rem', color: '#64748b', textAlign: 'center', lineHeight: '1.4' }}>
+                                  By submitting, you agree to our <Link href="/privacy-policy" style={{ color: '#1E73DC', textDecoration: 'underline' }}>Privacy Policy</Link> &amp; <Link href="/terms" style={{ color: '#1E73DC', textDecoration: 'underline' }}>Terms</Link>. Vision Visa is an independent consultancy; visa issuance is subject to government approval.
+                                </p>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

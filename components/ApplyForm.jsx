@@ -48,7 +48,9 @@ export default function ApplyForm() {
             {submitted ? (
                 <div className="reveal active" style={{ textAlign: "center", padding: "32px 16px" }}>
                     <div style={{ width: "64px", height: "64px", background: "var(--accent-green)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 20px", color: "#ffffff" }}>
-                        <i data-lucide="check" style={{ width: "32px", height: "32px" }}></i>
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
                     </div>
                     <h3 style={{ fontSize: "1.75rem", fontWeight: 700, marginBottom: "12px", color: "var(--slate-900)" }}>Inquiry Submitted!</h3>
                     <p className="body-large" style={{ color: "var(--slate-600)" }}>Thank you for reaching out. Our visa specialist will contact you shortly.</p>

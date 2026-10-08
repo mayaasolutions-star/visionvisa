@@ -30,9 +30,9 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" />
         <link rel="stylesheet" href={`${getAssetPath('/css/reset.css')}?v=20260926_v12`} />
         <link rel="stylesheet" href={`${getAssetPath('/css/main.css')}?v=20260926_v12`} />
-        <link rel="stylesheet" href={`${getAssetPath('/css/components.css')}?v=20260926_v21`} />
+        <link rel="stylesheet" href={`${getAssetPath('/css/components.css')}?v=20261008_v26`} />
         <link rel="stylesheet" href={`${getAssetPath('/css/animations.css')}?v=20260926_v12`} />
-        <link rel="stylesheet" href={`${getAssetPath('/css/editorial-hero.css')}?v=20260926_v12`} />
+        <link rel="stylesheet" href={`${getAssetPath('/css/editorial-hero.css')}?v=20261008_v13`} />
         <Script src={getAssetPath('/js/countries-data.js')} strategy="beforeInteractive" />
         <Script src="https://unpkg.com/lucide@latest" strategy="afterInteractive" />
       </head>

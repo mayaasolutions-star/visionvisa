@@ -39,7 +39,11 @@ export default function HeroSearchForm() {
             }
         }
         document.addEventListener('mousedown', handleClickOutside);
-        return () => document.removeEventListener('mousedown', handleClickOutside);
+        document.addEventListener('touchstart', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+            document.removeEventListener('touchstart', handleClickOutside);
+        };
     }, []);
 
     const handleSelectCountry = (country) => {
@@ -174,7 +178,7 @@ export default function HeroSearchForm() {
                     <circle cx="11" cy="11" r="8"></circle>
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
-                <span className="mobile-search-btn-text" style={{ display: "none" }}>
+                <span className="mobile-search-btn-text">
                     Search Visas
                 </span>
             </button>

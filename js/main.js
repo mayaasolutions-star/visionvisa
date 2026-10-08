@@ -71,16 +71,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Form Prototype Handling
     const contactForm = document.getElementById('contactForm');
+    const successPopup = document.getElementById('successPopup');
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            const successPopup = document.getElementById('successPopup');
             if (successPopup) {
                 successPopup.style.display = 'flex';
+                document.body.style.overflow = 'hidden';
                 setTimeout(() => {
                     successPopup.style.display = 'none';
+                    document.body.style.overflow = '';
                     contactForm.reset();
-                }, 3000);
+                }, 3500);
+            }
+        });
+    }
+
+    if (successPopup) {
+        successPopup.addEventListener('click', (e) => {
+            if (e.target === successPopup) {
+                successPopup.style.display = 'none';
+                document.body.style.overflow = '';
+            }
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && successPopup.style.display === 'flex') {
+                successPopup.style.display = 'none';
+                document.body.style.overflow = '';
             }
         });
     }

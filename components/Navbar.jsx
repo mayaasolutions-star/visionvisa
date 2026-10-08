@@ -143,6 +143,18 @@ export default function Navbar() {
     };
   }, [isMobileOpen]);
 
+  // Auto-close mobile menu when resizing to desktop/tablet landscape
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 991) {
+        setIsMobileOpen(false);
+        setIsMobileVisasOpen(false);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   useEffect(() => {
     if (typeof window !== 'undefined' && window.lucide) {
       window.lucide.createIcons();
@@ -166,10 +178,12 @@ export default function Navbar() {
     };
 
     document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
     document.addEventListener('keydown', handleKeyDown);
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
       document.removeEventListener('keydown', handleKeyDown);
     };
   }, []);
@@ -221,7 +235,7 @@ export default function Navbar() {
       <div className="container nav-container">
 
         {/* Logo */}
-        <Link href="/" className="logo-brand">
+        <Link href="/" className="logo-brand" onClick={closeMobile}>
           <img
             src={getAssetPath('/images/vision-visa-logo-symbol.webp')}
             alt="Vision Visa Symbol"
